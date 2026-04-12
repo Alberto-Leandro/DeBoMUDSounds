@@ -1,0 +1,20 @@
+{
+  "name": "debomudsounds",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:data": "node scripts/build-data.mjs",
+    "build:runtime": "node scripts/build-runtime.mjs",
+    "build": "npm run build:data && npm run build:runtime",
+    "verify:sounds": "node scripts/reconcile-sounds.mjs --strict",
+    "verify:artifacts": "node scripts/check-artifacts-clean.mjs",
+    "ci": "npm run build && npm run test && npm run verify:sounds && npm run verify:artifacts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.2",
+    "vitest": "^3.1.1"
+  }
+}
