@@ -1,9 +1,6 @@
 import { describe, expect, test, vi } from "vitest";
 import { TriggerRuntime } from "../src/runtime/triggerRuntime.js";
-import {
-  createSamples,
-  getAllActiveTriggers,
-} from "./triggerFixtures.js";
+import { createSamples, getAllActiveTriggers } from "./triggerFixtures.js";
 
 const allCases = getAllActiveTriggers();
 
@@ -28,7 +25,8 @@ describe("trigger runtime activation", () => {
     };
 
     const runtime = createRuntimeForSingleTrigger(item, engine);
-    const sample = createSamples(item.trigger.pattern).positive[0] ?? item.trigger.pattern;
+    const sample =
+      createSamples(item.trigger.pattern).positive[0] ?? item.trigger.pattern;
 
     runtime.processCategory(item.category, sample);
 

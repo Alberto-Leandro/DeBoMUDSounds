@@ -6,6 +6,7 @@ Objetivo: criar o repositorio no GitHub, enviar o projeto local e publicar o sit
 ## Antes de comecar
 
 Voce precisa ter:
+
 - Conta no GitHub com login funcionando.
 - Git instalado no computador.
 - Node.js e npm instalados.
@@ -69,6 +70,7 @@ Se o projeto ja estiver com git iniciado, pule o comando git init.
 7. A URL publicada aparecera na mesma tela de Pages.
 
 URL esperada:
+
 - https://SEU_OWNER.github.io/NOME_REPO/
 
 ## Etapa 5: ajustar o link do loader no projeto (se necessario)
@@ -81,10 +83,12 @@ Este projeto ja esta configurado para o repositorio oficial abaixo:
 Se voce publicar em outro owner/repo, ajuste a URL do loader.
 
 Arquivos para ajustar:
+
 - scripts/build-runtime.mjs
 - docs/bookmarklet.txt
 
 Padrao correto:
+
 - https://SEU_OWNER.github.io/NOME_REPO/assets/loader.js
 
 Depois de ajustar, rode:

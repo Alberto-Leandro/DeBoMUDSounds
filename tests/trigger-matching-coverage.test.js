@@ -13,40 +13,46 @@ describe("trigger matching coverage", () => {
     expect(allCases.length).toBeGreaterThan(0);
   });
 
-  test.each(allCases)("matcher compiles and matches expected cases: $id", (item) => {
-    const { trigger } = item;
-    const compiled = new RegExp(trigger.matcher.source, trigger.matcher.flags);
-    expect(compiled).toBeInstanceOf(RegExp);
-
-    const samples = createSamples(trigger.pattern);
-
-    for (const positive of samples.positive) {
-      expect(matchesTrigger(trigger, positive)).toBe(
-        true,
-        `${item.id} should match positive sample: ${positive}`,
+  test.each(allCases)(
+    "matcher compiles and matches expected cases: $id",
+    (item) => {
+      const { trigger } = item;
+      const compiled = new RegExp(
+        trigger.matcher.source,
+        trigger.matcher.flags,
       );
-    }
+      expect(compiled).toBeInstanceOf(RegExp);
 
-    if (samples.negative) {
-      expect(matchesTrigger(trigger, samples.negative)).toBe(
-        false,
-        `${item.id} should not match negative sample: ${samples.negative}`,
-      );
-    }
+      const samples = createSamples(trigger.pattern);
 
-    if (samples.hasStar) {
-      const starPhrase = trigger.pattern.replace(
-        /\*/g,
-        "frase com a\u00e7\u00e3o e palavras",
-      );
-      expect(matchesTrigger(trigger, starPhrase)).toBe(true);
-    }
+      for (const positive of samples.positive) {
+        expect(matchesTrigger(trigger, positive)).toBe(
+          true,
+          `${item.id} should match positive sample: ${positive}`,
+        );
+      }
 
-    if (samples.hasQuestion) {
-      const oneChar = trigger.pattern.replace(/\?/g, "x").replace(/\*/g, "n");
-      expect(matchesTrigger(trigger, oneChar)).toBe(true);
-    }
-  });
+      if (samples.negative) {
+        expect(matchesTrigger(trigger, samples.negative)).toBe(
+          false,
+          `${item.id} should not match negative sample: ${samples.negative}`,
+        );
+      }
+
+      if (samples.hasStar) {
+        const starPhrase = trigger.pattern.replace(
+          /\*/g,
+          "frase com a\u00e7\u00e3o e palavras",
+        );
+        expect(matchesTrigger(trigger, starPhrase)).toBe(true);
+      }
+
+      if (samples.hasQuestion) {
+        const oneChar = trigger.pattern.replace(/\?/g, "x").replace(/\*/g, "n");
+        expect(matchesTrigger(trigger, oneChar)).toBe(true);
+      }
+    },
+  );
 
   test("all triggers keep required fields by category", () => {
     for (const item of allCases) {

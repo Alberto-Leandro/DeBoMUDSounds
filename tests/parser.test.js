@@ -14,7 +14,9 @@ describe("setParser", () => {
 
   test("faz match de texto com e sem acentos", () => {
     const regex = normalizeWildcardToRegex("voce esta sem municao");
-    expect(regex.test(normalizeTextForMatch("você está sem munição"))).toBe(true);
+    expect(regex.test(normalizeTextForMatch("você está sem munição"))).toBe(
+      true,
+    );
   });
 
   test("extrai trigger com comando de som", () => {

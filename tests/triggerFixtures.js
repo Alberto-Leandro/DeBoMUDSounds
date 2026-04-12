@@ -2,7 +2,12 @@ import { buildTriggerData } from "../src/parser/extract.js";
 import { normalizeTextForMatch } from "../src/parser/setParser.js";
 
 const STAR_VARIANTS = ["x", "palavra", "acao", "frase simples"];
-const STAR_ACCENTED_VARIANTS = ["x", "palavra", "a\u00e7\u00e3o", "frase com acento"];
+const STAR_ACCENTED_VARIANTS = [
+  "x",
+  "palavra",
+  "a\u00e7\u00e3o",
+  "frase com acento",
+];
 const QUESTION_VARIANTS = ["z", "a", "b", "c"];
 const QUESTION_ACCENTED_VARIANTS = ["z", "a", "\u00e1", "c"];
 
