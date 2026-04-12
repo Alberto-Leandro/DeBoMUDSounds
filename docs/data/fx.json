@@ -1,0 +1,3022 @@
+[
+  {
+    "category": "fx",
+    "pattern": "DoubleGOLD: Os deuses liberaram &{GlobaldoubleGold} hora* de DoubleGOLD! Aproveitem!",
+    "matcher": {
+      "source": "DoubleGOLD: Os deuses liberaram &\\{GlobaldoubleGold\\} hora.* de DoubleGOLD! Aproveitem!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/double-gold-inicio.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "DoubleXP: Os deuses liberaram &{GlobaldoubleXp} hora* de DoubleXP! Aproveitem!",
+    "matcher": {
+      "source": "DoubleXP: Os deuses liberaram &\\{GlobaldoubleXp\\} hora.* de DoubleXP! Aproveitem!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/double-inicio-xp.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "DoubleGOLD: Uau! * acabou de adicionar &{GlobaldoubleGold} hor* de DoubleGOLD. Mandou bem!",
+    "matcher": {
+      "source": "DoubleGOLD: Uau! .* acabou de adicionar &\\{GlobaldoubleGold\\} hor.* de DoubleGOLD\\. Mandou bem!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/double-gold-inicio.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "DoubleXP: Uau! * acabou de adicionar &{GlobaldoubleXp} hora* de DoubleXP. Mandou bem!",
+    "matcher": {
+      "source": "DoubleXP: Uau! .* acabou de adicionar &\\{GlobaldoubleXp\\} hora.* de DoubleXP\\. Mandou bem!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/double-inicio-xp.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "DoubleGOLD: &{GlobaldoubleGold} horas para o fim.",
+    "matcher": {
+      "source": "DoubleGOLD: &\\{GlobaldoubleGold\\} horas para o fim\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/Beep7.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "DoubleXP: &{GlobaldoubleXp} horas para o fim.",
+    "matcher": {
+      "source": "DoubleXP: &\\{GlobaldoubleXp\\} horas para o fim\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/Beep7.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "DoubleGOLD: S* mais &{GlobaldoubleGold} hora para o fim. * melhor se apressar!",
+    "matcher": {
+      "source": "DoubleGOLD: S.* mais &\\{GlobaldoubleGold\\} hora para o fim\\. .* melhor se apressar!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/double-uma-hora.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "DoubleXP: S* mais &{GlobaldoubleXp} hora para o fim. * melhor se apressar!",
+    "matcher": {
+      "source": "DoubleXP: S.* mais &\\{GlobaldoubleXp\\} hora para o fim\\. .* melhor se apressar!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/double-uma-hora.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "DoubleGOLD: Chega, n*? Se n*o aproveitou, perdeu. Quem sabe numa pr*xima vez :-)",
+    "matcher": {
+      "source": "DoubleGOLD: Chega, n.*. Se n.*o aproveitou, perdeu\\. Quem sabe numa pr.*xima vez :-\\)",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/double-gold-fim.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "DoubleXP: Chega, n*? Se n*o aproveitou, perdeu. Quem sabe numa pr*xima vez :-)",
+    "matcher": {
+      "source": "DoubleXP: Chega, n.*. Se n.*o aproveitou, perdeu\\. Quem sabe numa pr.*xima vez :-\\)",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/double-xp-fim.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* leiloa*",
+    "matcher": {
+      "source": ".* leiloa.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/falandoLeilao_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* coloca * a venda por *",
+    "matcher": {
+      "source": ".* coloca .* a venda por .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/leilao-inicio.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* foi vendido para * por *",
+    "matcher": {
+      "source": ".* foi vendido para .* por .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/leilao-venda.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* oferece * por *",
+    "matcher": {
+      "source": ".* oferece .* por .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/leilao-oferta.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* agora possui *.",
+    "matcher": {
+      "source": ".* agora possui .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/venda.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* aparece com um estouro ensurdecedor.",
+    "matcher": {
+      "source": ".* aparece com um estouro ensurdecedor\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/estouro-ensurdecedor.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* aparece dentro de uma nuvem de fuma*a!",
+    "matcher": {
+      "source": ".* aparece dentro de uma nuvem de fuma.*a!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/nuvem-de-fumaca-in.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* aparece em suas m*os.",
+    "matcher": {
+      "source": ".* aparece em suas m.*os\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/nuvem-de-fumaca-in.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* aparece em uma nuvem de fuma*a!",
+    "matcher": {
+      "source": ".* aparece em uma nuvem de fuma.*a!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/nuvem-de-fumaca-out.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* aparece no meio da sala.",
+    "matcher": {
+      "source": ".* aparece no meio da sala\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/aparecer.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* aparece repentinamente.",
+    "matcher": {
+      "source": ".* aparece repentinamente\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/transferir.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* um portal! Voc* resolve caminhar atrav*s dele...",
+    "matcher": {
+      "source": ".* um portal! Voc.* resolve caminhar atrav.*s dele\\.\\.\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/entrar-no-portal.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* doa *. Isso desaparece em uma nuvem de fuma*a!",
+    "matcher": {
+      "source": "Voc.* doa .*\\. Isso desaparece em uma nuvem de fuma.*a!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/nuvem-de-fumaca-out.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* arrota. Que nojo!",
+    "matcher": {
+      "source": ".* arrota\\. Que nojo!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/arroto.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* bate palmas em aprova*o.",
+    "matcher": {
+      "source": ".* bate palmas em aprova.*o\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/palmas.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* choraminga lamentavelmente sobre toda a situa*o.",
+    "matcher": {
+      "source": ".* choraminga lamentavelmente sobre toda a situa.*o\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/choramingar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* d* um tapa em *",
+    "matcher": {
+      "source": ".* d.* um tapa em .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/tapa.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* demonstra aprova*o e come*a a aplaudir.",
+    "matcher": {
+      "source": ".* demonstra aprova.*o e come.*a a aplaudir\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/palmas.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* espirra.",
+    "matcher": {
+      "source": ".* espirra\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/espirro.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* irrompe em l*grimas.",
+    "matcher": {
+      "source": ".* irrompe em l.*grimas\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/choramingar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* joga a cabe*a para tr*s e come*a a gargalhar insanamente!",
+    "matcher": {
+      "source": ".* joga a cabe.*a para tr.*s e come.*a a gargalhar insanamente!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/gargalhada.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* lhe d* um longo e apaixonado beijo, que parece durar eternamente...",
+    "matcher": {
+      "source": ".* lhe d.* um longo e apaixonado beijo, que parece durar eternamente\\.\\.\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/beijo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* solta um peido que mais parece um rugido!",
+    "matcher": {
+      "source": ".* solta um peido que mais parece um rugido!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/peido.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* tem um ataque de riso.",
+    "matcher": {
+      "source": ".* tem um ataque de riso\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/ataque-de-riso.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*bate palmas em aprova*o.",
+    "matcher": {
+      "source": ".*bate palmas em aprova.*o\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/gemotePalmas_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*demonstra aprova*o e come*a a aplaudir.",
+    "matcher": {
+      "source": ".*demonstra aprova.*o e come.*a a aplaudir\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/gemotePalmas_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*espirra.",
+    "matcher": {
+      "source": ".*espirra\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/espirro_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "ATCHIMMM!",
+    "matcher": {
+      "source": "ATCHIMMM!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/espirro.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Clap, clap, clap.",
+    "matcher": {
+      "source": "Clap, clap, clap\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/palmas.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* aplaude.",
+    "matcher": {
+      "source": "Voc.* aplaude\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/palmas.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* come*a a ter um ataque de riso.",
+    "matcher": {
+      "source": "Voc.* come.*a a ter um ataque de riso\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/ataque-de-riso.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* gargalha insanamente.",
+    "matcher": {
+      "source": "Voc.* gargalha insanamente\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/gargalhada.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* toma um belo tapa de *",
+    "matcher": {
+      "source": "Voc.* toma um belo tapa de .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/tapa.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* berra* '*'",
+    "matcher": {
+      "source": ".* berra.* '.*'",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/berrar_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* cochicha para *: '*'",
+    "matcher": {
+      "source": ".* cochicha para .*: '.*'",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/cochichar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* conta para o grupo: '*'",
+    "matcher": {
+      "source": ".* conta para o grupo: '.*'",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/mensagem-grupo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* diz: '*'",
+    "matcher": {
+      "source": ".* diz: '.*'",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/mensagem-dizer.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* exclama* '*'",
+    "matcher": {
+      "source": ".* exclama.* '.*'",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/mensagem-dizer.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* fala para o canal privado: '*'",
+    "matcher": {
+      "source": ".* fala para o canal privado: '.*'",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/mensagem-canal-privado.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* fala para os aventureiros*",
+    "matcher": {
+      "source": ".* fala para os aventureiros.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/falarAventureiros_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* falou por telepatia com voc*: '*'",
+    "matcher": {
+      "source": ".* falou por telepatia com voc.*: '.*'",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/mensagem-telepatia.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* fechou seu canal privado.",
+    "matcher": {
+      "source": ".* fechou seu canal privado\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/canal-privado-fechar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* grita* '*'",
+    "matcher": {
+      "source": ".* grita.* '.*'",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/gritar_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* murmura: '*'",
+    "matcher": {
+      "source": ".* murmura: '.*'",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/mensagem-dizer.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* questiona: '*'",
+    "matcher": {
+      "source": ".* questiona: '.*'",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/mensagem-dizer.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* se surpreende* '*'",
+    "matcher": {
+      "source": ".* se surpreende.* '.*'",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/mensagem-dizer.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* sorri e diz* '*'",
+    "matcher": {
+      "source": ".* sorri e diz.* '.*'",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/mensagem-dizer.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* tagarela: '*'",
+    "matcher": {
+      "source": ".* tagarela: '.*'",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/mensagem-tagarela.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*congratula: '*",
+    "matcher": {
+      "source": ".*congratula: '.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/congratula_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Escreva sua mensagem*",
+    "matcher": {
+      "source": "Escreva sua mensagem.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/escrevendoQuadro_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* acaba de abrir seu canal privado.",
+    "matcher": {
+      "source": "Voc.* acaba de abrir seu canal privado\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/canal-privado-abrir.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* falou por telepatia com*",
+    "matcher": {
+      "source": "Voc.* falou por telepatia com.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/canalTelepatia_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* foi adicionad* ao canal privado de *.",
+    "matcher": {
+      "source": "Voc.* foi adicionad.* ao canal privado de .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/canal-privado-abrir.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* saiu do canal privado.",
+    "matcher": {
+      "source": "Voc.* saiu do canal privado\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/canal-privado-fechar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* chegou de *, voando. (PvP)",
+    "matcher": {
+      "source": ".* chegou de .*, voando\\. \\(PvP\\)",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/alguem-chegou-voando.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* chegou de *, voando.",
+    "matcher": {
+      "source": ".* chegou de .*, voando\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/alguem-chegou-voando.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* chegou de *. (PvP)",
+    "matcher": {
+      "source": ".* chegou de .*\\. \\(PvP\\)",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/alguem-chegou.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* chegou de *.",
+    "matcher": {
+      "source": ".* chegou de .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/alguem-chegou.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* chegou do *, voando. (PvP)",
+    "matcher": {
+      "source": ".* chegou do .*, voando\\. \\(PvP\\)",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/alguem-chegou-voando.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* chegou do *, voando.",
+    "matcher": {
+      "source": ".* chegou do .*, voando\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/alguem-chegou-voando.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* chegou do *. (PvP)",
+    "matcher": {
+      "source": ".* chegou do .*\\. \\(PvP\\)",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/alguem-chegou.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* chegou do *.",
+    "matcher": {
+      "source": ".* chegou do .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/alguem-chegou.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* vai para *.",
+    "matcher": {
+      "source": ".* vai para .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/alguem-saiu.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* voa para *.",
+    "matcher": {
+      "source": ".* voa para .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/alguem-saiu-voando.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*A grade.",
+    "matcher": {
+      "source": ".*A grade\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/abrePortao_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*abre a porta.",
+    "matcher": {
+      "source": ".*abre a porta\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/abrePorta_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*abre o port*",
+    "matcher": {
+      "source": ".*abre o port.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/abrePortao_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*Click*",
+    "matcher": {
+      "source": ".*Click.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/click.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*fecha a porta.",
+    "matcher": {
+      "source": ".*fecha a porta\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/fechaPorta_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*fecha o port*.",
+    "matcher": {
+      "source": ".*fecha o port.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/abrePortao_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "A correnteza te leva para*",
+    "matcher": {
+      "source": "A correnteza te leva para.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/correnteza_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "A grade est* fechada.",
+    "matcher": {
+      "source": "A grade est.* fechada\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/pareceFechado_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "A grade foi*pelo outro lado.",
+    "matcher": {
+      "source": "A grade foi.*pelo outro lado\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/abrePortao_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "A porta est* fechada.",
+    "matcher": {
+      "source": "A porta est.* fechada\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/porta-esbarrar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "A porta foi aberta pelo outro lado.",
+    "matcher": {
+      "source": "A porta foi aberta pelo outro lado\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/abrePorta_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "A porta foi fechada pelo outro lado.",
+    "matcher": {
+      "source": "A porta foi fechada pelo outro lado\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/fechaPorta_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Isso est* trancado.",
+    "matcher": {
+      "source": "Isso est.* trancado\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/trancado.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Isso parece estar fechado.",
+    "matcher": {
+      "source": "Isso parece estar fechado\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/esta-fechado.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "O port*o foi*pelo outro lado.",
+    "matcher": {
+      "source": "O port.*o foi.*pelo outro lado\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/abrePortao_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "O*est* fechado.",
+    "matcher": {
+      "source": "O.*est.* fechado\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/pareceFechado_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Parece estar trancad*.",
+    "matcher": {
+      "source": "Parece estar trancad.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/trancado.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Um zumbi chegou*",
+    "matcher": {
+      "source": "Um zumbi chegou.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/mobChegou_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Uma carro*a de madeira chegou *.",
+    "matcher": {
+      "source": "Uma carro.*a de madeira chegou .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/carroca-chegou.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Uma carro*a de madeira vai *.",
+    "matcher": {
+      "source": "Uma carro.*a de madeira vai .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/carroca-saiu.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* acorda e se senta.",
+    "matcher": {
+      "source": "Voc.* acorda e se senta\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/bocejo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* atravessa a porta...",
+    "matcher": {
+      "source": "Voc.* atravessa a porta\\.\\.\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/atravessar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* come*a a seguir *.",
+    "matcher": {
+      "source": "Voc.* come.*a a seguir .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/seguir-on.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* consegue fugir para o *.",
+    "matcher": {
+      "source": "Voc.* consegue fugir para o .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/fuga-sucesso.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* descansa seus ossos cansados.",
+    "matcher": {
+      "source": "Voc.* descansa seus ossos cansados\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/descansar_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* se atrapalha e engole um pouco de *gua.",
+    "matcher": {
+      "source": "Voc.* se atrapalha e engole um pouco de .*gua\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/splash.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* se deita e dorme.",
+    "matcher": {
+      "source": "Voc.* se deita e dorme\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/roncando.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* se levanta.",
+    "matcher": {
+      "source": "Voc.* se levanta\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/levantar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* se senta.",
+    "matcher": {
+      "source": "Voc.* se senta\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/sentar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* come*a a se desfazer.",
+    "matcher": {
+      "source": ".* come.*a a se desfazer\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/item-deteriorou.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* come*a a se deteriorar.",
+    "matcher": {
+      "source": ".* come.*a a se deteriorar\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/item-deteriorou.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* se deteriorou.",
+    "matcher": {
+      "source": ".* se deteriorou\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/item-deteriorou.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*, que estava no ch*o, se deteriorou.",
+    "matcher": {
+      "source": ".*, que estava no ch.*o, se deteriorou\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/item-deteriorou-chao.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*te entrega*",
+    "matcher": {
+      "source": ".*te entrega.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/teEntrega_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Identificar o qu*?",
+    "matcher": {
+      "source": "Identificar o qu.*.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro2_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* est* com sa*de perfeita.",
+    "matcher": {
+      "source": ".* est.* com sa.*de perfeita\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/condicao-perfeita.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* est* em p*ssimas condi*es e sangra muito.",
+    "matcher": {
+      "source": ".* est.* em p.*ssimas condi.*es e sangra muito\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/condicao-pessima-sangue.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* est* em p*ssimas condi*es.",
+    "matcher": {
+      "source": ".* est.* em p.*ssimas condi.*es\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/efeito1_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* est* mort*!",
+    "matcher": {
+      "source": ".* est.* mort.*!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/queda-cadaver.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* est* muito machucad* e morrer* se n*o for ajudad*!",
+    "matcher": {
+      "source": ".* est.* muito machucad.* e morrer.* se n.*o for ajudad.*!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/condicao-machucado-morrer.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* est* muito machucad* e sangra muito.",
+    "matcher": {
+      "source": ".* est.* muito machucad.* e sangra muito\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/condicao-machucado-sangue.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* est* sangrando muito sem parar.",
+    "matcher": {
+      "source": ".* est.* sangrando muito sem parar\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/derramar-sangue.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* parece muito machucad*.",
+    "matcher": {
+      "source": ".* parece muito machucad.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/efeito1_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* tem algumas marcas.",
+    "matcher": {
+      "source": ".* tem algumas marcas\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/efeito6_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* tem alguns arranh*es.",
+    "matcher": {
+      "source": ".* tem alguns arranh.*es\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/condicao-arranhoes.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* tem alguns machucados.",
+    "matcher": {
+      "source": ".* tem alguns machucados\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/condicaco-alguns-machucados.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* tem alguns pequenos machucados.",
+    "matcher": {
+      "source": ".* tem alguns pequenos machucados\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/condicao-pequenos-machucados.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* tem enormes machucados e enormes arranh*es.",
+    "matcher": {
+      "source": ".* tem enormes machucados e enormes arranh.*es\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/efeito1_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* tem gigantescos machucados e enormes arranh*es.",
+    "matcher": {
+      "source": ".* tem gigantescos machucados e enormes arranh.*es\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/condicao-gicantescos-machucados.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* tem machucados pequenos e hematomas.",
+    "matcher": {
+      "source": ".* tem machucados pequenos e hematomas\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/efeito5_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* tem muitos arranh*es.",
+    "matcher": {
+      "source": ".* tem muitos arranh.*es\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/efeito6_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* tem v*rios machucados.",
+    "matcher": {
+      "source": ".* tem v.*rios machucados\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/condicao-varios-machucados.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Isso fez um grave ferimento!",
+    "matcher": {
+      "source": "Isso fez um grave ferimento!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/fez-ferimento.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* Voc* foi recompensad* com * moedas pela sua vit*ria!",
+    "matcher": {
+      "source": ".* Voc.* foi recompensad.* com .* moedas pela sua vit.*ria!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/ganhou-arena.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*ARENA* As batalhas come*aram!",
+    "matcher": {
+      "source": ".*ARENA.* As batalhas come.*aram!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/comecou-arena.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*ARENA* foi derrotad* por *.",
+    "matcher": {
+      "source": ".*ARENA.* foi derrotad.* por .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/eliminacao-arena.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*ARENA* Os Campos de Batalha est*o abertos, *",
+    "matcher": {
+      "source": ".*ARENA.* Os Campos de Batalha est.*o abertos, .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/anuncio-arena.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* foi levad* para a sala de prepara*o.",
+    "matcher": {
+      "source": "Voc.* foi levad.* para a sala de prepara.*o\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/entrou-arena.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Hagen Akz*, o hierofante amarelo, est* aqui, envolto em uma aura de mist*rio.",
+    "matcher": {
+      "source": "Hagen Akz.*, o hierofante amarelo, est.* aqui, envolto em uma aura de mist.*rio\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/hierofanteAmarelo_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Parece um arbusto, mas na verdade * um hierofante que voc* v* aqui!",
+    "matcher": {
+      "source": "Parece um arbusto, mas na verdade .* um hierofante que voc.* v.* aqui!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/hierofanteVerde_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Sassil Kisam, a druidesa lend*ria, estuda compenetrada novas formas de magia.",
+    "matcher": {
+      "source": "Sassil Kisam, a druidesa lend.*ria, estuda compenetrada novas formas de magia\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/hierofanteBranco_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Um estranho homem vestido de azul encara voc* com um olhar penetrante.",
+    "matcher": {
+      "source": "Um estranho homem vestido de azul encara voc.* com um olhar penetrante\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/hierofanteAzul_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Havia *moedas.",
+    "matcher": {
+      "source": "Havia .*moedas\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/saquear-container.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* deposita * moed*",
+    "matcher": {
+      "source": "Voc.* deposita .* moed.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/deposito.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* pega * moeda*.",
+    "matcher": {
+      "source": "Voc.* pega .* moeda.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/saquear-moedas.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* sacou * moeda*.",
+    "matcher": {
+      "source": "Voc.* sacou .* moeda.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/saque-banco.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "O c*u est* com muitos raios.",
+    "matcher": {
+      "source": "O c.*u est.* com muitos raios\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/trovao.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "O dia come*ou.",
+    "matcher": {
+      "source": "O dia come.*ou\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/dia.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "O Sol nasce no leste.",
+    "matcher": {
+      "source": "O Sol nasce no leste\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/galo-cantando.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "O Sol, vagarosamente, se p*e no oeste.",
+    "matcher": {
+      "source": "O Sol, vagarosamente, se p.*e no oeste\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/coruja.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Os raios param.",
+    "matcher": {
+      "source": "Os raios param\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/raios2.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Raios come*am a iluminar o c*u.",
+    "matcher": {
+      "source": "Raios come.*am a iluminar o c.*u\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/trovao.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "O ferreiro te devolve*",
+    "matcher": {
+      "source": "O ferreiro te devolve.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/reparando_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "O lojista agora possui *.",
+    "matcher": {
+      "source": "O lojista agora possui .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/compra.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "O mago recarregador de itens imp*e as m*os sobre a sua varinha e recita algumas palavras m*gicas.",
+    "matcher": {
+      "source": "O mago recarregador de itens imp.*e as m.*os sobre a sua varinha e recita algumas palavras m.*gicas\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/magoRecarrega_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Vender o qu*?",
+    "matcher": {
+      "source": "Vender o qu.*.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro3_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* comprou *.",
+    "matcher": {
+      "source": "Voc.* comprou .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/compra.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*oc* toma *.",
+    "matcher": {
+      "source": ".*oc.* toma .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/tomaPocao_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* est* chei*.",
+    "matcher": {
+      "source": "Voc.* est.* chei.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/arroto-comer.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* est* com muita fome.",
+    "matcher": {
+      "source": "Voc.* est.* com muita fome\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/comFome_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* est* com muita sede.",
+    "matcher": {
+      "source": "Voc.* est.* com muita sede\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/sede.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* est* ficando com fome.",
+    "matcher": {
+      "source": "Voc.* est.* ficando com fome\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/barriga-roncando.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* esvazia *.",
+    "matcher": {
+      "source": "Voc.* esvazia .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/esvaziar-liquido.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* envolvid* em chamas por uma bola de fogo enviada * -- OUCH!!*",
+    "matcher": {
+      "source": "Voc.* envolvid.* em chamas por uma bola de fogo enviada .* -- OUCH!!.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/fireball.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* se sente muito doente!",
+    "matcher": {
+      "source": "Voc.* se sente muito doente!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/tosse.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* sente um veneno queimar em suas veias, e sofre. *",
+    "matcher": {
+      "source": "Voc.* sente um veneno queimar em suas veias, e sofre\\. .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/tosse.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* agora pode atacar e ser atacado por outros jogadores! (PvP)",
+    "matcher": {
+      "source": ".* agora pode atacar e ser atacado por outros jogadores! \\(PvP\\)",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/pvp-ativado.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* come*a a escrever uma mensagem no quadro.",
+    "matcher": {
+      "source": ".* come.*a a escrever uma mensagem no quadro\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/escrevendoQuadro_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* consumido por vermes.",
+    "matcher": {
+      "source": ".* consumido por vermes\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/vermes-consumir-corpo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* desfez o grupo.",
+    "matcher": {
+      "source": ".* desfez o grupo\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/desagrupar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* est* aqui, lutando contra *",
+    "matcher": {
+      "source": ".* est.* aqui, lutando contra .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/lutando.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* gritou: 'Era voc* que eu estava procurando!'",
+    "matcher": {
+      "source": ".* gritou: 'Era voc.* que eu estava procurando!'",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/hey.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* imp*e as m*os sobre * e recita algumas palavras m*gicas.",
+    "matcher": {
+      "source": ".* imp.*e as m.*os sobre .* e recita algumas palavras m.*gicas\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/recarregar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* melhor voc* abrir isso antes!",
+    "matcher": {
+      "source": ".* melhor voc.* abrir isso antes!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro4_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* pega * e come*a a empacotar.",
+    "matcher": {
+      "source": ".* pega .* e come.*a a empacotar\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/empacotar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* pula para ajudar *!",
+    "matcher": {
+      "source": ".* pula para ajudar .*!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/pulaAjudar_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* saiu do grupo.",
+    "matcher": {
+      "source": ".* saiu do grupo\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/desagrupar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* se abaixa com muita dor*cercad* por uma aura branca...",
+    "matcher": {
+      "source": ".* se abaixa com muita dor.*cercad.* por uma aura branca\\.\\.\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/reconectou_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* te transferiu!",
+    "matcher": {
+      "source": ".* te transferiu!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/transferir.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* toma um choque ao tentar vestir * que pula fora de seu corpo.",
+    "matcher": {
+      "source": ".* toma um choque ao tentar vestir .* que pula fora de seu corpo\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/choque-item.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*agora pode atacar e ser atacado por outros jogadores! (PvP)",
+    "matcher": {
+      "source": ".*agora pode atacar e ser atacado por outros jogadores! \\(PvP\\)",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/pulaAjudar_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*empunha uma *spada*",
+    "matcher": {
+      "source": ".*empunha uma .*spada.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/empunharEspada_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*entrou no jogo.",
+    "matcher": {
+      "source": ".*entrou no jogo\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/entrouJogo_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*perdeu a conex*o.",
+    "matcher": {
+      "source": ".*perdeu a conex.*o\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/perdeuConexao_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*saiu do jogo.",
+    "matcher": {
+      "source": ".*saiu do jogo\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/saiuJogo_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*se reconectou.",
+    "matcher": {
+      "source": ".*se reconectou\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/reconectou_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "A noite come*ou.",
+    "matcher": {
+      "source": "A noite come.*ou\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/noite-comecou.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "A Taverna do Chimpanz* Morto",
+    "matcher": {
+      "source": "A Taverna do Chimpanz.* Morto",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/taverna.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Agora voc* um membro do grupo de *.",
+    "matcher": {
+      "source": "Agora voc.* um membro do grupo de .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/entrou-no-grupo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Algo misteriosamente protege *, dispersando sua magia.",
+    "matcher": {
+      "source": "Algo misteriosamente protege .*, dispersando sua magia\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/magia-falhou.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Alguma coisa dispersa sua magia, evitando atingir *.",
+    "matcher": {
+      "source": "Alguma coisa dispersa sua magia, evitando atingir .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/magia-falhou.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Atacar quem?",
+    "matcher": {
+      "source": "Atacar quem.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro5_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Bar Salazar",
+    "matcher": {
+      "source": "Bar Salazar",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/taverna.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Come*ou a chover.",
+    "matcher": {
+      "source": "Come.*ou a chover\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/chuva.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Como?!?",
+    "matcher": {
+      "source": "Como.!.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/comando-desconhecido.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Comparar sua for*a com a de quem?",
+    "matcher": {
+      "source": "Comparar sua for.*a com a de quem.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro6_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "El*n*o pode te escutar.",
+    "matcher": {
+      "source": "El.*n.*o pode te escutar\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/naoPodeEscutar_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Ele n*o pode carregar tanto peso.",
+    "matcher": {
+      "source": "Ele n.*o pode carregar tanto peso\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/muitoPeso_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Em que voc* deseja lan*ar a magia?",
+    "matcher": {
+      "source": "Em que voc.* deseja lan.*ar a magia.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro7_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Energias obscuras podem ser sentidas vindas de *.",
+    "matcher": {
+      "source": "Energias obscuras podem ser sentidas vindas de .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/sussurros.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Escolha uma das op*es do menu!",
+    "matcher": {
+      "source": "Escolha uma das op.*es do menu!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro-menu.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Essa pessoa n*o est* aqui.",
+    "matcher": {
+      "source": "Essa pessoa n.*o est.* aqui\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/voceDeseja_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Examinar o qu*?",
+    "matcher": {
+      "source": "Examinar o qu.*.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro-acao.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Isso estava com um gosto estranho!",
+    "matcher": {
+      "source": "Isso estava com um gosto estranho!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/tosse.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Isso parece estar descarregado.",
+    "matcher": {
+      "source": "Isso parece estar descarregado\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/sem-carga.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Isso parece estar sem carga.",
+    "matcher": {
+      "source": "Isso parece estar sem carga\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/sem-carga.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Lan*ar o qu* aonde?",
+    "matcher": {
+      "source": "Lan.*ar o qu.* aonde.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro-menu.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Ler o qu*?",
+    "matcher": {
+      "source": "Ler o qu.*.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Mas voc* n*o * membro de um grupo!",
+    "matcher": {
+      "source": "Mas voc.* n.*o .* membro de um grupo!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro1_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Miss*o completa! Voc* completou a miss*o *!",
+    "matcher": {
+      "source": "Miss.*o completa! Voc.* completou a miss.*o .*!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/missao-diaria-concluida.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Muito adornada, uma *rvore de natal repousa aqui, enfeitando o ambiente. *",
+    "matcher": {
+      "source": "Muito adornada, uma .*rvore de natal repousa aqui, enfeitando o ambiente\\. .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/nataldeboista.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "N*o h* em *.",
+    "matcher": {
+      "source": "N.*o h.* em .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro2_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "N*o parece haver * ali.",
+    "matcher": {
+      "source": "N.*o parece haver .* ali\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro3_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "O Bar da Estalagem Javali Roncador",
+    "matcher": {
+      "source": "O Bar da Estalagem Javali Roncador",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/taverna.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "O carteiro entrega uma carta para voc*.",
+    "matcher": {
+      "source": "O carteiro entrega uma carta para voc.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/receber-carta.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "O v*nculo do Andarilho Misterioso com este mundo * desfeito.",
+    "matcher": {
+      "source": "O v.*nculo do Andarilho Misterioso com este mundo .* desfeito\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/sussurros.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Olhar o qu*?",
+    "matcher": {
+      "source": "Olhar o qu.*.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro4_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Olhar para onde?",
+    "matcher": {
+      "source": "Olhar para onde.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro5_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "P*NICO! Voc* n*o pode escapar!",
+    "matcher": {
+      "source": "P.*NICO! Voc.* n.*o pode escapar!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/panico.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Parab*ns pela conquista, voc* chegou l*!",
+    "matcher": {
+      "source": "Parab.*ns pela conquista, voc.* chegou l.*!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/nivel-cem.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Parab*ns! Voc* ir* agora ser encaminhad* para seu novo corpo.",
+    "matcher": {
+      "source": "Parab.*ns! Voc.* ir.* agora ser encaminhad.* para seu novo corpo\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/horn.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Parab*ns, voc* completou a aventura!",
+    "matcher": {
+      "source": "Parab.*ns, voc.* completou a aventura!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/missao-fim.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Por um instante, algo parece chamar sua aten*o para *. Deve ter sido apenas um d*j* vu.",
+    "matcher": {
+      "source": "Por um instante, algo parece chamar sua aten.*o para .*\\. Deve ter sido apenas um d.*j.* vu\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/sussurros.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Quem voc* deseja atacar?",
+    "matcher": {
+      "source": "Quem voc.* deseja atacar.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro6_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Reconectando.",
+    "matcher": {
+      "source": "Reconectando\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/reconectou_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Retornando para sua cidade natal...",
+    "matcher": {
+      "source": "Retornando para sua cidade natal\\.\\.\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/retornar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "S*o*horas*",
+    "matcher": {
+      "source": "S.*o.*horas.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/horas_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* 1 hora da *, no Dia *.",
+    "matcher": {
+      "source": ".* 1 hora da .*, no Dia .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/horas_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Seu sangue congela ao ouvir o grito de morte de um fido bestial.",
+    "matcher": {
+      "source": "Seu sangue congela ao ouvir o grito de morte de um fido bestial\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/morte-cachorro.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Seu sangue congela assim que voc* ouve o grito de morte de algu*m.",
+    "matcher": {
+      "source": "Seu sangue congela assim que voc.* ouve o grito de morte de algu.*m\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/grito-de-morte.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Sua carta foi enviada!",
+    "matcher": {
+      "source": "Sua carta foi enviada!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/enviar-carta.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Sua magia * desviada pelo escudo * e volta para voc*!",
+    "matcher": {
+      "source": "Sua magia .* desviada pelo escudo .* e volta para voc.*!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/deflection.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Sua magia falha e desaparece.",
+    "matcher": {
+      "source": "Sua magia falha e desaparece\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/magia-falhou.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Uma aventura foi iniciada! Digite 'AVENTURA PARTICIPAR' para entrar nela!",
+    "matcher": {
+      "source": "Uma aventura foi iniciada! Digite 'AVENTURA PARTICIPAR' para entrar nela!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/aventura_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Uma caixa * desaparece de suas m*os, dando lugar a uma recompensa especial!",
+    "matcher": {
+      "source": "Uma caixa .* desaparece de suas m.*os, dando lugar a uma recompensa especial!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/receber-caixa-misteriosa.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Uma poderosa luz branca aparece na sala, dissipando sua magia violenta!",
+    "matcher": {
+      "source": "Uma poderosa luz branca aparece na sala, dissipando sua magia violenta!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/magia-falhou.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Vermes consomem *.",
+    "matcher": {
+      "source": "Vermes consomem .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/vermes-consumir-corpo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* abre um ba* de recompensas surpresa!",
+    "matcher": {
+      "source": "Voc.* abre um ba.* de recompensas surpresa!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/receber-caixa-misteriosa.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* ainda n*o tem experi*ncia para soltar essa magia!",
+    "matcher": {
+      "source": "Voc.* ainda n.*o tem experi.*ncia para soltar essa magia!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/voceDeseja_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* aprendeu *!",
+    "matcher": {
+      "source": "Voc.* aprendeu .*!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/yay.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* atingiu seu objetivo.",
+    "matcher": {
+      "source": "Voc.* atingiu seu objetivo\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/objetivo-concluido.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* avan*ou * n*ve*!",
+    "matcher": {
+      "source": "Voc.* avan.*ou .* n.*ve.*!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/level-up.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*oc* come*a a meditar...",
+    "matcher": {
+      "source": ".*oc.* come.*a a meditar\\.\\.\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/gongo-meditar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* come*a a participar da aventura.",
+    "matcher": {
+      "source": "Voc.* come.*a a participar da aventura\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/missao-inicio.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* est* carregando:",
+    "matcher": {
+      "source": "Voc.* est.* carregando:",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/abrir-mochila.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* est* mort*!",
+    "matcher": {
+      "source": "Voc.* est.* mort.*!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/morte.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* est* mortalmente ferid* e morrer* logo, se n*o for ajudad*.",
+    "matcher": {
+      "source": "Voc.* est.* mortalmente ferid.* e morrer.* logo, se n.*o for ajudad.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/batimentos-rapidos.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* est* muito cansad*.",
+    "matcher": {
+      "source": "Voc.* est.* muito cansad.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/cansada.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* est* muito nervos* para conseguir fugir!",
+    "matcher": {
+      "source": "Voc.* est.* muito nervos.* para conseguir fugir!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/fuga-falha.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* est* sem for*as para lan*ar essa magia!",
+    "matcher": {
+      "source": "Voc.* est.* sem for.*as para lan.*ar essa magia!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/magia-falhou.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* esteve inativ*, e cai dentro de um vazio.",
+    "matcher": {
+      "source": "Voc.* esteve inativ.*, e cai dentro de um vazio\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/entrar-vazio.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* j* est* carregando muito peso e n*o pode pegar *.",
+    "matcher": {
+      "source": "Voc.* j.* est.* carregando muito peso e n.*o pode pegar .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/aviso-inventario.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* milagrosamente revive...",
+    "matcher": {
+      "source": "Voc.* milagrosamente revive\\.\\.\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/harpa.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* n*o consegue colocar uma coisa dentro dela mesma.",
+    "matcher": {
+      "source": "Voc.* n.*o consegue colocar uma coisa dentro dela mesma\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro7_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* n*o consegue concentrar mana suficiente para completar a invoca*o.",
+    "matcher": {
+      "source": "Voc.* n.*o consegue concentrar mana suficiente para completar a invoca.*o\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro-acao.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* n*o consegue mais respirar embaixo d'*gua!",
+    "matcher": {
+      "source": "Voc.* n.*o consegue mais respirar embaixo d'.*gua!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/blub.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* n*o consegue pronunciar as palavras m*gicas!",
+    "matcher": {
+      "source": "Voc.* n.*o consegue pronunciar as palavras m.*gicas!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/magia-falhou.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* n*o consegue soltar magias sentad*.",
+    "matcher": {
+      "source": "Voc.* n.*o consegue soltar magias sentad.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* n*o conseguiu se concentrar!",
+    "matcher": {
+      "source": "Voc.* n.*o conseguiu se concentrar!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro1_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* n*o deve lan*ar isso em si mesm*!",
+    "matcher": {
+      "source": "Voc.* n.*o deve lan.*ar isso em si mesm.*!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro2_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* n*o deve lan*ar isso em si mesm*... dizem que n*o faz muito bem...",
+    "matcher": {
+      "source": "Voc.* n.*o deve lan.*ar isso em si mesm.*\\.\\.\\. dizem que n.*o faz muito bem\\.\\.\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro2_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* n*o est* vendo nada parecido com isso.",
+    "matcher": {
+      "source": "Voc.* n.*o est.* vendo nada parecido com isso\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro3_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* n*o parece ter a chave correta.",
+    "matcher": {
+      "source": "Voc.* n.*o parece ter a chave correta\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/tectec.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* n*o pode encontrar isto!",
+    "matcher": {
+      "source": "Voc.* n.*o pode encontrar isto!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro4_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* n*o pode fazer isso dormindo.",
+    "matcher": {
+      "source": "Voc.* n.*o pode fazer isso dormindo\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro5_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* n*o pode fazer isso!",
+    "matcher": {
+      "source": "Voc.* n.*o pode fazer isso!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro6_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* n*o pode fechar isso!",
+    "matcher": {
+      "source": "Voc.* n.*o pode fechar isso!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro7_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* n*o pode ir por a*...",
+    "matcher": {
+      "source": "Voc.* n.*o pode ir por a.*\\.\\.\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/naoPodeIr_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* n*o pode lan*ar essa magia em outro jogador.",
+    "matcher": {
+      "source": "Voc.* n.*o pode lan.*ar essa magia em outro jogador\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro-acao.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* n*o pode lan*ar essa magia em uma criatura mais poderosa que voc*!",
+    "matcher": {
+      "source": "Voc.* n.*o pode lan.*ar essa magia em uma criatura mais poderosa que voc.*!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro-menu.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* n*o pode lan*ar essa magia em uma criatura t*o fraca!",
+    "matcher": {
+      "source": "Voc.* n.*o pode lan.*ar essa magia em uma criatura t.*o fraca!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* n*o pode se comparar a si mesm*!",
+    "matcher": {
+      "source": "Voc.* n.*o pode se comparar a si mesm.*!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro1_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* n*o tem nenhum *.",
+    "matcher": {
+      "source": "Voc.* n.*o tem nenhum .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro3_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* n*o tem tempo de se concentrar!",
+    "matcher": {
+      "source": "Voc.* n.*o tem tempo de se concentrar!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/naoConcetra_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* n*o tem tempo de se concentrar!",
+    "matcher": {
+      "source": "Voc.* n.*o tem tempo de se concentrar!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/naoConcetra_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* p*ra de seguir *.",
+    "matcher": {
+      "source": "Voc.* p.*ra de seguir .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/p_seguir.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* para de flutuar e vai dormir.",
+    "matcher": {
+      "source": "Voc.* para de flutuar e vai dormir\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/roncando.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* passa mal devido a falta de ar! * melhor sair da* ou morrer* logo! *",
+    "matcher": {
+      "source": "Voc.* passa mal devido a falta de ar! .* melhor sair da.* ou morrer.* logo! .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/afogando.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* pega * chave *.",
+    "matcher": {
+      "source": "Voc.* pega .* chave .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/pegar-chave.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* percebe que h* algo perigoso por perto!",
+    "matcher": {
+      "source": "Voc.* percebe que h.* algo perigoso por perto!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/deathTrap_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* perdeu * pontos de experi*ncia pela sua morte.",
+    "matcher": {
+      "source": "Voc.* perdeu .* pontos de experi.*ncia pela sua morte\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/morte.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* pisca os olhos e a estranha imagem de um homem coberto por vestes negras invade sua mente, logo em seguida sumindo de seu pensamento.",
+    "matcher": {
+      "source": "Voc.* pisca os olhos e a estranha imagem de um homem coberto por vestes negras invade sua mente, logo em seguida sumindo de seu pensamento\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/sussurros.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* precisa estudar mais...",
+    "matcher": {
+      "source": "Voc.* precisa estudar mais\\.\\.\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro4_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* recita *, que dissolve.",
+    "matcher": {
+      "source": "Voc.* recita .*, que dissolve\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/dissolver-pergaminho.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* s* pode lan*ar esta magia quando estiver em um grupo.",
+    "matcher": {
+      "source": "Voc.* s.* pode lan.*ar esta magia quando estiver em um grupo\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro5_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* s* pode lan*ar isso em si mesm*!",
+    "matcher": {
+      "source": "Voc.* s.* pode lan.*ar isso em si mesm.*!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro6_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* se sente curad*...",
+    "matcher": {
+      "source": "Voc.* se sente curad.*\\.\\.\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/cajado-de-loraine.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* se sente informad*:",
+    "matcher": {
+      "source": "Voc.* se sente informad.*:",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/identificar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*oc* sente * melhorar.",
+    "matcher": {
+      "source": ".*oc.* sente .* melhorar\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/melhorar-magia-hab.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* sente a experi*ncia fluir em suas veias!",
+    "matcher": {
+      "source": "Voc.* sente a experi.*ncia fluir em suas veias!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/oferenda.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* sente que est* muito frac* e tenta fugir!",
+    "matcher": {
+      "source": "Voc.* sente que est.* muito frac.* e tenta fugir!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/fuga-falha.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* sente que pode se mover livremente.",
+    "matcher": {
+      "source": "Voc.* sente que pode se mover livremente\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/moverLivremente_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* sente uma m*o invis*vel tocar seu ombro. Ao olhar para tr*s, n*o parece haver ningu*m.",
+    "matcher": {
+      "source": "Voc.* sente uma m.*o invis.*vel tocar seu ombro\\. Ao olhar para tr.*s, n.*o parece haver ningu.*m\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/sussurros.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* tem cartas no correio.",
+    "matcher": {
+      "source": "Voc.* tem cartas no correio\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/cartas.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* tem nova carta no correio!",
+    "matcher": {
+      "source": "Voc.* tem nova carta no correio!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/cartas.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* toma um choque ao tentar vestir *, que pula fora de seu corpo.",
+    "matcher": {
+      "source": "Voc.* toma um choque ao tentar vestir .*, que pula fora de seu corpo\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/choque_item.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* v* um vulto *.",
+    "matcher": {
+      "source": "Voc.* v.* um vulto .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/vulto.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*oc* tenta andar, mas cai por estar muito b*bado.",
+    "matcher": {
+      "source": ".*oc.* tenta andar, mas cai por estar muito b.*bado\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/escorregouBolinha.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*oc* solta uma por*o de bolinhas de gude.",
+    "matcher": {
+      "source": ".*oc.* solta uma por.*o de bolinhas de gude\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/jogaBolinha_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*oc* solta um cajado retorcido.",
+    "matcher": {
+      "source": ".*oc.* solta um cajado retorcido\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/jogaCajado_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*oc* pega uma por*o de bolinhas de gude.",
+    "matcher": {
+      "source": ".*oc.* pega uma por.*o de bolinhas de gude\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/jogaBolinha_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*oc* pega um cajado retorcido.",
+    "matcher": {
+      "source": ".*oc.* pega um cajado retorcido\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/jogaCajado_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "* escorrega em *, mas consegue ficar em p*.",
+    "matcher": {
+      "source": ".* escorrega em .*, mas consegue ficar em p.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/escorregaBolinha_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*escorrega em * e cai.",
+    "matcher": {
+      "source": ".*escorrega em .* e cai\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/escorregouBolinha.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "Voc* falhou!",
+    "matcher": {
+      "source": "Voc.* falhou!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro-acao.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*oc* pr*tica por um tempo...",
+    "matcher": {
+      "source": ".*oc.* pr.*tica por um tempo\\.\\.\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/practicing_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*oc* agora est* instru* nessa *rea.",
+    "matcher": {
+      "source": ".*oc.* agora est.* instru.* nessa .*rea\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/practiced_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "fx",
+    "pattern": "*oc* j* est* instru* nessa *rea.",
+    "matcher": {
+      "source": ".*oc.* j.* est.* instru.* nessa .*rea\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/practiced_uar.mp3",
+    "volumeRef": null
+  }
+]

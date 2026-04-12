@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-04-12T21:20:09.543Z",
+  "categories": {
+    "bgm": "data/bgm.json",
+    "fx": "data/fx.json",
+    "classes": "data/classes.json",
+    "vivas": "data/vivas.json",
+    "barraDeVida": "data/barraDeVida.json"
+  }
+}

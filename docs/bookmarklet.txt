@@ -1,0 +1,1 @@
+javascript:(function(){if(window.__debomudLoader)return;window.__debomudLoader=1;var s=document.createElement('script');s.src='https://Alberto-Leandro.github.io/DeBoMUDSounds/assets/loader.js?'+Date.now();s.async=true;document.head.appendChild(s);}());

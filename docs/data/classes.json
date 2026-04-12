@@ -1,0 +1,3232 @@
+[
+  {
+    "category": "classes",
+    "pattern": "*oc* tenta dar um giro seguido de um forte chute, mas escorrega por pouco!",
+    "matcher": {
+      "source": ".*oc.* tenta dar um giro seguido de um forte chute, mas escorrega por pouco!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/nearMiss_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ua poderosa joelhada acerta a barriga *, deixando * sem ar!*",
+    "matcher": {
+      "source": ".*ua poderosa joelhada acerta a barriga .*, deixando .* sem ar!.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/kick_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* d* um poderoso chute na cara * muito sangue come*a a escorrer...*",
+    "matcher": {
+      "source": ".*oc.* d.* um poderoso chute na cara .* muito sangue come.*a a escorrer\\.\\.\\..*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/kick_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* d* um salto mortal e acerta * com um fort*ssimo chute! *",
+    "matcher": {
+      "source": ".*oc.* d.* um salto mortal e acerta .* com um fort.*ssimo chute! .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/kick_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* erra seu chute *, ufa, quase l*...",
+    "matcher": {
+      "source": ".*oc.* erra seu chute .*, ufa, quase l.*\\.\\.\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/nearMiss_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*eu lindo chute girat*rio passa a uma milha*.",
+    "matcher": {
+      "source": ".*eu lindo chute girat.*rio passa a uma milha.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/nearMiss_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*hutar quem?",
+    "matcher": {
+      "source": ".*hutar quem.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro-acao.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*o resgate...",
+    "matcher": {
+      "source": ".*o resgate\\.\\.\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/rescue_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* salva *.",
+    "matcher": {
+      "source": ".* salva .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/rescue_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*as ningu*m est* lutando contra el*!",
+    "matcher": {
+      "source": ".*as ningu.*m est.* lutando contra el.*!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/rescue_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* falha no resgate!",
+    "matcher": {
+      "source": ".*oc.* falha no resgate!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/rescue_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* n*o acha nada que possa te indicar o caminho.",
+    "matcher": {
+      "source": "Voc.* n.*o acha nada que possa te indicar o caminho\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/trackNao_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* n*o consegue encontrar o rastro dele daqui.",
+    "matcher": {
+      "source": "Voc.* n.*o consegue encontrar o rastro dele daqui\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/trackNao_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* percebe um rastro, que aparentemente te leva para * daqui!",
+    "matcher": {
+      "source": "Voc.* percebe um rastro, que aparentemente te leva para .* daqui!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/track_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* percebe um rastro * daqui!",
+    "matcher": {
+      "source": "Voc.* percebe um rastro .* daqui!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/track_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Seu alvo j* est* nessa sala!",
+    "matcher": {
+      "source": "Seu alvo j.* est.* nessa sala!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/trackAqui_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* soco que voc* d* faz el* cair! *",
+    "matcher": {
+      "source": ".* soco que voc.* d.* faz el.* cair! .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/bash.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*derruba*com um poderoso soco!",
+    "matcher": {
+      "source": ".*derruba.*com um poderoso soco!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/bash_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*omo * desvia de seu soco, voc* trope*a e cai no ch*o!",
+    "matcher": {
+      "source": ".*omo .* desvia de seu soco, voc.* trope.*a e cai no ch.*o!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/bash2.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*errubar quem?",
+    "matcher": {
+      "source": ".*errubar quem.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro-acao.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* come*a a atacar *.",
+    "matcher": {
+      "source": ".*oc.* come.*a a atacar .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/turn_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* n*o consegue trocar de oponente.",
+    "matcher": {
+      "source": ".*oc.* n.*o consegue trocar de oponente\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/turn_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* se acovarda, com medo de te atacar.",
+    "matcher": {
+      "source": ".* se acovarda, com medo de te atacar\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/intimidado_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* se despeda*a com seu ataque!",
+    "matcher": {
+      "source": ".* se despeda.*a com seu ataque!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/doorbash_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* tenta derrubar a porta, mas o impacto causado retorna para voc*. Isso doeu!",
+    "matcher": {
+      "source": ".*oc.* tenta derrubar a porta, mas o impacto causado retorna para voc.*\\. Isso doeu!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/doorbashErro_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*rrombar uma porta aberta? Muito bem!",
+    "matcher": {
+      "source": ".*rrombar uma porta aberta. Muito bem!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro3_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* n*o consegue derrubar isso!",
+    "matcher": {
+      "source": ".*oc.* n.*o consegue derrubar isso!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro6_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*e fato n*o vejo como voc* pode derrubar alguma coisa ali.",
+    "matcher": {
+      "source": ".*e fato n.*o vejo como voc.* pode derrubar alguma coisa ali\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro3_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* bate, mas n*o consegue derrubar *!",
+    "matcher": {
+      "source": ".*oc.* bate, mas n.*o consegue derrubar .*!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/doorBashNotBashed_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* come*a a sentir uma forte dor.",
+    "matcher": {
+      "source": ".*oc.* come.*a a sentir uma forte dor\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/doorBashPain_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* esmaga * com seu abra*o de urso*",
+    "matcher": {
+      "source": "Voc.* esmaga .* com seu abra.*o de urso.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/abraco-de-urso.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*eu abra*o de urso n*o faz nada em *.",
+    "matcher": {
+      "source": ".*eu abra.*o de urso n.*o faz nada em .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/abraco-de-urso.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* se enfaixa.",
+    "matcher": {
+      "source": ".*oc.* se enfaixa\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/bandage_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* j* est* com muita sa*de!",
+    "matcher": {
+      "source": ".*oc.* j.* est.* com muita sa.*de!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/condicao-perfeita.mp3",
+    "volumeRef": "volumefx"
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* come*a a girar muito r*pido, parecendo um redemoinho de vento.",
+    "matcher": {
+      "source": ".*oc.* come.*a a girar muito r.*pido, parecendo um redemoinho de vento\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/whirlwindAcerto_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* come*a a girar muito r*pido... mas acaba ficando tonto!",
+    "matcher": {
+      "source": ".*oc.* come.*a a girar muito r.*pido\\.\\.\\. mas acaba ficando tonto!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/whirlwindErro_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* se defende do ataque*, atingind* com um contragolpe!*",
+    "matcher": {
+      "source": ".*oc.* se defende do ataque.*, atingind.* com um contragolpe!.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/backslash_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* n*o conseguiu consertar *",
+    "matcher": {
+      "source": ".*oc.* n.*o conseguiu consertar .*",
+      "flags": "i"
+    },
+    "soundPath": null,
+    "volumeRef": "repairingSound"
+  },
+  {
+    "category": "classes",
+    "pattern": "*eu martelo foi destru*do durante o processo de repara*o",
+    "matcher": {
+      "source": ".*eu martelo foi destru.*do durante o processo de repara.*o",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/repairFail_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* danificou *",
+    "matcher": {
+      "source": ".*oc.* danificou .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/repairDamaged_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* conserta *",
+    "matcher": {
+      "source": ".*oc.* conserta .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/repairSucess_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ua arma fica mais fr*gil!",
+    "matcher": {
+      "source": ".*ua arma fica mais fr.*gil!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/danificado_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* foi danificad*.",
+    "matcher": {
+      "source": ".* foi danificad.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/danificado_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* gira rapidamente e acerta *, que n*o esperava o ataque!*",
+    "matcher": {
+      "source": ".*oc.* gira rapidamente e acerta .*, que n.*o esperava o ataque!.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/spin_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* tenta girar e atacar *, mas voc* n*o consegue ser r*pido o bastante.",
+    "matcher": {
+      "source": ".*oc.* tenta girar e atacar .*, mas voc.* n.*o consegue ser r.*pido o bastante\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/whirlwindErro_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* pula, caindo em p*. Voc* est* pronto para lutar!",
+    "matcher": {
+      "source": ".*oc.* pula, caindo em p.*\\. Voc.* est.* pronto para lutar!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/quickDraw_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* est* em p*, e pront* para a batalha!",
+    "matcher": {
+      "source": ".*oc.* est.* em p.*, e pront.* para a batalha!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/quickDraw_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* voa na dire*o d*, que esquiva por pouco!",
+    "matcher": {
+      "source": ".*oc.* voa na dire.*o d.*, que esquiva por pouco!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/swoop_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "El* percebe que voc* est* caindo em cima del*!",
+    "matcher": {
+      "source": "El.* percebe que voc.* est.* caindo em cima del.*!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/swoop_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* desarma *, fazendo * cair no ch*o!",
+    "matcher": {
+      "source": ".*oc.* desarma .*, fazendo .* cair no ch.*o!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/disarm_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* falha ao tentar desarmar *.",
+    "matcher": {
+      "source": ".*oc.* falha ao tentar desarmar .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/disarm_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* consegue dobrar o dano de seu ataque!",
+    "matcher": {
+      "source": ".*oc.* consegue dobrar o dano de seu ataque!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/criticalHit_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* contorce o corpo *",
+    "matcher": {
+      "source": "Voc.* contorce o corpo .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/boneTwist_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "O corpo * explode violentamente.",
+    "matcher": {
+      "source": "O corpo .* explode violentamente\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/corpseExplosion_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* come*a a ficar com uma cor esquisita!",
+    "matcher": {
+      "source": ".* come.*a a ficar com uma cor esquisita!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/curse_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* resfria *!*",
+    "matcher": {
+      "source": "Voc.* resfria .*!.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/chillTouch_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "A atmosfera se torna g*lida assim que voc* erra*!",
+    "matcher": {
+      "source": "A atmosfera se torna g.*lida assim que voc.* erra.*!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/chillTouch_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Um poderoso bracelete de ossos se forma em volta do seu bra*o.",
+    "matcher": {
+      "source": "Um poderoso bracelete de ossos se forma em volta do seu bra.*o\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/boneArms_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Seu poderoso bra*o de ossos desaparece.",
+    "matcher": {
+      "source": "Seu poderoso bra.*o de ossos desaparece\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/boneArms_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* parece estar ceg*!",
+    "matcher": {
+      "source": ".* parece estar ceg.*!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/blindness_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* falha ao tentar cegar sua v*tima.",
+    "matcher": {
+      "source": ".*oc.* falha ao tentar cegar sua v.*tima\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/blindness_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* drena parte da energia *! *",
+    "matcher": {
+      "source": "Voc.* drena parte da energia .*! .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/energyDrain.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* fica muito doente!",
+    "matcher": {
+      "source": ".* fica muito doente!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/poison_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Um fraco zumbi come*a a seguir voc*.",
+    "matcher": {
+      "source": "Um fraco zumbi come.*a a seguir voc.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/animateDead_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Uma estranha n*voa se forma na sala.",
+    "matcher": {
+      "source": "Uma estranha n.*voa se forma na sala\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/fog_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* se sente mais forte com a presen*a da noite.",
+    "matcher": {
+      "source": "Voc.* se sente mais forte com a presen.*a da noite\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/nightPower_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* perdeu seu poder noturn*",
+    "matcher": {
+      "source": ".*oc.* perdeu seu poder noturn.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/nightPower_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Uma armadura de ossos come*a a te proteger.",
+    "matcher": {
+      "source": "Uma armadura de ossos come.*a a te proteger\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/boneArmor_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Sua armadura de ossos desaparece.",
+    "matcher": {
+      "source": "Sua armadura de ossos desaparece\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/boneArmor_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* come*a a se sentir extremamente doente.",
+    "matcher": {
+      "source": ".* come.*a a se sentir extremamente doente\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/plague_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* se desmaterializa...",
+    "matcher": {
+      "source": "Voc.* se desmaterializa\\.\\.\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/spirit_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* se materializa novamente.",
+    "matcher": {
+      "source": "Voc.* se materializa novamente\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/spirit_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*treme e sofre com a bondade *!*",
+    "matcher": {
+      "source": ".*treme e sofre com a bondade .*!.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/dispelGood_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Os Deuses protegem *.",
+    "matcher": {
+      "source": "Os Deuses protegem .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro7_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*n*o * afetado por sua maldade!",
+    "matcher": {
+      "source": ".*n.*o .* afetado por sua maldade!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro6_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "A carne do corpo * come*a a ficar mole.",
+    "matcher": {
+      "source": "A carne do corpo .* come.*a a ficar mole\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/wekenedFlesh_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* sente a presen*a de criaturas boas.",
+    "matcher": {
+      "source": "Voc.* sente a presen.*a de criaturas boas\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/detectGood_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* sente fantasmas invis*veis te protegendo.",
+    "matcher": {
+      "source": "Voc.* sente fantasmas invis.*veis te protegendo\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/callGhostsOn_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Seus fantasmas voam e seguram * te protegendo.",
+    "matcher": {
+      "source": "Seus fantasmas voam e seguram .* te protegendo\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/callGhosts_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Os fantasmas que*protegiam desaparecem.",
+    "matcher": {
+      "source": "Os fantasmas que.*protegiam desaparecem\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/callGhostsOn_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* causa danos mentais *!*",
+    "matcher": {
+      "source": "Voc.* causa danos mentais .*!.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/mentalPain_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "-oc* n*o foca corretamente em * e erra.",
+    "matcher": {
+      "source": "-oc.* n.*o foca corretamente em .* e erra\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Uma estranha sombra se forma em volta de voc*.",
+    "matcher": {
+      "source": "Uma estranha sombra se forma em volta de voc.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/convokeShadows_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "As sombras n*o mais*ajudam*",
+    "matcher": {
+      "source": "As sombras n.*o mais.*ajudam.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/convokeShadows_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Misturando *, voc* criou*.",
+    "matcher": {
+      "source": "Misturando .*, voc.* criou.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/mix_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* faz com que uma chuva de ossos comece!",
+    "matcher": {
+      "source": "Voc.* faz com que uma chuva de ossos comece!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/boneRain_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* invoca espinhos negros do c*u, que come*am a voar na dire*o *!*",
+    "matcher": {
+      "source": "Voc.* invoca espinhos negros do c.*u, que come.*am a voar na dire.*o .*!.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/darkSpykes_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* tenta enviar espinhos negros na dire*o *, mas quase espeta o pr*prio p*!",
+    "matcher": {
+      "source": "Voc.* tenta enviar espinhos negros na dire.*o .*, mas quase espeta o pr.*prio p.*!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro4_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*m Escudo de Ossos come*a a proteger voc*.",
+    "matcher": {
+      "source": ".*m Escudo de Ossos come.*a a proteger voc.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/boneShield_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* escudo de ossos que * protegia desaparece.",
+    "matcher": {
+      "source": ".* escudo de ossos que .* protegia desaparece\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/boneShield_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* corajosamente martiriza seu pr*prio corpo at* exaust*o, num esfor*o de retorno * sua *ndole original.",
+    "matcher": {
+      "source": "Voc.* corajosamente martiriza seu pr.*prio corpo at.* exaust.*o, num esfor.*o de retorno .* sua .*ndole original\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/excruciate_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* deve sacrificar toda a sua vitalidade e resist*ncia para conseguir fazer isso.",
+    "matcher": {
+      "source": ".*oc.* deve sacrificar toda a sua vitalidade e resist.*ncia para conseguir fazer isso\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/excruciate_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* criou uma Foice de Sangue!",
+    "matcher": {
+      "source": "Voc.* criou uma Foice de Sangue!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/bloodScythe_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ma barreira de energia envolve seu corpo.",
+    "matcher": {
+      "source": ".*ma barreira de energia envolve seu corpo\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/manaShield_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ua barreira de energia come*a a falhar, at* desaparecer completamente.",
+    "matcher": {
+      "source": ".*ua barreira de energia come.*a a falhar, at.* desaparecer completamente\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/manaShield_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* consegue eliminar o escudo de mana *!",
+    "matcher": {
+      "source": ".*oc.* consegue eliminar o escudo de mana .*!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/manaShieldPop_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*come*a a ficar agressiv*!",
+    "matcher": {
+      "source": ".*come.*a a ficar agressiv.*!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/makeAggresive_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* explode *, o desnorteando por alguns instantes.*",
+    "matcher": {
+      "source": "Voc.* explode .*, o desnorteando por alguns instantes\\..*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/soulExplosion_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* solta muitos ossos *, que fica com o peito esburacado!*",
+    "matcher": {
+      "source": "Voc.* solta muitos ossos .*, que fica com o peito esburacado!.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/boneAttack_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* consegue trazer a Morte.",
+    "matcher": {
+      "source": "Voc.* consegue trazer a Morte\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/callDeath_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* faz furiosos movimentos e nota o mundo despencar ao seu redor!",
+    "matcher": {
+      "source": "Voc.* faz furiosos movimentos e nota o mundo despencar ao seu redor!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/apocalypse_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* te olha com pena, sem te dar nada.",
+    "matcher": {
+      "source": ".* te olha com pena, sem te dar nada\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/beg_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* te olha com pena, te dando * moeda*.",
+    "matcher": {
+      "source": ".* te olha com pena, te dando .* moeda.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/beg_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* te olha com desprezo e ataca!",
+    "matcher": {
+      "source": ".* te olha com desprezo e ataca!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/begFalha_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* tenta se esconder.",
+    "matcher": {
+      "source": "Voc.* tenta se esconder\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/hide_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "A fechadura rapidamente se rende *s suas habilidades.",
+    "matcher": {
+      "source": "A fechadura rapidamente se rende .*s suas habilidades\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/pickLock_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* olha rapidamente em volta e v*:",
+    "matcher": {
+      "source": "Voc.* olha rapidamente em volta e v.*:",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/scan_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Ningu*m est* perto de voc*.",
+    "matcher": {
+      "source": "Ningu.*m est.* perto de voc.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/scan_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "El* percebe que voc* tentou apunhal*-lo!",
+    "matcher": {
+      "source": "El.* percebe que voc.* tentou apunhal.*-lo!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro1_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* d* um estranho grito enquanto voc* crava * nas costas *! *",
+    "matcher": {
+      "source": ".* d.* um estranho grito enquanto voc.* crava .* nas costas .*! .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/backstab.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* faz um som estranho enquanto voc* fura as costas *! *",
+    "matcher": {
+      "source": ".* faz um som estranho enquanto voc.* fura as costas .*! .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/backstab.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* tentar* andar sem ser percebido.",
+    "matcher": {
+      "source": "Voc.* tentar.* andar sem ser percebido\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/sneak_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* joga sujeira nos olhos *.",
+    "matcher": {
+      "source": "Voc.* joga sujeira nos olhos .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/dirtThrow_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* percebe seu movimento sorrateiro ao tentar jogar sujeira nel*",
+    "matcher": {
+      "source": ".* percebe seu movimento sorrateiro ao tentar jogar sujeira nel.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/dirtThrow_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Nos olhos de quem voc* deseja jogar sujeira?",
+    "matcher": {
+      "source": "Nos olhos de quem voc.* deseja jogar sujeira.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/dirtThrow_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* fortemente acerta * com seu escudo! *",
+    "matcher": {
+      "source": "Voc.* fortemente acerta .* com seu escudo! .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/escudo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* espia a sala e v*:",
+    "matcher": {
+      "source": "Voc.* espia a sala e v.*:",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/spy_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Espiar onde?",
+    "matcher": {
+      "source": "Espiar onde.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro-acao.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* sentir* os movimentos em volta de voc*.",
+    "matcher": {
+      "source": "Voc.* sentir.* os movimentos em volta de voc.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/radar_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* n*o sentir* mais os movimentos em volta de voc*.",
+    "matcher": {
+      "source": "Voc.* n.*o sentir.* mais os movimentos em volta de voc.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/radar_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Roubar o que?",
+    "matcher": {
+      "source": "Roubar o que.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro-acao.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "El* n*o tem esse item.",
+    "matcher": {
+      "source": "El.* n.*o tem esse item\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro-acao.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Bingo! Voc* pegou *",
+    "matcher": {
+      "source": "Bingo! Voc.* pegou .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/steal_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* consegue furtar uma *nica moeda de ouro.",
+    "matcher": {
+      "source": "Voc.* consegue furtar uma .*nica moeda de ouro\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/steal_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* n*o conseguiu pegar nenhum ouro...",
+    "matcher": {
+      "source": "Voc.* n.*o conseguiu pegar nenhum ouro\\.\\.\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/steal_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* d* um salto e fica atr*s *!",
+    "matcher": {
+      "source": "Voc.* d.* um salto e fica atr.*s .*!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/pulo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Uma luz de paz consome seu proj*til antes de atingir o alvo.",
+    "matcher": {
+      "source": "Uma luz de paz consome seu proj.*til antes de atingir o alvo\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro7_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* atira e acerta *! *",
+    "matcher": {
+      "source": "Voc.* atira e acerta .*! .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/shoot_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* atira em *, mas erra!",
+    "matcher": {
+      "source": "Voc.* atira em .*, mas erra!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/shoot_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* habilmente recua do combate.",
+    "matcher": {
+      "source": ".* habilmente recua do combate\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/retreat_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* falha ao tentar recuar!",
+    "matcher": {
+      "source": ".*oc.* falha ao tentar recuar!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/retreat_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* cria uma goodberry.",
+    "matcher": {
+      "source": ".*oc.* cria uma goodberry\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/goodBerry_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "O esp*rito * * transforma seu grupo em uma poderosa matilha!",
+    "matcher": {
+      "source": "O esp.*rito .* .* transforma seu grupo em uma poderosa matilha!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/uivo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* se sente protegid* pelo ambiente ao redor. Seu conhecimento do terreno d* for*a * magia.",
+    "matcher": {
+      "source": ".*oc.* se sente protegid.* pelo ambiente ao redor\\. Seu conhecimento do terreno d.* for.*a .* magia\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/enviriomentProtection_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* se sente protegid* pelo ambiente ao redor.",
+    "matcher": {
+      "source": ".*oc.* se sente protegid.* pelo ambiente ao redor\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/enviriomentProtection_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*esaparece a sensa*o de prote*o que vinha do ambiente ao redor.",
+    "matcher": {
+      "source": ".*esaparece a sensa.*o de prote.*o que vinha do ambiente ao redor\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/enviriomentProtection_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*e voc* quiser controlar o tempo, voc* deve ir para um lugar que voc* consiga, pelo menos, ver o c*u!.",
+    "matcher": {
+      "source": ".*e voc.* quiser controlar o tempo, voc.* deve ir para um lugar que voc.* consiga, pelo menos, ver o c.*u!\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro-acao.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* levanta suas m*os para o c*u, esperando melhorar o tempo.",
+    "matcher": {
+      "source": ".*oc.* levanta suas m.*os para o c.*u, esperando melhorar o tempo\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/controlWeather_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* levanta suas m*os para o c*u, esperando piorar o tempo.",
+    "matcher": {
+      "source": ".*oc.* levanta suas m.*os para o c.*u, esperando piorar o tempo\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/controlWeather_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* clama pelo esp*rito dos antigos druidas, que lhe concedem o conhecimento de suas experi*ncias passadas!",
+    "matcher": {
+      "source": ".*oc.* clama pelo esp.*rito dos antigos druidas, que lhe concedem o conhecimento de suas experi.*ncias passadas!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/ancientKnowledge_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* sente o conhecimento dos druidas antigos aos poucos escapar de sua mente.",
+    "matcher": {
+      "source": ".*oc.* sente o conhecimento dos druidas antigos aos poucos escapar de sua mente\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/ancientKnowledge_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* envolvid* por uma nuvem de p* das fadas, o que faz seus olhos co*arem!",
+    "matcher": {
+      "source": ".*oc.* envolvid.* por uma nuvem de p.* das fadas, o que faz seus olhos co.*arem!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/faeriePowder_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* pouco de p* das fadas que restava em seus olhos se dissipa pelo ar!",
+    "matcher": {
+      "source": ".* pouco de p.* das fadas que restava em seus olhos se dissipa pelo ar!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/faeriePowder_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* ambiente a sua volta parece n*o conter muita energia.",
+    "matcher": {
+      "source": ".* ambiente a sua volta parece n.*o conter muita energia\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/callWeak_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* tempestade * muito forte e voc* convoca raios que causam grande destrui*o!.",
+    "matcher": {
+      "source": ".* tempestade .* muito forte e voc.* convoca raios que causam grande destrui.*o!\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/callStrong_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* acertou seu raio *",
+    "matcher": {
+      "source": ".*oc.* acertou seu raio .*",
+      "flags": "i"
+    },
+    "soundPath": null,
+    "volumeRef": "vCl"
+  },
+  {
+    "category": "classes",
+    "pattern": "*eu raio mata *",
+    "matcher": {
+      "source": ".*eu raio mata .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/callLightningHit_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* brilha.",
+    "matcher": {
+      "source": ".* brilha\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/purify_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*rmadura: *, Acerto: *, Dano: *",
+    "matcher": {
+      "source": ".*rmadura: .*, Acerto: .*, Dano: .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/creatureKnowledge_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*fiados espinhos brotam de sua pele.",
+    "matcher": {
+      "source": ".*fiados espinhos brotam de sua pele\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/thornSkin_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Desaparecem os espinhos que protegiam sua pele.",
+    "matcher": {
+      "source": "Desaparecem os espinhos que protegiam sua pele\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/thornSkin_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* corpo d* parece ficar estranhamente entorpecido!",
+    "matcher": {
+      "source": ".* corpo d.* parece ficar estranhamente entorpecido!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/autunmLeaves_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* arrefece, como que tomad* por uma s*bida friagem.",
+    "matcher": {
+      "source": ".* arrefece, como que tomad.* por uma s.*bida friagem\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/winterFall_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* aparece lentamente.",
+    "matcher": {
+      "source": ".* aparece lentamente\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/reveal_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*as * n*o est* invis*vel!",
+    "matcher": {
+      "source": ".*as .* n.*o est.* invis.*vel!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/reveal_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* consegue concentrar suas energias, aumentando a efici*ncia energ*tica do seu corpo!",
+    "matcher": {
+      "source": ".*oc.* consegue concentrar suas energias, aumentando a efici.*ncia energ.*tica do seu corpo!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/endurance_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*eu corpo toma um choque ao ingerir alimento novamente!",
+    "matcher": {
+      "source": ".*eu corpo toma um choque ao ingerir alimento novamente!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/endurance_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*eu corpo ainda est* se recuperando do ultimo per*odo de resist*ncia.",
+    "matcher": {
+      "source": ".*eu corpo ainda est.* se recuperando do ultimo per.*odo de resist.*ncia\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/endurance_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ua rajada de vento quase arranca a pele *! *",
+    "matcher": {
+      "source": ".*ua rajada de vento quase arranca a pele .*! .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/hurricaneHit_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ua poderosa rajada de vento arremessa * pelos ares!",
+    "matcher": {
+      "source": ".*ua poderosa rajada de vento arremessa .* pelos ares!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/hurricane_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ma nuvem de gafanhotos escurece toda a sala!",
+    "matcher": {
+      "source": ".*ma nuvem de gafanhotos escurece toda a sala!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/locustSwarm_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*eu poderoso jato de *gua destr*i o escudo de fogo *",
+    "matcher": {
+      "source": ".*eu poderoso jato de .*gua destr.*i o escudo de fogo .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/waterBlast_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* acerta * com seu jato de *gua! *",
+    "matcher": {
+      "source": ".*oc.* acerta .* com seu jato de .*gua! .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/waterBlastHit_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* acerta * com um forte jato de *gua!",
+    "matcher": {
+      "source": ".* acerta .* com um forte jato de .*gua!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/waterBlastHit_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* Esp*rito do Urso se recusa a te acompanhar enquanto sua pele estiver modificada.",
+    "matcher": {
+      "source": ".* Esp.*rito do Urso se recusa a te acompanhar enquanto sua pele estiver modificada\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro-acao.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "O Esp*rito d* poderos* Urs* passa a te influenciar.",
+    "matcher": {
+      "source": "O Esp.*rito d.* poderos.* Urs.* passa a te influenciar\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/urso.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "O esp*rito d* Urs* * muito poderoso e voc* apenas rosna e baba!",
+    "matcher": {
+      "source": "O esp.*rito d.* Urs.* .* muito poderoso e voc.* apenas rosna e baba!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/urso-rosnar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* consegue acelerar seu metabolismo, aumentando a velocidade de cicatriza*o de ferimentos.",
+    "matcher": {
+      "source": ".*oc.* consegue acelerar seu metabolismo, aumentando a velocidade de cicatriza.*o de ferimentos\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/regeneration_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* percebe que seu metabolismo gradualmente volta ao normal.",
+    "matcher": {
+      "source": ".*oc.* percebe que seu metabolismo gradualmente volta ao normal\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/regeneration_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* precisa estar completamente saciado antes de tentar se concentrar.",
+    "matcher": {
+      "source": ".*oc.* precisa estar completamente saciado antes de tentar se concentrar\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/markTerritorie_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* se concentra e estabelece uma liga*o especial com este local.",
+    "matcher": {
+      "source": ".*oc.* se concentra e estabelece uma liga.*o especial com este local\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/markTerritorie_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*eu corpo enfraquece depois de todo o esfor*o para marcar este local.",
+    "matcher": {
+      "source": ".*eu corpo enfraquece depois de todo o esfor.*o para marcar este local\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/endurance_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* falha ao tentar se transportar para l*.",
+    "matcher": {
+      "source": ".*oc.* falha ao tentar se transportar para l.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro-acao.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ua pele perde a camada de casca de *rvore.",
+    "matcher": {
+      "source": ".*ua pele perde a camada de casca de .*rvore\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/barkSkin_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ma grossa camada de cascas de *rvore recobre sua pele.",
+    "matcher": {
+      "source": ".*ma grossa camada de cascas de .*rvore recobre sua pele\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/barkSkin_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*m ent anci*o come*a a seguir voc*.",
+    "matcher": {
+      "source": ".*m ent anci.*o come.*a a seguir voc.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/animatePlantAnciao.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*m ent anci*o detesta voc*!",
+    "matcher": {
+      "source": ".*m ent anci.*o detesta voc.*!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/animatePlantAnciao.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*m broto de ent come*a a seguir voc*.",
+    "matcher": {
+      "source": ".*m broto de ent come.*a a seguir voc.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/animatePlantBroto.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*m broto de ent detesta voc*!",
+    "matcher": {
+      "source": ".*m broto de ent detesta voc.*!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/animatePlantBroto.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* ch*o sob seus p*s se transforma num grande lama*al!",
+    "matcher": {
+      "source": ".* ch.*o sob seus p.*s se transforma num grande lama.*al!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/rockToMud_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*o h* rochas suficientes no ch*o deste local para isso.",
+    "matcher": {
+      "source": ".*o h.* rochas suficientes no ch.*o deste local para isso\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/rockToMud_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* invoca o esp*rito da V*bora, que agu*a seus sentidos!",
+    "matcher": {
+      "source": "Voc.* invoca o esp.*rito da V.*bora, que agu.*a seus sentidos!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/vibora.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* esp*rito da V*bora abandona seu corpo.",
+    "matcher": {
+      "source": ".* esp.*rito da V.*bora abandona seu corpo\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/vibora.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ua pinha voa e acerta * em cheio!*",
+    "matcher": {
+      "source": ".*ua pinha voa e acerta .* em cheio!.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/explosivePine_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*m banho de seiva refresca seu corpo.",
+    "matcher": {
+      "source": ".*m banho de seiva refresca seu corpo\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/sapHealing_uar2.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "O esp*rito da *guia agu*a seus sentidos.",
+    "matcher": {
+      "source": "O esp.*rito da .*guia agu.*a seus sentidos\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/aguia.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* n*o consegue controlar o Esp*rito*perdendo a concentra*o.",
+    "matcher": {
+      "source": "Voc.* n.*o consegue controlar o Esp.*rito.*perdendo a concentra.*o\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/concentracao_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* observa com orgulho seu m*ssil m*gico atingir *! *",
+    "matcher": {
+      "source": "Voc.* observa com orgulho seu m.*ssil m.*gico atingir .*! .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/magicMissile.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*eus olhos brilham.",
+    "matcher": {
+      "source": ".*eus olhos brilham\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/detectGeneral_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*eus olhos param de brilhar.",
+    "matcher": {
+      "source": ".*eus olhos param de brilhar\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/detectGeneral_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*eus olhos ficam vermelhos.",
+    "matcher": {
+      "source": ".*eus olhos ficam vermelhos\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/infraVision_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ua vis*o noturna parece desaparecer.",
+    "matcher": {
+      "source": ".*ua vis.*o noturna parece desaparecer\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/infraVision_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* desaparece.",
+    "matcher": {
+      "source": ".*oc.* desaparece\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/invisibility_uar.mp3",
+    "volumeRef": "volumefx"
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* se sente expost*.",
+    "matcher": {
+      "source": ".*oc.* se sente expost.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/invisibility_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* sente algu*m te protegendo.",
+    "matcher": {
+      "source": ".*oc.* sente algu.*m te protegendo\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/armor_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* se sente menos protegid*.",
+    "matcher": {
+      "source": ".*oc.* se sente menos protegid.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/armor_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* queima * com suas pequenas m*os quentes! *",
+    "matcher": {
+      "source": ".*oc.* queima .* com suas pequenas m.*os quentes! .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/burningHands_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ua descarga el*trica acerta * fazendo el* tremer! *",
+    "matcher": {
+      "source": ".*ua descarga el.*trica acerta .* fazendo el.* tremer! .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/shockingGrasp_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* habilmente esquiva de sua tentativa de dar-lhe uma descarga el*trica!",
+    "matcher": {
+      "source": ".* habilmente esquiva de sua tentativa de dar-lhe uma descarga el.*trica!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/shockingGrasp_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* sente que est* saud*vel.",
+    "matcher": {
+      "source": ".*oc.* sente que est.* saud.*vel\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/detectPoison_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* raio acerta * com impacto total! *",
+    "matcher": {
+      "source": ".* raio acerta .* com impacto total! .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/ligthningBolt_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* se sente informad*",
+    "matcher": {
+      "source": ".*oc.* se sente informad.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/identify_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* se sente com a for*a de um campe*o!",
+    "matcher": {
+      "source": ".*oc.* se sente com a for.*a de um campe.*o!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/championStrength_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ua for*a volta ao normal.",
+    "matcher": {
+      "source": ".*ua for.*a volta ao normal\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/championStrength_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* brilha, com uma luz amarela.",
+    "matcher": {
+      "source": ".* brilha, com uma luz amarela\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/enchantWeapon_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* vai dormir.",
+    "matcher": {
+      "source": ".* vai dormir\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/sleep_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ma luz forte * emitida de um espelho localizador, que se dissolve.",
+    "matcher": {
+      "source": ".*ma luz forte .* emitida de um espelho localizador, que se dissolve\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/locateObject_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* n*o percebe nada.",
+    "matcher": {
+      "source": ".*oc.* n.*o percebe nada\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/locateObject_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* precisa de um espelho localizador para usar essa magia.",
+    "matcher": {
+      "source": ".*oc.* precisa de um espelho localizador para usar essa magia\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/locateObject_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ma poderosa luz come*a a iluminar toda a sala.",
+    "matcher": {
+      "source": ".*ma poderosa luz come.*a a iluminar toda a sala\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/flashLigth_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*eu arco-*ris particular acerta bem no rosto * -- UAU!! *",
+    "matcher": {
+      "source": ".*eu arco-.*ris particular acerta bem no rosto .* -- UAU!! .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/colorSpray_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* irradia uma aura de terror pela sala!",
+    "matcher": {
+      "source": ".*oc.* irradia uma aura de terror pela sala!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/fear_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* se sente mais forte!",
+    "matcher": {
+      "source": ".*oc.* se sente mais forte!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/strenght_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* se sente mais frac*.",
+    "matcher": {
+      "source": ".*oc.* se sente mais frac.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/strenght_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*eus p*s saem do ch*o.",
+    "matcher": {
+      "source": ".*eus p.*s saem do ch.*o\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/fly_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*eus p*s encostam no ch*o.",
+    "matcher": {
+      "source": ".*eus p.*s encostam no ch.*o\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/fly_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*lgo estranho se forma em volta *, que * prende a este lugar.",
+    "matcher": {
+      "source": ".*lgo estranho se forma em volta .*, que .* prende a este lugar\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/seal_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* joga uma bola de fogo * e tem a satisfa**o de ver seu alvo envolvido em chamas! *",
+    "matcher": {
+      "source": "Voc.* joga uma bola de fogo .* e tem a satisfa.*.*o de ver seu alvo envolvido em chamas! .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/FIREBALL_UAR.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Alvo paralisado.",
+    "matcher": {
+      "source": "Alvo paralisado\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/paralyze_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* sente a sua magia entrando no corpo de *.",
+    "matcher": {
+      "source": ".*oc.* sente a sua magia entrando no corpo de .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/lendMana_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ssa pessoa j* tem muitos pontos de magia.",
+    "matcher": {
+      "source": ".*ssa pessoa j.* tem muitos pontos de magia\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/lendMana_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* gesticula e blocos de gelo come*am a cair do c*u!",
+    "matcher": {
+      "source": ".*oc.* gesticula e blocos de gelo come.*am a cair do c.*u!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/iceStorm_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* sente seu corpo ficando maior e mais forte.",
+    "matcher": {
+      "source": ".*oc.* sente seu corpo ficando maior e mais forte\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/growth_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* volta ao seu tamanho normal.",
+    "matcher": {
+      "source": ".*oc.* volta ao seu tamanho normal\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/growth_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* mago ancestral come*a a seguir voc*.",
+    "matcher": {
+      "source": ".* mago ancestral come.*a a seguir voc.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/ancestralWizard_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Você não pode lançar essa magia em uma criatura tão fraca!",
+    "matcher": {
+      "source": "Voce nao pode lancar essa magia em uma criatura tao fraca!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/ancestralWizard_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*uitas imagens espelhadas te rodeiam.",
+    "matcher": {
+      "source": ".*uitas imagens espelhadas te rodeiam\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/mirrorImage_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*uas imagens espelhadas desaparecem.",
+    "matcher": {
+      "source": ".*uas imagens espelhadas desaparecem\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/mirrorImage_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* erra*acertando uma de suas falsas imagens.",
+    "matcher": {
+      "source": ".*oc.* erra.*acertando uma de suas falsas imagens\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/mirrorImageHit_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* come*a a ficar muito lento.",
+    "matcher": {
+      "source": ".* come.*a a ficar muito lento\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/slow_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* abre Um Brilhante Portal!",
+    "matcher": {
+      "source": ".* abre Um Brilhante Portal!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/abrir-portal.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Um portal se abre, e * sai de dentro dele.",
+    "matcher": {
+      "source": "Um portal se abre, e .* sai de dentro dele\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/sair-do-portal.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* entra no portal!",
+    "matcher": {
+      "source": "Voc.* entra no portal!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/entrar-no-portal.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* consegue focar sua magia em um flash de vis*o moment*nea*",
+    "matcher": {
+      "source": ".*oc.* consegue focar sua magia em um flash de vis.*o moment.*nea.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/scry_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ma barreira de fogo come*a a te proteger.",
+    "matcher": {
+      "source": ".*ma barreira de fogo come.*a a te proteger\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/fireShield_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* barreira de fogo que * protegia desaparece.",
+    "matcher": {
+      "source": ".* barreira de fogo que .* protegia desaparece\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/fireShield_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "O Escudo de Fogo * te queima!",
+    "matcher": {
+      "source": "O Escudo de Fogo .* te queima!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/fireshieldHit_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Uma barreira de gelo come*a a te proteger.",
+    "matcher": {
+      "source": "Uma barreira de gelo come.*a a te proteger\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/iceShield_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "A barreira de gelo que * protegia se derrete.",
+    "matcher": {
+      "source": "A barreira de gelo que .* protegia se derrete\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/iceShield_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* levanta seus bra*os, chamando uma chuva de fogo!",
+    "matcher": {
+      "source": ".*oc.* levanta seus bra.*os, chamando uma chuva de fogo!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/rainOfFire_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* se sente melhor.",
+    "matcher": {
+      "source": ".*oc.* se sente melhor\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/cureLigth_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* sente que isso n*o deve ser consumido.",
+    "matcher": {
+      "source": ".*oc.* sente que isso n.*o deve ser consumido\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/detectPoison_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* sente que * est* puro.",
+    "matcher": {
+      "source": ".*oc.* sente que .* est.* puro\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/detectPoison_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* sente a sua vida entrando no corpo *.",
+    "matcher": {
+      "source": ".*oc.* sente a sua vida entrando no corpo .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/lendHealth_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ssa pessoa j* est* com muita sa*de.",
+    "matcher": {
+      "source": ".*ssa pessoa j.* est.* com muita sa.*de\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/lendHealth_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* se sente mais saud*vel!",
+    "matcher": {
+      "source": ".*oc.* se sente mais saud.*vel!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/minorHealing_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* se sente virtuoso.",
+    "matcher": {
+      "source": ".*oc.* se sente virtuoso\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/bless_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* se sente menos virtuoso.",
+    "matcher": {
+      "source": ".*oc.* se sente menos virtuoso\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/bless_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ua energia * concentrad*",
+    "matcher": {
+      "source": ".*ua energia .* concentrad.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/findCenter_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* sente sua concentra*o diminui*",
+    "matcher": {
+      "source": ".*oc.* sente sua concentra.*o diminui.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/findCenter_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* n*o pode domar isso.",
+    "matcher": {
+      "source": ".*oc.* n.*o pode domar isso\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro-acao.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* domou *.",
+    "matcher": {
+      "source": ".*oc.* domou .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/tame_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* n*o pode domar algo que j* foi domado.",
+    "matcher": {
+      "source": ".*oc.* n.*o pode domar algo que j.* foi domado\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro-acao.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* falhou ao tentar domar isso.",
+    "matcher": {
+      "source": ".*oc.* falhou ao tentar domar isso\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/tame_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* monta em *.",
+    "matcher": {
+      "source": ".*oc.* monta em .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/montar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* tenta montar em *, mas escorrega e cai.",
+    "matcher": {
+      "source": ".*oc.* tenta montar em .*, mas escorrega e cai\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/montar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ontar em quem?",
+    "matcher": {
+      "source": ".*ontar em quem.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro-acao.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* sai de cima de * *.",
+    "matcher": {
+      "source": ".*oc.* sai de cima de .* .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/desmontar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* nem est* cavalgando.",
+    "matcher": {
+      "source": ".*oc.* nem est.* cavalgando\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro-acao.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* chama sua montaria.",
+    "matcher": {
+      "source": ".*oc.* chama sua montaria\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/invocarMontaria_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ua montaria fica aqui para descansar e voc* recebe * para cham*-la.",
+    "matcher": {
+      "source": ".*ua montaria fica aqui para descansar e voc.* recebe .* para cham.*-la\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/desinvocarMontaria_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* pula, te jogando no ch*o.",
+    "matcher": {
+      "source": ".* pula, te jogando no ch.*o\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/riding_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ua montaria est* muito cansada.",
+    "matcher": {
+      "source": ".*ua montaria est.* muito cansada\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/montariaCansada_ua.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* j* est* montado em algo.",
+    "matcher": {
+      "source": ".*oc.* j.* est.* montado em algo\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro2_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ua montaria precisa de um barco para ir at* l*.",
+    "matcher": {
+      "source": ".*ua montaria precisa de um barco para ir at.* l.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro4_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ua montaria n*o * permitida l*.",
+    "matcher": {
+      "source": ".*ua montaria n.*o .* permitida l.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro-acao.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* sente sua consci*ncia aumentar.",
+    "matcher": {
+      "source": ".*oc.* sente sua consci.*ncia aumentar\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/senseLife_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* se sente menos atent*.",
+    "matcher": {
+      "source": ".*oc.* se sente menos atent.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/senseLife_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ssa pessoa n*o merece ser presa... ou merece?",
+    "matcher": {
+      "source": ".*ssa pessoa n.*o merece ser presa\\.\\.\\. ou merece.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro-menu.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* prende *.",
+    "matcher": {
+      "source": ".*oc.* prende .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/arrest_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* se sente muito corajos*",
+    "matcher": {
+      "source": ".* se sente muito corajos.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/courage_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* sente a presen*a de criaturas mal*gna*",
+    "matcher": {
+      "source": ".*oc.* sente a presen.*a de criaturas mal.*gna.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/detectEvil_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* n*o sente mais a presen*a de criaturas mal*gna*",
+    "matcher": {
+      "source": ".*oc.* n.*o sente mais a presen.*a de criaturas mal.*gna.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/detectEvil_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* se sente invulner*ve*",
+    "matcher": {
+      "source": ".*oc.* se sente invulner.*ve.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/protectionFromEvil_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* n*o se sente mais protegid* da maldad*",
+    "matcher": {
+      "source": ".*oc.* n.*o se sente mais protegid.* da maldad.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/protectionFromEvil_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ma aura branca * rodeia.",
+    "matcher": {
+      "source": ".*ma aura branca .* rodeia\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/sanctuary_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "A aura branca em volta do seu corpo desaparece.",
+    "matcher": {
+      "source": "A aura branca em volta do seu corpo desaparece\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/sanctuary_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ma sensa**o de calor flui por suas veias.",
+    "matcher": {
+      "source": ".*ma sensa.*.*o de calor flui por suas veias\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/heal_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* sente que nada pode influenciar voc*.",
+    "matcher": {
+      "source": ".*oc.* sente que nada pode influenciar voc.*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/balance_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* se sente influenci*vel.",
+    "matcher": {
+      "source": ".*oc.* se sente influenci.*vel\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/balance_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* transformou * em uma Espada Sagrada!",
+    "matcher": {
+      "source": ".*oc.* transformou .* em uma Espada Sagrada!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/swordOfJustice_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* falha em criar uma espada sagrada, o que desintegra sua arma!",
+    "matcher": {
+      "source": ".*oc.* falha em criar uma espada sagrada, o que desintegra sua arma!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/swordOfJustice_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*penas armas que cortam podem ser transformadas.",
+    "matcher": {
+      "source": ".*penas armas que cortam podem ser transformadas\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* n*o consegue sentir a energia do grupo e falha ao realizar a magia.",
+    "matcher": {
+      "source": ".*oc.* n.*o consegue sentir a energia do grupo e falha ao realizar a magia\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/heal_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* se sente mais jovem.",
+    "matcher": {
+      "source": ".*oc.* se sente mais jovem\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/rejuvenation_Uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* conjura um c*rculo de fogo que envolve *",
+    "matcher": {
+      "source": ".*oc.* conjura um c.*rculo de fogo que envolve .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/sacredFire_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* conjura um c*rculo de fogo que queima * at* a morte!",
+    "matcher": {
+      "source": ".*oc.* conjura um c.*rculo de fogo que queima .* at.* a morte!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/sacredFire_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*o tentar fugir, * se queima no c*rculo de FOGO que envolve seu corpo.",
+    "matcher": {
+      "source": ".*o tentar fugir, .* se queima no c.*rculo de FOGO que envolve seu corpo\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/sacredFireHit_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* tenta conjurar um c*rculo de fogo *, mas falha!",
+    "matcher": {
+      "source": ".*oc.* tenta conjurar um c.*rculo de fogo .*, mas falha!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/sacredFire_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* entoa sua voz para conjurar a magia, mas se engasga e falha.",
+    "matcher": {
+      "source": ".*oc.* entoa sua voz para conjurar a magia, mas se engasga e falha\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/bladesOfLight_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*uas l*mina g*meas, feitas de pura luz, dividem * ao meio. Era uma vez.",
+    "matcher": {
+      "source": ".*uas l.*mina g.*meas, feitas de pura luz, dividem .* ao meio\\. Era uma vez\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/bladesOfLight_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*uas brilhantes l*minas, feitas de pura luz, descem dos c*us, atingindo * em cheio*",
+    "matcher": {
+      "source": ".*uas brilhantes l.*minas, feitas de pura luz, descem dos c.*us, atingindo .* em cheio.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/bladesOfLight_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ma luz sagrada te d* f*as para viver.",
+    "matcher": {
+      "source": ".*ma luz sagrada te d.* f.*as para viver\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/vitality_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*s Deuses atendem ao seu pedido e te ajudam.",
+    "matcher": {
+      "source": ".*s Deuses atendem ao seu pedido e te ajudam\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/divineCall_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* ainda est* com energia e ainda n*o precisa da ajuda divina.",
+    "matcher": {
+      "source": ".*oc.* ainda est.* com energia e ainda n.*o precisa da ajuda divina\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/divineCall_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* usa sua magia, e enche *.",
+    "matcher": {
+      "source": ".*oc.* usa sua magia, e enche .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/createWater_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* cria um p*o de viagem.",
+    "matcher": {
+      "source": ".*oc.* cria um p.*o de viagem\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/createFood_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Uma sensa**o de calor se espalha pelo seu corpo!",
+    "matcher": {
+      "source": "Uma sensa.*.*o de calor se espalha pelo seu corpo!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/removePoison.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* est* ceg*!",
+    "matcher": {
+      "source": ".*oc.* est.* ceg.*!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/blindnessVoce_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ua vis*o retorna!",
+    "matcher": {
+      "source": ".*ua vis.*o retorna!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/cureBlindness_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ida:*[*]",
+    "matcher": {
+      "source": ".*ida:.*\\[.*\\]",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/feelEnergy_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* treme e sofre com sua pr*pria maldade*",
+    "matcher": {
+      "source": ".* treme e sofre com sua pr.*pria maldade.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/dispelEvil_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* dissolvido por sua bondade*",
+    "matcher": {
+      "source": ".* dissolvido por sua bondade.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/dispelEvil_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Os Deuses protegem *.",
+    "matcher": {
+      "source": "Os Deuses protegem .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro1_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* brilha em azul.",
+    "matcher": {
+      "source": ".* brilha em azul\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/removeCurse_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Nada parece acontecer.",
+    "matcher": {
+      "source": "Nada parece acontecer\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro7_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* se sente muito melhor!",
+    "matcher": {
+      "source": ".*oc.* se sente muito melhor!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/cureCritic_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* emite uma leve fuma*a.",
+    "matcher": {
+      "source": ".* emite uma leve fuma.*a\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/leveFumaca_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*ssim que * esquiva, voc* erra sua magia, que segue a dire*o.",
+    "matcher": {
+      "source": ".*ssim que .* esquiva, voc.* erra sua magia, que segue a dire.*o\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/harm_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* observa a express*o de dor no rosto * assim que voc* acerta com sua magia. *",
+    "matcher": {
+      "source": ".*oc.* observa a express.*o de dor no rosto .* assim que voc.* acerta com sua magia\\. .*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/harm_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* se contorce de dor * medida que voc* exorciza para expulsar toda a maldade dentro del*",
+    "matcher": {
+      "source": ".* se contorce de dor .* medida que voc.* exorciza para expulsar toda a maldade dentro del.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/exorcism_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* tenta exorcizar *, mas perde a concentra*o e falha.",
+    "matcher": {
+      "source": ".*oc.* tenta exorcizar .*, mas perde a concentra.*o e falha\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/exorcism_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* uma pessoa muito boa para isso.",
+    "matcher": {
+      "source": ".* uma pessoa muito boa para isso\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro-acao.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* se sente muito mais saud*vel!",
+    "matcher": {
+      "source": ".*oc.* se sente muito mais saud.*vel!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/majorHealing_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* aparece repentinamente.",
+    "matcher": {
+      "source": ".* aparece repentinamente\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/summon_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* n*o conseguiu.",
+    "matcher": {
+      "source": ".*oc.* n.*o conseguiu\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro-menu.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*nquanto as palavras escapam de seus l*bios e*",
+    "matcher": {
+      "source": ".*nquanto as palavras escapam de seus l.*bios e.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/erro.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* gesticula e o ch*o a sua volta come*a a tremer!",
+    "matcher": {
+      "source": ".*oc.* gesticula e o ch.*o a sua volta come.*a a tremer!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/earthquake_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* ca* e se machuca*",
+    "matcher": {
+      "source": ".* ca.* e se machuca.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/earthquakeHit_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "* terra se abre sob os p*s * e sacode tudo em volta!",
+    "matcher": {
+      "source": ".* terra se abre sob os p.*s .* e sacode tudo em volta!",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/earthquakeHit_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Voc* n*o sente mais a f*ria divina.",
+    "matcher": {
+      "source": "Voc.* n.*o sente mais a f.*ria divina\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/divineFury_debo.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Sua pele adquire a dureza e o brilho dos diamantes.",
+    "matcher": {
+      "source": "Sua pele adquire a dureza e o brilho dos diamantes\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/diamondSkin_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "Sua pele perde a dureza e o brilho dos diamantes.",
+    "matcher": {
+      "source": "Sua pele perde a dureza e o brilho dos diamantes\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/diamondSkin_uar.mp3",
+    "volumeRef": null
+  }
+]

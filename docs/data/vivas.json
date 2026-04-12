@@ -1,0 +1,242 @@
+[
+  {
+    "category": "vivas",
+    "pattern": "*olha para * e pronuncia as palavras 'sausabru'.",
+    "matcher": {
+      "source": ".*olha para .* e pronuncia as palavras 'sausabru'\\.",
+      "flags": "i"
+    },
+    "soundPath": null,
+    "volumeRef": "djsausabru"
+  },
+  {
+    "category": "vivas",
+    "pattern": "*olha para * e pronuncia as palavras 'poison'.",
+    "matcher": {
+      "source": ".*olha para .* e pronuncia as palavras 'poison'\\.",
+      "flags": "i"
+    },
+    "soundPath": null,
+    "volumeRef": "djsausabru"
+  },
+  {
+    "category": "vivas",
+    "pattern": "*olha para voc* enquanto pronuncia as palavras 'sausabru'.",
+    "matcher": {
+      "source": ".*olha para voc.* enquanto pronuncia as palavras 'sausabru'\\.",
+      "flags": "i"
+    },
+    "soundPath": null,
+    "volumeRef": "djsausabru"
+  },
+  {
+    "category": "vivas",
+    "pattern": "*olha para voc* enquanto pronuncia as palavras 'poison'.",
+    "matcher": {
+      "source": ".*olha para voc.* enquanto pronuncia as palavras 'poison'\\.",
+      "flags": "i"
+    },
+    "soundPath": null,
+    "volumeRef": "djsausabru"
+  },
+  {
+    "category": "vivas",
+    "pattern": "*olha para * e pronuncia as palavras 'yucandusvirr'.",
+    "matcher": {
+      "source": ".*olha para .* e pronuncia as palavras 'yucandusvirr'\\.",
+      "flags": "i"
+    },
+    "soundPath": null,
+    "volumeRef": "djyucandusvirr"
+  },
+  {
+    "category": "vivas",
+    "pattern": "*olha para * e pronuncia as palavras 'fireball'.",
+    "matcher": {
+      "source": ".*olha para .* e pronuncia as palavras 'fireball'\\.",
+      "flags": "i"
+    },
+    "soundPath": null,
+    "volumeRef": "djyucandusvirr"
+  },
+  {
+    "category": "vivas",
+    "pattern": "*olha para voc* enquanto pronuncia as palavras 'yucandusvirr'.",
+    "matcher": {
+      "source": ".*olha para voc.* enquanto pronuncia as palavras 'yucandusvirr'\\.",
+      "flags": "i"
+    },
+    "soundPath": null,
+    "volumeRef": "djyucandusvirr"
+  },
+  {
+    "category": "vivas",
+    "pattern": "*olha para voc* enquanto pronuncia as palavras 'fireball'.",
+    "matcher": {
+      "source": ".*olha para voc.* enquanto pronuncia as palavras 'fireball'\\.",
+      "flags": "i"
+    },
+    "soundPath": null,
+    "volumeRef": "djyucandusvirr"
+  },
+  {
+    "category": "vivas",
+    "pattern": "*olha para * e pronuncia as palavras 'noselacri'.",
+    "matcher": {
+      "source": ".*olha para .* e pronuncia as palavras 'noselacri'\\.",
+      "flags": "i"
+    },
+    "soundPath": null,
+    "volumeRef": "djnoselacri"
+  },
+  {
+    "category": "vivas",
+    "pattern": "*olha para * e pronuncia as palavras 'blindness'.",
+    "matcher": {
+      "source": ".*olha para .* e pronuncia as palavras 'blindness'\\.",
+      "flags": "i"
+    },
+    "soundPath": null,
+    "volumeRef": "djnoselacri"
+  },
+  {
+    "category": "vivas",
+    "pattern": "*olha para voc* enquanto pronuncia as palavras 'noselacri'.",
+    "matcher": {
+      "source": ".*olha para voc.* enquanto pronuncia as palavras 'noselacri'\\.",
+      "flags": "i"
+    },
+    "soundPath": null,
+    "volumeRef": "djnoselacri"
+  },
+  {
+    "category": "vivas",
+    "pattern": "*olha para voc* enquanto pronuncia as palavras 'blindness'.",
+    "matcher": {
+      "source": ".*olha para voc.* enquanto pronuncia as palavras 'blindness'\\.",
+      "flags": "i"
+    },
+    "soundPath": null,
+    "volumeRef": "djnoselacri"
+  },
+  {
+    "category": "vivas",
+    "pattern": "*olha para * e pronuncia as palavras 'wubaf poirubt'.",
+    "matcher": {
+      "source": ".*olha para .* e pronuncia as palavras 'wubaf poirubt'\\.",
+      "flags": "i"
+    },
+    "soundPath": null,
+    "volumeRef": "djwubafpoirubt"
+  },
+  {
+    "category": "vivas",
+    "pattern": "*olha para * e pronuncia as palavras 'minor healing'.",
+    "matcher": {
+      "source": ".*olha para .* e pronuncia as palavras 'minor healing'\\.",
+      "flags": "i"
+    },
+    "soundPath": null,
+    "volumeRef": "djwubafpoirubt"
+  },
+  {
+    "category": "vivas",
+    "pattern": "*olha para voc* enquanto pronuncia as palavras 'wubaf poirubt'.",
+    "matcher": {
+      "source": ".*olha para voc.* enquanto pronuncia as palavras 'wubaf poirubt'\\.",
+      "flags": "i"
+    },
+    "soundPath": null,
+    "volumeRef": "djwubafpoirubt"
+  },
+  {
+    "category": "vivas",
+    "pattern": "*olha para voc* enquanto pronuncia as palavras 'minor healing'.",
+    "matcher": {
+      "source": ".*olha para voc.* enquanto pronuncia as palavras 'minor healing'\\.",
+      "flags": "i"
+    },
+    "soundPath": null,
+    "volumeRef": "djwubafpoirubt"
+  },
+  {
+    "category": "vivas",
+    "pattern": "*olha para * e pronuncia as palavras 'poir'.",
+    "matcher": {
+      "source": ".*olha para .* e pronuncia as palavras 'poir'\\.",
+      "flags": "i"
+    },
+    "soundPath": null,
+    "volumeRef": "djpoir"
+  },
+  {
+    "category": "vivas",
+    "pattern": "*olha para * e pronuncia as palavras 'heal'.",
+    "matcher": {
+      "source": ".*olha para .* e pronuncia as palavras 'heal'\\.",
+      "flags": "i"
+    },
+    "soundPath": null,
+    "volumeRef": "djpoir"
+  },
+  {
+    "category": "vivas",
+    "pattern": "*olha para voc* enquanto pronuncia as palavras 'poir'.",
+    "matcher": {
+      "source": ".*olha para voc.* enquanto pronuncia as palavras 'poir'\\.",
+      "flags": "i"
+    },
+    "soundPath": null,
+    "volumeRef": "djpoir"
+  },
+  {
+    "category": "vivas",
+    "pattern": "*olha para voc* enquanto pronuncia as palavras 'heal'.",
+    "matcher": {
+      "source": ".*olha para voc.* enquanto pronuncia as palavras 'heal'\\.",
+      "flags": "i"
+    },
+    "soundPath": null,
+    "volumeRef": "djpoir"
+  },
+  {
+    "category": "vivas",
+    "pattern": "*olha para * e pronuncia as palavras 'unsoftl mgruub'.",
+    "matcher": {
+      "source": ".*olha para .* e pronuncia as palavras 'unsoftl mgruub'\\.",
+      "flags": "i"
+    },
+    "soundPath": null,
+    "volumeRef": "djunsoftlmgruub"
+  },
+  {
+    "category": "vivas",
+    "pattern": "*olha para * e pronuncia as palavras 'energy drain'.",
+    "matcher": {
+      "source": ".*olha para .* e pronuncia as palavras 'energy drain'\\.",
+      "flags": "i"
+    },
+    "soundPath": null,
+    "volumeRef": "djunsoftlmgruub"
+  },
+  {
+    "category": "vivas",
+    "pattern": "*olha para voc* enquanto pronuncia as palavras 'unsoftl mgruub'.",
+    "matcher": {
+      "source": ".*olha para voc.* enquanto pronuncia as palavras 'unsoftl mgruub'\\.",
+      "flags": "i"
+    },
+    "soundPath": null,
+    "volumeRef": "djunsoftlmgruub"
+  },
+  {
+    "category": "vivas",
+    "pattern": "*olha para voc* enquanto pronuncia as palavras 'energy drain'.",
+    "matcher": {
+      "source": ".*olha para voc.* enquanto pronuncia as palavras 'energy drain'\\.",
+      "flags": "i"
+    },
+    "soundPath": null,
+    "volumeRef": "djunsoftlmgruub"
+  }
+]
