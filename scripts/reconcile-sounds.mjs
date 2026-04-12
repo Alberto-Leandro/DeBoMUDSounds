@@ -41,7 +41,11 @@ const analysis = inventories.map((inv) => analyzeInventory(inv));
 const plannedMoves = analysis.flatMap((item) => item.moves);
 const report = renderReport(analysis, plannedMoves);
 
-const reportPath = path.join(repoRoot, "docs", "sound-reconciliation-report.md");
+const reportPath = path.join(
+  repoRoot,
+  "docs",
+  "sound-reconciliation-report.md",
+);
 fs.mkdirSync(path.dirname(reportPath), { recursive: true });
 fs.writeFileSync(reportPath, report, "utf8");
 
@@ -67,7 +71,9 @@ if (strict) {
       item.wrong.some((wrong) => wrong.reason === "pasta-incorreta"),
   );
   if (hasProblems) {
-    console.error("Falha strict: existem referencias ausentes ou arquivos em pasta incorreta.");
+    console.error(
+      "Falha strict: existem referencias ausentes ou arquivos em pasta incorreta.",
+    );
     process.exitCode = 1;
   }
 }
@@ -336,7 +342,7 @@ function renderReport(analysis, moves) {
 
   lines.push("# Relatorio de Reconciliacao de Sons");
   lines.push("");
-  lines.push(`Data: ${new Date().toISOString()}`);
+  lines.push("Data: deterministico");
   lines.push("");
   lines.push("## Lista por arquivo .set");
   lines.push("");
@@ -359,8 +365,12 @@ function renderReport(analysis, moves) {
 
   for (const tree of analysis) {
     lines.push(`### ${tree.key}`);
-    lines.push(`- Arquivos em pasta incorreta/nao referenciados: ${tree.wrong.length}`);
-    lines.push(`- Referencias ausentes (trigger sem arquivo): ${tree.missing.length}`);
+    lines.push(
+      `- Arquivos em pasta incorreta/nao referenciados: ${tree.wrong.length}`,
+    );
+    lines.push(
+      `- Referencias ausentes (trigger sem arquivo): ${tree.missing.length}`,
+    );
     lines.push(`- Orfaos: ${tree.orphans.length}`);
     lines.push(`- Movimentos planejados: ${tree.moves.length}`);
     lines.push("");
@@ -404,8 +414,12 @@ function renderReport(analysis, moves) {
   lines.push("## Regra aplicada para duplicados classes x fx");
   lines.push("");
   lines.push("- Classes prevalece por padrao.");
-  lines.push("- Arquivo permanece em FX somente quando houver trigger em uarFX.set para o mesmo nome.");
-  lines.push("- Arquivos fora das categorias esperadas foram movidos para uar_MigracaoPendencias.");
+  lines.push(
+    "- Arquivo permanece em FX somente quando houver trigger em uarFX.set para o mesmo nome.",
+  );
+  lines.push(
+    "- Arquivos fora das categorias esperadas foram movidos para uar_MigracaoPendencias.",
+  );
 
   return lines.join("\n");
 }

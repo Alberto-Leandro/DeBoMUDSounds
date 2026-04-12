@@ -1,6 +1,6 @@
 # Relatorio de Reconciliacao de Sons
 
-Data: 2026-04-12T21:20:16.206Z
+Data: deterministico
 
 ## Lista por arquivo .set
 

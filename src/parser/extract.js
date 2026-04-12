@@ -61,7 +61,7 @@ export function buildTriggerData(repoRoot) {
   ).map(toRuntimeTrigger);
 
   const manifest = {
-    generatedAt: new Date().toISOString(),
+    generatedAt: "deterministic",
     categories: {
       bgm: "data/bgm.json",
       fx: "data/fx.json",
