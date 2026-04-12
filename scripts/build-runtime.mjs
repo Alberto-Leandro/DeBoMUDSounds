@@ -13,7 +13,7 @@ await build({
   format: "iife",
   target: "es2020",
   outfile: path.join(docsRoot, "assets", "loader.js"),
-  sourcemap: true,
+  sourcemap: false,
   minify: false,
 });
 

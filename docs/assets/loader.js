@@ -413,4 +413,3 @@ ${added.join("\n")}`;
     alert("DeBoMUDSounds: erro ao inicializar. Veja o console para detalhes.");
   });
 })();
-//# sourceMappingURL=loader.js.map
