@@ -1,0 +1,62 @@
+;Aqui estão os triggers para magias e suas palavras
+;todos os audios foram feitos por pessoas reais, algumas que também jogam o DeBo!
+;Existe uma formula que varia o audio entre varias opcoes disponiveis
+;Abaixo tem o template para que voce tambem possa adicionar
+;
+;#trigger {*olha para * e pronuncia as palavras 'zzz'.} {#var djnomedamagia %case(%random(1,3),nomedamagia1.mp3,nomedamgia2.mp3,nomedamagia3.mp3); tVi @djnomedamagia 60}
+;#trigger {*olha para * e pronuncia as palavras 'xxx'.} {#var djnomedamagia %case(%random(1,3),nomedamagia1.mp3,nomedamgia2.mp3,nomedamagia3.mp3); tVi @djnomedamagia 60}
+;#trigger {*olha para voc* enquanto pronuncia as palavras 'zzz'.} {#var djnomedamagia %case(%random(1,3),nomedamagia1.mp3,nomedamgia2.mp3,nomedamagia3.mp3); tVi @djnomedamagia 60}
+;#trigger {*olha para voc* enquanto pronuncia as palavras 'xxx'.} {#var djnomedamagia %case(%random(1,3),nomedamagia1.mp3,nomedamgia2.mp3,nomedamagia3.mp3); tVi @djnomedamagia 60}
+
+#alias tVi {
+	#if {@numeroHandle < 217 OR @checkNumeroHandle < 217} {
+		#play uar_Vivas/%1 @volumeViva;
+		#var numeroHandle %Playhandle;
+		#var checkNumeroHandle %eval(@checkNumeroHandle+1);
+		#alarm 2 {#var checkNumeroHandle %eval(@checkNumeroHandle-1)}
+	} {}
+}
+#var volumeViva 50
+#alias volviva {
+	#if {%1 < 0} {
+		#var volumeViva 1
+		} {
+		#if {%1 >= 1 or %1 <= 100} {
+			#var volumeViva %1
+			} {
+			#var volumeViva 100
+			}
+		}
+	}
+;
+;Abaixo estao os presentes no trigger
+;
+#trigger {*olha para * e pronuncia as palavras 'sausabru'.} {#var djsausabru %case(%random(1,3),sausabru1_viva.mp3,sausabru2_viva.mp3,sausabru3_viva.mp3); tVi @djsausabru}
+#trigger {*olha para * e pronuncia as palavras 'poison'.} {#var djsausabru %case(%random(1,3),sausabru1_viva.mp3,sausabru2_viva.mp3,sausabru3_viva.mp3); tVi @djsausabru}
+#trigger {*olha para voc* enquanto pronuncia as palavras 'sausabru'.} {#var djsausabru %case(%random(1,3),sausabru1_viva.mp3,sausabru2_viva.mp3,sausabru3_viva.mp3); tVi @djsausabru}
+#trigger {*olha para voc* enquanto pronuncia as palavras 'poison'.} {#var djsausabru %case(%random(1,3),sausabru1_viva.mp3,sausabru2_viva.mp3,sausabru3_viva.mp3); tVi @djsausabru}
+
+#trigger {*olha para * e pronuncia as palavras 'yucandusvirr'.} {#var djyucandusvirr %case(%random(1,3),yucandusvirr1_viva.mp3,yucandusvirr2_viva.mp3,yucandusvirr3_viva.mp3); tVi @djyucandusvirr}
+#trigger {*olha para * e pronuncia as palavras 'fireball'.} {#var djyucandusvirr %case(%random(1,3),yucandusvirr1_viva.mp3,yucandusvirr2_viva.mp3,yucandusvirr3_viva.mp3); tVi @djyucandusvirr}
+#trigger {*olha para voc* enquanto pronuncia as palavras 'yucandusvirr'.} {#var djyucandusvirr %case(%random(1,3),yucandusvirr1_viva.mp3,yucandusvirr2_viva.mp3,yucandusvirr3_viva.mp3); tVi @djyucandusvirr}
+#trigger {*olha para voc* enquanto pronuncia as palavras 'fireball'.} {#var djyucandusvirr %case(%random(1,3),yucandusvirr1_viva.mp3,yucandusvirr2_viva.mp3,yucandusvirr3_viva.mp3); tVi @djyucandusvirr}
+
+#trigger {*olha para * e pronuncia as palavras 'noselacri'.} {#var djnoselacri %case(%random(1,3),noselacri1_viva.mp3,noselacri2_viva.mp3,noselacri3_viva.mp3); tVi @djnoselacri}
+#trigger {*olha para * e pronuncia as palavras 'blindness'.} {#var djnoselacri %case(%random(1,3),noselacri1_viva.mp3,noselacri2_viva.mp3,noselacri3_viva.mp3); tVi @djnoselacri}
+#trigger {*olha para voc* enquanto pronuncia as palavras 'noselacri'.} {#var djnoselacri %case(%random(1,3),noselacri1_viva.mp3,noselacri2_viva.mp3,noselacri3_viva.mp3); tVi @djnoselacri}
+#trigger {*olha para voc* enquanto pronuncia as palavras 'blindness'.} {#var djnoselacri %case(%random(1,3),noselacri1_viva.mp3,noselacri2_viva.mp3,noselacri3_viva.mp3); tVi @djnoselacri}
+
+#trigger {*olha para * e pronuncia as palavras 'wubaf poirubt'.} {#var djwubafpoirubt %case(%random(1,3),wubafpoirubt1_viva.mp3,wubafpoirubt2_viva.mp3,wubafpoirubt3_viva.mp3); tVi @djwubafpoirubt}
+#trigger {*olha para * e pronuncia as palavras 'minor healing'.} {#var djwubafpoirubt %case(%random(1,3),wubafpoirubt1_viva.mp3,wubafpoirubt2_viva.mp3,wubafpoirubt3_viva.mp3); tVi @djwubafpoirubt}
+#trigger {*olha para voc* enquanto pronuncia as palavras 'wubaf poirubt'.} {#var djwubafpoirubt %case(%random(1,3),wubafpoirubt1_viva.mp3,wubafpoirubt2_viva.mp3,wubafpoirubt3_viva.mp3); tVi @djwubafpoirubt}
+#trigger {*olha para voc* enquanto pronuncia as palavras 'minor healing'.} {#var djwubafpoirubt %case(%random(1,3),wubafpoirubt1_viva.mp3,wubafpoirubt2_viva.mp3,wubafpoirubt3_viva.mp3); tVi @djwubafpoirubt}
+
+#trigger {*olha para * e pronuncia as palavras 'poir'.} {#var djpoir %case(%random(1,3),poir1_viva.mp3,poir2_viva.mp3,poir3_viva.mp3); tVi @djpoir}
+#trigger {*olha para * e pronuncia as palavras 'heal'.} {#var djpoir %case(%random(1,3),poir1_viva.mp3,poir2_viva.mp3,poir3_viva.mp3); tVi @djpoir}
+#trigger {*olha para voc* enquanto pronuncia as palavras 'poir'.} {#var djpoir %case(%random(1,3),poir1_viva.mp3,poir2_viva.mp3,poir3_viva.mp3); tVi @djpoir}
+#trigger {*olha para voc* enquanto pronuncia as palavras 'heal'.} {#var djpoir %case(%random(1,3),poir1_viva.mp3,poir2_viva.mp3,poir3_viva.mp3); tVi @djpoir}
+
+#trigger {*olha para * e pronuncia as palavras 'unsoftl mgruub'.} {#var djunsoftlmgruub %case(%random(1,3),unsoftlmgruub1_viva.mp3,unsoftlmgruub2_viva.mp3,unsoftlmgruub3_viva.mp3); tVi @djunsoftlmgruub}
+#trigger {*olha para * e pronuncia as palavras 'energy drain'.} {#var djunsoftlmgruub %case(%random(1,3),unsoftlmgruub1_viva.mp3,unsoftlmgruub2_viva.mp3,unsoftlmgruub3_viva.mp3); tVi @djunsoftlmgruub}
+#trigger {*olha para voc* enquanto pronuncia as palavras 'unsoftl mgruub'.} {#var djunsoftlmgruub %case(%random(1,3),unsoftlmgruub1_viva.mp3,unsoftlmgruub2_viva.mp3,unsoftlmgruub3_viva.mp3); tVi @djunsoftlmgruub}
+#trigger {*olha para voc* enquanto pronuncia as palavras 'energy drain'.} {#var djunsoftlmgruub %case(%random(1,3),unsoftlmgruub1_viva.mp3,unsoftlmgruub2_viva.mp3,unsoftlmgruub3_viva.mp3); tVi @djunsoftlmgruub}

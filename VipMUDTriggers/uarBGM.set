@@ -1,0 +1,351 @@
+;Aqui estao controles de volume do jogo. Temos um valor numerico que é o volume padrao
+;dessa categoria de som para o jogo. Ao alterar aqui, sempre que o jogo for carregado os volumes serao definidos por este valor
+;Sons ambientes de acordo com onde estiver
+#var volumeMapa 50
+;Então, o volume para os mapas está configurado para 50 por cento do máximo.
+;Alem de alterar o valor da variavel acima, voce tambem pode alterar dentro do jogo usando o atalho volmus
+;volmus 100 deixa o volume no maximo, volmus 1 deixa no minimo.
+;Tambem e possivel desligar e ligar os sons de mapas. o atalho e ligarmusica para ligar e desligarmusica para desligar.
+
+
+#var mapaAnterior paraiso_bgm.mp3
+#var mapaloop novaThalos_bgm.mp3
+
+#var onOffBgm 1
+#var listaImpedirAnterior null
+#var listaImpedir nul
+#var bloquearTocar 0
+
+;
+#alias ligarmusica {#var onOffBgm 1; tocaBgm}
+;
+#alias desligarmusica {#var onOffBgm 0; #pc %Mp3loop stop}
+;
+#alias tocaBgm {
+	#if {@onOffBgm} {
+		#pc %Mp3loop stop;
+		#playloop uar_Bgm/@mapaLoop  @volumeMapa; #var loopHandle %Mp3loop; #PC @loopHandle Pan 0; #PC @loopHandle Frequency 22050;
+		#var mapaAnterior @mapaLoop;
+		#var listaimpediranterior @listaimpedir;
+		} {#pc %Mp3loop stop}
+}
+;
+
+#alias controleLoop {
+	#var block1 %word(@listaImpedirAnterior,"|",1);
+	#var block2 %word(@listaImpedirAnterior,"|",2);
+	#if {@mapaLoop=@block1 OR @mapaLoop=@block2} {#var bloquearTocar 1} {#var bloquearTocar 0};
+	#if {@mapaAnterior=@mapaLoop OR @bloquearTocar} {} {tocaBgm}
+}
+;
+#alias volmus {
+	#if {%1 < 0} {
+		#var volumeMapa 1;
+		tocaBgm;
+		#say {Volume ambiente = 1}
+		} {
+		#if {%1 >= 1 or %1 <= 100} {
+			#var volumeMapa %1;
+			tocaBgm;
+			#say {Volume ambiente = %1}
+			} {
+			#var volumeMapa 100;
+			tocaBgm;
+			#say {Volume ambiente = 100}
+			}
+		}
+	}
+;
+
+
+;Stard das músicas ao entrar no jogo
+#trigger {Seja bem vindo!} {tocaBgm}
+
+;entradas de midgaard
+#trigger {O Templo de Midgaard} {#var mapaLoop midgaard_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Fora do Port*o Oeste de Midgaard } {#var mapaLoop midgaard_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Na Aflu*ncia} {#var mapaLoop midgaard_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Dentro do Port*o Leste de Midgaard} {#var mapaLoop midgaard_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;a estrada para o castelo de midgaard
+#trigger {A Intersec*o do Caminho} {#var mapaLoop estradaCastelo_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {A Estrada do Rei} {#var mapaLoop estradaCastelo_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Na Ponte Levadi*a} {#var mapaLoop estradaCastelo_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {A Sa*da Leste de Midgaard} {#var mapaLoop estradaCastelo_bgm.mp3; #var listaImpedir null; controleLoop}
+
+; a vila dos smurfs
+#trigger {A Entrada Para a Vila dos Smurfs} {#var mapaLoop vilaSmurfs_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {A Entrada do Castelo de Gargamel} {#var mapaLoop vilaSmurfs_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {O Covil de Gargamel} {#var mapaLoop covilGargamel_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;castelo midgaard
+#trigger {Na Ponte Levadi*a} {#var mapaLoop casteloMidgaard_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;tabuleiro de xadrez
+#trigger {O Grande Tabuleiro de Xadrez de Midgaard} {#var mapaLoop tabuleiro_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;Área dos Novatos
+#trigger {A Entrada da *rea dos Novatos} {#var mapaLoop areaNovatos_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;casa mal assombrada
+#trigger {Dentro da Horripilante Casa Escura} {#var mapaLoop casaMalAssombrada_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;Estradas norte Midgaard
+#trigger {O Grande Campo de Midgaard} {#var mapaLoop estradaNorteMidgaard_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Na Porta da Frente} {#var mapaLoop estradaNorteMidgaard_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {A Estrada Midgaard-Jareth} {#var mapaLoop estradaNorteMidgaard_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;Região Osaka, Edo e Batalha
+;Osaka
+#trigger {Embaixo do Torii} {#var mapaLoop osaka_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {A Bulevar Hondoori} {#var mapaLoop osaka_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {A Zona Alegre} {#var mapaLoop osaka_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;As 4 estradas
+#trigger {Antes da Entrada de Osaka} {#var mapaLoop caminhoSeixos_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {A Estrada Pavimentada Oeste} {#var mapaLoop caminhoSeixos_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {A Eleva*o da Estrada} {#var mapaLoop caminhoSeixos_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {A Estrada Pavimentada Norte} {#var mapaLoop caminhoSeixos_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {O Final do Caminho de Seixos} {#var mapaLoop caminhoSeixos_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {O Caminho de Seixos } {#var mapaLoop caminhoSeixos_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {O Final da Estrada Pavimentada Sul} {#var mapaLoop caminhoSeixos_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Nos Port*es da Cidade de Edo} {#var mapaLoop caminhoSeixos_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;Edo
+#trigger {A Avenida do Sol Nascente} {#var mapaLoop edo_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;musashi
+#trigger {O Campo de Musashi} {#var mapaLoop musashi_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;japao do mar
+#trigger {A Entrada de Kita-Kyushu} {#var mapaLoop japaoDoMar_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {A Entrada de Kyoto} {#var mapaLoop japaoDoMar_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {A Entrada do Porto de Edo} {#var mapaLoop japaoDoMar_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {A Entrada do Pal*cio Imperial} {#var mapaLoop japaoDoMar_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;Catedral de cristal
+#trigger {Em Frente * Grande Catedral de Cristal} {#var mapaLoop catedralCristal_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;Jareth
+#trigger {O Centro da Cidade de Jareth} {#var mapaLoop jareth_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Avenida Floris} {#var mapaLoop jareth_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {A Via da Venera*o} {#var mapaLoop jareth_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {O Templo de Todos e Ningu*m} {#var mapaLoop jareth_bgm.mp3; #var listaImpedir null; controleLoop}
+
+; saindo leste de jareth
+#trigger {O Fim da Trilha} {#var mapaLoop natureza1_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;caverna homem pálido
+#trigger {Na Porta da Caverna} {#var mapaLoop cavernaHomemPalido_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {O Port*o de Entrada do Inferno} {#var mapaLoop cavernaHomemPalido_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;inferno area
+#trigger {Gan*ncia} {#var mapaLoop inferno_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {O Corredor da Difama*o} {#var mapaLoop inferno_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {O Corredor dos Condenados} {#var mapaLoop inferno_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;Torre da magia
+#trigger {Dentro Da Torre Da Magia} {#var mapaLoop torreMagia_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {A Entrada Para a Torre} {#var mapaLoop natureza1_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;Nova Sparta
+#trigger {O Porto de Nova Esparta} {#var mapaLoop novaSparta_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Broadway} {#var mapaLoop novaSparta_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;Tunel do rio de midgaard
+#trigger {Um Longo T*nel} {#var mapaLoop tunelCaverna1_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {A Entrada da Caverna} {#var mapaLoop tunelCaverna1_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Um T*nel nas Montanhas} {#var mapaLoop tunelCaverna2_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;Cidade dos drows 
+#trigger {Uma Caverna Gigante} {#var mapaLoop cidadeDrows_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;Aglandiir
+#trigger {O Covil} {#var mapaLoop aglandir_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {O Pr*ncipe Drag*o, Aglandiir, est* sentado aqui, olhando voc* com curiosidad*} {#var mapaLoop aglandir_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;Deserto norte
+#trigger {O Grande Deserto Oriental} {#var mapaLoop desertoNorte_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {O Grande Deserto Or} {#var mapaLoop desertoNorte_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Fora do Port*o Sul de Nova Thalos} {#var mapaLoop desertoNorte_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;Deserto Sul
+#trigger {O Come*o do Deserto do Sul} {#var mapaLoop desertoSul_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;Roma
+#trigger {Uma Pequena Trilha Suja} {#var mapaLoop roma_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {O Port*o de G*lia} {#var mapaLoop roma_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;Galia
+#trigger {Uma Rua de Terra Batida} {#var mapaLoop galia_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;antiga Thalos
+#trigger {O Grande Port*o de Thalos} {#var mapaLoop thalos_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;nova Thalos
+#trigger {Dentro do Port*o Oeste de Nova Thalos} {#var mapaLoop novaThalos_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {A Ponte Sul} {#var mapaLoop novaThalos_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {A Rampa Para os Barcos} {#var mapaLoop novaThalos_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Dentro do Port*o Sul de Nova Thalos} {#var mapaLoop novaThalos_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Dentro do Port*o Oriental de Nova Thalos} {#var mapaLoop novaThalos_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {O Port*o do Pal*cio} {#var mapaLoop novaThalos_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Dentro do Port*o Norte de Nova Thalos} {#var mapaLoop novaThalos_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;paraiso midgaard
+#trigger {Um Teste de Lealdade} {#var mapaLoop paraiso_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;oceano
+#trigger {O Come*o do Oceano} {#var mapaLoop oceano_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Logo Abaixo da Superf*cie do Oceano} {#var mapaLoop oceano_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Sob o Oceano} {#var mapaLoop oceano_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Nas Profundezas Sob o Oceano} {#var mapaLoop oceano_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {A Entrada Para as Ru*nas} {#var mapaLoop oceano_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;floresta negra
+#trigger {O Cora*o de Trevas na Mata} {#var mapaLoop florestaNegra_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Um Antigo Caminho Atrav*s da Floresta} {#var mapaLoop florestaNegra_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Nos Arredores da Floresta Negr*} {#var mapaLoop florestaNegra_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;macacos
+#trigger {Um humano selvagem est* aqui, encarando voc* com um olhar muito nervoso.} {#var mapaLoop areaMacacos_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Um gorila-ca*ador est* aqui, procurando algo para matar.} {#var mapaLoop areaMacacos_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {A Entrada para a Vila dos Macacos} {#var mapaLoop areaMacacos_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;cidade goblins
+#trigger {Caindo, Caindo, Para a Cidade dos Goblins!} {#var mapaLoop cidadeGoblins_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;elfos
+#trigger {A Entrada da Floresta dos Elfos} {#var mapaLoop elfos_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;territorio orc
+#trigger {Apenas Passando Atrav*s...} {#var mapaLoop territorioOrc_bgm.mp3; #var listaImpedir {natureza3_bgm.mp3|tunelCaverna1_bgm.mp3}; controleLoop}
+
+;ankalador
+#trigger {Nas Am*gdalas de Pedra} {#var mapaLoop ankalador_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Diante do Drag*o} {#var mapaLoop ankalador_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;Sundhaven
+#trigger {O guarda do port*o est* aqui, com os olhos mirando o horizonte.} {#var mapaLoop sundhaven_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {O Port*o Oeste de Sundhaven} {#var mapaLoop sundhaven_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {O Templo da Piedade} {#var mapaLoop sundhaven_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {O Port*o Leste de Sundhaven} {#var mapaLoop sundhaven_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;aranhas
+#trigger {O Caminho de Amarras} {#var mapaLoop teiaEterea_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {A Entrada para Teia Et*rea} {#var mapaLoop teiaEterea_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;balrogs
+#trigger {O Po*o de Kerjim} {#var mapaLoop pocoBalrogs_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;catedral abandonada 
+#trigger {A Catedral do P*tio} {#var mapaLoop catedralSanctum_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;gnomos
+#trigger {A Entrada para a Vila dos Gnomos} {#var mapaLoop gnomosHalfling_bgm.mp3; #var listaImpedir null; controleLoop}
+;halfling
+#trigger {A Entrada da Vila dos Halflings} {#var mapaLoop gnomosHalfling_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;floresta sanctun jade
+#trigger {A Floresta Jade} {#var mapaLoop florestaJade_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Um aviso afixado aqui chama sua aten*o.} {#var mapaLoop florestaJade_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Um Vale Selvagem} {#var mapaLoop florestaJade_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;Silverthorn fiz pelos guardas, pois os mapas tem nomes gen*ricos
+#trigger {Um dos famosos cavaleiros prateados de Silverthorne est* aqui.} {#var mapaLoop silverthorn_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Uma cidad* de Silverthorne est* aqui, apressada*} {#var mapaLoop silverthorn_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Teletransporte de Silverthorne} {#var mapaLoop silverthorn_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Um guarda patrulheiro de Silverthorne est* aqui, sempre em vig*lia.} {#var mapaLoop silverthorn_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;camelot pela entrada porque as areas são genericas
+#trigger {A Floresta de Arden} {#var mapaLoop camelot_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;Morada de Flyre
+#trigger {tomando cuidado com o que parece ser um grande crocodilo no fosso abaixo} {#var mapaLoop flyre_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Um pacato cidad*o passeia por aqui.} {#var mapaLoop flyre_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {O portentoso e altivo rei est* aqui.} {#var mapaLoop flyre_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {A altiva e belíssima rainha est* aqui.} {#var mapaLoop flyre_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;saindo oeste de midgaard
+#trigger {Uma Passagem Densa na Floresta} {#var mapaLoop natureza2_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Uma Estrada Atrav*s das Plan*cies} {#var mapaLoop natureza2_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Na Floresta} {#var mapaLoop natureza2_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Uma Estreita Trilha Atrav*s da Escura Floresta Profunda} {#var mapaLoop natureza2_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Um Caminho Mal Iluminado} {#var mapaLoop natureza2_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Uma Clareira Cercada Por Carvalhos e Bôrdos} {#var mapaLoop natureza2_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Uma árvore colossal bloqueia o caminho a oeste.} {#var mapaLoop natureza2_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Mais Fundo na Floresta Negr*} {#var mapaLoop natureza2_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;saida oeste de silverthorn
+#trigger {Na Estrada de Paralelep*pedos} {#var mapaLoop natureza3_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Uma Trilha na Floresta} {#var mapaLoop natureza3_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Uma Interrup*o na Floresta} {#var mapaLoop natureza3_bgm.mp3; #var listaImpedir null; controleLoop}
+#trigger {Uma Estrada de Terra} {#var mapaLoop natureza3_bgm.mp3; #var listaImpedir null; controleLoop}
+
+;
+;
+;
+;
+;faltando mp3
+
+;o caminho da besta
+;Há um assustador lamento vindo da sala ao leste.
+
+;sekigahara
+;A Descida da Depressão
+
+;saindo sul de midgaard
+;O Rio Ishtar
+
+;Deuses
+;A Montanha no Deserto
+
+;ruinas 
+;Um Caminho de Conchas
+
+;paraiso morte
+;O Paraíso
+
+;caminho
+;Um Caminho no Vazio
+
+;espiral do dragao
+;Caminhando Através da Espiral do Dragão
+
+;condado
+;A Entrada para o Condado
+
+;praia sundhaven
+;Uma Escadaria que Leva ao Mar
+
+;trilha sanctun
+;Uma Antiga Estrada de Pedra
+;A Trilha Sanctus
+
+;favela dos goblins
+;A Entrada da Favela dos Goblins
+
+;area Mordecai
+;Uma aldeã muito magra se encontra por aqui. Ela é pálida, doente e um tanto
+;Uma criança coberta de horríveis feridas mancha cada lugar por onde passa.
+;Um homem está aqui, fazendo o que quer que Mordecai o tenha ordenado fazer.
+;Um dos soldados de Mordecai marcha por aqui, com muita atenção em suas funções.
+;A Casa de Mordecai
+;O Lar do Tenente Caspan
+
+;kerofic
+;O Portal Lunar
+;O Portal Estelar
+
+;planicie e rio
+;O Rio dos Heróis
+;O Campo Aberto
+;A Parte Canalizada do Rio dos Vencedores
+;O Rio dos Bravos
+;O Canal Estreito Entre Campos de Trigo
+
+
+;callyuni
+;Um guarda callyuni está aqui, procurando encrenca.
+;A Praça do Porto
+;As Docas de Callyus
+

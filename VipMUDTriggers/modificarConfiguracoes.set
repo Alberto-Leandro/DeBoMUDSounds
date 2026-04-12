@@ -1,0 +1,83 @@
+;Arquivo de configuracao dos triggers
+;
+;Nesse arquivo voce pode alterar algumas coisas dos triggers
+;de forma que nao precise mudar sempre que entrar no jogo.
+;Por exemplo, mudar a configuracao de volume dos mapas de 50 para 40, nao precisando sempre mudar
+;o valor quando entrar no jogo.
+;Tambem estou explicando aqui os comandos possiveis e o que eles fazem.
+;Primeiro as variaveis globais. Usado para decidir se deseja usar um pacote de trigger especifico ou nao.
+;Por padrao todos os triggers sao carregados e tem valor 1. Ao mudar o valor de 1 para 0 o pacote nao sera mais carregado.
+
+;Triggers de batalha, numero 1 significa que sera carregado, numero 0 desativa o carregamento
+#var carregarTriggerUARBatalha 1
+
+;Triggers de magias e habilidades de classes, numero 1 significa que sera carregado, numero 0 desativa o carregamento
+#var carregarTriggerUARClasses 1
+
+;Triggers de dublagem das magias com vozes reais, numero 1 significa que sera carregado, numero 0 desativa o carregamento
+#var carregarTriggerUARViva 1
+
+;Triggers de sons gerais do jogo, numero 1 significa que sera carregado, numero 0 desativa o carregamento
+#var carregarTriggerUARBatalha 1
+
+;Triggers de musicas ambientes para areas do jogo, numero 1 significa que sera carregado, numero 0 desativa o carregamento
+#var carregarTriggerUARBgm 1
+
+;Aqui estao controles de volume do jogo. Temos um valor numerico que é o volume padrao
+;dessa categoria de som para o jogo. Ao alterar aqui, sempre que o jogo for carregado os volumes serao definidos por este valor
+
+;Efeitos especiais e genericos, como andar, comer, cair, conversar, etc.
+#var volumefx 50
+
+;Habilidades e magias de classe.
+#var volumeClasses 50
+
+
+
+;Volume dos sons de batalha, como gongo de experiencia e indicador de vida
+#var volumeBatalha 50
+
+;Aqui sao os controles para quais linhas do resumo de batalhas
+;voce deseja que sejam exibidas a cada termino de uma luta.
+; Com o numero 1 a linha sera exibida, mudando para o numero 0 ela deixara de ser exibida.
+;Tambem tem o atalho caso voce queira alternar dentro do jogo se a linha aparece ou nao
+; Ao usar o atalho, caso a linha esteja aparecendo ela vai deixar de aparecer e caso nao esteja 
+;aparecendo ira comecar a aparecer.
+
+;Aqui desliga ou liga o som de gongo ao terminar uma batalha
+#var tocarSomDeGongoAoMatar 1
+#alias tocarSom {#if {@tocarSomDeGongoAoMatar} {#var tocarSomDeGongoAoMatar 0; #say {Desativado tocar gongo}} {#var tocarSomDeGongoAoMatar 1; #say {Ativado tocar gongo}}}
+
+;Essa linha mostra a precisao e esquiva da batalha
+#var mostrarPrecisaoEEsquiva 1
+#alias mostrarEsquiva {#if {@mostrarPrecisaoEEsquiva} {#var mostrarPrecisaoEEsquiva 0; #say {Desativado mostrar precisao e esquiva}} {#var mostrarPrecisaoEEsquiva 1; #say {Ativado mostrar precisao e esquiva}}}
+
+;Essa linha mostra o total de dano causado e recebido durante a batalha
+#var mostrarTotalDeDanoCausadoERecebido 0
+#alias mostrarDanos {#if {@mostrarTotalDeDanoCausadoERecebido} {#var mostrarTotalDeDanoCausadoERecebido 0; #say {Desativado mostrartotal de danos}} {#var mostrarTotalDeDanoCausadoERecebido 1; #say {Ativado mostrartotal de danos}}}
+
+;Essa linha mostra a media do dano causado
+#var mostrarMediaDeDanoCausado 0
+#alias mostrarMediaCausado {#if {@mostrarMediaDeDanoCausado} {#var mostrarMediaDeDanoCausado 0; #say {Desativado mostrar media de dano causado}} {#var mostrarMediaDeDanoCausado 1; #say {Ativado mostrar media de dano causado}}}
+
+;Essa linha mostra a media do dano recebido
+#var mostrarMediaDeDanoRecebido 0
+#alias mostrarMediaRecebido {#if {@mostrarMediaDeDanoRecebido} {#var mostrarMediaDeDanoRecebido 0; #say {Desativado mostrar media de dano recebido}} {#var mostrarMediaDeDanoRecebido 1; #say {Ativado mostrar media de dano recebido}}}
+
+;Essa linha mostra a quantidade de turnos e quantos ataques foram feitos em media por turno, seja acertando ou errando
+#var mostrarTurnosEAtaquesPorTurno 1
+#alias mostrarTurnos {#if {@mostrarTurnosEAtaquesPorTurno} {#var mostrarTurnosEAtaquesPorTurno 0; #say {Desativado mostrar turnos e ataques por turno}} {#var mostrarTurnosEAtaquesPorTurno 1; #say {Ativado mostrar turnos e ataques por turno}}}
+
+;Essa linha mostra o tier da experiencia recebida e a experiencia por turno de batalha 
+#var mostrarTierEExperienciaPorTurno 1
+#alias mostrarXp {#if {@mostrarTierEExperienciaPorTurno} {#var mostrarTierEExperienciaPorTurno 0; #say {Desativado mostrar tier e experiencia por turno}} {#var mostrarPrecisaoEEsquiva 1; #say {Ativado mostrar tier e experiencia por turno}}}
+
+;Essa linha mostra as habilidades de defesa que foram ativadas durante o turno.
+;Apenas sao consideradas habilidades que evitam totalmente o dano recebido
+#var mostrarDefesasHabilidadesEMagias 1
+#alias mostrarDefesas {#if {@mostrarDefesasHabilidadesEMagias} {#var mostrarDefesasHabilidadesEMagias 0; #say {Desativado mostrar defesas}} {#var mostrarDefesasHabilidadesEMagias 1; #say {Ativado mostrar defesas}}}
+
+;Essa linha mostra o dano total da batalha causado por habilidades
+;e magias que refletem dano de volta ao atacante, como back slash e bone shield
+#var mostrarDanoDeReboteDeHabilidadesEMagias 0
+#alias mostrarRebotes {#if {@mostrarDanoDeReboteDeHabilidadesEMagias} {#var mostrarDanoDeReboteDeHabilidadesEMagias 0; #say {Desativado mostrar rebotes}} {#var mostrarDanoDeReboteDeHabilidadesEMagias 1; #say {Ativado mostrar rebotes}}}

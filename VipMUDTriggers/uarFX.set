@@ -1,0 +1,411 @@
+#var numeroHandle 200
+#var checkNumeroHandle 200
+#alias tFx {
+	#if {@numeroHandle < 217 OR @checkNumeroHandle < 217} {
+		#play uar_Fx/%1 @volumefx;
+		#var numeroHandle %Playhandle;
+		#var checkNumeroHandle %eval(@checkNumeroHandle+1);
+		#alarm 2 {#var checkNumeroHandle %eval(@checkNumeroHandle-1)}
+	} {
+	#if {@checkNumeroHandle>=217} {#alarm 2 {#var checkNumeroHandle 216}} {}
+	}
+}
+
+;Aqui está  o atalho para controlar o volume dos efeitos do jogo. usar volfx ( V O L F X ) e o número que todos os sons devem tocar. Por padrão, a variável vem como 50, podendo escolher entre 1 e 100
+
+#alias volfx {
+	#if {%1 < 0} {
+		#var volumefx 1;
+		#say {Volume dos efeitos = 1}
+		} {
+		#if {%1 >= 1 or %1 <= 100} {
+			#var volumefx %1;
+			#say {Volume dos efeitos = %1}
+			} {
+			#var volumefx 100;
+			#say {Volume dos efeitos = 100}
+			}
+		}
+	}
+;
+;
+;Separei de uma forma a tentar organizar
+;tematicamente por grupo os triggers
+;como leilão, conversas, etc.
+;
+;
+;
+;
+;
+;
+;
+;Double - Esse tem atalhos que dizem quanto tempo ainda resta de double. basta digitar verdouble
+
+#var GlobaldoubleGold 0
+#var GlobaldoubleXp 0
+
+#alias verdouble {
+	#if {@GlobaldoubleXp > 0} {#say {@GlobaldoubleXp horas de double Xp}} {};
+	#if {@GlobaldoubleGold > 0} {#say {@GlobaldoubleGold horas de double Gold}} {};
+	#if {@GlobaldoubleXp = 0 AND @GlobaldoubleGold = 0} {#say {Sem double no momento}} {};
+}
+#alias tagdouble {
+	#if {@GlobaldoubleXp > 0} {t @GlobaldoubleXp horas de double Xp} {};
+	#if {@GlobaldoubleGold > 0} {t @GlobaldoubleGold horas de double Gold} {};
+	#if {@GlobaldoubleXp = 0 AND @GlobaldoubleGold = 0} {t Sem double no momento} {};
+}
+#trigger {DoubleGOLD: Os deuses liberaram &{GlobaldoubleGold} hora* de DoubleGOLD! Aproveitem!} {tFx double-gold-inicio.mp3}
+#trigger {DoubleXP: Os deuses liberaram &{GlobaldoubleXp} hora* de DoubleXP! Aproveitem!} {tFx double-inicio-xp.mp3}
+#trigger {DoubleGOLD: Uau! * acabou de adicionar &{GlobaldoubleGold} hor* de DoubleGOLD. Mandou bem! } {tFx double-gold-inicio.mp3}
+#trigger {DoubleXP: Uau! * acabou de adicionar &{GlobaldoubleXp} hora* de DoubleXP. Mandou bem!} {tFx double-inicio-xp.mp3}
+#trigger {DoubleGOLD: &{GlobaldoubleGold} horas para o fim.} {tFx Beep7.mp3}
+#trigger {DoubleXP: &{GlobaldoubleXp} horas para o fim.} {tFx Beep7.mp3}
+#trigger {DoubleGOLD: S* mais &{GlobaldoubleGold} hora para o fim. * melhor se apressar!} {tFx double-uma-hora.mp3}
+#trigger {DoubleXP: S* mais &{GlobaldoubleXp} hora para o fim. * melhor se apressar!} {tFx double-uma-hora.mp3}
+#trigger {DoubleGOLD: Chega, n*? Se n*o aproveitou, perdeu. Quem sabe numa pr*xima vez :-)} {tFx double-gold-fim.mp3; #var GlobaldoubleGold 0}
+#trigger {DoubleXP: Chega, n*? Se n*o aproveitou, perdeu. Quem sabe numa pr*xima vez :-)} {tFx double-xp-fim.mp3; #var GlobaldoubleXp 0}
+
+;Leilão
+
+#trigger {* leiloa*} {tFx falandoLeilao_debo.mp3}
+#trigger {* coloca * a venda por *} {tFx leilao-inicio.mp3}
+#trigger {* foi vendido para * por *} {tFx leilao-venda.mp3}
+#trigger {* oferece * por *} {tFx leilao-oferta.mp3}
+#trigger {* agora possui *.} {tFx venda.mp3}
+;Um lembas não foi vendido e volta para Blackalnet.
+;Um lembas está sendo leiloado por 14 moedas!
+
+;Teleportes
+
+#trigger {* aparece com um estouro ensurdecedor.} {tFx estouro-ensurdecedor.mp3}
+#trigger {* aparece dentro de uma nuvem de fuma*a!} {tFx nuvem-de-fumaca-in.mp3}
+#trigger {* aparece em suas m*os.} {tFx nuvem-de-fumaca-in.mp3}
+#trigger {* aparece em uma nuvem de fuma*a!} {tFx nuvem-de-fumaca-out.mp3}
+#trigger {* aparece no meio da sala.} {tFx aparecer.mp3}
+#trigger {* aparece repentinamente.} {tFx transferir.mp3}
+#trigger {* um portal! Voc* resolve caminhar atrav*s dele...} {tFx entrar-no-portal.mp3}
+#trigger {Voc* doa *.  Isso desaparece em uma nuvem de fuma*a!} {tFx nuvem-de-fumaca-out.mp3}
+
+;Gemotes
+
+#trigger {* arrota. Que nojo!} {tFx arroto.mp3}
+#trigger {* bate palmas em aprova*o.} {tFx palmas.mp3}
+#trigger {* choraminga lamentavelmente sobre toda a situa*o.} {tFx choramingar.mp3}
+#trigger {* d* um tapa em *} {tFx tapa.mp3}
+#trigger {* demonstra aprova*o e come*a a aplaudir.} {tFx palmas.mp3}
+#trigger {* espirra.} {tFx espirro.mp3}
+#trigger {* irrompe em l*grimas.} {tFx choramingar.mp3}
+#trigger {* joga a cabe*a para tr*s e come*a a gargalhar insanamente!} {tFx gargalhada.mp3}
+#trigger {* lhe d* um longo e apaixonado beijo, que parece durar eternamente...} {tFx beijo.mp3}
+#trigger {* solta um peido que mais parece um rugido!} {tFx peido.mp3}
+#trigger {* tem um ataque de riso.} {tFx ataque-de-riso.mp3}
+#trigger {*bate palmas em aprova*o.} {tFx gemotePalmas_debo.mp3}
+#trigger {*demonstra aprova*o e come*a a aplaudir.} {tFx gemotePalmas_debo.mp3}
+#trigger {*espirra.} {tFx espirro_debo.mp3}
+#trigger {ATCHIMMM!} {tFx espirro.mp3}
+#trigger {Clap, clap, clap.} {tFx palmas.mp3}
+#trigger {Voc* aplaude.} {tFx palmas.mp3}
+#trigger {Voc* come*a a ter um ataque de riso.} {tFx ataque-de-riso.mp3}
+#trigger {Voc* gargalha insanamente.} {tFx gargalhada.mp3}
+#trigger {Voc* toma um belo tapa de *} {tFx tapa.mp3}
+
+;Canais de mensagens
+
+#trigger {* berra* '*'} {tFx berrar_debo.mp3}
+#trigger {* cochicha para *: '*'} {tFx cochichar.mp3}
+#trigger {* conta para o grupo: '*'} {tFx mensagem-grupo.mp3}
+#trigger {* diz: '*'} {tFx mensagem-dizer.mp3}
+#trigger {* exclama* '*'} {tFx mensagem-dizer.mp3}
+#trigger {* fala para o canal privado: '*'} {tFx mensagem-canal-privado.mp3}
+#trigger {* fala para os aventureiros*} {tFx falarAventureiros_debo.mp3}
+#trigger {* falou por telepatia com voc*: '*'} {tFx mensagem-telepatia.mp3}
+#trigger {* fechou seu canal privado.} {tFx canal-privado-fechar.mp3}
+#trigger {* grita* '*'} {tFx gritar_debo.mp3}
+#trigger {* murmura: '*'} {tFx mensagem-dizer.mp3}
+#trigger {* questiona: '*'} {tFx mensagem-dizer.mp3}
+#trigger {* se surpreende* '*'} {tFx mensagem-dizer.mp3}
+#trigger {* sorri e diz* '*'} {tFx mensagem-dizer.mp3}
+#trigger {* tagarela: '*'} {tFx mensagem-tagarela.mp3}
+#trigger {*congratula: '*} {tFx congratula_debo.mp3}
+#trigger {Escreva sua mensagem*} {tFx escrevendoQuadro_debo.mp3}
+#trigger {Voc* acaba de abrir seu canal privado.} {tFx canal-privado-abrir.mp3}
+#trigger {Voc* falou por telepatia com*} {tFx canalTelepatia_debo.mp3}
+#trigger {Voc* foi adicionad* ao canal privado de *.} {tFx canal-privado-abrir.mp3}
+#trigger {Voc* saiu do canal privado.} {tFx canal-privado-fechar.mp3}
+
+;Movimento
+
+#trigger {* chegou de *, voando. (PvP)} {tFx alguem-chegou-voando.mp3}
+#trigger {* chegou de *, voando.} {tFx alguem-chegou-voando.mp3}
+#trigger {* chegou de *. (PvP)} {tFx alguem-chegou.mp3}
+#trigger {* chegou de *.} {tFx alguem-chegou.mp3}
+#trigger {* chegou do *, voando. (PvP)} {tFx alguem-chegou-voando.mp3}
+#trigger {* chegou do *, voando.} {tFx alguem-chegou-voando.mp3}
+#trigger {* chegou do *. (PvP)} {tFx alguem-chegou.mp3}
+#trigger {* chegou do *.} {tFx alguem-chegou.mp3}
+#trigger {* vai para *.} {tFx alguem-saiu.mp3}
+#trigger {* voa para *.} {tFx alguem-saiu-voando.mp3}
+#trigger {*A grade.} {tFx abrePortao_debo.mp3}
+#trigger {*abre a porta.} {tFx abrePorta_debo.mp3}
+#trigger {*abre o port*} {tFx abrePortao_debo.mp3}
+#trigger {*Click*} {tFx click.mp3}
+#trigger {*fecha a porta.} {tFx fechaPorta_debo.mp3}
+#trigger {*fecha o port*.} {tFx abrePortao_debo.mp3}
+#trigger {A correnteza te leva para*} {tFx correnteza_debo.mp3}
+#trigger {A grade est* fechada.} {tFx pareceFechado_debo.mp3}
+#trigger {A grade foi*pelo outro lado.} {tFx abrePortao_debo.mp3}
+#trigger {A porta est* fechada.} {tFx porta-esbarrar.mp3}
+#trigger {A porta foi aberta pelo outro lado.} {tFx abrePorta_debo.mp3}
+#trigger {A porta foi fechada pelo outro lado.} {tFx fechaPorta_debo.mp3}
+#trigger {Isso est* trancado.} {tFx trancado.mp3}
+#trigger {Isso parece estar fechado.} {tFx esta-fechado.mp3}
+#trigger {O port*o foi*pelo outro lado.} {tFx abrePortao_debo.mp3}
+#trigger {O*est* fechado.} {tFx pareceFechado_debo.mp3}
+#trigger {Parece estar trancad*.} {tFx trancado.mp3}
+#trigger {Um zumbi chegou*} {tFx mobChegou_debo.mp3}
+#trigger {Uma carro*a de madeira chegou *.} {tFx carroca-chegou.mp3}
+#trigger {Uma carro*a de madeira vai *.} {tFx carroca-saiu.mp3}
+#trigger {Voc* acorda e se senta.} {tFx bocejo.mp3}
+#trigger {Voc* atravessa a porta...} {tFx atravessar.mp3}
+#trigger {Voc* come*a a seguir *.} {tFx seguir-on.mp3}
+#trigger {Voc* consegue fugir para o *.} {tFx fuga-sucesso.mp3}
+#trigger {Voc* descansa seus ossos cansados.} {tFx descansar_uar.mp3}
+#trigger {Voc* se atrapalha e engole um pouco de *gua.} {tFx splash.mp3}
+#trigger {Voc* se deita e dorme.} {tFx roncando.mp3}
+#trigger {Voc* se levanta.} {tFx levantar.mp3}
+#trigger {Voc* se senta.} {tFx sentar.mp3}
+
+;Item
+
+#trigger {* come*a a se desfazer.} {tFx item-deteriorou.mp3}
+#trigger {* come*a a se deteriorar.} {tFx item-deteriorou.mp3}
+#trigger {* se deteriorou.} {tFx item-deteriorou.mp3}
+#trigger {*, que estava no ch*o, se deteriorou.} {tFx item-deteriorou-chao.mp3}
+#trigger {*te entrega*} {tFx teEntrega_debo.mp3}
+#trigger {Identificar o qu*?} {tFx erro2_uar.mp3}
+
+;saude
+
+#trigger {* est* com sa*de perfeita.} {tFx condicao-perfeita.mp3}
+#trigger {* est* em p*ssimas condi*es e sangra muito.} {tFx condicao-pessima-sangue.mp3}
+#trigger {* est* em p*ssimas condi*es.} {tFx efeito1_debo.mp3}
+#trigger {* est* mort*!} {tFx queda-cadaver.mp3}
+#trigger {* est* muito machucad* e morrer* se n*o for ajudad*!} {tFx condicao-machucado-morrer.mp3}
+#trigger {* est* muito machucad* e sangra muito.} {tFx condicao-machucado-sangue.mp3}
+#trigger {* est* sangrando muito sem parar.} {tFx derramar-sangue.mp3}
+#trigger {* parece muito machucad*.} {tFx efeito1_debo.mp3}
+#trigger {* tem algumas marcas.} {tFx efeito6_debo.mp3}
+#trigger {* tem alguns arranh*es.} {tFx condicao-arranhoes.mp3}
+#trigger {* tem alguns machucados.} {tFx condicaco-alguns-machucados.mp3}
+#trigger {* tem alguns pequenos machucados.} {tFx condicao-pequenos-machucados.mp3}
+#trigger {* tem enormes machucados e enormes arranh*es.} {tFx efeito1_debo.mp3}
+#trigger {* tem gigantescos machucados e enormes arranh*es.} {tFx condicao-gicantescos-machucados.mp3}
+#trigger {* tem machucados pequenos e hematomas.} {tFx efeito5_debo.mp3}
+#trigger {* tem muitos arranh*es.} {tFx efeito6_debo.mp3}
+#trigger {* tem v*rios machucados.} {tFx condicao-varios-machucados.mp3}
+#trigger {Isso fez um grave ferimento!} {tFx fez-ferimento.mp3}
+
+
+;Arena
+
+#trigger {* Voc* foi recompensad* com * moedas pela sua vit*ria!} {tFx ganhou-arena.mp3}
+#trigger {*ARENA* As batalhas come*aram!} {tFx comecou-arena.mp3}
+#trigger {*ARENA* foi derrotad* por *.} {tFx eliminacao-arena.mp3}
+#trigger {*ARENA* Os Campos de Batalha est*o abertos, *} {tFx anuncio-arena.mp3}
+#trigger {Voc* foi levad* para a sala de prepara*o.} {tFx entrou-arena.mp3}
+
+;Hierofantes
+
+#trigger {Hagen Akz*, o hierofante amarelo, est* aqui, envolto em uma aura de mist*rio.} {tFx hierofanteAmarelo_debo.mp3}
+#trigger {Parece um arbusto, mas na verdade * um hierofante que voc* v* aqui!} {tFx hierofanteVerde_debo.mp3}
+#trigger {Sassil Kisam, a druidesa lend*ria, estuda compenetrada novas formas de magia.} {tFx hierofanteBranco_debo.mp3}
+#trigger {Um estranho homem vestido de azul encara voc* com um olhar penetrante.} {tFx hierofanteAzul_debo.mp3}
+
+;Ouro
+
+#trigger {Havia *moedas.} {tFx saquear-container.mp3}
+#trigger {Voc* deposita * moed*} {tFx deposito.mp3}
+#trigger {Voc* pega * moeda*.} {tFx saquear-moedas.mp3}
+#trigger {Voc* sacou * moeda*.} {tFx saque-banco.mp3}
+
+;Ambiental
+
+#trigger {O c*u est* com muitos raios.} {tFx trovao.mp3}
+#trigger {O dia come*ou.} {tFx dia.mp3}
+#trigger {O Sol nasce no leste.} {tFx galo-cantando.mp3}
+#trigger {O Sol, vagarosamente, se p*e no oeste.} {tFx coruja.mp3}
+#trigger {Os raios param.} {tFx raios2.mp3}
+#trigger {Raios come*am a iluminar o c*u.} {tFx trovao.mp3}
+
+;Lojas
+
+#trigger {O ferreiro te devolve*} {tFx reparando_debo.mp3}
+#trigger {O lojista agora possui *.} {tFx compra.mp3}
+#trigger {O mago recarregador de itens imp*e as m*os sobre a sua varinha e recita algumas palavras m*gicas.} {tFx magoRecarrega_debo.mp3}
+#trigger {Vender o qu*?} {tFx erro3_uar.mp3}
+#trigger {Voc* comprou *.} {tFx compra.mp3}
+
+;sustento
+
+#trigger {*oc* toma *.} {tFx tomaPocao_uar.mp3}
+;Você bebe água cristalina.
+;Você não sente mais sede.
+;Você come um lembas.
+#trigger {Voc* est* chei*.} {tFx arroto-comer.mp3}
+#trigger {Voc* est* com muita fome.} {tFx comFome_debo.mp3}
+#trigger {Voc* est* com muita sede.} {tFx sede.mp3}
+#trigger {Voc* est* ficando com fome.} {tFx barriga-roncando.mp3}
+#trigger {Voc* esvazia *.} {tFx esvaziar-liquido.mp3}
+
+;Adversos
+
+#trigger {Voc* envolvid* em chamas por uma bola de fogo enviada * -- OUCH!!*} {tFx fireball.mp3}
+#trigger {Voc* se sente muito doente!} {tFx tosse.mp3}
+#trigger {Voc* sente um veneno queimar em suas veias, e sofre. *} {tFx tosse.mp3}
+
+
+;Gerais
+
+#trigger {* agora pode atacar e ser atacado por outros jogadores! (PvP)} {tFx pvp-ativado.mp3}
+#trigger {* come*a a escrever uma mensagem no quadro.} {tFx escrevendoQuadro_debo.mp3}
+#trigger {* consumido por vermes.} {tFx vermes-consumir-corpo.mp3}
+#trigger {* desfez o grupo.} {tFx desagrupar.mp3}
+#trigger {* est* aqui, lutando contra *} {tFx lutando.mp3}
+#trigger {* gritou: 'Era voc* que eu estava procurando!'} {tFx hey.mp3}
+#trigger {* imp*e as m*os sobre * e recita algumas palavras m*gicas.} {tFx recarregar.mp3}
+#trigger {* melhor voc* abrir isso antes!} {tFx erro4_uar.mp3}
+#trigger {* pega * e come*a a empacotar.} {tFx empacotar.mp3}
+#trigger {* pula para ajudar *!} {tFx pulaAjudar_debo.mp3}
+#trigger {* saiu do grupo.} {tFx desagrupar.mp3}
+#trigger {* se abaixa com muita dor*cercad* por uma aura branca...} {tFx reconectou_debo.mp3}
+#trigger {* te transferiu!} {tFx transferir.mp3}
+#trigger {* toma um choque ao tentar vestir * que pula fora de seu corpo.} {tFx choque-item.mp3}
+#trigger {*agora pode atacar e ser atacado por outros jogadores! (PvP)} {tFx pulaAjudar_debo.mp3}
+#trigger {*empunha uma *spada*} {tFx empunharEspada_debo.mp3}
+#trigger {*entrou no jogo.} {tFx entrouJogo_debo.mp3}
+#trigger {*perdeu a conex*o.} {tFx perdeuConexao_debo.mp3}
+#trigger {*saiu do jogo.} {tFx saiuJogo_debo.mp3}
+#trigger {*se reconectou.} {tFx reconectou_debo.mp3}
+#trigger {A noite come*ou.} {tFx noite-comecou.mp3}
+#trigger {A Taverna do Chimpanz* Morto} {tFx taverna.mp3}
+#trigger {Agora voc* um membro do grupo de *.} {tFx entrou-no-grupo.mp3}
+#trigger {Algo misteriosamente protege *, dispersando sua magia.} {tFx magia-falhou.mp3}
+#trigger {Alguma coisa dispersa sua magia, evitando atingir *.} {tFx magia-falhou.mp3}
+#trigger {Atacar quem?} {tFx erro5_uar.mp3}
+#trigger {Bar Salazar} {tFx taverna.mp3}
+#trigger {Come*ou a chover.} {tFx chuva.mp3}
+#trigger {Como?!?} {tFx comando-desconhecido.mp3}
+#trigger {Comparar sua for*a com a de quem?} {tFx erro6_uar.mp3}
+#trigger {El*n*o pode te escutar.} {tFx naoPodeEscutar_debo.mp3}
+#trigger {Ele n*o pode carregar tanto peso.} {tFx muitoPeso_debo.mp3}
+#trigger {Em que voc* deseja lan*ar a magia?} {tFx erro7_uar.mp3}
+#trigger {Energias obscuras podem ser sentidas vindas de *.} {tFx sussurros.mp3}
+#trigger {Escolha uma das op*es do menu!} {tFx erro-menu.mp3}
+#trigger {Essa pessoa n*o est* aqui.} {tFx voceDeseja_debo.mp3}
+#trigger {Examinar o qu*?} {tFx erro-acao.mp3}
+#trigger {Isso estava com um gosto estranho!} {tFx tosse.mp3}
+#trigger {Isso parece estar descarregado.} {tFx sem-carga.mp3}
+#trigger {Isso parece estar sem carga.} {tFx sem-carga.mp3}
+#trigger {Lan*ar o qu* aonde?} {tFx erro-menu.mp3}
+#trigger {Ler o qu*?} {tFx erro.mp3}
+#trigger {Mas voc* n*o * membro de um grupo!} {tFx erro1_uar.mp3}
+#trigger {Miss*o completa! Voc* completou a miss*o *!} {tFx missao-diaria-concluida.mp3}
+#trigger {Muito adornada, uma *rvore de natal repousa aqui, enfeitando o ambiente. *} {tFx nataldeboista.mp3}
+#trigger {N*o h* em *.} {tFx erro2_uar.mp3}
+#trigger {N*o parece haver * ali.} {tFx erro3_uar.mp3}
+#trigger {O Bar da Estalagem Javali Roncador} {tFx taverna.mp3}
+#trigger {O carteiro entrega uma carta para voc*.} {tFx receber-carta.mp3}
+#trigger {O v*nculo do Andarilho Misterioso com este mundo * desfeito.} {tFx sussurros.mp3}
+#trigger {Olhar o qu*?} {tFx erro4_uar.mp3}
+#trigger {Olhar para onde?} {tFx erro5_uar.mp3}
+#trigger {P*NICO!  Voc* n*o pode escapar!} {tFx panico.mp3}
+#trigger {Parab*ns pela conquista, voc* chegou l*!} {tFx nivel-cem.mp3}
+#trigger {Parab*ns! Voc* ir* agora ser encaminhad* para seu novo corpo.} {tFx horn.mp3}
+#trigger {Parab*ns, voc* completou a aventura!} {tFx missao-fim.mp3}
+#trigger {Por um instante, algo parece chamar sua aten*o para *. Deve ter sido apenas um d*j* vu.} {tFx sussurros.mp3}
+#trigger {Quem voc* deseja atacar?} {tFx erro6_uar.mp3}
+#trigger {Reconectando.} {tFx reconectou_debo.mp3}
+#trigger {Retornando para sua cidade natal...} {tFx retornar.mp3}
+#trigger {S*o*horas*} {tFx horas_debo.mp3}
+#trigger {* 1 hora da *, no Dia *.} {tFx horas_debo.mp3}
+#trigger {Seu sangue congela ao ouvir o grito de morte de um fido bestial.} {tFx morte-cachorro.mp3}
+#trigger {Seu sangue congela assim que voc* ouve o grito de morte de algu*m.} {tFx grito-de-morte.mp3}
+#trigger {Sua carta foi enviada!} {tFx enviar-carta.mp3}
+#trigger {Sua magia * desviada pelo escudo * e volta para voc*!} {tFx deflection.mp3}
+#trigger {Sua magia falha e desaparece.} {tFx magia-falhou.mp3}
+#trigger {Uma aventura foi iniciada! Digite 'AVENTURA PARTICIPAR' para entrar nela!} {tFx aventura_debo.mp3}
+#trigger {Uma caixa * desaparece de suas m*os, dando lugar a uma recompensa especial!} {tFx receber-caixa-misteriosa.mp3}
+#trigger {Uma poderosa luz branca aparece na sala, dissipando sua magia violenta!} {tFx magia-falhou.mp3}
+#trigger {Vermes consomem *.} {tFx vermes-consumir-corpo.mp3}
+#trigger {Voc* abre um ba* de recompensas surpresa!} {tFx receber-caixa-misteriosa.mp3}
+#trigger {Voc* ainda n*o tem experi*ncia para soltar essa magia!} {tFx voceDeseja_debo.mp3}
+#trigger {Voc* aprendeu *!} {tFx yay.mp3}
+#trigger {Voc* atingiu seu objetivo.} {tFx objetivo-concluido.mp3}
+#trigger {Voc* avan*ou * n*ve*!} {tFx level-up.mp3}
+#trigger {*oc* come*a a meditar...} {tFx gongo-meditar.mp3}
+#trigger {Voc* come*a a participar da aventura.} {tFx missao-inicio.mp3}
+#trigger {Voc* est* carregando:} {tFx abrir-mochila.mp3}
+#trigger {Voc* est* mort*!} {tFx morte.mp3}
+#trigger {Voc* est* mortalmente ferid* e morrer* logo, se n*o for ajudad*.} {tFx batimentos-rapidos.mp3}
+#trigger {Voc* est* muito cansad*.} {tFx cansada.mp3}
+#trigger {Voc* est* muito nervos* para conseguir fugir!} {tFx fuga-falha.mp3}
+#trigger {Voc* est* sem for*as para lan*ar essa magia!} {tFx magia-falhou.mp3}
+#trigger {Voc* esteve inativ*, e cai dentro de um vazio.} {tFx entrar-vazio.mp3}
+#trigger {Voc* j* est* carregando muito peso e n*o pode pegar *.} {tFx aviso-inventario.mp3}
+#trigger {Voc* milagrosamente revive...} {tFx harpa.mp3}
+#trigger {Voc* n*o consegue colocar uma coisa dentro dela mesma.} {tFx erro7_uar.mp3}
+#trigger {Voc* n*o consegue concentrar mana suficiente para completar a invoca*o.} {tFx erro-acao.mp3}
+#trigger {Voc* n*o consegue mais respirar embaixo d'*gua!} {tFx blub.mp3}
+#trigger {Voc* n*o consegue pronunciar as palavras m*gicas!} {tFx magia-falhou.mp3}
+#trigger {Voc* n*o consegue soltar magias sentad*.} {tFx erro.mp3}
+#trigger {Voc* n*o conseguiu se concentrar!} {tFx erro1_uar.mp3}
+#trigger {Voc* n*o deve lan*ar isso em si mesm*!} {tFx erro2_uar.mp3}
+#trigger {Voc* n*o deve lan*ar isso em si mesm*... dizem que n*o faz muito bem...} {tFx erro2_uar.mp3}
+#trigger {Voc* n*o est* vendo nada parecido com isso.} {tFx erro3_uar.mp3}
+#trigger {Voc* n*o parece ter a chave correta.} {tFx tectec.mp3}
+#trigger {Voc* n*o pode encontrar isto!} {tFx erro4_uar.mp3}
+#trigger {Voc* n*o pode fazer isso dormindo.} {tFx erro5_uar.mp3}
+#trigger {Voc* n*o pode fazer isso!} {tFx erro6_uar.mp3}
+#trigger {Voc* n*o pode fechar isso!} {tFx erro7_uar.mp3}
+#trigger {Voc* n*o pode ir por a*...} {tFx naoPodeIr_debo.mp3}
+#trigger {Voc* n*o pode lan*ar essa magia em outro jogador.} {tFx erro-acao.mp3}
+#trigger {Voc* n*o pode lan*ar essa magia em uma criatura mais poderosa que voc*!} {tFx erro-menu.mp3}
+#trigger {Voc* n*o pode lan*ar essa magia em uma criatura t*o fraca!} {tFx erro.mp3}
+#trigger {Voc* n*o pode se comparar a si mesm*!} {tFx erro1_uar.mp3}
+#trigger {Voc* n*o tem nenhum *.} {tFx erro3_uar.mp3}
+#trigger {Voc* n*o tem tempo de se concentrar!} {tFx naoConcetra_debo.mp3}
+#trigger {Voc* n*o tem tempo de se concentrar!} {tFx naoConcetra_debo.mp3}
+#trigger {Voc* p*ra de seguir *.} {tFx p_seguir.mp3}
+#trigger {Voc* para de flutuar e vai dormir.} {tFx roncando.mp3}
+#trigger {Voc* passa mal devido a falta de ar! * melhor sair da* ou morrer* logo! *} {tFx afogando.mp3}
+#trigger {Voc* pega * chave *.} {tFx pegar-chave.mp3}
+#TRIGGER {Voc* percebe que h* algo perigoso por perto!} {tFx deathTrap_debo.mp3}
+#trigger {Voc* perdeu * pontos de experi*ncia pela sua morte.} {tFx morte.mp3}
+#trigger {Voc* pisca os olhos e a estranha imagem de um homem coberto por vestes negras invade sua mente, logo em seguida sumindo de seu pensamento.} {tFx sussurros.mp3}
+#trigger {Voc* precisa estudar mais...} {tFx erro4_uar.mp3}
+#trigger {Voc* recita *, que dissolve.} {tFx dissolver-pergaminho.mp3}
+#trigger {Voc* s* pode lan*ar esta magia quando estiver em um grupo.} {tFx erro5_uar.mp3}
+#trigger {Voc* s* pode lan*ar isso em si mesm*!} {tFx erro6_uar.mp3}
+#trigger {Voc* se sente curad*...} {tFx cajado-de-loraine.mp3}
+#trigger {Voc* se sente informad*:} {tFx identificar.mp3}
+#trigger {*oc* sente * melhorar.} {tFx melhorar-magia-hab.mp3}
+#trigger {Voc* sente a experi*ncia fluir em suas veias!} {tFx oferenda.mp3}
+#trigger {Voc* sente que est* muito frac* e tenta fugir!} {tFx fuga-falha.mp3}
+#trigger {Voc* sente que pode se mover livremente.} {tFx moverLivremente_debo.mp3}
+#trigger {Voc* sente uma m*o invis*vel tocar seu ombro. Ao olhar para tr*s, n*o parece haver ningu*m.} {tFx sussurros.mp3}
+#trigger {Voc* tem cartas no correio.} {tFx cartas.mp3}
+#trigger {Voc* tem nova carta no correio!} {tFx cartas.mp3}
+#trigger {Voc* toma um choque ao tentar vestir *, que pula fora de seu corpo.} {tFx choque_item.mp3}
+#trigger {Voc* v* um vulto *.} {tFx vulto.mp3}
+#trigger {*oc* tenta andar, mas cai por estar muito b*bado.} {tFx escorregouBolinha.mp3}
+
+#trigger {*oc* solta uma por*o de bolinhas de gude.} {tFx jogaBolinha_uar.mp3}
+#trigger {*oc* solta um cajado retorcido.} {tFx jogaCajado_uar.mp3}
+#trigger {*oc* pega uma por*o de bolinhas de gude.} {tFx jogaBolinha_uar.mp3;foe}
+#trigger {*oc* pega um cajado retorcido.} {tFx jogaCajado_uar.mp3;foe}
+#trigger {* escorrega em *, mas consegue ficar em p*.} {tFx escorregaBolinha_uar.mp3}
+#trigger {*escorrega em * e cai.} {tFx escorregouBolinha.mp3}
+#trigger {Voc* falhou!} {tFx erro-acao.mp3}
+#trigger {*oc* pr*tica por um tempo...} {tFx practicing_uar.mp3} 
+#trigger {*oc* agora est* instru* nessa *rea.} {tFx practiced_uar.mp3}
+#trigger {*oc* j* est* instru* nessa *rea.} {tFx practiced_uar.mp3}

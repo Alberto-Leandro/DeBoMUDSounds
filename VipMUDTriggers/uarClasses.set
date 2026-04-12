@@ -1,0 +1,500 @@
+#alias tCl {
+	#if {@numeroHandle < 217 OR @checkNumeroHandle < 217} {
+		#play uar_Classes/%1 @volumeClasses;
+		#var numeroHandle %Playhandle;
+		#var checkNumeroHandle %eval(@checkNumeroHandle+1);
+		#alarm 2 {#var checkNumeroHandle %eval(@checkNumeroHandle-1)}
+	} {}
+}
+#alias volclasses {
+	#if {%1 < 0} {
+		#var volumeClasses 1
+		} {
+		#if {%1 >= 1 or %1 <= 100} {
+			#var volumeClasses %1
+			} {
+			#var volumeClasses 100
+			}
+		}
+	}
+#alias foe {
+	#var falhaouErro %PlayHandle;
+	#PC @falhaouErro Frequency 10000
+}
+;Guerreiro
+
+#trigger {*oc* tenta dar um giro seguido de um forte chute, mas escorrega por pouco!} {tCl nearMiss_uar.mp3}
+#trigger {*ua poderosa joelhada acerta a barriga *, deixando * sem ar!*} {tCl kick_uar.mp3}
+#trigger {*oc* d* um poderoso chute na cara * muito sangue come*a a escorrer...*} {tCl kick_uar.mp3}
+#trigger {*oc* d* um salto mortal e acerta * com um fort*ssimo chute! *} {tCl kick_uar.mp3}
+#trigger {*oc* erra seu chute *, ufa, quase l*...} {tCl nearMiss_uar.mp3}
+#trigger {*eu lindo chute girat*rio passa a uma milha*.} {tCl nearMiss_uar.mp3}
+#trigger {*hutar quem?} {tCl erro-acao.mp3}
+
+#trigger {*o resgate...} {tCl rescue_uar.mp3}
+#trigger {* salva *.} {tCl rescue_uar.mp3}
+#trigger {*as ningu*m est* lutando contra el*!} {tCl rescue_uar.mp3;foe}
+#trigger {*oc* falha no resgate!} {tCl rescue_uar.mp3;foe}
+
+#trigger {Voc* n*o acha nada que possa te indicar o caminho.} {tCl trackNao_uar.mp3}
+#trigger {Voc* n*o consegue encontrar o rastro dele daqui.} {tCl trackNao_uar.mp3}
+#trigger {Voc* percebe um rastro, que aparentemente te leva para * daqui!} {tCl track_uar.mp3}
+#trigger {Voc* percebe um rastro * daqui!} {tCl track_uar.mp3}
+#trigger {Seu alvo j* est* nessa sala!} {tCl trackAqui_uar.mp3}
+
+#trigger {* soco que voc* d* faz el* cair! *} {tCl bash.mp3}
+#trigger {*derruba*com um poderoso soco!} {tCl bash_debo.mp3}
+#trigger {*omo * desvia de seu soco, voc* trope*a e cai no ch*o!} {tCl bash2.mp3}
+#trigger {*errubar quem?} {tCl erro-acao.mp3}
+
+#trigger {*oc* come*a a atacar *.} {tCl turn_uar.mp3}
+#trigger {*oc* n*o consegue trocar de oponente.} {tCl turn_uar.mp3;foe}
+
+#trigger {* se acovarda, com medo de te atacar.} {tCl intimidado_uar.mp3}
+
+#trigger {* se despeda*a com seu ataque!} {tCl doorbash_uar.mp3}
+#trigger {*oc* tenta derrubar a porta, mas o impacto causado retorna para voc*. Isso doeu!} {tCl doorbashErro_uar.mp3}
+#Trigger {*rrombar uma porta aberta? Muito bem!} {tCl erro3_uar.mp3}
+#trigger {*oc* n*o consegue derrubar isso!} {tCl erro6_uar.mp3}
+#trigger {*e fato n*o vejo como voc* pode derrubar alguma coisa ali.} {tCl erro3_uar.mp3}
+#trigger {*oc* bate, mas n*o consegue derrubar *!} {tCl doorBashNotBashed_uar.mp3}
+#trigger {*oc* come*a a sentir uma forte dor.} {tCl doorBashPain_uar.mp3}
+
+#trigger {Voc* esmaga * com seu abra*o de urso*} {tCl abraco-de-urso.mp3}
+#trigger {*eu abra*o de urso n*o faz nada em *.} {tCl abraco-de-urso.mp3;foe}
+
+#trigger {*oc* se enfaixa.} {tCl bandage_uar.mp3}
+#trigger {*oc* j* est* com muita sa*de!} {tCl condicao-perfeita.mp3 @volumefx}
+
+#trigger {*oc* come*a a girar muito r*pido, parecendo um redemoinho de vento.} {tCl whirlwindAcerto_uar.mp3}
+#trigger {*oc* come*a a girar muito r*pido... mas acaba ficando tonto!} {tCl whirlwindErro_uar.mp3}
+
+#trigger {*oc* se defende do ataque*, atingind* com um contragolpe!*} {tCl backslash_uar.mp3}
+
+#trigger {*oc* n*o conseguiu consertar *} {#var repairingSound %case(%random(1,3),repair1_uar.mp3,repair2_uar.mp3,repair3_uar.mp3); tCl @repairingSound}
+#trigger {*eu martelo foi destru*do durante o processo de repara*o} {tCl repairFail_uar.mp3}
+#trigger {*oc* danificou *} {tCl repairDamaged_uar.mp3}
+#trigger {*oc* conserta *} {tCl repairSucess_uar.mp3}
+#trigger {*ua arma fica mais fr*gil!} {tCl danificado_uar.mp3; #var equipDanificado 1; #alarm 3 {#var equipDanificado 0}}
+#var equipDanificado 0
+#trigger {* foi danificad*.} {tCl danificado_uar.mp3; #var equipDanificado 1; #alarm 3 {#var equipDanificado 0}}
+#trigger {*oc* p*ra de usar *.} {#if {@equipDanificado} {tCl repairFail_uar.mp3} {}}
+
+#trigger {*oc* gira rapidamente e acerta *, que n*o esperava o ataque!*} {tCl spin_uar.mp3}
+#trigger {*oc* tenta girar e atacar *, mas voc* n*o consegue ser r*pido o bastante.} {tCl whirlwindErro_uar.mp3}
+
+#trigger {*oc* pula, caindo em p*. Voc* est* pronto para lutar!} {tCl quickDraw_uar.mp3}
+#trigger {*oc* est* em p*, e pront* para a batalha!} {tCl quickDraw_uar.mp3}
+
+#trigger {*oc* voa na dire*o d*, que esquiva por pouco!} {tCl swoop_uar.mp3}
+#trigger {El* percebe que voc* est* caindo em cima del*!} {tCl swoop_uar.mp3;foe}
+
+#trigger {*oc* desarma *, fazendo * cair no ch*o!} {tCl disarm_uar.mp3}
+#trigger {*oc* falha ao tentar desarmar *.} {tCl disarm_uar.mp3;foe}
+
+#trigger {*oc* consegue dobrar o dano de seu ataque!} {tCl criticalHit_uar.mp3}
+
+;Necromancer
+
+#trigger {Voc* contorce o corpo *} {tCl boneTwist_uar.mp3}
+
+#trigger {O corpo * explode violentamente.} {tCl corpseExplosion_uar.mp3}
+
+#trigger {* come*a a ficar com uma cor esquisita!} {tCl curse_uar.mp3}
+
+#trigger {Voc* resfria *!*} {tCl chillTouch_uar.mp3}
+#trigger {A atmosfera se torna g*lida assim que voc* erra*!} {tCl chillTouch_uar.mp3;foe}
+
+#trigger {Um poderoso bracelete de ossos se forma em volta do seu bra*o.} {tCl boneArms_uar.mp3}
+#trigger {Seu poderoso bra*o de ossos desaparece.} {tCl boneArms_uar.mp3;foe}
+
+#trigger {* parece estar ceg*!} {tCl blindness_uar.mp3}
+#trigger {*oc* falha ao tentar cegar sua v*tima.} {tCl blindness_uar.mp3;foe}
+
+#trigger {Voc* drena parte da energia *! *} {tCl energyDrain.mp3}
+
+#trigger {* fica muito doente!} {tCl poison_uar.mp3}
+
+#trigger {Um fraco zumbi come*a a seguir voc*.} {tCl animateDead_uar.mp3}
+
+#trigger {Uma estranha n*voa se forma na sala.} {tCl fog_uar.mp3}
+
+#trigger {Voc* se sente mais forte com a presen*a da noite.} {tCl nightPower_uar.mp3}
+#trigger {*oc* perdeu seu poder noturn*} {tCl nightPower_uar.mp3;foe}
+
+#trigger {Uma armadura de ossos come*a a te proteger.} {tCl boneArmor_uar.mp3}
+#trigger {Sua armadura de ossos desaparece.} {tCl boneArmor_uar.mp3;foe}
+
+#trigger {* come*a a se sentir extremamente doente.} {tCl plague_uar.mp3}
+
+#trigger {Voc* se desmaterializa...} {tCl spirit_uar.mp3}
+#trigger {Voc* se materializa novamente.} {tCl spirit_uar.mp3;foe}
+;	 35 -> sacrifice
+
+#trigger {*treme e sofre com a bondade *!*} {tCl dispelGood_uar.mp3}
+#trigger {Os Deuses protegem *.} {tCl erro7_uar.mp3}
+#trigger {*n*o * afetado por sua maldade!  } {tCl erro6_uar.mp3}
+
+#trigger {A carne do corpo * come*a a ficar mole.} {tCl wekenedFlesh_uar.mp3}
+
+#trigger {Voc* sente a presen*a de criaturas boas.} {tCl detectGood_uar.mp3}
+
+#trigger {Voc* sente fantasmas invis*veis te protegendo.} {tCl callGhostsOn_uar.mp3}
+#trigger {Seus fantasmas voam e seguram * te protegendo.} {tCl callGhosts_uar.mp3}
+#trigger {Os fantasmas que*protegiam desaparecem.} {tCl callGhostsOn_uar.mp3;foe}
+
+#trigger {Voc* causa danos mentais *!*} {tCl mentalPain_uar.mp3}
+#trigger {-oc* n*o foca corretamente em * e erra.  } {tCl erro.mp3}
+
+#trigger {Uma estranha sombra se forma em volta de voc*.} {tCl convokeShadows_uar.mp3}
+#trigger {As sombras n*o mais*ajudam*} {tCl convokeShadows_uar.mp3;foe}
+
+#trigger {Misturando *, voc* criou*.} {tCl mix_uar.mp3}
+
+#trigger {Voc* faz com que uma chuva de ossos comece!} {tCl boneRain_uar.mp3}
+
+#trigger {Voc* invoca espinhos negros do c*u, que come*am a voar na dire*o *!*} {tCl darkSpykes_uar.mp3}
+#trigger {Voc* tenta enviar espinhos negros na dire*o *, mas quase espeta o pr*prio p*!} {tCl erro4_uar.mp3}
+
+#trigger {*m Escudo de Ossos come*a a proteger voc*.} {tCl boneShield_uar.mp3}
+#trigger {* escudo de ossos que * protegia desaparece.} {tCl boneShield_uar.mp3;foe}
+
+#trigger {Voc* corajosamente martiriza seu pr*prio corpo at* exaust*o, num esfor*o de retorno * sua *ndole original.} {tCl excruciate_uar.mp3}
+#trigger {*oc* deve sacrificar toda a sua vitalidade e resist*ncia para conseguir fazer isso.} {tCl excruciate_uar.mp3;foe}
+
+#trigger {Voc* criou uma Foice de Sangue!} {tCl bloodScythe_uar.mp3}
+
+#trigger {*ma barreira de energia envolve seu corpo.} {tCl manaShield_uar.mp3}
+#trigger {*ua barreira de energia come*a a falhar, at* desaparecer completamente.} {tCl manaShield_uar.mp3;foe}
+#trigger {*oc* consegue eliminar o escudo de mana *!} {tCl manaShieldPop_uar.mp3}
+
+#trigger {*come*a a ficar agressiv*!} {tCl makeAggresive_uar.mp3}
+
+#trigger {Voc* explode *, o desnorteando por alguns instantes.*} {tCl soulExplosion_uar.mp3}
+
+#trigger {Voc* solta muitos ossos *, que fica com o peito esburacado!*} {tCl boneAttack_uar.mp3}
+
+#trigger {Voc* consegue trazer a Morte.} {tCl callDeath_uar.mp3}
+
+#trigger {Voc* faz furiosos movimentos e nota o mundo despencar ao seu redor!} {tCl apocalypse_uar.mp3}
+
+;Ladrao
+
+#trigger {* te olha com pena, sem te dar nada.} {tCl beg_uar.mp3;foe}
+#trigger {* te olha com pena, te dando * moeda*.} {tCl beg_uar.mp3}
+#trigger {* te olha com desprezo e ataca!} {tCl begFalha_uar.mp3}
+
+#trigger {Voc* tenta se esconder.} {tCl hide_uar.mp3;foe}
+
+#trigger {A fechadura rapidamente se rende *s suas habilidades.} {tCl pickLock_uar.mp3}
+
+#trigger {Voc* olha rapidamente em volta e v*:} {tCl scan_uar.mp3}
+#trigger {Ningu*m est* perto de voc*.} {tCl scan_uar.mp3;foe}
+
+#trigger {El* percebe que voc* tentou apunhal*-lo!} {tCl erro1_uar.mp3}
+#trigger {* d* um estranho grito enquanto voc* crava * nas costas *! *} {tCl backstab.mp3}
+#trigger {* faz um som estranho enquanto voc* fura as costas *! *} {tCl backstab.mp3}
+
+#trigger {Voc* tentar* andar sem ser percebido.} {tCl sneak_uar.mp3}
+
+#trigger {Voc* joga sujeira nos olhos *.} {tCl dirtThrow_uar.mp3}
+#trigger {* percebe seu movimento sorrateiro ao tentar jogar sujeira nel*} {tCl dirtThrow_uar.mp3;foe}
+#trigger {Nos olhos de quem voc* deseja jogar sujeira?} {tCl dirtThrow_uar.mp3;foe}
+
+#trigger {Voc* fortemente acerta * com seu escudo! *} {tCl escudo.mp3}
+
+#trigger {Voc* espia a sala e v*: } {tCl spy_uar.mp3}
+#trigger {Espiar onde?} {tCl erro-acao.mp3}
+	 
+#trigger {Voc* sentir* os movimentos em volta de voc*.} {tCl radar_uar.mp3}
+#trigger {Voc* n*o sentir* mais os movimentos em volta de voc*.} {tCl radar_uar.mp3;foe}
+
+#trigger {Roubar o que?} {tCl erro-acao.mp3}
+#trigger {El* n*o tem esse item.} {tCl erro-acao.mp3}
+#trigger {Bingo! Voc* pegou *} {tCl steal_uar.mp3}
+#trigger {Voc* consegue furtar uma *nica moeda de ouro.} {tCl steal_uar.mp3}
+#trigger {Voc* n*o conseguiu pegar nenhum ouro...} {tCl steal_uar.mp3;foe}
+
+#trigger {Voc* d* um salto e fica atr*s *!} {tCl pulo.mp3}
+
+#trigger {Uma luz de paz consome seu proj*til antes de atingir o alvo.} {tCl erro7_uar.mp3}
+#trigger {Voc* atira e acerta *! *} {tCl shoot_uar.mp3}
+#trigger {Voc* atira em *, mas erra!} {tCl shoot_uar.mp3;foe}
+
+#trigger {* habilmente recua do combate.} {tCl retreat_uar.mp3}
+#trigger {*oc* falha ao tentar recuar!} {tCl retreat_uar.mp3;foe}
+
+;Druida
+
+#trigger {*oc* cria uma goodberry.} {tCl goodBerry_uar.mp3}
+
+#trigger {O esp*rito * * transforma seu grupo em uma poderosa matilha!} {tCl uivo.mp3}
+
+#trigger {*oc* se sente protegid* pelo ambiente ao redor. Seu conhecimento do terreno d* for*a * magia.} {tCl enviriomentProtection_uar.mp3; tocafx enviriomentProtection_uar.mp3}
+#trigger {*oc* se sente protegid* pelo ambiente ao redor.} {tCl enviriomentProtection_uar.mp3}
+#trigger {*esaparece a sensa*o de prote*o que vinha do ambiente ao redor.} {tCl enviriomentProtection_uar.mp3;foe}
+
+#trigger {*e voc* quiser controlar o tempo, voc* deve ir para um lugar que voc* consiga, pelo menos, ver o c*u!.} {tCl erro-acao.mp3}
+#trigger {*oc* levanta suas m*os para o c*u, esperando melhorar o tempo.} {tCl controlWeather_uar.mp3}
+#trigger {*oc* levanta suas m*os para o c*u, esperando piorar o tempo.} {tCl controlWeather_uar.mp3}
+
+#trigger {*oc* clama pelo esp*rito dos antigos druidas, que lhe concedem o conhecimento de suas experi*ncias passadas!} {tCl ancientKnowledge_uar.mp3}
+#trigger {*oc* sente o conhecimento dos druidas antigos aos poucos escapar de sua mente.} {tCl ancientKnowledge_uar.mp3;foe}
+
+#trigger {*oc* envolvid* por uma nuvem de p* das fadas, o que faz seus olhos co*arem!} {tCl faeriePowder_uar.mp3}
+#trigger {* pouco de p* das fadas que restava em seus olhos se dissipa pelo ar!} {tCl faeriePowder_uar.mp3;foe}
+
+#trigger {* ambiente a sua volta parece n*o conter muita energia.} {tCl callWeak_uar.mp3}
+#trigger {* tempestade * muito forte e voc* convoca raios que causam grande destrui*o!.} {tCl callStrong_uar.mp3}
+#trigger {*oc* acertou seu raio *} {tCl callLightningHit_uar.	mp3 @vCl}
+#trigger {*eu raio mata *} {tCl callLightningHit_uar.mp3}
+
+#trigger {* brilha.} {tCl purify_uar.mp3}
+#trigger {*rmadura: *, Acerto: *, Dano: *} {tCl creatureKnowledge_uar.mp3;foe}
+
+#trigger {*fiados espinhos brotam de sua pele.} {tCl thornSkin_uar.mp3}
+#trigger {Desaparecem os espinhos que protegiam sua pele.} {tCl thornSkin_uar.mp3;foe}
+
+#trigger {* corpo d* parece ficar estranhamente entorpecido!} {tCl autunmLeaves_uar.mp3}
+
+#trigger {* arrefece, como que tomad* por uma s*bida friagem.} {tCl winterFall_uar.mp3}
+
+#trigger {* aparece lentamente.} {tCl reveal_uar.mp3}
+#trigger {*as * n*o est* invis*vel!} {tCl reveal_uar.mp3;foe}
+
+#trigger {*oc* consegue concentrar suas energias, aumentando a efici*ncia energ*tica do seu corpo!} {tCl endurance_uar.mp3}
+#trigger {*eu corpo toma um choque ao ingerir alimento novamente!} {tCl endurance_uar.mp3;foe}
+#trigger {*eu corpo ainda est* se recuperando do ultimo per*odo de resist*ncia.} {tCl endurance_uar.mp3;foe}
+
+#trigger {*ua rajada de vento quase arranca a pele *! *} {tCl hurricaneHit_uar.mp3}
+#trigger {*ua poderosa rajada de vento arremessa * pelos ares!} {tCl hurricane_uar.mp3}
+
+#trigger {*ma nuvem de gafanhotos escurece toda a sala!} {tCl locustSwarm_uar.mp3}
+
+#trigger {*eu poderoso jato de *gua destr*i o escudo de fogo *} {tCl waterBlast_uar.mp3}
+#trigger {*oc* acerta * com seu jato de *gua! *} {tCl waterBlastHit_uar.mp3}
+#trigger {* acerta * com um forte jato de *gua!} {tCl waterBlastHit_uar.mp3}
+
+#trigger {* Esp*rito do Urso se recusa a te acompanhar enquanto sua pele estiver modificada.} {tCl erro-acao.mp3}
+#trigger {O Esp*rito d* poderos* Urs* passa a te influenciar.} {tCl urso.mp3}
+#trigger {O esp*rito d* Urs* * muito poderoso e voc* apenas rosna e baba!} {tCl urso-rosnar.mp3}
+
+#trigger {*oc* consegue acelerar seu metabolismo, aumentando a velocidade de cicatriza*o de ferimentos.} {tCl regeneration_uar.mp3}
+#trigger {*oc* percebe que seu metabolismo gradualmente volta ao normal.} {tCl regeneration_uar.mp3;foe}
+
+#trigger {*oc* precisa estar completamente saciado antes de tentar se concentrar.} {tCl markTerritorie_uar.mp3;foe}
+#trigger {*oc* se concentra e estabelece uma liga*o especial com este local.} {tCl markTerritorie_uar.mp3}
+#trigger {*eu corpo enfraquece depois de todo o esfor*o para marcar este local.} {tCl endurance_uar.mp3;foe}
+
+#trigger {*oc* falha ao tentar se transportar para l*.} {tCl erro-acao.mp3}
+	 
+
+#trigger {*ua pele perde a camada de casca de *rvore.} {tCl barkSkin_uar.mp3;foe}
+#trigger {*ma grossa camada de cascas de *rvore recobre sua pele.} {tCl barkSkin_uar.mp3}
+#trigger {*m ent anci*o come*a a seguir voc*.} {tCl animatePlantAnciao.mp3}
+#trigger {*m ent anci*o detesta voc*!} {tCl animatePlantAnciao.mp3;foe}
+#trigger {*m broto de ent come*a a seguir voc*.} {tCl animatePlantBroto.mp3}
+#trigger {*m broto de ent detesta voc*!} {tCl animatePlantBroto.mp3;foe}
+#trigger {* ch*o sob seus p*s se transforma num grande lama*al!} {tCl rockToMud_uar.mp3}
+#trigger {*o h* rochas suficientes no ch*o deste local para isso.} {tCl rockToMud_uar.mp3;foe}
+#trigger {Voc* invoca o esp*rito da V*bora, que agu*a seus sentidos!} {tCl vibora.mp3}
+#trigger {* esp*rito da V*bora abandona seu corpo.} {tCl vibora.mp3;foe}
+#trigger {*ua pinha voa e acerta * em cheio!*} {tCl explosivePine_uar.mp3}
+#trigger {*m banho de seiva refresca seu corpo.} {tCl sapHealing_uar2.mp3}
+#trigger {O esp*rito da *guia agu*a seus sentidos.} {tCl aguia.mp3}
+#trigger {Voc* n*o consegue controlar o Esp*rito*perdendo a concentra*o.} {tCl concentracao_debo.mp3}
+
+;mago
+
+#trigger {Voc* observa com orgulho seu m*ssil m*gico atingir *! *} {tCl magicMissile.mp3}
+
+#trigger {*eus olhos brilham.} {tCl detectGeneral_uar.mp3}
+#trigger {*eus olhos param de brilhar.} {tCl detectGeneral_uar.mp3;foe}
+
+#trigger {*eus olhos ficam vermelhos.} {tCl infraVision_uar.mp3}
+#trigger {*ua vis*o noturna parece desaparecer.} {tCl infraVision_uar.mp3;foe}
+
+#trigger {*oc* desaparece.} {tCl invisibility_uar.mp3 @volumefx}
+#trigger {*oc* se sente expost*.} {tCl invisibility_uar.mp3;foe}
+
+#trigger {*oc* sente algu*m te protegendo.} {tCl armor_uar.mp3}
+#trigger {*oc* se sente menos protegid*.} {tCl armor_uar.mp3;foe}
+
+#trigger {*oc* queima * com suas pequenas m*os quentes! *} {tCl burningHands_uar.mp3}
+
+#trigger {*ua descarga el*trica acerta * fazendo el* tremer! *} {tCl shockingGrasp_uar.mp3}
+#trigger {* habilmente esquiva de sua tentativa de dar-lhe uma descarga el*trica!} {tCl shockingGrasp_uar.mp3;foe}
+
+#trigger {*oc* sente que est* saud*vel.} {tCl detectPoison_uar.mp3}
+
+#trigger {* raio acerta * com impacto total! *} {tCl ligthningBolt_uar.mp3}
+
+#trigger {*oc* se sente informad*} {tCl identify_uar.mp3}
+
+#trigger {*oc* se sente com a for*a de um campe*o!} {tCl championStrength_uar.mp3}
+#trigger {*ua for*a volta ao normal.} {tCl championStrength_uar.mp3;foe}
+
+#trigger {* brilha, com uma luz amarela.} {tCl enchantWeapon_uar.mp3}
+
+#trigger {* vai dormir.} {tCl sleep_uar.mp3}
+
+#trigger {*ma luz forte * emitida de um espelho localizador, que se dissolve.} {tCl locateObject_uar.mp3}
+#trigger {*oc* n*o percebe nada.} {tCl locateObject_uar.mp3;foe}
+#trigger {*oc* precisa de um espelho localizador para usar essa magia.} {tCl locateObject_uar.mp3;foe}
+
+#trigger {*ma poderosa luz come*a a iluminar toda a sala.} {tCl flashLigth_uar.mp3}
+
+#trigger {*eu arco-*ris particular acerta bem no rosto * -- UAU!! *} {tCl colorSpray_uar.mp3}
+
+#trigger {*oc* irradia uma aura de terror pela sala!} {tCl fear_uar.mp3}
+
+#trigger {*oc* se sente mais forte!} {tCl strenght_uar.mp3}
+#trigger {*oc* se sente mais frac*.} {tCl strenght_uar.mp3;foe}
+
+#trigger {*eus p*s saem do ch*o.} {tCl fly_uar.mp3}
+#trigger {*eus p*s encostam no ch*o.} {tCl fly_uar.mp3;foe}
+
+#trigger {*lgo estranho se forma em volta *, que * prende a este lugar.} {tCl seal_uar.mp3}
+
+#trigger {Voc* joga uma bola de fogo * e tem a satisfa**o de ver seu alvo envolvido em chamas! *} {tCl FIREBALL_UAR.mp3}
+
+#trigger {Alvo paralisado.} {tCl paralyze_uar.mp3}
+
+#trigger {*oc* sente a sua magia entrando no corpo de *.} {tCl lendMana_uar.mp3}
+#trigger {*ssa pessoa j* tem muitos pontos de magia.} {tCl lendMana_uar.mp3;foe}
+
+#trigger {*oc* gesticula e blocos de gelo come*am a cair do c*u!} {tCl iceStorm_uar.mp3}
+
+#trigger {*oc* sente seu corpo ficando maior e mais forte.} {tCl growth_uar.mp3}
+#trigger {*oc* volta ao seu tamanho normal.} {tCl growth_uar.mp3;foe}
+
+#trigger {* mago ancestral come*a a seguir voc*.} {tCl ancestralWizard_uar.mp3}
+#trigger {Você não pode lançar essa magia em uma criatura tão fraca!} {tCl ancestralWizard_uar.mp3;foe}
+
+#trigger {*uitas imagens espelhadas te rodeiam.} {tCl mirrorImage_uar.mp3}
+#trigger {*uas imagens espelhadas desaparecem.} {tCl mirrorImage_uar.mp3;foe}
+#trigger {*oc* erra*acertando uma de suas falsas imagens.} {tCl mirrorImageHit_uar.mp3;foe}
+
+#trigger {* come*a a ficar muito lento.} {tCl slow_uar.mp3}
+
+#trigger {* abre Um Brilhante Portal!} {tCl abrir-portal.mp3}
+#trigger {Um portal se abre, e * sai de dentro dele.} {tCl sair-do-portal.mp3}
+#trigger {Voc* entra no portal!} {tCl entrar-no-portal.mp3}
+
+#trigger {*oc* consegue focar sua magia em um flash de vis*o moment*nea*} {tCl scry_uar.mp3}
+
+#trigger {*ma barreira de fogo come*a a te proteger.} {tCl fireShield_uar.mp3}
+#trigger {* barreira de fogo que * protegia desaparece.} {tCl fireShield_uar.mp3;foe}
+#trigger {O Escudo de Fogo * te queima!} {tCl fireshieldHit_debo.mp3}
+
+#trigger {Uma barreira de gelo come*a a te proteger.} {tCl iceShield_uar.mp3}
+#trigger {A barreira de gelo que * protegia se derrete.} {tCl iceShield_uar.mp3;foe}
+
+#trigger {*oc* levanta seus bra*os, chamando uma chuva de fogo!} {tCl rainOfFire_uar.mp3}
+
+
+;Paladino
+
+#trigger {*oc* se sente melhor.} {tCl cureLigth_uar.mp3}
+#trigger {*oc* sente que isso n*o deve ser consumido.} {tCl detectPoison_uar.mp3;foe}
+#trigger {*oc* sente que * est* puro.} {tCl detectPoison_uar.mp3}
+#trigger {*oc* sente a sua vida entrando no corpo *.} {tCl lendHealth_uar.mp3}
+#trigger {*ssa pessoa j* est* com muita sa*de.} {tCl lendHealth_uar.mp3;foe}
+#trigger {*oc* se sente mais saud*vel!} {tCl minorHealing_uar.mp3}
+#trigger {*oc* se sente virtuoso.} {tCl bless_uar.mp3}
+#trigger {*oc* se sente menos virtuoso.} {tCl bless_uar.mp3;foe}
+#trigger {*ua energia * concentrad*} {tCl findCenter_uar.mp3}
+#trigger {*oc* sente sua concentra*o diminui*} {tCl findCenter_uar.mp3;foe}
+#trigger {*oc* n*o pode domar isso.} {tCl erro-acao.mp3}
+#trigger {*oc* domou *.} {tCl tame_uar.mp3}
+#trigger {*oc* n*o pode domar algo que j* foi domado.} {tCl erro-acao.mp3}
+#trigger {*oc* falhou ao tentar domar isso.} {tCl tame_uar.mp3;foe}
+#trigger {*oc* monta em *.} {tCl montar.mp3}
+#trigger {*oc* tenta montar em *, mas escorrega e cai.} {tCl montar.mp3;foe}
+#trigger {*ontar em quem?} {tCl erro-acao.mp3}
+#trigger {*oc* sai de cima de * *.} {tCl desmontar.mp3}
+#trigger {*oc* nem est* cavalgando.} {tCl erro-acao.mp3}
+#trigger {*oc* chama sua montaria.} {tCl invocarMontaria_uar.mp3}
+#trigger {*ua montaria fica aqui para descansar e voc* recebe * para cham*-la.} {tCl desinvocarMontaria_uar.mp3}
+#trigger {* pula, te jogando no ch*o.} {tCl riding_uar.mp3}
+#trigger {*ua montaria est* muito cansada.} {tCl montariaCansada_ua.mp3}
+#trigger {*oc* j* est* montado em algo.} {tCl erro2_uar.mp3}
+#trigger {*ua montaria precisa de um barco para ir at* l*.} {tCl erro4_uar.mp3}
+#trigger {*ua montaria n*o * permitida l*.} {tCl erro-acao.mp3}
+#trigger {*oc* sente sua consci*ncia aumentar.} {tCl senseLife_uar.mp3}
+#trigger {*oc* se sente menos atent*.} {tCl senseLife_uar.mp3;foe}
+#trigger {*ssa pessoa n*o merece ser presa... ou merece?} {tCl erro-menu.mp3}
+#trigger {*oc* prende *.} {tCl arrest_uar.mp3}
+#trigger {* se sente muito corajos*} {tCl courage_uar.mp3}
+#trigger {*oc* sente a presen*a de criaturas mal*gna*} {tCl detectEvil_uar.mp3}
+#trigger {*oc* n*o sente mais a presen*a de criaturas mal*gna*} {tCl detectEvil_uar.mp3;foe}
+#trigger {*oc* se sente invulner*ve*} {tCl protectionFromEvil_uar.mp3}
+#trigger {*oc* n*o se sente mais protegid* da maldad*} {tCl protectionFromEvil_uar.mp3;foe}
+#trigger {*ma aura branca * rodeia.} {tCl sanctuary_uar.mp3}
+#trigger {A aura branca em volta do seu corpo desaparece.} {tCl sanctuary_uar.mp3;foe}
+#trigger {*ma sensa**o de calor flui por suas veias.} {tCl heal_uar.mp3}
+#trigger {*oc* sente que nada pode influenciar voc*.} {tCl balance_uar.mp3}
+#trigger {*oc* se sente influenci*vel.} {tCl balance_uar.mp3;foe}
+#trigger {*oc* transformou * em uma Espada Sagrada!} {tCl swordOfJustice_uar.mp3}
+#trigger {*oc* falha em criar uma espada sagrada, o que desintegra sua arma!} {tCl swordOfJustice_uar.mp3;foe}
+#trigger {*penas armas que cortam podem ser transformadas.} {tCl erro.mp3}
+#trigger {*oc* n*o consegue sentir a energia do grupo e falha ao realizar a magia.} {tCl heal_uar.mp3;foe}
+#trigger {*oc* se sente mais jovem.} {tCl rejuvenation_Uar.mp3}
+#trigger {*oc* conjura um c*rculo de fogo que envolve *} {tCl sacredFire_uar.mp3}
+#trigger {*oc* conjura um c*rculo de fogo que queima * at* a morte!} {tCl sacredFire_uar.mp3}
+#trigger {*o tentar fugir, * se queima no c*rculo de FOGO que envolve seu corpo.} {tCl sacredFireHit_uar.mp3}
+#trigger {*oc* tenta conjurar um c*rculo de fogo *, mas falha!} {tCl sacredFire_uar.mp3;foe}
+#trigger {*oc* entoa sua voz para conjurar a magia, mas se engasga e falha.} {tCl bladesOfLight_uar.mp3;foe}
+#trigger {*uas l*mina g*meas, feitas de pura luz, dividem * ao meio. Era uma vez.} {tCl bladesOfLight_uar.mp3}
+#trigger {*uas brilhantes l*minas, feitas de pura luz, descem dos c*us, atingindo * em cheio*} {tCl bladesOfLight_uar.mp3}
+#trigger {*ma luz sagrada te d* f*as para viver.} {tCl vitality_uar.mp3}
+#trigger {*s Deuses atendem ao seu pedido e te ajudam.} {tCl divineCall_uar.mp3}
+#trigger {*oc* ainda est* com energia e ainda n*o precisa da ajuda divina.} {tCl divineCall_uar.mp3;foe}
+
+;Clerigo
+
+#trigger {*oc* usa sua magia, e enche *.} {tCl createWater_uar.mp3}
+
+#trigger {*oc* cria um p*o de viagem.} {tCl createFood_uar.mp3}
+
+#trigger {Uma sensa**o de calor se espalha pelo seu corpo!} {tCl removePoison.mp3}
+
+#trigger {*oc* est* ceg*!} {tCl blindnessVoce_uar.mp3}
+#trigger {*ua vis*o retorna!} {tCl cureBlindness_uar.mp3}
+
+#trigger {*ida:*[*]} {tCl feelEnergy_uar.mp3}
+
+#trigger {* treme e sofre com sua pr*pria maldade*} {tCl dispelEvil_uar.mp3}
+#trigger {* dissolvido por sua bondade*} {tCl dispelEvil_uar.mp3}
+#trigger {Os Deuses protegem *.} {tCl erro1_uar.mp3}
+
+#trigger {* brilha em azul.} {tCl removeCurse_uar.mp3}
+#trigger {Nada parece acontecer.} {tCl erro7_uar.mp3}
+
+#trigger {*oc* se sente muito melhor!} {tCl cureCritic_uar.mp3}
+
+#trigger {* emite uma leve fuma*a.} {tCl leveFumaca_uar.mp3}
+
+#trigger {*ssim que * esquiva, voc* erra sua magia, que segue a dire*o.} {tCl harm_uar.mp3;foe}
+#trigger {*oc* observa a express*o de dor no rosto * assim que voc* acerta com sua magia. *} {tCl harm_uar.mp3}
+
+#trigger {* se contorce de dor * medida que voc* exorciza para expulsar toda a maldade dentro del*} {tCl exorcism_uar.mp3}
+#trigger {*oc* tenta exorcizar *, mas perde a concentra*o e falha.} {tCl exorcism_uar.mp3;foe}
+#trigger {* uma pessoa muito boa para isso.} {tCl erro-acao.mp3}
+
+#trigger {*oc* se sente muito mais saud*vel!} {tCl majorHealing_uar.mp3}
+
+#trigger {* aparece repentinamente.} {tCl summon_uar.mp3}
+#trigger {*oc* n*o conseguiu.} {tCl erro-menu.mp3}
+#trigger {*nquanto as palavras escapam de seus l*bios e*} {tCl erro.mp3}
+
+#trigger {*oc* gesticula e o ch*o a sua volta come*a a tremer!} {tCl earthquake_uar.mp3}
+#trigger {* ca* e se machuca*} {tCl earthquakeHit_uar.mp3}
+#trigger {* terra se abre sob os p*s * e sacode tudo em volta!} {tCl earthquakeHit_uar.mp3}
+
+;Livro e Tomo
+;De repente cresceram cascos em você, ou o quê? Arrume um cavalo!
+;Sua habilidade com montarias não é suficiente para pisotear a Tentação.
+#trigger {Voc* n*o sente mais a f*ria divina.} {tCl divineFury_debo.mp3}
+#trigger {Sua pele adquire a dureza e o brilho dos diamantes.} {tCl diamondSkin_uar.mp3}
+#trigger {Sua pele perde a dureza e o brilho dos diamantes.} {tCl diamondSkin_uar.mp3;foe}
