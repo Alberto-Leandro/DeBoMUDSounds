@@ -23,8 +23,8 @@
       };
       this.players.bgm.loop = true;
       this.players.bgm.preload = "auto";
-      this.audioContext = createAudioContext();
-      this.bgmNodes = this.audioContext ? createMediaElementChain(this.audioContext, this.players.bgm) : null;
+      this.audioContext = null;
+      this.bgmNodes = null;
       this.applyVolume("bgm");
     }
     setEnabled(value) {
@@ -43,6 +43,18 @@
         this.applyVolume(channel);
       }
     }
+    initAudioContext() {
+      if (this.audioContext) {
+        return;
+      }
+      this.audioContext = createAudioContext();
+      if (this.audioContext) {
+        this.bgmNodes = createMediaElementChain(
+          this.audioContext,
+          this.players.bgm
+        );
+      }
+    }
     async playBgm(track, blockList = [], playbackModifiers = null) {
       if (!this.enabled || !track) {
         return;
@@ -57,6 +69,7 @@
       }
       this.bgmBlockedBy = blockList;
       this.currentBgmTrack = track;
+      this.initAudioContext();
       const audio = this.players.bgm;
       audio.src = this.toPublicPath(track);
       audio.currentTime = 0;
@@ -76,6 +89,7 @@
       if (!this.enabled || !soundPath) {
         return;
       }
+      this.initAudioContext();
       const audio = new Audio(this.toPublicPath(soundPath));
       audio.preload = "auto";
       const nodes = this.audioContext ? createMediaElementChain(this.audioContext, audio) : null;

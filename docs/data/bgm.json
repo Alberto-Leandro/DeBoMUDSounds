@@ -8,10 +8,7 @@
     },
     "track": "Sounds/uar_Bgm/midgaard_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop midgaard_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -23,10 +20,7 @@
     },
     "track": "Sounds/uar_Bgm/midgaard_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop midgaard_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -38,10 +32,7 @@
     },
     "track": "Sounds/uar_Bgm/midgaard_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop midgaard_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -53,10 +44,7 @@
     },
     "track": "Sounds/uar_Bgm/midgaard_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop midgaard_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -68,10 +56,7 @@
     },
     "track": "Sounds/uar_Bgm/estradaCastelo_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop estradaCastelo_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -83,10 +68,7 @@
     },
     "track": "Sounds/uar_Bgm/estradaCastelo_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop estradaCastelo_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -98,10 +80,7 @@
     },
     "track": "Sounds/uar_Bgm/estradaCastelo_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop estradaCastelo_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -113,10 +92,7 @@
     },
     "track": "Sounds/uar_Bgm/estradaCastelo_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop estradaCastelo_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -128,10 +104,7 @@
     },
     "track": "Sounds/uar_Bgm/vilaSmurfs_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop vilaSmurfs_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -143,10 +116,7 @@
     },
     "track": "Sounds/uar_Bgm/vilaSmurfs_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop vilaSmurfs_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -158,10 +128,7 @@
     },
     "track": "Sounds/uar_Bgm/covilGargamel_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop covilGargamel_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -173,10 +140,7 @@
     },
     "track": "Sounds/uar_Bgm/casteloMidgaard_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop casteloMidgaard_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -188,10 +152,7 @@
     },
     "track": "Sounds/uar_Bgm/tabuleiro_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop tabuleiro_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -203,10 +164,7 @@
     },
     "track": "Sounds/uar_Bgm/areaNovatos_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop areaNovatos_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -218,10 +176,7 @@
     },
     "track": "Sounds/uar_Bgm/casaMalAssombrada_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop casaMalAssombrada_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -233,10 +188,7 @@
     },
     "track": "Sounds/uar_Bgm/estradaNorteMidgaard_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop estradaNorteMidgaard_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -248,10 +200,7 @@
     },
     "track": "Sounds/uar_Bgm/estradaNorteMidgaard_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop estradaNorteMidgaard_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -263,10 +212,7 @@
     },
     "track": "Sounds/uar_Bgm/estradaNorteMidgaard_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop estradaNorteMidgaard_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -278,10 +224,7 @@
     },
     "track": "Sounds/uar_Bgm/osaka_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop osaka_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -293,10 +236,7 @@
     },
     "track": "Sounds/uar_Bgm/osaka_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop osaka_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -308,10 +248,7 @@
     },
     "track": "Sounds/uar_Bgm/osaka_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop osaka_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -323,10 +260,7 @@
     },
     "track": "Sounds/uar_Bgm/caminhoSeixos_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop caminhoSeixos_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -338,10 +272,7 @@
     },
     "track": "Sounds/uar_Bgm/caminhoSeixos_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop caminhoSeixos_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -353,10 +284,7 @@
     },
     "track": "Sounds/uar_Bgm/caminhoSeixos_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop caminhoSeixos_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -368,10 +296,7 @@
     },
     "track": "Sounds/uar_Bgm/caminhoSeixos_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop caminhoSeixos_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -383,10 +308,7 @@
     },
     "track": "Sounds/uar_Bgm/caminhoSeixos_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop caminhoSeixos_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -398,10 +320,7 @@
     },
     "track": "Sounds/uar_Bgm/caminhoSeixos_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop caminhoSeixos_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -413,10 +332,7 @@
     },
     "track": "Sounds/uar_Bgm/caminhoSeixos_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop caminhoSeixos_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -428,10 +344,7 @@
     },
     "track": "Sounds/uar_Bgm/caminhoSeixos_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop caminhoSeixos_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -443,10 +356,7 @@
     },
     "track": "Sounds/uar_Bgm/edo_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop edo_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -458,10 +368,7 @@
     },
     "track": "Sounds/uar_Bgm/musashi_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop musashi_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -473,10 +380,7 @@
     },
     "track": "Sounds/uar_Bgm/japaoDoMar_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop japaoDoMar_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -488,10 +392,7 @@
     },
     "track": "Sounds/uar_Bgm/japaoDoMar_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop japaoDoMar_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -503,10 +404,7 @@
     },
     "track": "Sounds/uar_Bgm/japaoDoMar_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop japaoDoMar_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -518,10 +416,7 @@
     },
     "track": "Sounds/uar_Bgm/japaoDoMar_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop japaoDoMar_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -533,10 +428,7 @@
     },
     "track": "Sounds/uar_Bgm/catedralCristal_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop catedralCristal_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -548,10 +440,7 @@
     },
     "track": "Sounds/uar_Bgm/jareth_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop jareth_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -563,10 +452,7 @@
     },
     "track": "Sounds/uar_Bgm/jareth_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop jareth_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -578,10 +464,7 @@
     },
     "track": "Sounds/uar_Bgm/jareth_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop jareth_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -593,10 +476,7 @@
     },
     "track": "Sounds/uar_Bgm/jareth_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop jareth_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -608,10 +488,7 @@
     },
     "track": "Sounds/uar_Bgm/natureza1_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop natureza1_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -623,10 +500,7 @@
     },
     "track": "Sounds/uar_Bgm/cavernaHomemPalido_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop cavernaHomemPalido_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -638,10 +512,7 @@
     },
     "track": "Sounds/uar_Bgm/cavernaHomemPalido_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop cavernaHomemPalido_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -653,10 +524,7 @@
     },
     "track": "Sounds/uar_Bgm/inferno_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop inferno_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -668,10 +536,7 @@
     },
     "track": "Sounds/uar_Bgm/inferno_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop inferno_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -683,10 +548,7 @@
     },
     "track": "Sounds/uar_Bgm/inferno_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop inferno_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -698,10 +560,7 @@
     },
     "track": "Sounds/uar_Bgm/torreMagia_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop torreMagia_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -713,10 +572,7 @@
     },
     "track": "Sounds/uar_Bgm/natureza1_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop natureza1_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -728,10 +584,7 @@
     },
     "track": "Sounds/uar_Bgm/novaSparta_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop novaSparta_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -743,10 +596,7 @@
     },
     "track": "Sounds/uar_Bgm/novaSparta_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop novaSparta_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -758,10 +608,7 @@
     },
     "track": "Sounds/uar_Bgm/tunelCaverna1_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop tunelCaverna1_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -773,10 +620,7 @@
     },
     "track": "Sounds/uar_Bgm/tunelCaverna1_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop tunelCaverna1_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -788,10 +632,7 @@
     },
     "track": "Sounds/uar_Bgm/tunelCaverna2_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop tunelCaverna2_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -803,10 +644,7 @@
     },
     "track": "Sounds/uar_Bgm/cidadeDrows_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop cidadeDrows_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -818,10 +656,7 @@
     },
     "track": "Sounds/uar_Bgm/aglandir_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop aglandir_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -833,10 +668,7 @@
     },
     "track": "Sounds/uar_Bgm/aglandir_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop aglandir_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -848,10 +680,7 @@
     },
     "track": "Sounds/uar_Bgm/desertoNorte_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop desertoNorte_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -863,10 +692,7 @@
     },
     "track": "Sounds/uar_Bgm/desertoNorte_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop desertoNorte_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -878,10 +704,7 @@
     },
     "track": "Sounds/uar_Bgm/desertoNorte_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop desertoNorte_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -893,10 +716,7 @@
     },
     "track": "Sounds/uar_Bgm/desertoSul_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop desertoSul_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -908,10 +728,7 @@
     },
     "track": "Sounds/uar_Bgm/roma_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop roma_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -923,10 +740,7 @@
     },
     "track": "Sounds/uar_Bgm/roma_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop roma_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -938,10 +752,7 @@
     },
     "track": "Sounds/uar_Bgm/galia_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop galia_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -953,10 +764,7 @@
     },
     "track": "Sounds/uar_Bgm/thalos_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop thalos_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -968,10 +776,7 @@
     },
     "track": "Sounds/uar_Bgm/novaThalos_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop novaThalos_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -983,10 +788,7 @@
     },
     "track": "Sounds/uar_Bgm/novaThalos_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop novaThalos_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -998,10 +800,7 @@
     },
     "track": "Sounds/uar_Bgm/novaThalos_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop novaThalos_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1013,10 +812,7 @@
     },
     "track": "Sounds/uar_Bgm/novaThalos_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop novaThalos_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1028,10 +824,7 @@
     },
     "track": "Sounds/uar_Bgm/novaThalos_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop novaThalos_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1043,10 +836,7 @@
     },
     "track": "Sounds/uar_Bgm/novaThalos_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop novaThalos_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1058,10 +848,7 @@
     },
     "track": "Sounds/uar_Bgm/novaThalos_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop novaThalos_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1073,10 +860,7 @@
     },
     "track": "Sounds/uar_Bgm/paraiso_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop paraiso_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1088,10 +872,7 @@
     },
     "track": "Sounds/uar_Bgm/oceano_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop oceano_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1103,10 +884,7 @@
     },
     "track": "Sounds/uar_Bgm/oceano_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop oceano_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1118,10 +896,7 @@
     },
     "track": "Sounds/uar_Bgm/oceano_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop oceano_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1133,10 +908,7 @@
     },
     "track": "Sounds/uar_Bgm/oceano_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop oceano_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1148,10 +920,7 @@
     },
     "track": "Sounds/uar_Bgm/oceano_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop oceano_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1163,10 +932,7 @@
     },
     "track": "Sounds/uar_Bgm/florestaNegra_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop florestaNegra_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1178,10 +944,7 @@
     },
     "track": "Sounds/uar_Bgm/florestaNegra_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop florestaNegra_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1193,10 +956,7 @@
     },
     "track": "Sounds/uar_Bgm/florestaNegra_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop florestaNegra_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1208,10 +968,7 @@
     },
     "track": "Sounds/uar_Bgm/areaMacacos_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop areaMacacos_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1223,10 +980,7 @@
     },
     "track": "Sounds/uar_Bgm/areaMacacos_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop areaMacacos_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1238,10 +992,7 @@
     },
     "track": "Sounds/uar_Bgm/areaMacacos_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop areaMacacos_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1253,10 +1004,7 @@
     },
     "track": "Sounds/uar_Bgm/cidadeGoblins_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop cidadeGoblins_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1268,10 +1016,7 @@
     },
     "track": "Sounds/uar_Bgm/elfos_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop elfos_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1286,10 +1031,7 @@
       "Sounds/uar_Bgm/natureza3_bgm.mp3",
       "Sounds/uar_Bgm/tunelCaverna1_bgm.mp3"
     ],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop territorioOrc_bgm.mp3; #var listaImpedir {natureza3_bgm.mp3|tunelCaverna1_bgm.mp3}; controleLoop"
   },
   {
@@ -1301,10 +1043,7 @@
     },
     "track": "Sounds/uar_Bgm/ankalador_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop ankalador_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1316,10 +1055,7 @@
     },
     "track": "Sounds/uar_Bgm/ankalador_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop ankalador_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1331,10 +1067,7 @@
     },
     "track": "Sounds/uar_Bgm/sundhaven_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop sundhaven_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1346,10 +1079,7 @@
     },
     "track": "Sounds/uar_Bgm/sundhaven_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop sundhaven_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1361,10 +1091,7 @@
     },
     "track": "Sounds/uar_Bgm/sundhaven_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop sundhaven_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1376,10 +1103,7 @@
     },
     "track": "Sounds/uar_Bgm/sundhaven_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop sundhaven_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1391,10 +1115,7 @@
     },
     "track": "Sounds/uar_Bgm/teiaEterea_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop teiaEterea_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1406,10 +1127,7 @@
     },
     "track": "Sounds/uar_Bgm/teiaEterea_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop teiaEterea_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1421,10 +1139,7 @@
     },
     "track": "Sounds/uar_Bgm/pocoBalrogs_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop pocoBalrogs_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1436,10 +1151,7 @@
     },
     "track": "Sounds/uar_Bgm/catedralSanctum_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop catedralSanctum_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1451,10 +1163,7 @@
     },
     "track": "Sounds/uar_Bgm/gnomosHalfling_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop gnomosHalfling_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1466,10 +1175,7 @@
     },
     "track": "Sounds/uar_Bgm/gnomosHalfling_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop gnomosHalfling_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1481,10 +1187,7 @@
     },
     "track": "Sounds/uar_Bgm/florestaJade_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop florestaJade_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1496,10 +1199,7 @@
     },
     "track": "Sounds/uar_Bgm/florestaJade_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop florestaJade_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1511,10 +1211,7 @@
     },
     "track": "Sounds/uar_Bgm/florestaJade_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop florestaJade_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1526,10 +1223,7 @@
     },
     "track": "Sounds/uar_Bgm/silverthorn_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop silverthorn_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1541,10 +1235,7 @@
     },
     "track": "Sounds/uar_Bgm/silverthorn_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop silverthorn_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1556,10 +1247,7 @@
     },
     "track": "Sounds/uar_Bgm/silverthorn_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop silverthorn_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1571,10 +1259,7 @@
     },
     "track": "Sounds/uar_Bgm/silverthorn_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop silverthorn_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1586,10 +1271,7 @@
     },
     "track": "Sounds/uar_Bgm/camelot_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop camelot_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1601,10 +1283,7 @@
     },
     "track": "Sounds/uar_Bgm/flyre_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop flyre_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1616,10 +1295,7 @@
     },
     "track": "Sounds/uar_Bgm/flyre_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop flyre_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1631,10 +1307,7 @@
     },
     "track": "Sounds/uar_Bgm/flyre_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop flyre_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1646,10 +1319,7 @@
     },
     "track": "Sounds/uar_Bgm/flyre_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop flyre_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1661,10 +1331,7 @@
     },
     "track": "Sounds/uar_Bgm/natureza2_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop natureza2_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1676,10 +1343,7 @@
     },
     "track": "Sounds/uar_Bgm/natureza2_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop natureza2_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1691,10 +1355,7 @@
     },
     "track": "Sounds/uar_Bgm/natureza2_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop natureza2_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1706,10 +1367,7 @@
     },
     "track": "Sounds/uar_Bgm/natureza2_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop natureza2_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1721,10 +1379,7 @@
     },
     "track": "Sounds/uar_Bgm/natureza2_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop natureza2_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1736,10 +1391,7 @@
     },
     "track": "Sounds/uar_Bgm/natureza2_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop natureza2_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1751,10 +1403,7 @@
     },
     "track": "Sounds/uar_Bgm/natureza2_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop natureza2_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1766,10 +1415,7 @@
     },
     "track": "Sounds/uar_Bgm/natureza2_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop natureza2_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1781,10 +1427,7 @@
     },
     "track": "Sounds/uar_Bgm/natureza3_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop natureza3_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1796,10 +1439,7 @@
     },
     "track": "Sounds/uar_Bgm/natureza3_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop natureza3_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1811,10 +1451,7 @@
     },
     "track": "Sounds/uar_Bgm/natureza3_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop natureza3_bgm.mp3; #var listaImpedir null; controleLoop"
   },
   {
@@ -1826,10 +1463,7 @@
     },
     "track": "Sounds/uar_Bgm/natureza3_bgm.mp3",
     "blockList": [],
-    "playbackModifiers": {
-      "pan": 0,
-      "frequency": 22050
-    },
+    "playbackModifiers": null,
     "action": "#var mapaLoop natureza3_bgm.mp3; #var listaImpedir null; controleLoop"
   }
 ]

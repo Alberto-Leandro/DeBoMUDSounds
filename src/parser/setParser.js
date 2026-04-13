@@ -87,7 +87,7 @@ export function parseBgmRules(content) {
         pattern: compactWhitespace(block.pattern),
         track: normalizeBgmTrack(loopVar, null),
         blockList: parseBlockList(blockListRaw),
-        playbackModifiers: bgmDefaults,
+        playbackModifiers: null,
         action,
       };
     })
