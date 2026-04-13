@@ -6,8 +6,8 @@
       "source": ".*olha para .* e pronuncia as palavras 'sausabru'\\.",
       "flags": "i"
     },
-    "soundPath": null,
-    "volumeRef": "djsausabru"
+    "soundPath": "Sounds/uar_Vivas/sausabru1_viva.mp3",
+    "volumeRef": null
   },
   {
     "category": "vivas",
@@ -16,8 +16,8 @@
       "source": ".*olha para .* e pronuncia as palavras 'poison'\\.",
       "flags": "i"
     },
-    "soundPath": null,
-    "volumeRef": "djsausabru"
+    "soundPath": "Sounds/uar_Vivas/sausabru1_viva.mp3",
+    "volumeRef": null
   },
   {
     "category": "vivas",
@@ -26,8 +26,8 @@
       "source": ".*olha para voc.* enquanto pronuncia as palavras 'sausabru'\\.",
       "flags": "i"
     },
-    "soundPath": null,
-    "volumeRef": "djsausabru"
+    "soundPath": "Sounds/uar_Vivas/sausabru1_viva.mp3",
+    "volumeRef": null
   },
   {
     "category": "vivas",
@@ -36,8 +36,8 @@
       "source": ".*olha para voc.* enquanto pronuncia as palavras 'poison'\\.",
       "flags": "i"
     },
-    "soundPath": null,
-    "volumeRef": "djsausabru"
+    "soundPath": "Sounds/uar_Vivas/sausabru1_viva.mp3",
+    "volumeRef": null
   },
   {
     "category": "vivas",
@@ -46,8 +46,8 @@
       "source": ".*olha para .* e pronuncia as palavras 'yucandusvirr'\\.",
       "flags": "i"
     },
-    "soundPath": null,
-    "volumeRef": "djyucandusvirr"
+    "soundPath": "Sounds/uar_Vivas/yucandusvirr1_viva.mp3",
+    "volumeRef": null
   },
   {
     "category": "vivas",
@@ -56,8 +56,8 @@
       "source": ".*olha para .* e pronuncia as palavras 'fireball'\\.",
       "flags": "i"
     },
-    "soundPath": null,
-    "volumeRef": "djyucandusvirr"
+    "soundPath": "Sounds/uar_Vivas/yucandusvirr1_viva.mp3",
+    "volumeRef": null
   },
   {
     "category": "vivas",
@@ -66,8 +66,8 @@
       "source": ".*olha para voc.* enquanto pronuncia as palavras 'yucandusvirr'\\.",
       "flags": "i"
     },
-    "soundPath": null,
-    "volumeRef": "djyucandusvirr"
+    "soundPath": "Sounds/uar_Vivas/yucandusvirr1_viva.mp3",
+    "volumeRef": null
   },
   {
     "category": "vivas",
@@ -76,8 +76,8 @@
       "source": ".*olha para voc.* enquanto pronuncia as palavras 'fireball'\\.",
       "flags": "i"
     },
-    "soundPath": null,
-    "volumeRef": "djyucandusvirr"
+    "soundPath": "Sounds/uar_Vivas/yucandusvirr1_viva.mp3",
+    "volumeRef": null
   },
   {
     "category": "vivas",
@@ -86,8 +86,8 @@
       "source": ".*olha para .* e pronuncia as palavras 'noselacri'\\.",
       "flags": "i"
     },
-    "soundPath": null,
-    "volumeRef": "djnoselacri"
+    "soundPath": "Sounds/uar_Vivas/noselacri1_viva.mp3",
+    "volumeRef": null
   },
   {
     "category": "vivas",
@@ -96,8 +96,8 @@
       "source": ".*olha para .* e pronuncia as palavras 'blindness'\\.",
       "flags": "i"
     },
-    "soundPath": null,
-    "volumeRef": "djnoselacri"
+    "soundPath": "Sounds/uar_Vivas/noselacri1_viva.mp3",
+    "volumeRef": null
   },
   {
     "category": "vivas",
@@ -106,8 +106,8 @@
       "source": ".*olha para voc.* enquanto pronuncia as palavras 'noselacri'\\.",
       "flags": "i"
     },
-    "soundPath": null,
-    "volumeRef": "djnoselacri"
+    "soundPath": "Sounds/uar_Vivas/noselacri1_viva.mp3",
+    "volumeRef": null
   },
   {
     "category": "vivas",
@@ -116,8 +116,8 @@
       "source": ".*olha para voc.* enquanto pronuncia as palavras 'blindness'\\.",
       "flags": "i"
     },
-    "soundPath": null,
-    "volumeRef": "djnoselacri"
+    "soundPath": "Sounds/uar_Vivas/noselacri1_viva.mp3",
+    "volumeRef": null
   },
   {
     "category": "vivas",
@@ -126,8 +126,8 @@
       "source": ".*olha para .* e pronuncia as palavras 'wubaf poirubt'\\.",
       "flags": "i"
     },
-    "soundPath": null,
-    "volumeRef": "djwubafpoirubt"
+    "soundPath": "Sounds/uar_Vivas/wubafpoirubt1_viva.mp3",
+    "volumeRef": null
   },
   {
     "category": "vivas",
@@ -136,8 +136,8 @@
       "source": ".*olha para .* e pronuncia as palavras 'minor healing'\\.",
       "flags": "i"
     },
-    "soundPath": null,
-    "volumeRef": "djwubafpoirubt"
+    "soundPath": "Sounds/uar_Vivas/wubafpoirubt1_viva.mp3",
+    "volumeRef": null
   },
   {
     "category": "vivas",
@@ -146,8 +146,8 @@
       "source": ".*olha para voc.* enquanto pronuncia as palavras 'wubaf poirubt'\\.",
       "flags": "i"
     },
-    "soundPath": null,
-    "volumeRef": "djwubafpoirubt"
+    "soundPath": "Sounds/uar_Vivas/wubafpoirubt1_viva.mp3",
+    "volumeRef": null
   },
   {
     "category": "vivas",
@@ -156,8 +156,8 @@
       "source": ".*olha para voc.* enquanto pronuncia as palavras 'minor healing'\\.",
       "flags": "i"
     },
-    "soundPath": null,
-    "volumeRef": "djwubafpoirubt"
+    "soundPath": "Sounds/uar_Vivas/wubafpoirubt1_viva.mp3",
+    "volumeRef": null
   },
   {
     "category": "vivas",
@@ -166,8 +166,8 @@
       "source": ".*olha para .* e pronuncia as palavras 'poir'\\.",
       "flags": "i"
     },
-    "soundPath": null,
-    "volumeRef": "djpoir"
+    "soundPath": "Sounds/uar_Vivas/poir1_viva.mp3",
+    "volumeRef": null
   },
   {
     "category": "vivas",
@@ -176,8 +176,8 @@
       "source": ".*olha para .* e pronuncia as palavras 'heal'\\.",
       "flags": "i"
     },
-    "soundPath": null,
-    "volumeRef": "djpoir"
+    "soundPath": "Sounds/uar_Vivas/poir1_viva.mp3",
+    "volumeRef": null
   },
   {
     "category": "vivas",
@@ -186,8 +186,8 @@
       "source": ".*olha para voc.* enquanto pronuncia as palavras 'poir'\\.",
       "flags": "i"
     },
-    "soundPath": null,
-    "volumeRef": "djpoir"
+    "soundPath": "Sounds/uar_Vivas/poir1_viva.mp3",
+    "volumeRef": null
   },
   {
     "category": "vivas",
@@ -196,8 +196,8 @@
       "source": ".*olha para voc.* enquanto pronuncia as palavras 'heal'\\.",
       "flags": "i"
     },
-    "soundPath": null,
-    "volumeRef": "djpoir"
+    "soundPath": "Sounds/uar_Vivas/poir1_viva.mp3",
+    "volumeRef": null
   },
   {
     "category": "vivas",
@@ -206,8 +206,8 @@
       "source": ".*olha para .* e pronuncia as palavras 'unsoftl mgruub'\\.",
       "flags": "i"
     },
-    "soundPath": null,
-    "volumeRef": "djunsoftlmgruub"
+    "soundPath": "Sounds/uar_Vivas/unsoftlmgruub1_viva.mp3",
+    "volumeRef": null
   },
   {
     "category": "vivas",
@@ -216,8 +216,8 @@
       "source": ".*olha para .* e pronuncia as palavras 'energy drain'\\.",
       "flags": "i"
     },
-    "soundPath": null,
-    "volumeRef": "djunsoftlmgruub"
+    "soundPath": "Sounds/uar_Vivas/unsoftlmgruub1_viva.mp3",
+    "volumeRef": null
   },
   {
     "category": "vivas",
@@ -226,8 +226,8 @@
       "source": ".*olha para voc.* enquanto pronuncia as palavras 'unsoftl mgruub'\\.",
       "flags": "i"
     },
-    "soundPath": null,
-    "volumeRef": "djunsoftlmgruub"
+    "soundPath": "Sounds/uar_Vivas/unsoftlmgruub1_viva.mp3",
+    "volumeRef": null
   },
   {
     "category": "vivas",
@@ -236,7 +236,7 @@
       "source": ".*olha para voc.* enquanto pronuncia as palavras 'energy drain'\\.",
       "flags": "i"
     },
-    "soundPath": null,
-    "volumeRef": "djunsoftlmgruub"
+    "soundPath": "Sounds/uar_Vivas/unsoftlmgruub1_viva.mp3",
+    "volumeRef": null
   }
 ]

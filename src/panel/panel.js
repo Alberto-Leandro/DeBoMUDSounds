@@ -14,15 +14,27 @@ export function mountPanel(api) {
     '<div class="dbm-row"><label>Vivas</label><input id="dbm-vivas" type="range" min="0" max="100" /></div>',
     '<div class="dbm-row"><label>Barra Vida</label><input id="dbm-barraDeVida" type="range" min="0" max="100" /></div>',
     '<div class="dbm-status" id="dbm-status">Aguardando...</div>',
+    '<div class="dbm-row dbm-actions"><button id="dbm-minimize" aria-label="Minimizar painel">Minimizar</button><button id="dbm-close" aria-label="Fechar painel">Fechar</button></div>',
   ].join("");
 
+  const launcher = document.createElement("button");
+  launcher.id = "debomud-panel-launcher";
+  launcher.type = "button";
+  launcher.setAttribute("aria-label", "Reabrir painel de sons");
+  launcher.textContent = "Som";
+  launcher.hidden = true;
+
   document.body.appendChild(panel);
+  document.body.appendChild(launcher);
   attachEvents(api);
   injectStyles();
   hydrate(api);
 }
 
 function attachEvents(api) {
+  const panel = document.getElementById("debomud-panel");
+  const launcher = document.getElementById("debomud-panel-launcher");
+
   document.getElementById("dbm-toggle").addEventListener("click", () => {
     const state = api.status();
     api.enable(!state.enabled);
@@ -43,6 +55,21 @@ function attachEvents(api) {
         persist(api.status());
         updateStatus(api.status());
       });
+  });
+
+  document.getElementById("dbm-minimize").addEventListener("click", () => {
+    panel.hidden = true;
+    launcher.hidden = false;
+  });
+
+  launcher.addEventListener("click", () => {
+    panel.hidden = false;
+    launcher.hidden = true;
+  });
+
+  document.getElementById("dbm-close").addEventListener("click", () => {
+    panel.remove();
+    launcher.remove();
   });
 }
 
@@ -69,6 +96,9 @@ function hydrate(api) {
 
 function updateStatus(state) {
   const status = document.getElementById("dbm-status");
+  if (!status) {
+    return;
+  }
   status.textContent = `Estado: ${state.enabled ? "ON" : "OFF"} | BGM: ${state.currentBgmTrack ?? "nenhuma"}`;
 }
 
@@ -114,8 +144,25 @@ function injectStyles() {
     #debomud-panel .dbm-row { display: flex; align-items: center; gap: 8px; margin: 6px 0; }
     #debomud-panel .dbm-row label { width: 60px; font-size: 12px; }
     #debomud-panel .dbm-row input { flex: 1; }
+    #debomud-panel .dbm-actions { justify-content: flex-end; margin-top: 10px; }
     #debomud-panel button { border: 0; border-radius: 8px; padding: 6px 10px; background: #2d4d4f; color: #fff; cursor: pointer; }
+    #debomud-panel .dbm-actions button { min-width: 88px; }
     #debomud-panel .dbm-status { margin-top: 8px; font-size: 12px; }
+    #debomud-panel-launcher {
+      position: fixed;
+      top: 12px;
+      left: 12px;
+      z-index: 999998;
+      border: 0;
+      border-radius: 999px;
+      padding: 8px 12px;
+      background: #2d4d4f;
+      color: #fff;
+      font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
+      font-size: 12px;
+      cursor: pointer;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+    }
     @media (max-width: 720px) {
       #debomud-panel { width: calc(100vw - 24px); left: 12px; right: 12px; }
     }

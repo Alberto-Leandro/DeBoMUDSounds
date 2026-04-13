@@ -251,16 +251,6 @@
   },
   {
     "category": "classes",
-    "pattern": "*rrombar uma porta aberta? Muito bem!",
-    "matcher": {
-      "source": ".*rrombar uma porta aberta. Muito bem!",
-      "flags": "i"
-    },
-    "soundPath": "Sounds/uar_Classes/erro3_uar.mp3",
-    "volumeRef": null
-  },
-  {
-    "category": "classes",
     "pattern": "*oc* n*o consegue derrubar isso!",
     "matcher": {
       "source": ".*oc.* n.*o consegue derrubar isso!",
@@ -376,8 +366,8 @@
       "source": ".*oc.* n.*o conseguiu consertar .*",
       "flags": "i"
     },
-    "soundPath": null,
-    "volumeRef": "repairingSound"
+    "soundPath": "Sounds/uar_Classes/repair1_uar.mp3",
+    "volumeRef": null
   },
   {
     "category": "classes",
@@ -427,6 +417,16 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/danificado_uar.mp3",
+    "volumeRef": null
+  },
+  {
+    "category": "classes",
+    "pattern": "*oc* p*ra de usar *.",
+    "matcher": {
+      "source": ".*oc.* p.*ra de usar .*\\.",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/uar_Classes/repairFail_uar.mp3",
     "volumeRef": null
   },
   {

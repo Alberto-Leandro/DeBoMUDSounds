@@ -2731,16 +2731,6 @@
   },
   {
     "category": "fx",
-    "pattern": "Voc* percebe que h* algo perigoso por perto!",
-    "matcher": {
-      "source": "Voc.* percebe que h.* algo perigoso por perto!",
-      "flags": "i"
-    },
-    "soundPath": "Sounds/uar_Fx/deathTrap_debo.mp3",
-    "volumeRef": null
-  },
-  {
-    "category": "fx",
     "pattern": "Voc* perdeu * pontos de experi*ncia pela sua morte.",
     "matcher": {
       "source": "Voc.* perdeu .* pontos de experi.*ncia pela sua morte\\.",

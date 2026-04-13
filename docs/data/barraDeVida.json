@@ -1,1 +1,212 @@
-[]
+[
+  {
+    "category": "barraDeVida",
+    "pattern": "*{<<<<<>>>>>}",
+    "matcher": {
+      "source": ".*\\{<<<<<>>>>>\\}",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/uar_BarraDeVida/vidaAlta_uar.mp3",
+    "volumeRef": "vidaJogHandle"
+  },
+  {
+    "category": "barraDeVida",
+    "pattern": "*{<<<<<>>>>-}",
+    "matcher": {
+      "source": ".*\\{<<<<<>>>>-\\}",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/uar_BarraDeVida/vidaAlta_uar.mp3",
+    "volumeRef": "vidaJogHandle"
+  },
+  {
+    "category": "barraDeVida",
+    "pattern": "*{<<<<<>>>--}",
+    "matcher": {
+      "source": ".*\\{<<<<<>>>--\\}",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/uar_BarraDeVida/vidaAlta_uar.mp3",
+    "volumeRef": "vidaJogHandle"
+  },
+  {
+    "category": "barraDeVida",
+    "pattern": "*{<<<<<>>---}",
+    "matcher": {
+      "source": ".*\\{<<<<<>>---\\}",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/uar_BarraDeVida/vidaMedia_uar.mp3",
+    "volumeRef": "vidaJogHandle"
+  },
+  {
+    "category": "barraDeVida",
+    "pattern": "*{<<<<<>----}",
+    "matcher": {
+      "source": ".*\\{<<<<<>----\\}",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/uar_BarraDeVida/vidaMedia_uar.mp3",
+    "volumeRef": "vidaJogHandle"
+  },
+  {
+    "category": "barraDeVida",
+    "pattern": "*{<<<<<-----}",
+    "matcher": {
+      "source": ".*\\{<<<<<-----\\}",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/uar_BarraDeVida/vidaMedia_uar.mp3",
+    "volumeRef": "vidaJogHandle"
+  },
+  {
+    "category": "barraDeVida",
+    "pattern": "*{<<<<------}",
+    "matcher": {
+      "source": ".*\\{<<<<------\\}",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/uar_BarraDeVida/vidaBaixa_uar.mp3",
+    "volumeRef": "vidaJogHandle"
+  },
+  {
+    "category": "barraDeVida",
+    "pattern": "*{<<<-------}",
+    "matcher": {
+      "source": ".*\\{<<<-------\\}",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/uar_BarraDeVida/vidaBaixa_uar.mp3",
+    "volumeRef": "vidaJogHandle"
+  },
+  {
+    "category": "barraDeVida",
+    "pattern": "*{<<--------}",
+    "matcher": {
+      "source": ".*\\{<<--------\\}",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/uar_BarraDeVida/vidaCritica_uar.mp3",
+    "volumeRef": "vidaJogHandle"
+  },
+  {
+    "category": "barraDeVida",
+    "pattern": "*{<---------}",
+    "matcher": {
+      "source": ".*\\{<---------\\}",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/uar_BarraDeVida/vidaCritica_uar.mp3",
+    "volumeRef": "vidaJogHandle"
+  },
+  {
+    "category": "barraDeVida",
+    "pattern": "{<<<<<>>>>>}*",
+    "matcher": {
+      "source": "\\{<<<<<>>>>>\\}.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/uar_BarraDeVida/vidaAdv_uar.mp3",
+    "volumeRef": "vidaAdvHandle"
+  },
+  {
+    "category": "barraDeVida",
+    "pattern": "{-<<<<>>>>>}*",
+    "matcher": {
+      "source": "\\{-<<<<>>>>>\\}.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/uar_BarraDeVida/vidaAdv_uar.mp3",
+    "volumeRef": "vidaAdvHandle"
+  },
+  {
+    "category": "barraDeVida",
+    "pattern": "{--<<<>>>>>}*",
+    "matcher": {
+      "source": "\\{--<<<>>>>>\\}.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/uar_BarraDeVida/vidaAdv_uar.mp3",
+    "volumeRef": "vidaAdvHandle"
+  },
+  {
+    "category": "barraDeVida",
+    "pattern": "{---<<>>>>>}*",
+    "matcher": {
+      "source": "\\{---<<>>>>>\\}.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/uar_BarraDeVida/vidaAdv_uar.mp3",
+    "volumeRef": "vidaAdvHandle"
+  },
+  {
+    "category": "barraDeVida",
+    "pattern": "{----<>>>>>}*",
+    "matcher": {
+      "source": "\\{----<>>>>>\\}.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/uar_BarraDeVida/vidaAdv_uar.mp3",
+    "volumeRef": "vidaAdvHandle"
+  },
+  {
+    "category": "barraDeVida",
+    "pattern": "{----->>>>>}*",
+    "matcher": {
+      "source": "\\{----->>>>>\\}.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/uar_BarraDeVida/vidaAdv_uar.mp3",
+    "volumeRef": "vidaAdvHandle"
+  },
+  {
+    "category": "barraDeVida",
+    "pattern": "{------>>>>}*",
+    "matcher": {
+      "source": "\\{------>>>>\\}.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/uar_BarraDeVida/vidaAdv_uar.mp3",
+    "volumeRef": "vidaAdvHandle"
+  },
+  {
+    "category": "barraDeVida",
+    "pattern": "{------->>>}*",
+    "matcher": {
+      "source": "\\{------->>>\\}.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/uar_BarraDeVida/vidaAdv_uar.mp3",
+    "volumeRef": "vidaAdvHandle"
+  },
+  {
+    "category": "barraDeVida",
+    "pattern": "{-------->>}*",
+    "matcher": {
+      "source": "\\{-------->>\\}.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/uar_BarraDeVida/vidaAdv_uar.mp3",
+    "volumeRef": "vidaAdvHandle"
+  },
+  {
+    "category": "barraDeVida",
+    "pattern": "{--------->}*",
+    "matcher": {
+      "source": "\\{--------->\\}.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/uar_BarraDeVida/vidaAdv_uar.mp3",
+    "volumeRef": "vidaAdvHandle"
+  },
+  {
+    "category": "barraDeVida",
+    "pattern": "{----------}*",
+    "matcher": {
+      "source": "\\{----------\\}.*",
+      "flags": "i"
+    },
+    "soundPath": "Sounds/uar_BarraDeVida/vidaAdv_uar.mp3",
+    "volumeRef": "vidaAdvHandle"
+  }
+]
