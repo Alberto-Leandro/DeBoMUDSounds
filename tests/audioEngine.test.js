@@ -13,6 +13,7 @@ class FakeAudio {
     this.volume = 1;
     this.playbackRate = 1;
     this.playCalls = 0;
+    this.crossOrigin = null;
     FakeAudio.instances.push(this);
   }
 
@@ -43,6 +44,11 @@ describe("audioEngine", () => {
   test("BGM entra em loop", () => {
     const engine = new AudioEngine({ baseUrl: "https://x" });
     expect(engine.players.bgm.loop).toBe(true);
+  });
+
+  test("BGM tem crossOrigin anonymous", () => {
+    const engine = new AudioEngine({ baseUrl: "https://x" });
+    expect(engine.players.bgm.crossOrigin).toBe("anonymous");
   });
 
   test("nao reinicia mesma faixa", async () => {
@@ -90,5 +96,16 @@ describe("audioEngine", () => {
 
     const audio = FakeAudio.instances.at(-1);
     expect(audio.volume).toBeCloseTo(0.8, 5);
+  });
+
+  test("efeito tem crossOrigin anonymous", async () => {
+    const engine = new AudioEngine({ baseUrl: "https://x" });
+    await engine.playEffect(
+      "fx",
+      "Sounds/uar_Fx/mensagem-dizer.mp3",
+    );
+
+    const audio = FakeAudio.instances.at(-1);
+    expect(audio.crossOrigin).toBe("anonymous");
   });
 });

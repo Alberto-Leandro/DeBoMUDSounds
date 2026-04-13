@@ -23,6 +23,7 @@
       };
       this.players.bgm.loop = true;
       this.players.bgm.preload = "auto";
+      this.players.bgm.crossOrigin = "anonymous";
       this.audioContext = null;
       this.bgmNodes = null;
       this.applyVolume("bgm");
@@ -90,7 +91,9 @@
         return;
       }
       this.initAudioContext();
-      const audio = new Audio(this.toPublicPath(soundPath));
+      const audio = new Audio();
+      audio.crossOrigin = "anonymous";
+      audio.src = this.toPublicPath(soundPath);
       audio.preload = "auto";
       const nodes = this.audioContext ? createMediaElementChain(this.audioContext, audio) : null;
       this.applyPlaybackModifiers(audio, nodes, channel, playbackModifiers);
