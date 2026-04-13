@@ -7,7 +7,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/double-gold-inicio.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -17,7 +20,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/double-inicio-xp.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -27,7 +33,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/double-gold-inicio.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -37,7 +46,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/double-inicio-xp.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -47,7 +59,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/Beep7.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -57,7 +72,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/Beep7.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -67,7 +85,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/double-uma-hora.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -77,7 +98,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/double-uma-hora.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -87,7 +111,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/double-gold-fim.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -97,7 +124,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/double-xp-fim.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -107,7 +137,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/falandoLeilao_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -117,7 +150,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/leilao-inicio.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -127,7 +163,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/leilao-venda.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -137,7 +176,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/leilao-oferta.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -147,7 +189,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/venda.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -157,7 +202,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/estouro-ensurdecedor.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -167,7 +215,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/nuvem-de-fumaca-in.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -177,7 +228,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/nuvem-de-fumaca-in.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -187,7 +241,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/nuvem-de-fumaca-out.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -197,7 +254,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/aparecer.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -207,7 +267,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/transferir.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -217,7 +280,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/entrar-no-portal.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -227,7 +293,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/nuvem-de-fumaca-out.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -237,7 +306,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/arroto.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -247,7 +319,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/palmas.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -257,7 +332,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/choramingar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -267,7 +345,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/tapa.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -277,7 +358,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/palmas.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -287,7 +371,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/espirro.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -297,7 +384,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/choramingar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -307,7 +397,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/gargalhada.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -317,7 +410,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/beijo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -327,7 +423,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/peido.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -337,7 +436,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/ataque-de-riso.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -347,7 +449,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/gemotePalmas_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -357,7 +462,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/gemotePalmas_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -367,7 +475,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/espirro_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -377,7 +488,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/espirro.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -387,7 +501,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/palmas.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -397,7 +514,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/palmas.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -407,7 +527,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/ataque-de-riso.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -417,7 +540,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/gargalhada.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -427,7 +553,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/tapa.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -437,7 +566,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/berrar_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -447,7 +579,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/cochichar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -457,7 +592,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/mensagem-grupo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -467,7 +605,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/mensagem-dizer.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -477,7 +618,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/mensagem-dizer.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -487,7 +631,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/mensagem-canal-privado.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -497,7 +644,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/falarAventureiros_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -507,7 +657,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/mensagem-telepatia.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -517,7 +670,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/canal-privado-fechar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -527,7 +683,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/gritar_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -537,7 +696,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/mensagem-dizer.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -547,7 +709,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/mensagem-dizer.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -557,7 +722,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/mensagem-dizer.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -567,7 +735,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/mensagem-dizer.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -577,7 +748,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/mensagem-tagarela.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -587,7 +761,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/congratula_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -597,7 +774,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/escrevendoQuadro_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -607,7 +787,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/canal-privado-abrir.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -617,7 +800,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/canalTelepatia_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -627,7 +813,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/canal-privado-abrir.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -637,7 +826,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/canal-privado-fechar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -647,7 +839,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/alguem-chegou-voando.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -657,7 +852,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/alguem-chegou-voando.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -667,7 +865,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/alguem-chegou.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -677,7 +878,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/alguem-chegou.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -687,7 +891,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/alguem-chegou-voando.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -697,7 +904,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/alguem-chegou-voando.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -707,7 +917,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/alguem-chegou.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -717,7 +930,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/alguem-chegou.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -727,7 +943,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/alguem-saiu.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -737,7 +956,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/alguem-saiu-voando.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -747,7 +969,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/abrePortao_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -757,7 +982,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/abrePorta_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -767,7 +995,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/abrePortao_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -777,7 +1008,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/click.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -787,7 +1021,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/fechaPorta_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -797,7 +1034,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/abrePortao_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -807,7 +1047,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/correnteza_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -817,7 +1060,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/pareceFechado_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -827,7 +1073,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/abrePortao_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -837,7 +1086,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/porta-esbarrar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -847,7 +1099,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/abrePorta_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -857,7 +1112,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/fechaPorta_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -867,7 +1125,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/trancado.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -877,7 +1138,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/esta-fechado.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -887,7 +1151,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/abrePortao_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -897,7 +1164,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/pareceFechado_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -907,7 +1177,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/trancado.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -917,7 +1190,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/mobChegou_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -927,7 +1203,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/carroca-chegou.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -937,7 +1216,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/carroca-saiu.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -947,7 +1229,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/bocejo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -957,7 +1242,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/atravessar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -967,7 +1255,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/seguir-on.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -977,7 +1268,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/fuga-sucesso.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -987,7 +1281,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/descansar_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -997,7 +1294,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/splash.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1007,7 +1307,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/roncando.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1017,7 +1320,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/levantar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1027,7 +1333,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/sentar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1037,7 +1346,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/item-deteriorou.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1047,7 +1359,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/item-deteriorou.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1057,7 +1372,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/item-deteriorou.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1067,7 +1385,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/item-deteriorou-chao.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1077,7 +1398,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/teEntrega_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1087,7 +1411,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro2_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1097,7 +1424,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/condicao-perfeita.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1107,7 +1437,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/condicao-pessima-sangue.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1117,7 +1450,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/efeito1_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1127,7 +1463,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/queda-cadaver.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1137,7 +1476,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/condicao-machucado-morrer.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1147,7 +1489,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/condicao-machucado-sangue.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1157,7 +1502,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/derramar-sangue.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1167,7 +1515,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/efeito1_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1177,7 +1528,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/efeito6_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1187,7 +1541,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/condicao-arranhoes.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1197,7 +1554,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/condicaco-alguns-machucados.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1207,7 +1567,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/condicao-pequenos-machucados.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1217,7 +1580,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/efeito1_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1227,7 +1593,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/condicao-gicantescos-machucados.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1237,7 +1606,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/efeito5_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1247,7 +1619,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/efeito6_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1257,7 +1632,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/condicao-varios-machucados.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1267,7 +1645,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/fez-ferimento.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1277,7 +1658,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/ganhou-arena.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1287,7 +1671,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/comecou-arena.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1297,7 +1684,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/eliminacao-arena.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1307,7 +1697,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/anuncio-arena.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1317,7 +1710,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/entrou-arena.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1327,7 +1723,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/hierofanteAmarelo_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1337,7 +1736,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/hierofanteVerde_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1347,7 +1749,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/hierofanteBranco_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1357,7 +1762,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/hierofanteAzul_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1367,7 +1775,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/saquear-container.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1377,7 +1788,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/deposito.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1387,7 +1801,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/saquear-moedas.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1397,7 +1814,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/saque-banco.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1407,7 +1827,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/trovao.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1417,7 +1840,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/dia.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1427,7 +1853,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/galo-cantando.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1437,7 +1866,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/coruja.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1447,7 +1879,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/raios2.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1457,7 +1892,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/trovao.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1467,7 +1905,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/reparando_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1477,7 +1918,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/compra.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1487,7 +1931,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/magoRecarrega_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1497,7 +1944,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro3_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1507,7 +1957,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/compra.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1517,7 +1970,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/tomaPocao_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1527,7 +1983,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/arroto-comer.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1537,7 +1996,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/comFome_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1547,7 +2009,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/sede.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1557,7 +2022,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/barriga-roncando.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1567,7 +2035,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/esvaziar-liquido.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1577,7 +2048,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/fireball.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1587,7 +2061,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/tosse.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1597,7 +2074,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/tosse.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1607,7 +2087,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/pvp-ativado.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1617,7 +2100,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/escrevendoQuadro_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1627,7 +2113,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/vermes-consumir-corpo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1637,7 +2126,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/desagrupar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1647,7 +2139,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/lutando.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1657,7 +2152,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/hey.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1667,7 +2165,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/recarregar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1677,7 +2178,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro4_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1687,7 +2191,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/empacotar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1697,7 +2204,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/pulaAjudar_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1707,7 +2217,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/desagrupar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1717,7 +2230,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/reconectou_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1727,7 +2243,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/transferir.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1737,7 +2256,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/choque-item.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1747,7 +2269,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/pulaAjudar_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1757,7 +2282,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/empunharEspada_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1767,7 +2295,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/entrouJogo_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1777,7 +2308,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/perdeuConexao_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1787,7 +2321,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/saiuJogo_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1797,7 +2334,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/reconectou_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1807,7 +2347,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/noite-comecou.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1817,7 +2360,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/taverna.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1827,7 +2373,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/entrou-no-grupo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1837,7 +2386,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/magia-falhou.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1847,7 +2399,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/magia-falhou.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1857,7 +2412,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro5_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1867,7 +2425,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/taverna.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1877,7 +2438,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/chuva.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1887,7 +2451,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/comando-desconhecido.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1897,7 +2464,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro6_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1907,7 +2477,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/naoPodeEscutar_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1917,7 +2490,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/muitoPeso_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1927,7 +2503,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro7_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1937,7 +2516,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/sussurros.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1947,7 +2529,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro-menu.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1957,7 +2542,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/voceDeseja_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1967,7 +2555,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro-acao.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1977,7 +2568,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/tosse.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1987,7 +2581,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/sem-carga.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -1997,7 +2594,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/sem-carga.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2007,7 +2607,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro-menu.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2017,7 +2620,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2027,7 +2633,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro1_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2037,7 +2646,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/missao-diaria-concluida.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2047,7 +2659,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/nataldeboista.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2057,7 +2672,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro2_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2067,7 +2685,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro3_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2077,7 +2698,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/taverna.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2087,7 +2711,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/receber-carta.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2097,7 +2724,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/sussurros.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2107,7 +2737,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro4_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2117,7 +2750,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro5_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2127,7 +2763,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/panico.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2137,7 +2776,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/nivel-cem.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2147,7 +2789,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/horn.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2157,7 +2802,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/missao-fim.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2167,7 +2815,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/sussurros.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2177,7 +2828,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro6_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2187,7 +2841,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/reconectou_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2197,7 +2854,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/retornar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2207,7 +2867,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/horas_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2217,7 +2880,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/horas_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2227,7 +2893,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/morte-cachorro.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2237,7 +2906,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/grito-de-morte.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2247,7 +2919,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/enviar-carta.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2257,7 +2932,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/deflection.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2267,7 +2945,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/magia-falhou.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2277,7 +2958,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/aventura_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2287,7 +2971,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/receber-caixa-misteriosa.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2297,7 +2984,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/magia-falhou.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2307,7 +2997,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/vermes-consumir-corpo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2317,7 +3010,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/receber-caixa-misteriosa.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2327,7 +3023,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/voceDeseja_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2337,7 +3036,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/yay.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2347,7 +3049,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/objetivo-concluido.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2357,7 +3062,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/level-up.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2367,7 +3075,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/gongo-meditar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2377,7 +3088,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/missao-inicio.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2387,7 +3101,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/abrir-mochila.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2397,7 +3114,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/morte.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2407,7 +3127,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/batimentos-rapidos.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2417,7 +3140,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/cansada.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2427,7 +3153,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/fuga-falha.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2437,7 +3166,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/magia-falhou.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2447,7 +3179,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/entrar-vazio.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2457,7 +3192,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/aviso-inventario.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2467,7 +3205,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/harpa.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2477,7 +3218,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro7_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2487,7 +3231,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro-acao.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2497,7 +3244,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/blub.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2507,7 +3257,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/magia-falhou.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2517,7 +3270,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2527,7 +3283,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro1_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2537,7 +3296,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro2_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2547,7 +3309,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro2_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2557,7 +3322,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro3_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2567,7 +3335,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/tectec.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2577,7 +3348,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro4_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2587,7 +3361,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro5_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2597,7 +3374,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro6_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2607,7 +3387,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro7_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2617,7 +3400,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/naoPodeIr_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2627,7 +3413,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro-acao.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2637,7 +3426,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro-menu.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2647,7 +3439,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2657,7 +3452,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro1_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2667,7 +3465,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro3_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2677,7 +3478,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/naoConcetra_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2687,7 +3491,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/naoConcetra_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2697,7 +3504,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/p_seguir.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2707,7 +3517,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/roncando.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2717,7 +3530,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/afogando.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2727,7 +3543,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/pegar-chave.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2737,7 +3556,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/morte.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2747,7 +3569,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/sussurros.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2757,7 +3582,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro4_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2767,7 +3595,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/dissolver-pergaminho.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2777,7 +3608,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro5_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2787,7 +3621,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro6_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2797,7 +3634,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/cajado-de-loraine.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2807,7 +3647,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/identificar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2817,7 +3660,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/melhorar-magia-hab.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2827,7 +3673,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/oferenda.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2837,7 +3686,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/fuga-falha.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2847,7 +3699,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/moverLivremente_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2857,7 +3712,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/sussurros.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2867,7 +3725,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/cartas.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2877,7 +3738,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/cartas.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2887,7 +3751,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/choque_item.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2897,7 +3764,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/vulto.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2907,7 +3777,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/escorregouBolinha.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2917,7 +3790,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/jogaBolinha_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2927,7 +3803,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/jogaCajado_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2937,7 +3816,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/jogaBolinha_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2947,7 +3829,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/jogaCajado_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2957,7 +3842,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/escorregaBolinha_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2967,7 +3855,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/escorregouBolinha.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2977,7 +3868,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/erro-acao.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2987,7 +3881,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/practicing_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -2997,7 +3894,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/practiced_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "fx",
@@ -3007,6 +3907,9 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Fx/practiced_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   }
 ]

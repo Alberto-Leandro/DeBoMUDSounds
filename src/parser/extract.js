@@ -22,6 +22,9 @@ function toRuntimeTrigger(item) {
     matcher: makeMatcher(item.pattern),
     soundPath: normalizeOutputPath(item.soundPath, item.category),
     volumeRef: item.volumeRef,
+    playbackModifiers: item.playbackModifiers ?? null,
+    conditionRef: item.conditionRef ?? null,
+    stateWindow: item.stateWindow ?? null,
   };
 }
 
@@ -44,6 +47,7 @@ export function buildTriggerData(repoRoot) {
     blockList: item.blockList.map((name) =>
       path.posix.join("Sounds/uar_Bgm", name),
     ),
+    playbackModifiers: item.playbackModifiers ?? null,
     action: item.action,
   }));
 

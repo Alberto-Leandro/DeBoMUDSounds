@@ -7,7 +7,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/nearMiss_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -17,7 +20,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/kick_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -27,7 +33,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/kick_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -37,7 +46,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/kick_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -47,7 +59,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/nearMiss_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -57,7 +72,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/nearMiss_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -67,7 +85,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -77,7 +98,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/rescue_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -87,7 +111,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/rescue_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -97,7 +124,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/rescue_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -107,7 +137,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/rescue_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -117,7 +150,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/trackNao_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -127,7 +163,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/trackNao_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -137,7 +176,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/track_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -147,7 +189,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/track_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -157,7 +202,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/trackAqui_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -167,7 +215,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/bash.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -177,7 +228,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/bash_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -187,7 +241,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/bash2.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -197,7 +254,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -207,7 +267,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/turn_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -217,7 +280,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/turn_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -227,7 +293,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/intimidado_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -237,7 +306,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/doorbash_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -247,7 +319,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/doorbashErro_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -257,7 +332,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro6_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -267,7 +345,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro3_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -277,7 +358,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/doorBashNotBashed_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -287,7 +371,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/doorBashPain_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -297,7 +384,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/abraco-de-urso.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -307,7 +397,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/abraco-de-urso.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -317,7 +410,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/bandage_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -327,7 +423,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/condicao-perfeita.mp3",
-    "volumeRef": "volumefx"
+    "volumeRef": "volumefx",
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -337,7 +436,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/whirlwindAcerto_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -347,7 +449,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/whirlwindErro_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -357,7 +462,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/backslash_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -367,7 +475,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/repair1_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -377,7 +488,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/repairFail_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -387,7 +501,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/repairDamaged_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -397,7 +514,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/repairSucess_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -407,7 +527,15 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/danificado_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": {
+      "flag": "equipDanificado",
+      "activeValue": 1,
+      "inactiveValue": 0,
+      "ttlMs": 1000
+    }
   },
   {
     "category": "classes",
@@ -417,7 +545,15 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/danificado_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": {
+      "flag": "equipDanificado",
+      "activeValue": 1,
+      "inactiveValue": 0,
+      "ttlMs": 1000
+    }
   },
   {
     "category": "classes",
@@ -427,7 +563,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/repairFail_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": "equipDanificado",
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -437,7 +576,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/spin_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -447,7 +589,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/whirlwindErro_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -457,7 +602,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/quickDraw_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -467,7 +615,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/quickDraw_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -477,7 +628,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/swoop_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -487,7 +641,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/swoop_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -497,7 +654,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/disarm_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -507,7 +667,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/disarm_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -517,7 +680,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/criticalHit_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -527,7 +693,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/boneTwist_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -537,7 +706,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/corpseExplosion_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -547,7 +719,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/curse_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -557,7 +732,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/chillTouch_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -567,7 +745,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/chillTouch_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -577,7 +758,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/boneArms_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -587,7 +771,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/boneArms_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -597,7 +784,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/blindness_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -607,7 +797,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/blindness_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -617,7 +810,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/energyDrain.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -627,7 +823,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/poison_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -637,7 +836,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/animateDead_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -647,7 +849,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/fog_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -657,7 +862,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/nightPower_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -667,7 +875,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/nightPower_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -677,7 +888,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/boneArmor_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -687,7 +901,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/boneArmor_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -697,7 +914,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/plague_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -707,7 +927,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/spirit_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -717,7 +940,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/spirit_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -727,7 +953,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/dispelGood_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -737,7 +966,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro7_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -747,7 +979,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro6_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -757,7 +992,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/wekenedFlesh_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -767,7 +1005,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/detectGood_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -777,7 +1018,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/callGhostsOn_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -787,7 +1031,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/callGhosts_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -797,7 +1044,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/callGhostsOn_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -807,7 +1057,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/mentalPain_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -817,7 +1070,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -827,7 +1083,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/convokeShadows_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -837,7 +1096,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/convokeShadows_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -847,7 +1109,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/mix_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -857,7 +1122,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/boneRain_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -867,7 +1135,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/darkSpykes_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -877,7 +1148,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro4_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -887,7 +1161,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/boneShield_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -897,7 +1174,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/boneShield_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -907,7 +1187,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/excruciate_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -917,7 +1200,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/excruciate_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -927,7 +1213,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/bloodScythe_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -937,7 +1226,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/manaShield_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -947,7 +1239,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/manaShield_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -957,7 +1252,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/manaShieldPop_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -967,7 +1265,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/makeAggresive_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -977,7 +1278,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/soulExplosion_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -987,7 +1291,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/boneAttack_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -997,7 +1304,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/callDeath_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1007,7 +1317,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/apocalypse_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1017,7 +1330,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/beg_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1027,7 +1343,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/beg_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1037,7 +1356,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/begFalha_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1047,7 +1369,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/hide_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1057,7 +1382,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/pickLock_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1067,7 +1395,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/scan_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1077,7 +1408,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/scan_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1087,7 +1421,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro1_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1097,7 +1434,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/backstab.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1107,7 +1447,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/backstab.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1117,7 +1460,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/sneak_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1127,7 +1473,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/dirtThrow_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1137,7 +1486,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/dirtThrow_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1147,7 +1499,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/dirtThrow_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1157,7 +1512,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/escudo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1167,7 +1525,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/spy_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1177,7 +1538,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1187,7 +1551,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/radar_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1197,7 +1564,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/radar_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1207,7 +1577,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1217,7 +1590,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1227,7 +1603,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/steal_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1237,7 +1616,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/steal_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1247,7 +1629,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/steal_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1257,7 +1642,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/pulo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1267,7 +1655,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro7_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1277,7 +1668,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/shoot_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1287,7 +1681,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/shoot_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1297,7 +1694,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/retreat_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1307,7 +1707,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/retreat_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1317,7 +1720,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/goodBerry_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1327,7 +1733,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/uivo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1337,7 +1746,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/enviriomentProtection_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1347,7 +1759,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/enviriomentProtection_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1357,7 +1772,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/enviriomentProtection_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1367,7 +1785,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1377,7 +1798,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/controlWeather_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1387,7 +1811,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/controlWeather_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1397,7 +1824,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/ancientKnowledge_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1407,7 +1837,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/ancientKnowledge_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1417,7 +1850,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/faeriePowder_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1427,7 +1863,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/faeriePowder_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1437,7 +1876,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/callWeak_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1447,7 +1889,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/callStrong_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1457,7 +1902,10 @@
       "flags": "i"
     },
     "soundPath": null,
-    "volumeRef": "vCl"
+    "volumeRef": "vCl",
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1467,7 +1915,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/callLightningHit_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1477,7 +1928,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/purify_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1487,7 +1941,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/creatureKnowledge_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1497,7 +1954,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/thornSkin_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1507,7 +1967,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/thornSkin_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1517,7 +1980,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/autunmLeaves_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1527,7 +1993,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/winterFall_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1537,7 +2006,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/reveal_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1547,7 +2019,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/reveal_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1557,7 +2032,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/endurance_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1567,7 +2045,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/endurance_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1577,7 +2058,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/endurance_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1587,7 +2071,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/hurricaneHit_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1597,7 +2084,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/hurricane_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1607,7 +2097,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/locustSwarm_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1617,7 +2110,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/waterBlast_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1627,7 +2123,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/waterBlastHit_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1637,7 +2136,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/waterBlastHit_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1647,7 +2149,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1657,7 +2162,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/urso.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1667,7 +2175,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/urso-rosnar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1677,7 +2188,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/regeneration_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1687,7 +2201,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/regeneration_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1697,7 +2214,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/markTerritorie_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1707,7 +2227,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/markTerritorie_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1717,7 +2240,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/endurance_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1727,7 +2253,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1737,7 +2266,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/barkSkin_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1747,7 +2279,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/barkSkin_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1757,7 +2292,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/animatePlantAnciao.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1767,7 +2305,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/animatePlantAnciao.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1777,7 +2318,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/animatePlantBroto.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1787,7 +2331,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/animatePlantBroto.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1797,7 +2344,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/rockToMud_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1807,7 +2357,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/rockToMud_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1817,7 +2370,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/vibora.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1827,7 +2383,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/vibora.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1837,7 +2396,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/explosivePine_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1847,7 +2409,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/sapHealing_uar2.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1857,7 +2422,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/aguia.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1867,7 +2435,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/concentracao_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1877,7 +2448,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/magicMissile.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1887,7 +2461,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/detectGeneral_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1897,7 +2474,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/detectGeneral_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1907,7 +2487,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/infraVision_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1917,7 +2500,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/infraVision_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1927,7 +2513,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/invisibility_uar.mp3",
-    "volumeRef": "volumefx"
+    "volumeRef": "volumefx",
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1937,7 +2526,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/invisibility_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1947,7 +2539,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/armor_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1957,7 +2552,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/armor_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1967,7 +2565,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/burningHands_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1977,7 +2578,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/shockingGrasp_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1987,7 +2591,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/shockingGrasp_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -1997,7 +2604,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/detectPoison_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2007,7 +2617,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/ligthningBolt_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2017,7 +2630,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/identify_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2027,7 +2643,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/championStrength_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2037,7 +2656,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/championStrength_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2047,7 +2669,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/enchantWeapon_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2057,7 +2682,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/sleep_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2067,7 +2695,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/locateObject_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2077,7 +2708,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/locateObject_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2087,7 +2721,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/locateObject_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2097,7 +2734,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/flashLigth_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2107,7 +2747,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/colorSpray_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2117,7 +2760,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/fear_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2127,7 +2773,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/strenght_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2137,7 +2786,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/strenght_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2147,7 +2799,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/fly_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2157,7 +2812,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/fly_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2167,7 +2825,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/seal_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2177,7 +2838,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/FIREBALL_UAR.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2187,7 +2851,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/paralyze_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2197,7 +2864,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/lendMana_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2207,7 +2877,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/lendMana_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2217,7 +2890,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/iceStorm_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2227,7 +2903,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/growth_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2237,7 +2916,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/growth_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2247,7 +2929,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/ancestralWizard_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2257,7 +2942,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/ancestralWizard_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2267,7 +2955,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/mirrorImage_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2277,7 +2968,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/mirrorImage_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2287,7 +2981,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/mirrorImageHit_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2297,7 +2994,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/slow_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2307,7 +3007,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/abrir-portal.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2317,7 +3020,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/sair-do-portal.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2327,7 +3033,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/entrar-no-portal.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2337,7 +3046,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/scry_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2347,7 +3059,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/fireShield_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2357,7 +3072,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/fireShield_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2367,7 +3085,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/fireshieldHit_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2377,7 +3098,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/iceShield_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2387,7 +3111,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/iceShield_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2397,7 +3124,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/rainOfFire_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2407,7 +3137,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/cureLigth_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2417,7 +3150,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/detectPoison_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2427,7 +3163,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/detectPoison_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2437,7 +3176,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/lendHealth_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2447,7 +3189,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/lendHealth_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2457,7 +3202,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/minorHealing_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2467,7 +3215,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/bless_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2477,7 +3228,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/bless_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2487,7 +3241,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/findCenter_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2497,7 +3254,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/findCenter_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2507,7 +3267,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2517,7 +3280,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/tame_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2527,7 +3293,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2537,7 +3306,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/tame_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2547,7 +3319,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/montar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2557,7 +3332,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/montar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2567,7 +3345,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2577,7 +3358,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/desmontar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2587,7 +3371,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2597,7 +3384,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/invocarMontaria_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2607,7 +3397,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/desinvocarMontaria_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2617,7 +3410,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/riding_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2627,7 +3423,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/montariaCansada_ua.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2637,7 +3436,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro2_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2647,7 +3449,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro4_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2657,7 +3462,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2667,7 +3475,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/senseLife_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2677,7 +3488,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/senseLife_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2687,7 +3501,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro-menu.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2697,7 +3514,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/arrest_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2707,7 +3527,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/courage_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2717,7 +3540,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/detectEvil_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2727,7 +3553,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/detectEvil_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2737,7 +3566,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/protectionFromEvil_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2747,7 +3579,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/protectionFromEvil_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2757,7 +3592,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/sanctuary_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2767,7 +3605,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/sanctuary_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2777,7 +3618,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/heal_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2787,7 +3631,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/balance_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2797,7 +3644,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/balance_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2807,7 +3657,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/swordOfJustice_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2817,7 +3670,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/swordOfJustice_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2827,7 +3683,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2837,7 +3696,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/heal_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2847,7 +3709,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/rejuvenation_Uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2857,7 +3722,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/sacredFire_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2867,7 +3735,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/sacredFire_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2877,7 +3748,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/sacredFireHit_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2887,7 +3761,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/sacredFire_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2897,7 +3774,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/bladesOfLight_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2907,7 +3787,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/bladesOfLight_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2917,7 +3800,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/bladesOfLight_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2927,7 +3813,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/vitality_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2937,7 +3826,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/divineCall_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2947,7 +3839,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/divineCall_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2957,7 +3852,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/createWater_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2967,7 +3865,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/createFood_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2977,7 +3878,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/removePoison.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2987,7 +3891,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/blindnessVoce_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -2997,7 +3904,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/cureBlindness_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -3007,7 +3917,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/feelEnergy_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -3017,7 +3930,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/dispelEvil_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -3027,7 +3943,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/dispelEvil_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -3037,7 +3956,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro1_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -3047,7 +3969,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/removeCurse_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -3057,7 +3982,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro7_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -3067,7 +3995,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/cureCritic_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -3077,7 +4008,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/leveFumaca_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -3087,7 +4021,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/harm_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -3097,7 +4034,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/harm_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -3107,7 +4047,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/exorcism_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -3117,7 +4060,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/exorcism_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -3127,7 +4073,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -3137,7 +4086,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/majorHealing_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -3147,7 +4099,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/summon_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -3157,7 +4112,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro-menu.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -3167,7 +4125,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/erro.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -3177,7 +4138,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/earthquake_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -3187,7 +4151,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/earthquakeHit_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -3197,7 +4164,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/earthquakeHit_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -3207,7 +4177,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/divineFury_debo.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -3217,7 +4190,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/diamondSkin_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "classes",
@@ -3227,6 +4203,9 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Classes/diamondSkin_uar.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   }
 ]

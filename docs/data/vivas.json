@@ -7,7 +7,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Vivas/sausabru1_viva.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "vivas",
@@ -17,7 +20,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Vivas/sausabru1_viva.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "vivas",
@@ -27,7 +33,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Vivas/sausabru1_viva.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "vivas",
@@ -37,7 +46,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Vivas/sausabru1_viva.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "vivas",
@@ -47,7 +59,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Vivas/yucandusvirr1_viva.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "vivas",
@@ -57,7 +72,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Vivas/yucandusvirr1_viva.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "vivas",
@@ -67,7 +85,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Vivas/yucandusvirr1_viva.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "vivas",
@@ -77,7 +98,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Vivas/yucandusvirr1_viva.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "vivas",
@@ -87,7 +111,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Vivas/noselacri1_viva.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "vivas",
@@ -97,7 +124,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Vivas/noselacri1_viva.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "vivas",
@@ -107,7 +137,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Vivas/noselacri1_viva.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "vivas",
@@ -117,7 +150,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Vivas/noselacri1_viva.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "vivas",
@@ -127,7 +163,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Vivas/wubafpoirubt1_viva.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "vivas",
@@ -137,7 +176,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Vivas/wubafpoirubt1_viva.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "vivas",
@@ -147,7 +189,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Vivas/wubafpoirubt1_viva.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "vivas",
@@ -157,7 +202,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Vivas/wubafpoirubt1_viva.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "vivas",
@@ -167,7 +215,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Vivas/poir1_viva.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "vivas",
@@ -177,7 +228,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Vivas/poir1_viva.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "vivas",
@@ -187,7 +241,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Vivas/poir1_viva.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "vivas",
@@ -197,7 +254,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Vivas/poir1_viva.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "vivas",
@@ -207,7 +267,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Vivas/unsoftlmgruub1_viva.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "vivas",
@@ -217,7 +280,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Vivas/unsoftlmgruub1_viva.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "vivas",
@@ -227,7 +293,10 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Vivas/unsoftlmgruub1_viva.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "vivas",
@@ -237,6 +306,9 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_Vivas/unsoftlmgruub1_viva.mp3",
-    "volumeRef": null
+    "volumeRef": null,
+    "playbackModifiers": null,
+    "conditionRef": null,
+    "stateWindow": null
   }
 ]

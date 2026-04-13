@@ -1,1 +1,1835 @@
-[]
+[
+  {
+    "category": "bgm",
+    "pattern": "O Templo de Midgaard",
+    "matcher": {
+      "source": "O Templo de Midgaard",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/midgaard_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop midgaard_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Fora do Port*o Oeste de Midgaard",
+    "matcher": {
+      "source": "Fora do Port.*o Oeste de Midgaard",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/midgaard_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop midgaard_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Na Aflu*ncia",
+    "matcher": {
+      "source": "Na Aflu.*ncia",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/midgaard_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop midgaard_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Dentro do Port*o Leste de Midgaard",
+    "matcher": {
+      "source": "Dentro do Port.*o Leste de Midgaard",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/midgaard_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop midgaard_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Intersec*o do Caminho",
+    "matcher": {
+      "source": "A Intersec.*o do Caminho",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/estradaCastelo_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop estradaCastelo_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Estrada do Rei",
+    "matcher": {
+      "source": "A Estrada do Rei",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/estradaCastelo_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop estradaCastelo_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Na Ponte Levadi*a",
+    "matcher": {
+      "source": "Na Ponte Levadi.*a",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/estradaCastelo_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop estradaCastelo_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Sa*da Leste de Midgaard",
+    "matcher": {
+      "source": "A Sa.*da Leste de Midgaard",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/estradaCastelo_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop estradaCastelo_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Entrada Para a Vila dos Smurfs",
+    "matcher": {
+      "source": "A Entrada Para a Vila dos Smurfs",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/vilaSmurfs_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop vilaSmurfs_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Entrada do Castelo de Gargamel",
+    "matcher": {
+      "source": "A Entrada do Castelo de Gargamel",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/vilaSmurfs_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop vilaSmurfs_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Covil de Gargamel",
+    "matcher": {
+      "source": "O Covil de Gargamel",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/covilGargamel_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop covilGargamel_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Na Ponte Levadi*a",
+    "matcher": {
+      "source": "Na Ponte Levadi.*a",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/casteloMidgaard_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop casteloMidgaard_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Grande Tabuleiro de Xadrez de Midgaard",
+    "matcher": {
+      "source": "O Grande Tabuleiro de Xadrez de Midgaard",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/tabuleiro_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop tabuleiro_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Entrada da *rea dos Novatos",
+    "matcher": {
+      "source": "A Entrada da .*rea dos Novatos",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/areaNovatos_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop areaNovatos_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Dentro da Horripilante Casa Escura",
+    "matcher": {
+      "source": "Dentro da Horripilante Casa Escura",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/casaMalAssombrada_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop casaMalAssombrada_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Grande Campo de Midgaard",
+    "matcher": {
+      "source": "O Grande Campo de Midgaard",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/estradaNorteMidgaard_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop estradaNorteMidgaard_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Na Porta da Frente",
+    "matcher": {
+      "source": "Na Porta da Frente",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/estradaNorteMidgaard_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop estradaNorteMidgaard_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Estrada Midgaard-Jareth",
+    "matcher": {
+      "source": "A Estrada Midgaard-Jareth",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/estradaNorteMidgaard_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop estradaNorteMidgaard_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Embaixo do Torii",
+    "matcher": {
+      "source": "Embaixo do Torii",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/osaka_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop osaka_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Bulevar Hondoori",
+    "matcher": {
+      "source": "A Bulevar Hondoori",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/osaka_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop osaka_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Zona Alegre",
+    "matcher": {
+      "source": "A Zona Alegre",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/osaka_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop osaka_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Antes da Entrada de Osaka",
+    "matcher": {
+      "source": "Antes da Entrada de Osaka",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/caminhoSeixos_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop caminhoSeixos_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Estrada Pavimentada Oeste",
+    "matcher": {
+      "source": "A Estrada Pavimentada Oeste",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/caminhoSeixos_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop caminhoSeixos_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Eleva*o da Estrada",
+    "matcher": {
+      "source": "A Eleva.*o da Estrada",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/caminhoSeixos_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop caminhoSeixos_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Estrada Pavimentada Norte",
+    "matcher": {
+      "source": "A Estrada Pavimentada Norte",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/caminhoSeixos_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop caminhoSeixos_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Final do Caminho de Seixos",
+    "matcher": {
+      "source": "O Final do Caminho de Seixos",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/caminhoSeixos_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop caminhoSeixos_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Caminho de Seixos",
+    "matcher": {
+      "source": "O Caminho de Seixos",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/caminhoSeixos_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop caminhoSeixos_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Final da Estrada Pavimentada Sul",
+    "matcher": {
+      "source": "O Final da Estrada Pavimentada Sul",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/caminhoSeixos_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop caminhoSeixos_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Nos Port*es da Cidade de Edo",
+    "matcher": {
+      "source": "Nos Port.*es da Cidade de Edo",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/caminhoSeixos_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop caminhoSeixos_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Avenida do Sol Nascente",
+    "matcher": {
+      "source": "A Avenida do Sol Nascente",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/edo_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop edo_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Campo de Musashi",
+    "matcher": {
+      "source": "O Campo de Musashi",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/musashi_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop musashi_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Entrada de Kita-Kyushu",
+    "matcher": {
+      "source": "A Entrada de Kita-Kyushu",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/japaoDoMar_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop japaoDoMar_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Entrada de Kyoto",
+    "matcher": {
+      "source": "A Entrada de Kyoto",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/japaoDoMar_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop japaoDoMar_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Entrada do Porto de Edo",
+    "matcher": {
+      "source": "A Entrada do Porto de Edo",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/japaoDoMar_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop japaoDoMar_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Entrada do Pal*cio Imperial",
+    "matcher": {
+      "source": "A Entrada do Pal.*cio Imperial",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/japaoDoMar_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop japaoDoMar_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Em Frente * Grande Catedral de Cristal",
+    "matcher": {
+      "source": "Em Frente .* Grande Catedral de Cristal",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/catedralCristal_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop catedralCristal_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Centro da Cidade de Jareth",
+    "matcher": {
+      "source": "O Centro da Cidade de Jareth",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/jareth_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop jareth_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Avenida Floris",
+    "matcher": {
+      "source": "Avenida Floris",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/jareth_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop jareth_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Via da Venera*o",
+    "matcher": {
+      "source": "A Via da Venera.*o",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/jareth_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop jareth_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Templo de Todos e Ningu*m",
+    "matcher": {
+      "source": "O Templo de Todos e Ningu.*m",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/jareth_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop jareth_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Fim da Trilha",
+    "matcher": {
+      "source": "O Fim da Trilha",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/natureza1_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop natureza1_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Na Porta da Caverna",
+    "matcher": {
+      "source": "Na Porta da Caverna",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/cavernaHomemPalido_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop cavernaHomemPalido_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Port*o de Entrada do Inferno",
+    "matcher": {
+      "source": "O Port.*o de Entrada do Inferno",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/cavernaHomemPalido_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop cavernaHomemPalido_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Gan*ncia",
+    "matcher": {
+      "source": "Gan.*ncia",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/inferno_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop inferno_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Corredor da Difama*o",
+    "matcher": {
+      "source": "O Corredor da Difama.*o",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/inferno_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop inferno_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Corredor dos Condenados",
+    "matcher": {
+      "source": "O Corredor dos Condenados",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/inferno_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop inferno_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Dentro Da Torre Da Magia",
+    "matcher": {
+      "source": "Dentro Da Torre Da Magia",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/torreMagia_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop torreMagia_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Entrada Para a Torre",
+    "matcher": {
+      "source": "A Entrada Para a Torre",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/natureza1_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop natureza1_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Porto de Nova Esparta",
+    "matcher": {
+      "source": "O Porto de Nova Esparta",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/novaSparta_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop novaSparta_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Broadway",
+    "matcher": {
+      "source": "Broadway",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/novaSparta_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop novaSparta_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Um Longo T*nel",
+    "matcher": {
+      "source": "Um Longo T.*nel",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/tunelCaverna1_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop tunelCaverna1_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Entrada da Caverna",
+    "matcher": {
+      "source": "A Entrada da Caverna",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/tunelCaverna1_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop tunelCaverna1_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Um T*nel nas Montanhas",
+    "matcher": {
+      "source": "Um T.*nel nas Montanhas",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/tunelCaverna2_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop tunelCaverna2_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Uma Caverna Gigante",
+    "matcher": {
+      "source": "Uma Caverna Gigante",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/cidadeDrows_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop cidadeDrows_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Covil",
+    "matcher": {
+      "source": "O Covil",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/aglandir_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop aglandir_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Pr*ncipe Drag*o, Aglandiir, est* sentado aqui, olhando voc* com curiosidad*",
+    "matcher": {
+      "source": "O Pr.*ncipe Drag.*o, Aglandiir, est.* sentado aqui, olhando voc.* com curiosidad.*",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/aglandir_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop aglandir_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Grande Deserto Oriental",
+    "matcher": {
+      "source": "O Grande Deserto Oriental",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/desertoNorte_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop desertoNorte_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Grande Deserto Or",
+    "matcher": {
+      "source": "O Grande Deserto Or",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/desertoNorte_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop desertoNorte_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Fora do Port*o Sul de Nova Thalos",
+    "matcher": {
+      "source": "Fora do Port.*o Sul de Nova Thalos",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/desertoNorte_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop desertoNorte_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Come*o do Deserto do Sul",
+    "matcher": {
+      "source": "O Come.*o do Deserto do Sul",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/desertoSul_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop desertoSul_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Uma Pequena Trilha Suja",
+    "matcher": {
+      "source": "Uma Pequena Trilha Suja",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/roma_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop roma_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Port*o de G*lia",
+    "matcher": {
+      "source": "O Port.*o de G.*lia",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/roma_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop roma_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Uma Rua de Terra Batida",
+    "matcher": {
+      "source": "Uma Rua de Terra Batida",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/galia_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop galia_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Grande Port*o de Thalos",
+    "matcher": {
+      "source": "O Grande Port.*o de Thalos",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/thalos_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop thalos_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Dentro do Port*o Oeste de Nova Thalos",
+    "matcher": {
+      "source": "Dentro do Port.*o Oeste de Nova Thalos",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/novaThalos_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop novaThalos_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Ponte Sul",
+    "matcher": {
+      "source": "A Ponte Sul",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/novaThalos_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop novaThalos_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Rampa Para os Barcos",
+    "matcher": {
+      "source": "A Rampa Para os Barcos",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/novaThalos_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop novaThalos_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Dentro do Port*o Sul de Nova Thalos",
+    "matcher": {
+      "source": "Dentro do Port.*o Sul de Nova Thalos",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/novaThalos_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop novaThalos_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Dentro do Port*o Oriental de Nova Thalos",
+    "matcher": {
+      "source": "Dentro do Port.*o Oriental de Nova Thalos",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/novaThalos_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop novaThalos_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Port*o do Pal*cio",
+    "matcher": {
+      "source": "O Port.*o do Pal.*cio",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/novaThalos_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop novaThalos_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Dentro do Port*o Norte de Nova Thalos",
+    "matcher": {
+      "source": "Dentro do Port.*o Norte de Nova Thalos",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/novaThalos_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop novaThalos_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Um Teste de Lealdade",
+    "matcher": {
+      "source": "Um Teste de Lealdade",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/paraiso_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop paraiso_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Come*o do Oceano",
+    "matcher": {
+      "source": "O Come.*o do Oceano",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/oceano_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop oceano_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Logo Abaixo da Superf*cie do Oceano",
+    "matcher": {
+      "source": "Logo Abaixo da Superf.*cie do Oceano",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/oceano_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop oceano_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Sob o Oceano",
+    "matcher": {
+      "source": "Sob o Oceano",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/oceano_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop oceano_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Nas Profundezas Sob o Oceano",
+    "matcher": {
+      "source": "Nas Profundezas Sob o Oceano",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/oceano_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop oceano_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Entrada Para as Ru*nas",
+    "matcher": {
+      "source": "A Entrada Para as Ru.*nas",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/oceano_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop oceano_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Cora*o de Trevas na Mata",
+    "matcher": {
+      "source": "O Cora.*o de Trevas na Mata",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/florestaNegra_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop florestaNegra_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Um Antigo Caminho Atrav*s da Floresta",
+    "matcher": {
+      "source": "Um Antigo Caminho Atrav.*s da Floresta",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/florestaNegra_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop florestaNegra_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Nos Arredores da Floresta Negr*",
+    "matcher": {
+      "source": "Nos Arredores da Floresta Negr.*",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/florestaNegra_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop florestaNegra_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Um humano selvagem est* aqui, encarando voc* com um olhar muito nervoso.",
+    "matcher": {
+      "source": "Um humano selvagem est.* aqui, encarando voc.* com um olhar muito nervoso\\.",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/areaMacacos_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop areaMacacos_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Um gorila-ca*ador est* aqui, procurando algo para matar.",
+    "matcher": {
+      "source": "Um gorila-ca.*ador est.* aqui, procurando algo para matar\\.",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/areaMacacos_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop areaMacacos_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Entrada para a Vila dos Macacos",
+    "matcher": {
+      "source": "A Entrada para a Vila dos Macacos",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/areaMacacos_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop areaMacacos_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Caindo, Caindo, Para a Cidade dos Goblins!",
+    "matcher": {
+      "source": "Caindo, Caindo, Para a Cidade dos Goblins!",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/cidadeGoblins_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop cidadeGoblins_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Entrada da Floresta dos Elfos",
+    "matcher": {
+      "source": "A Entrada da Floresta dos Elfos",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/elfos_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop elfos_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Apenas Passando Atrav*s...",
+    "matcher": {
+      "source": "Apenas Passando Atrav.*s\\.\\.\\.",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/territorioOrc_bgm.mp3",
+    "blockList": [
+      "Sounds/uar_Bgm/natureza3_bgm.mp3",
+      "Sounds/uar_Bgm/tunelCaverna1_bgm.mp3"
+    ],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop territorioOrc_bgm.mp3; #var listaImpedir {natureza3_bgm.mp3|tunelCaverna1_bgm.mp3}; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Nas Am*gdalas de Pedra",
+    "matcher": {
+      "source": "Nas Am.*gdalas de Pedra",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/ankalador_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop ankalador_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Diante do Drag*o",
+    "matcher": {
+      "source": "Diante do Drag.*o",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/ankalador_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop ankalador_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O guarda do port*o est* aqui, com os olhos mirando o horizonte.",
+    "matcher": {
+      "source": "O guarda do port.*o est.* aqui, com os olhos mirando o horizonte\\.",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/sundhaven_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop sundhaven_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Port*o Oeste de Sundhaven",
+    "matcher": {
+      "source": "O Port.*o Oeste de Sundhaven",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/sundhaven_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop sundhaven_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Templo da Piedade",
+    "matcher": {
+      "source": "O Templo da Piedade",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/sundhaven_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop sundhaven_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Port*o Leste de Sundhaven",
+    "matcher": {
+      "source": "O Port.*o Leste de Sundhaven",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/sundhaven_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop sundhaven_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Caminho de Amarras",
+    "matcher": {
+      "source": "O Caminho de Amarras",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/teiaEterea_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop teiaEterea_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Entrada para Teia Et*rea",
+    "matcher": {
+      "source": "A Entrada para Teia Et.*rea",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/teiaEterea_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop teiaEterea_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O Po*o de Kerjim",
+    "matcher": {
+      "source": "O Po.*o de Kerjim",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/pocoBalrogs_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop pocoBalrogs_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Catedral do P*tio",
+    "matcher": {
+      "source": "A Catedral do P.*tio",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/catedralSanctum_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop catedralSanctum_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Entrada para a Vila dos Gnomos",
+    "matcher": {
+      "source": "A Entrada para a Vila dos Gnomos",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/gnomosHalfling_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop gnomosHalfling_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Entrada da Vila dos Halflings",
+    "matcher": {
+      "source": "A Entrada da Vila dos Halflings",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/gnomosHalfling_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop gnomosHalfling_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Floresta Jade",
+    "matcher": {
+      "source": "A Floresta Jade",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/florestaJade_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop florestaJade_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Um aviso afixado aqui chama sua aten*o.",
+    "matcher": {
+      "source": "Um aviso afixado aqui chama sua aten.*o\\.",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/florestaJade_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop florestaJade_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Um Vale Selvagem",
+    "matcher": {
+      "source": "Um Vale Selvagem",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/florestaJade_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop florestaJade_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Um dos famosos cavaleiros prateados de Silverthorne est* aqui.",
+    "matcher": {
+      "source": "Um dos famosos cavaleiros prateados de Silverthorne est.* aqui\\.",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/silverthorn_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop silverthorn_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Uma cidad* de Silverthorne est* aqui, apressada*",
+    "matcher": {
+      "source": "Uma cidad.* de Silverthorne est.* aqui, apressada.*",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/silverthorn_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop silverthorn_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Teletransporte de Silverthorne",
+    "matcher": {
+      "source": "Teletransporte de Silverthorne",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/silverthorn_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop silverthorn_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Um guarda patrulheiro de Silverthorne est* aqui, sempre em vig*lia.",
+    "matcher": {
+      "source": "Um guarda patrulheiro de Silverthorne est.* aqui, sempre em vig.*lia\\.",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/silverthorn_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop silverthorn_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A Floresta de Arden",
+    "matcher": {
+      "source": "A Floresta de Arden",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/camelot_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop camelot_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "tomando cuidado com o que parece ser um grande crocodilo no fosso abaixo",
+    "matcher": {
+      "source": "tomando cuidado com o que parece ser um grande crocodilo no fosso abaixo",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/flyre_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop flyre_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Um pacato cidad*o passeia por aqui.",
+    "matcher": {
+      "source": "Um pacato cidad.*o passeia por aqui\\.",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/flyre_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop flyre_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "O portentoso e altivo rei est* aqui.",
+    "matcher": {
+      "source": "O portentoso e altivo rei est.* aqui\\.",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/flyre_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop flyre_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "A altiva e belíssima rainha est* aqui.",
+    "matcher": {
+      "source": "A altiva e belissima rainha est.* aqui\\.",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/flyre_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop flyre_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Uma Passagem Densa na Floresta",
+    "matcher": {
+      "source": "Uma Passagem Densa na Floresta",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/natureza2_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop natureza2_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Uma Estrada Atrav*s das Plan*cies",
+    "matcher": {
+      "source": "Uma Estrada Atrav.*s das Plan.*cies",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/natureza2_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop natureza2_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Na Floresta",
+    "matcher": {
+      "source": "Na Floresta",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/natureza2_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop natureza2_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Uma Estreita Trilha Atrav*s da Escura Floresta Profunda",
+    "matcher": {
+      "source": "Uma Estreita Trilha Atrav.*s da Escura Floresta Profunda",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/natureza2_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop natureza2_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Um Caminho Mal Iluminado",
+    "matcher": {
+      "source": "Um Caminho Mal Iluminado",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/natureza2_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop natureza2_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Uma Clareira Cercada Por Carvalhos e Bôrdos",
+    "matcher": {
+      "source": "Uma Clareira Cercada Por Carvalhos e Bordos",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/natureza2_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop natureza2_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Uma árvore colossal bloqueia o caminho a oeste.",
+    "matcher": {
+      "source": "Uma arvore colossal bloqueia o caminho a oeste\\.",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/natureza2_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop natureza2_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Mais Fundo na Floresta Negr*",
+    "matcher": {
+      "source": "Mais Fundo na Floresta Negr.*",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/natureza2_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop natureza2_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Na Estrada de Paralelep*pedos",
+    "matcher": {
+      "source": "Na Estrada de Paralelep.*pedos",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/natureza3_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop natureza3_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Uma Trilha na Floresta",
+    "matcher": {
+      "source": "Uma Trilha na Floresta",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/natureza3_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop natureza3_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Uma Interrup*o na Floresta",
+    "matcher": {
+      "source": "Uma Interrup.*o na Floresta",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/natureza3_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop natureza3_bgm.mp3; #var listaImpedir null; controleLoop"
+  },
+  {
+    "category": "bgm",
+    "pattern": "Uma Estrada de Terra",
+    "matcher": {
+      "source": "Uma Estrada de Terra",
+      "flags": "i"
+    },
+    "track": "Sounds/uar_Bgm/natureza3_bgm.mp3",
+    "blockList": [],
+    "playbackModifiers": {
+      "pan": 0,
+      "frequency": 22050
+    },
+    "action": "#var mapaLoop natureza3_bgm.mp3; #var listaImpedir null; controleLoop"
+  }
+]

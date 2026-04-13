@@ -2,6 +2,8 @@ import { beforeEach, describe, expect, test, vi } from "vitest";
 import { AudioEngine } from "../src/runtime/audioEngine.js";
 
 class FakeAudio {
+  static instances = [];
+
   constructor(src = "") {
     this.src = src;
     this.currentTime = 0;
@@ -9,7 +11,9 @@ class FakeAudio {
     this.loop = false;
     this.preload = "";
     this.volume = 1;
+    this.playbackRate = 1;
     this.playCalls = 0;
+    FakeAudio.instances.push(this);
   }
 
   async play() {
@@ -25,6 +29,7 @@ class FakeAudio {
 
 describe("audioEngine", () => {
   beforeEach(() => {
+    FakeAudio.instances = [];
     global.Audio = FakeAudio;
     global.window = { dispatchEvent: vi.fn() };
     global.CustomEvent = class {
@@ -55,5 +60,35 @@ describe("audioEngine", () => {
 
     await engine.playBgm("Sounds/uar_Bgm/nova_bgm.mp3", ["floresta_bgm.mp3"]);
     expect(engine.currentBgmTrack).toBe("Sounds/uar_Bgm/floresta_bgm.mp3");
+  });
+
+  test("aplica modifiers de volume e frequencia em efeitos", async () => {
+    const engine = new AudioEngine({ baseUrl: "https://x" });
+    await engine.playEffect(
+      "barraDeVida",
+      "Sounds/uar_BarraDeVida/vidaAdv_uar.mp3",
+      {
+        volume: 50,
+        frequency: 44000,
+      },
+    );
+
+    const audio = FakeAudio.instances.at(-1);
+    expect(audio.volume).toBeCloseTo(0.4, 5);
+    expect(audio.playbackRate).toBeCloseTo(44000 / 22050, 2);
+  });
+
+  test("normaliza pan no estado da engine mesmo sem WebAudio", async () => {
+    const engine = new AudioEngine({ baseUrl: "https://x" });
+    await engine.playEffect(
+      "barraDeVida",
+      "Sounds/uar_BarraDeVida/vidaAdv_uar.mp3",
+      {
+        pan: -5000,
+      },
+    );
+
+    const audio = FakeAudio.instances.at(-1);
+    expect(audio.volume).toBeCloseTo(0.8, 5);
   });
 });

@@ -7,7 +7,13 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_BarraDeVida/vidaAlta_uar.mp3",
-    "volumeRef": "vidaJogHandle"
+    "volumeRef": null,
+    "playbackModifiers": {
+      "volume": 5,
+      "pan": 5000
+    },
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "barraDeVida",
@@ -17,7 +23,13 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_BarraDeVida/vidaAlta_uar.mp3",
-    "volumeRef": "vidaJogHandle"
+    "volumeRef": null,
+    "playbackModifiers": {
+      "volume": 10,
+      "pan": 5000
+    },
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "barraDeVida",
@@ -27,7 +39,13 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_BarraDeVida/vidaAlta_uar.mp3",
-    "volumeRef": "vidaJogHandle"
+    "volumeRef": null,
+    "playbackModifiers": {
+      "volume": 30,
+      "pan": 5000
+    },
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "barraDeVida",
@@ -37,7 +55,13 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_BarraDeVida/vidaMedia_uar.mp3",
-    "volumeRef": "vidaJogHandle"
+    "volumeRef": null,
+    "playbackModifiers": {
+      "volume": 40,
+      "pan": 5000
+    },
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "barraDeVida",
@@ -47,7 +71,13 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_BarraDeVida/vidaMedia_uar.mp3",
-    "volumeRef": "vidaJogHandle"
+    "volumeRef": null,
+    "playbackModifiers": {
+      "volume": 60,
+      "pan": 5000
+    },
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "barraDeVida",
@@ -57,7 +87,13 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_BarraDeVida/vidaMedia_uar.mp3",
-    "volumeRef": "vidaJogHandle"
+    "volumeRef": null,
+    "playbackModifiers": {
+      "volume": 80,
+      "pan": 5000
+    },
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "barraDeVida",
@@ -67,7 +103,13 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_BarraDeVida/vidaBaixa_uar.mp3",
-    "volumeRef": "vidaJogHandle"
+    "volumeRef": null,
+    "playbackModifiers": {
+      "volume": 60,
+      "pan": 5000
+    },
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "barraDeVida",
@@ -77,7 +119,13 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_BarraDeVida/vidaBaixa_uar.mp3",
-    "volumeRef": "vidaJogHandle"
+    "volumeRef": null,
+    "playbackModifiers": {
+      "volume": 80,
+      "pan": 5000
+    },
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "barraDeVida",
@@ -87,7 +135,13 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_BarraDeVida/vidaCritica_uar.mp3",
-    "volumeRef": "vidaJogHandle"
+    "volumeRef": null,
+    "playbackModifiers": {
+      "volume": 40,
+      "pan": 5000
+    },
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "barraDeVida",
@@ -97,7 +151,13 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_BarraDeVida/vidaCritica_uar.mp3",
-    "volumeRef": "vidaJogHandle"
+    "volumeRef": null,
+    "playbackModifiers": {
+      "volume": 60,
+      "pan": 5000
+    },
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "barraDeVida",
@@ -107,7 +167,14 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_BarraDeVida/vidaAdv_uar.mp3",
-    "volumeRef": "vidaAdvHandle"
+    "volumeRef": null,
+    "playbackModifiers": {
+      "volume": 30,
+      "pan": -5000,
+      "frequency": 5000
+    },
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "barraDeVida",
@@ -117,7 +184,14 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_BarraDeVida/vidaAdv_uar.mp3",
-    "volumeRef": "vidaAdvHandle"
+    "volumeRef": null,
+    "playbackModifiers": {
+      "volume": 33,
+      "pan": -5000,
+      "frequency": 8900
+    },
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "barraDeVida",
@@ -127,7 +201,14 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_BarraDeVida/vidaAdv_uar.mp3",
-    "volumeRef": "vidaAdvHandle"
+    "volumeRef": null,
+    "playbackModifiers": {
+      "volume": 36,
+      "pan": -5000,
+      "frequency": 12800
+    },
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "barraDeVida",
@@ -137,7 +218,14 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_BarraDeVida/vidaAdv_uar.mp3",
-    "volumeRef": "vidaAdvHandle"
+    "volumeRef": null,
+    "playbackModifiers": {
+      "volume": 39,
+      "pan": -5000,
+      "frequency": 16700
+    },
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "barraDeVida",
@@ -147,7 +235,14 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_BarraDeVida/vidaAdv_uar.mp3",
-    "volumeRef": "vidaAdvHandle"
+    "volumeRef": null,
+    "playbackModifiers": {
+      "volume": 42,
+      "pan": -5000,
+      "frequency": 20600
+    },
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "barraDeVida",
@@ -157,7 +252,14 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_BarraDeVida/vidaAdv_uar.mp3",
-    "volumeRef": "vidaAdvHandle"
+    "volumeRef": null,
+    "playbackModifiers": {
+      "volume": 45,
+      "pan": -5000,
+      "frequency": 24500
+    },
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "barraDeVida",
@@ -167,7 +269,14 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_BarraDeVida/vidaAdv_uar.mp3",
-    "volumeRef": "vidaAdvHandle"
+    "volumeRef": null,
+    "playbackModifiers": {
+      "volume": 48,
+      "pan": -5000,
+      "frequency": 28400
+    },
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "barraDeVida",
@@ -177,7 +286,14 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_BarraDeVida/vidaAdv_uar.mp3",
-    "volumeRef": "vidaAdvHandle"
+    "volumeRef": null,
+    "playbackModifiers": {
+      "volume": 51,
+      "pan": -5000,
+      "frequency": 32300
+    },
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "barraDeVida",
@@ -187,7 +303,14 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_BarraDeVida/vidaAdv_uar.mp3",
-    "volumeRef": "vidaAdvHandle"
+    "volumeRef": null,
+    "playbackModifiers": {
+      "volume": 54,
+      "pan": -5000,
+      "frequency": 36200
+    },
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "barraDeVida",
@@ -197,7 +320,14 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_BarraDeVida/vidaAdv_uar.mp3",
-    "volumeRef": "vidaAdvHandle"
+    "volumeRef": null,
+    "playbackModifiers": {
+      "volume": 57,
+      "pan": -5000,
+      "frequency": 40100
+    },
+    "conditionRef": null,
+    "stateWindow": null
   },
   {
     "category": "barraDeVida",
@@ -207,6 +337,13 @@
       "flags": "i"
     },
     "soundPath": "Sounds/uar_BarraDeVida/vidaAdv_uar.mp3",
-    "volumeRef": "vidaAdvHandle"
+    "volumeRef": null,
+    "playbackModifiers": {
+      "volume": 60,
+      "pan": -5000,
+      "frequency": 44000
+    },
+    "conditionRef": null,
+    "stateWindow": null
   }
 ]

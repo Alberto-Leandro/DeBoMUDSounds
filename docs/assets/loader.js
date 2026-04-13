@@ -23,6 +23,8 @@
       };
       this.players.bgm.loop = true;
       this.players.bgm.preload = "auto";
+      this.audioContext = createAudioContext();
+      this.bgmNodes = this.audioContext ? createMediaElementChain(this.audioContext, this.players.bgm) : null;
       this.applyVolume("bgm");
     }
     setEnabled(value) {
@@ -41,7 +43,7 @@
         this.applyVolume(channel);
       }
     }
-    async playBgm(track, blockList = []) {
+    async playBgm(track, blockList = [], playbackModifiers = null) {
       if (!this.enabled || !track) {
         return;
       }
@@ -58,8 +60,9 @@
       const audio = this.players.bgm;
       audio.src = this.toPublicPath(track);
       audio.currentTime = 0;
-      this.applyVolume("bgm");
+      this.applyPlaybackModifiers(audio, this.bgmNodes, "bgm", playbackModifiers);
       try {
+        await this.ensureContextReady();
         await audio.play();
       } catch (error) {
         window.dispatchEvent(
@@ -69,14 +72,16 @@
         );
       }
     }
-    async playEffect(channel, soundPath) {
+    async playEffect(channel, soundPath, playbackModifiers = null) {
       if (!this.enabled || !soundPath) {
         return;
       }
       const audio = new Audio(this.toPublicPath(soundPath));
       audio.preload = "auto";
-      audio.volume = this.computeVolume(channel);
+      const nodes = this.audioContext ? createMediaElementChain(this.audioContext, audio) : null;
+      this.applyPlaybackModifiers(audio, nodes, channel, playbackModifiers);
       try {
+        await this.ensureContextReady();
         await audio.play();
       } catch (error) {
         window.dispatchEvent(
@@ -109,15 +114,90 @@
     }
     applyVolume(channel) {
       if (channel === "bgm") {
-        this.players.bgm.volume = this.computeVolume("bgm");
+        this.applyPlaybackModifiers(this.players.bgm, this.bgmNodes, "bgm", null);
       }
     }
-    computeVolume(channel) {
-      return clamp01((this.volume[channel] ?? 1) * this.volume.master);
+    applyPlaybackModifiers(audio, nodes, channel, playbackModifiers) {
+      const volumePercent = playbackModifiers?.volume ?? 100;
+      const frequency = playbackModifiers?.frequency ?? null;
+      const pan = playbackModifiers?.pan ?? 0;
+      audio.playbackRate = this.computePlaybackRate(frequency);
+      if (nodes?.gainNode && nodes?.panNode) {
+        nodes.gainNode.gain.value = this.computeVolume(channel, volumePercent);
+        nodes.panNode.pan.value = this.computePanValue(pan);
+        audio.volume = 1;
+        return;
+      }
+      audio.volume = this.computeVolume(channel, volumePercent);
+    }
+    computeVolume(channel, localPercent = 100) {
+      const localFactor = clamp01(localPercent / 100);
+      return clamp01(
+        (this.volume[channel] ?? 1) * this.volume.master * localFactor
+      );
+    }
+    computePlaybackRate(frequency) {
+      if (frequency == null) {
+        return 1;
+      }
+      const numeric = Number.parseFloat(frequency);
+      if (!Number.isFinite(numeric) || numeric <= 0) {
+        return 1;
+      }
+      if (numeric <= 4) {
+        return clamp(numeric, 0.1, 4);
+      }
+      return clamp(numeric / 22050, 0.1, 4);
+    }
+    computePanValue(pan) {
+      const numeric = Number.parseFloat(pan);
+      if (!Number.isFinite(numeric)) {
+        return 0;
+      }
+      if (numeric >= -1 && numeric <= 1) {
+        return numeric;
+      }
+      return clamp(numeric / 5e3, -1, 1);
+    }
+    async ensureContextReady() {
+      if (!this.audioContext || this.audioContext.state !== "suspended") {
+        return;
+      }
+      try {
+        await this.audioContext.resume();
+      } catch {
+      }
     }
   };
   function clamp01(value) {
     return Math.max(0, Math.min(1, value));
+  }
+  function clamp(value, min, max) {
+    return Math.max(min, Math.min(max, value));
+  }
+  function createAudioContext() {
+    const ContextClass = globalThis.window?.AudioContext || globalThis.window?.webkitAudioContext;
+    if (!ContextClass) {
+      return null;
+    }
+    try {
+      return new ContextClass();
+    } catch {
+      return null;
+    }
+  }
+  function createMediaElementChain(audioContext, audioElement) {
+    try {
+      const sourceNode = audioContext.createMediaElementSource(audioElement);
+      const gainNode = audioContext.createGain();
+      const panNode = audioContext.createStereoPanner();
+      sourceNode.connect(gainNode);
+      gainNode.connect(panNode);
+      panNode.connect(audioContext.destination);
+      return { sourceNode, gainNode, panNode };
+    } catch {
+      return null;
+    }
   }
   function stripSoundPrefix(value) {
     if (!value) {
@@ -137,6 +217,8 @@
       this.observer = null;
       this.timer = null;
       this.pendingText = "";
+      this.stateFlags = /* @__PURE__ */ new Map();
+      this.stateTimers = /* @__PURE__ */ new Map();
     }
     start() {
       const root = document.querySelector(this.targetSelector);
@@ -173,6 +255,11 @@ ${added.join("\n")}`;
       }
       clearTimeout(this.timer);
       this.pendingText = "";
+      for (const timer of this.stateTimers.values()) {
+        clearTimeout(timer);
+      }
+      this.stateTimers.clear();
+      this.stateFlags.clear();
     }
     flush() {
       const text = this.pendingText;
@@ -194,15 +281,42 @@ ${added.join("\n")}`;
         if (!regex.test(normalizedText)) {
           continue;
         }
+        if (trigger.conditionRef && !this.stateFlags.get(trigger.conditionRef)) {
+          continue;
+        }
         if (this.isDeduped(category, trigger.pattern)) {
           continue;
         }
         if (category === "bgm") {
-          this.engine.playBgm(trigger.track, trigger.blockList ?? []);
+          this.engine.playBgm(
+            trigger.track,
+            trigger.blockList ?? [],
+            trigger.playbackModifiers ?? null
+          );
         } else {
-          this.engine.playEffect(category, trigger.soundPath);
+          this.engine.playEffect(
+            category,
+            trigger.soundPath,
+            trigger.playbackModifiers ?? null
+          );
+        }
+        if (trigger.stateWindow?.flag) {
+          this.activateStateWindow(trigger.stateWindow);
         }
       }
+    }
+    activateStateWindow(stateWindow) {
+      const { flag, activeValue, inactiveValue, ttlMs } = stateWindow;
+      this.stateFlags.set(flag, activeValue);
+      const previous = this.stateTimers.get(flag);
+      if (previous) {
+        clearTimeout(previous);
+      }
+      const timer = setTimeout(() => {
+        this.stateFlags.set(flag, inactiveValue);
+        this.stateTimers.delete(flag);
+      }, ttlMs);
+      this.stateTimers.set(flag, timer);
     }
     isDeduped(category, pattern) {
       const key = `${category}:${pattern}`;
