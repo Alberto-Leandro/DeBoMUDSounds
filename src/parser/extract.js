@@ -20,7 +20,7 @@ function toRuntimeTrigger(item) {
     category: item.category,
     pattern: item.pattern,
     matcher: makeMatcher(item.pattern),
-    soundPath: normalizeOutputPath(item.soundPath),
+    soundPath: normalizeOutputPath(item.soundPath, item.category),
     volumeRef: item.volumeRef,
   };
 }
@@ -74,14 +74,27 @@ export function buildTriggerData(repoRoot) {
   return { manifest, bgm, fx, classes, vivas, barraDeVida };
 }
 
-function normalizeOutputPath(soundPath) {
+function normalizeOutputPath(soundPath, category = null) {
   if (!soundPath) {
     return null;
   }
 
+  const folderByCategory = {
+    bgm: "uar_Bgm",
+    fx: "uar_Fx",
+    classes: "uar_Classes",
+    vivas: "uar_Vivas",
+    barraDeVida: "uar_BarraDeVida",
+  };
+  const folder = folderByCategory[category];
+
   const clean = soundPath.replace(/\\/g, "/").replace(/^\/+/, "");
 
   if (clean.startsWith("Sounds/")) {
+    const rest = clean.slice("Sounds/".length);
+    if (folder && !rest.startsWith("uar_")) {
+      return `Sounds/${folder}/${rest}`;
+    }
     return clean;
   }
 
@@ -96,6 +109,9 @@ function normalizeOutputPath(soundPath) {
   }
 
   if (/\.mp3$/i.test(clean) || /\.ogg$/i.test(clean)) {
+    if (folder) {
+      return `Sounds/${folder}/${clean}`;
+    }
     return `Sounds/${clean}`;
   }
 

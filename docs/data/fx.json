@@ -6,7 +6,7 @@
       "source": "DoubleGOLD: Os deuses liberaram &\\{GlobaldoubleGold\\} hora.* de DoubleGOLD! Aproveitem!",
       "flags": "i"
     },
-    "soundPath": "Sounds/double-gold-inicio.mp3",
+    "soundPath": "Sounds/uar_Fx/double-gold-inicio.mp3",
     "volumeRef": null
   },
   {
@@ -16,7 +16,7 @@
       "source": "DoubleXP: Os deuses liberaram &\\{GlobaldoubleXp\\} hora.* de DoubleXP! Aproveitem!",
       "flags": "i"
     },
-    "soundPath": "Sounds/double-inicio-xp.mp3",
+    "soundPath": "Sounds/uar_Fx/double-inicio-xp.mp3",
     "volumeRef": null
   },
   {
@@ -26,7 +26,7 @@
       "source": "DoubleGOLD: Uau! .* acabou de adicionar &\\{GlobaldoubleGold\\} hor.* de DoubleGOLD\\. Mandou bem!",
       "flags": "i"
     },
-    "soundPath": "Sounds/double-gold-inicio.mp3",
+    "soundPath": "Sounds/uar_Fx/double-gold-inicio.mp3",
     "volumeRef": null
   },
   {
@@ -36,7 +36,7 @@
       "source": "DoubleXP: Uau! .* acabou de adicionar &\\{GlobaldoubleXp\\} hora.* de DoubleXP\\. Mandou bem!",
       "flags": "i"
     },
-    "soundPath": "Sounds/double-inicio-xp.mp3",
+    "soundPath": "Sounds/uar_Fx/double-inicio-xp.mp3",
     "volumeRef": null
   },
   {
@@ -46,7 +46,7 @@
       "source": "DoubleGOLD: &\\{GlobaldoubleGold\\} horas para o fim\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/Beep7.mp3",
+    "soundPath": "Sounds/uar_Fx/Beep7.mp3",
     "volumeRef": null
   },
   {
@@ -56,7 +56,7 @@
       "source": "DoubleXP: &\\{GlobaldoubleXp\\} horas para o fim\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/Beep7.mp3",
+    "soundPath": "Sounds/uar_Fx/Beep7.mp3",
     "volumeRef": null
   },
   {
@@ -66,7 +66,7 @@
       "source": "DoubleGOLD: S.* mais &\\{GlobaldoubleGold\\} hora para o fim\\. .* melhor se apressar!",
       "flags": "i"
     },
-    "soundPath": "Sounds/double-uma-hora.mp3",
+    "soundPath": "Sounds/uar_Fx/double-uma-hora.mp3",
     "volumeRef": null
   },
   {
@@ -76,7 +76,7 @@
       "source": "DoubleXP: S.* mais &\\{GlobaldoubleXp\\} hora para o fim\\. .* melhor se apressar!",
       "flags": "i"
     },
-    "soundPath": "Sounds/double-uma-hora.mp3",
+    "soundPath": "Sounds/uar_Fx/double-uma-hora.mp3",
     "volumeRef": null
   },
   {
@@ -86,7 +86,7 @@
       "source": "DoubleGOLD: Chega, n.*. Se n.*o aproveitou, perdeu\\. Quem sabe numa pr.*xima vez :-\\)",
       "flags": "i"
     },
-    "soundPath": "Sounds/double-gold-fim.mp3",
+    "soundPath": "Sounds/uar_Fx/double-gold-fim.mp3",
     "volumeRef": null
   },
   {
@@ -96,7 +96,7 @@
       "source": "DoubleXP: Chega, n.*. Se n.*o aproveitou, perdeu\\. Quem sabe numa pr.*xima vez :-\\)",
       "flags": "i"
     },
-    "soundPath": "Sounds/double-xp-fim.mp3",
+    "soundPath": "Sounds/uar_Fx/double-xp-fim.mp3",
     "volumeRef": null
   },
   {
@@ -106,7 +106,7 @@
       "source": ".* leiloa.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/falandoLeilao_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/falandoLeilao_debo.mp3",
     "volumeRef": null
   },
   {
@@ -116,7 +116,7 @@
       "source": ".* coloca .* a venda por .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/leilao-inicio.mp3",
+    "soundPath": "Sounds/uar_Fx/leilao-inicio.mp3",
     "volumeRef": null
   },
   {
@@ -126,7 +126,7 @@
       "source": ".* foi vendido para .* por .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/leilao-venda.mp3",
+    "soundPath": "Sounds/uar_Fx/leilao-venda.mp3",
     "volumeRef": null
   },
   {
@@ -136,7 +136,7 @@
       "source": ".* oferece .* por .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/leilao-oferta.mp3",
+    "soundPath": "Sounds/uar_Fx/leilao-oferta.mp3",
     "volumeRef": null
   },
   {
@@ -146,7 +146,7 @@
       "source": ".* agora possui .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/venda.mp3",
+    "soundPath": "Sounds/uar_Fx/venda.mp3",
     "volumeRef": null
   },
   {
@@ -156,7 +156,7 @@
       "source": ".* aparece com um estouro ensurdecedor\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/estouro-ensurdecedor.mp3",
+    "soundPath": "Sounds/uar_Fx/estouro-ensurdecedor.mp3",
     "volumeRef": null
   },
   {
@@ -166,7 +166,7 @@
       "source": ".* aparece dentro de uma nuvem de fuma.*a!",
       "flags": "i"
     },
-    "soundPath": "Sounds/nuvem-de-fumaca-in.mp3",
+    "soundPath": "Sounds/uar_Fx/nuvem-de-fumaca-in.mp3",
     "volumeRef": null
   },
   {
@@ -176,7 +176,7 @@
       "source": ".* aparece em suas m.*os\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/nuvem-de-fumaca-in.mp3",
+    "soundPath": "Sounds/uar_Fx/nuvem-de-fumaca-in.mp3",
     "volumeRef": null
   },
   {
@@ -186,7 +186,7 @@
       "source": ".* aparece em uma nuvem de fuma.*a!",
       "flags": "i"
     },
-    "soundPath": "Sounds/nuvem-de-fumaca-out.mp3",
+    "soundPath": "Sounds/uar_Fx/nuvem-de-fumaca-out.mp3",
     "volumeRef": null
   },
   {
@@ -196,7 +196,7 @@
       "source": ".* aparece no meio da sala\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/aparecer.mp3",
+    "soundPath": "Sounds/uar_Fx/aparecer.mp3",
     "volumeRef": null
   },
   {
@@ -206,7 +206,7 @@
       "source": ".* aparece repentinamente\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/transferir.mp3",
+    "soundPath": "Sounds/uar_Fx/transferir.mp3",
     "volumeRef": null
   },
   {
@@ -216,7 +216,7 @@
       "source": ".* um portal! Voc.* resolve caminhar atrav.*s dele\\.\\.\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/entrar-no-portal.mp3",
+    "soundPath": "Sounds/uar_Fx/entrar-no-portal.mp3",
     "volumeRef": null
   },
   {
@@ -226,7 +226,7 @@
       "source": "Voc.* doa .*\\. Isso desaparece em uma nuvem de fuma.*a!",
       "flags": "i"
     },
-    "soundPath": "Sounds/nuvem-de-fumaca-out.mp3",
+    "soundPath": "Sounds/uar_Fx/nuvem-de-fumaca-out.mp3",
     "volumeRef": null
   },
   {
@@ -236,7 +236,7 @@
       "source": ".* arrota\\. Que nojo!",
       "flags": "i"
     },
-    "soundPath": "Sounds/arroto.mp3",
+    "soundPath": "Sounds/uar_Fx/arroto.mp3",
     "volumeRef": null
   },
   {
@@ -246,7 +246,7 @@
       "source": ".* bate palmas em aprova.*o\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/palmas.mp3",
+    "soundPath": "Sounds/uar_Fx/palmas.mp3",
     "volumeRef": null
   },
   {
@@ -256,7 +256,7 @@
       "source": ".* choraminga lamentavelmente sobre toda a situa.*o\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/choramingar.mp3",
+    "soundPath": "Sounds/uar_Fx/choramingar.mp3",
     "volumeRef": null
   },
   {
@@ -266,7 +266,7 @@
       "source": ".* d.* um tapa em .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/tapa.mp3",
+    "soundPath": "Sounds/uar_Fx/tapa.mp3",
     "volumeRef": null
   },
   {
@@ -276,7 +276,7 @@
       "source": ".* demonstra aprova.*o e come.*a a aplaudir\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/palmas.mp3",
+    "soundPath": "Sounds/uar_Fx/palmas.mp3",
     "volumeRef": null
   },
   {
@@ -286,7 +286,7 @@
       "source": ".* espirra\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/espirro.mp3",
+    "soundPath": "Sounds/uar_Fx/espirro.mp3",
     "volumeRef": null
   },
   {
@@ -296,7 +296,7 @@
       "source": ".* irrompe em l.*grimas\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/choramingar.mp3",
+    "soundPath": "Sounds/uar_Fx/choramingar.mp3",
     "volumeRef": null
   },
   {
@@ -306,7 +306,7 @@
       "source": ".* joga a cabe.*a para tr.*s e come.*a a gargalhar insanamente!",
       "flags": "i"
     },
-    "soundPath": "Sounds/gargalhada.mp3",
+    "soundPath": "Sounds/uar_Fx/gargalhada.mp3",
     "volumeRef": null
   },
   {
@@ -316,7 +316,7 @@
       "source": ".* lhe d.* um longo e apaixonado beijo, que parece durar eternamente\\.\\.\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/beijo.mp3",
+    "soundPath": "Sounds/uar_Fx/beijo.mp3",
     "volumeRef": null
   },
   {
@@ -326,7 +326,7 @@
       "source": ".* solta um peido que mais parece um rugido!",
       "flags": "i"
     },
-    "soundPath": "Sounds/peido.mp3",
+    "soundPath": "Sounds/uar_Fx/peido.mp3",
     "volumeRef": null
   },
   {
@@ -336,7 +336,7 @@
       "source": ".* tem um ataque de riso\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/ataque-de-riso.mp3",
+    "soundPath": "Sounds/uar_Fx/ataque-de-riso.mp3",
     "volumeRef": null
   },
   {
@@ -346,7 +346,7 @@
       "source": ".*bate palmas em aprova.*o\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/gemotePalmas_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/gemotePalmas_debo.mp3",
     "volumeRef": null
   },
   {
@@ -356,7 +356,7 @@
       "source": ".*demonstra aprova.*o e come.*a a aplaudir\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/gemotePalmas_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/gemotePalmas_debo.mp3",
     "volumeRef": null
   },
   {
@@ -366,7 +366,7 @@
       "source": ".*espirra\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/espirro_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/espirro_debo.mp3",
     "volumeRef": null
   },
   {
@@ -376,7 +376,7 @@
       "source": "ATCHIMMM!",
       "flags": "i"
     },
-    "soundPath": "Sounds/espirro.mp3",
+    "soundPath": "Sounds/uar_Fx/espirro.mp3",
     "volumeRef": null
   },
   {
@@ -386,7 +386,7 @@
       "source": "Clap, clap, clap\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/palmas.mp3",
+    "soundPath": "Sounds/uar_Fx/palmas.mp3",
     "volumeRef": null
   },
   {
@@ -396,7 +396,7 @@
       "source": "Voc.* aplaude\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/palmas.mp3",
+    "soundPath": "Sounds/uar_Fx/palmas.mp3",
     "volumeRef": null
   },
   {
@@ -406,7 +406,7 @@
       "source": "Voc.* come.*a a ter um ataque de riso\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/ataque-de-riso.mp3",
+    "soundPath": "Sounds/uar_Fx/ataque-de-riso.mp3",
     "volumeRef": null
   },
   {
@@ -416,7 +416,7 @@
       "source": "Voc.* gargalha insanamente\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/gargalhada.mp3",
+    "soundPath": "Sounds/uar_Fx/gargalhada.mp3",
     "volumeRef": null
   },
   {
@@ -426,7 +426,7 @@
       "source": "Voc.* toma um belo tapa de .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/tapa.mp3",
+    "soundPath": "Sounds/uar_Fx/tapa.mp3",
     "volumeRef": null
   },
   {
@@ -436,7 +436,7 @@
       "source": ".* berra.* '.*'",
       "flags": "i"
     },
-    "soundPath": "Sounds/berrar_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/berrar_debo.mp3",
     "volumeRef": null
   },
   {
@@ -446,7 +446,7 @@
       "source": ".* cochicha para .*: '.*'",
       "flags": "i"
     },
-    "soundPath": "Sounds/cochichar.mp3",
+    "soundPath": "Sounds/uar_Fx/cochichar.mp3",
     "volumeRef": null
   },
   {
@@ -456,7 +456,7 @@
       "source": ".* conta para o grupo: '.*'",
       "flags": "i"
     },
-    "soundPath": "Sounds/mensagem-grupo.mp3",
+    "soundPath": "Sounds/uar_Fx/mensagem-grupo.mp3",
     "volumeRef": null
   },
   {
@@ -466,7 +466,7 @@
       "source": ".* diz: '.*'",
       "flags": "i"
     },
-    "soundPath": "Sounds/mensagem-dizer.mp3",
+    "soundPath": "Sounds/uar_Fx/mensagem-dizer.mp3",
     "volumeRef": null
   },
   {
@@ -476,7 +476,7 @@
       "source": ".* exclama.* '.*'",
       "flags": "i"
     },
-    "soundPath": "Sounds/mensagem-dizer.mp3",
+    "soundPath": "Sounds/uar_Fx/mensagem-dizer.mp3",
     "volumeRef": null
   },
   {
@@ -486,7 +486,7 @@
       "source": ".* fala para o canal privado: '.*'",
       "flags": "i"
     },
-    "soundPath": "Sounds/mensagem-canal-privado.mp3",
+    "soundPath": "Sounds/uar_Fx/mensagem-canal-privado.mp3",
     "volumeRef": null
   },
   {
@@ -496,7 +496,7 @@
       "source": ".* fala para os aventureiros.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/falarAventureiros_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/falarAventureiros_debo.mp3",
     "volumeRef": null
   },
   {
@@ -506,7 +506,7 @@
       "source": ".* falou por telepatia com voc.*: '.*'",
       "flags": "i"
     },
-    "soundPath": "Sounds/mensagem-telepatia.mp3",
+    "soundPath": "Sounds/uar_Fx/mensagem-telepatia.mp3",
     "volumeRef": null
   },
   {
@@ -516,7 +516,7 @@
       "source": ".* fechou seu canal privado\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/canal-privado-fechar.mp3",
+    "soundPath": "Sounds/uar_Fx/canal-privado-fechar.mp3",
     "volumeRef": null
   },
   {
@@ -526,7 +526,7 @@
       "source": ".* grita.* '.*'",
       "flags": "i"
     },
-    "soundPath": "Sounds/gritar_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/gritar_debo.mp3",
     "volumeRef": null
   },
   {
@@ -536,7 +536,7 @@
       "source": ".* murmura: '.*'",
       "flags": "i"
     },
-    "soundPath": "Sounds/mensagem-dizer.mp3",
+    "soundPath": "Sounds/uar_Fx/mensagem-dizer.mp3",
     "volumeRef": null
   },
   {
@@ -546,7 +546,7 @@
       "source": ".* questiona: '.*'",
       "flags": "i"
     },
-    "soundPath": "Sounds/mensagem-dizer.mp3",
+    "soundPath": "Sounds/uar_Fx/mensagem-dizer.mp3",
     "volumeRef": null
   },
   {
@@ -556,7 +556,7 @@
       "source": ".* se surpreende.* '.*'",
       "flags": "i"
     },
-    "soundPath": "Sounds/mensagem-dizer.mp3",
+    "soundPath": "Sounds/uar_Fx/mensagem-dizer.mp3",
     "volumeRef": null
   },
   {
@@ -566,7 +566,7 @@
       "source": ".* sorri e diz.* '.*'",
       "flags": "i"
     },
-    "soundPath": "Sounds/mensagem-dizer.mp3",
+    "soundPath": "Sounds/uar_Fx/mensagem-dizer.mp3",
     "volumeRef": null
   },
   {
@@ -576,7 +576,7 @@
       "source": ".* tagarela: '.*'",
       "flags": "i"
     },
-    "soundPath": "Sounds/mensagem-tagarela.mp3",
+    "soundPath": "Sounds/uar_Fx/mensagem-tagarela.mp3",
     "volumeRef": null
   },
   {
@@ -586,7 +586,7 @@
       "source": ".*congratula: '.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/congratula_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/congratula_debo.mp3",
     "volumeRef": null
   },
   {
@@ -596,7 +596,7 @@
       "source": "Escreva sua mensagem.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/escrevendoQuadro_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/escrevendoQuadro_debo.mp3",
     "volumeRef": null
   },
   {
@@ -606,7 +606,7 @@
       "source": "Voc.* acaba de abrir seu canal privado\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/canal-privado-abrir.mp3",
+    "soundPath": "Sounds/uar_Fx/canal-privado-abrir.mp3",
     "volumeRef": null
   },
   {
@@ -616,7 +616,7 @@
       "source": "Voc.* falou por telepatia com.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/canalTelepatia_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/canalTelepatia_debo.mp3",
     "volumeRef": null
   },
   {
@@ -626,7 +626,7 @@
       "source": "Voc.* foi adicionad.* ao canal privado de .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/canal-privado-abrir.mp3",
+    "soundPath": "Sounds/uar_Fx/canal-privado-abrir.mp3",
     "volumeRef": null
   },
   {
@@ -636,7 +636,7 @@
       "source": "Voc.* saiu do canal privado\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/canal-privado-fechar.mp3",
+    "soundPath": "Sounds/uar_Fx/canal-privado-fechar.mp3",
     "volumeRef": null
   },
   {
@@ -646,7 +646,7 @@
       "source": ".* chegou de .*, voando\\. \\(PvP\\)",
       "flags": "i"
     },
-    "soundPath": "Sounds/alguem-chegou-voando.mp3",
+    "soundPath": "Sounds/uar_Fx/alguem-chegou-voando.mp3",
     "volumeRef": null
   },
   {
@@ -656,7 +656,7 @@
       "source": ".* chegou de .*, voando\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/alguem-chegou-voando.mp3",
+    "soundPath": "Sounds/uar_Fx/alguem-chegou-voando.mp3",
     "volumeRef": null
   },
   {
@@ -666,7 +666,7 @@
       "source": ".* chegou de .*\\. \\(PvP\\)",
       "flags": "i"
     },
-    "soundPath": "Sounds/alguem-chegou.mp3",
+    "soundPath": "Sounds/uar_Fx/alguem-chegou.mp3",
     "volumeRef": null
   },
   {
@@ -676,7 +676,7 @@
       "source": ".* chegou de .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/alguem-chegou.mp3",
+    "soundPath": "Sounds/uar_Fx/alguem-chegou.mp3",
     "volumeRef": null
   },
   {
@@ -686,7 +686,7 @@
       "source": ".* chegou do .*, voando\\. \\(PvP\\)",
       "flags": "i"
     },
-    "soundPath": "Sounds/alguem-chegou-voando.mp3",
+    "soundPath": "Sounds/uar_Fx/alguem-chegou-voando.mp3",
     "volumeRef": null
   },
   {
@@ -696,7 +696,7 @@
       "source": ".* chegou do .*, voando\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/alguem-chegou-voando.mp3",
+    "soundPath": "Sounds/uar_Fx/alguem-chegou-voando.mp3",
     "volumeRef": null
   },
   {
@@ -706,7 +706,7 @@
       "source": ".* chegou do .*\\. \\(PvP\\)",
       "flags": "i"
     },
-    "soundPath": "Sounds/alguem-chegou.mp3",
+    "soundPath": "Sounds/uar_Fx/alguem-chegou.mp3",
     "volumeRef": null
   },
   {
@@ -716,7 +716,7 @@
       "source": ".* chegou do .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/alguem-chegou.mp3",
+    "soundPath": "Sounds/uar_Fx/alguem-chegou.mp3",
     "volumeRef": null
   },
   {
@@ -726,7 +726,7 @@
       "source": ".* vai para .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/alguem-saiu.mp3",
+    "soundPath": "Sounds/uar_Fx/alguem-saiu.mp3",
     "volumeRef": null
   },
   {
@@ -736,7 +736,7 @@
       "source": ".* voa para .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/alguem-saiu-voando.mp3",
+    "soundPath": "Sounds/uar_Fx/alguem-saiu-voando.mp3",
     "volumeRef": null
   },
   {
@@ -746,7 +746,7 @@
       "source": ".*A grade\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/abrePortao_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/abrePortao_debo.mp3",
     "volumeRef": null
   },
   {
@@ -756,7 +756,7 @@
       "source": ".*abre a porta\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/abrePorta_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/abrePorta_debo.mp3",
     "volumeRef": null
   },
   {
@@ -766,7 +766,7 @@
       "source": ".*abre o port.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/abrePortao_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/abrePortao_debo.mp3",
     "volumeRef": null
   },
   {
@@ -776,7 +776,7 @@
       "source": ".*Click.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/click.mp3",
+    "soundPath": "Sounds/uar_Fx/click.mp3",
     "volumeRef": null
   },
   {
@@ -786,7 +786,7 @@
       "source": ".*fecha a porta\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/fechaPorta_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/fechaPorta_debo.mp3",
     "volumeRef": null
   },
   {
@@ -796,7 +796,7 @@
       "source": ".*fecha o port.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/abrePortao_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/abrePortao_debo.mp3",
     "volumeRef": null
   },
   {
@@ -806,7 +806,7 @@
       "source": "A correnteza te leva para.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/correnteza_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/correnteza_debo.mp3",
     "volumeRef": null
   },
   {
@@ -816,7 +816,7 @@
       "source": "A grade est.* fechada\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/pareceFechado_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/pareceFechado_debo.mp3",
     "volumeRef": null
   },
   {
@@ -826,7 +826,7 @@
       "source": "A grade foi.*pelo outro lado\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/abrePortao_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/abrePortao_debo.mp3",
     "volumeRef": null
   },
   {
@@ -836,7 +836,7 @@
       "source": "A porta est.* fechada\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/porta-esbarrar.mp3",
+    "soundPath": "Sounds/uar_Fx/porta-esbarrar.mp3",
     "volumeRef": null
   },
   {
@@ -846,7 +846,7 @@
       "source": "A porta foi aberta pelo outro lado\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/abrePorta_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/abrePorta_debo.mp3",
     "volumeRef": null
   },
   {
@@ -856,7 +856,7 @@
       "source": "A porta foi fechada pelo outro lado\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/fechaPorta_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/fechaPorta_debo.mp3",
     "volumeRef": null
   },
   {
@@ -866,7 +866,7 @@
       "source": "Isso est.* trancado\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/trancado.mp3",
+    "soundPath": "Sounds/uar_Fx/trancado.mp3",
     "volumeRef": null
   },
   {
@@ -876,7 +876,7 @@
       "source": "Isso parece estar fechado\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/esta-fechado.mp3",
+    "soundPath": "Sounds/uar_Fx/esta-fechado.mp3",
     "volumeRef": null
   },
   {
@@ -886,7 +886,7 @@
       "source": "O port.*o foi.*pelo outro lado\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/abrePortao_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/abrePortao_debo.mp3",
     "volumeRef": null
   },
   {
@@ -896,7 +896,7 @@
       "source": "O.*est.* fechado\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/pareceFechado_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/pareceFechado_debo.mp3",
     "volumeRef": null
   },
   {
@@ -906,7 +906,7 @@
       "source": "Parece estar trancad.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/trancado.mp3",
+    "soundPath": "Sounds/uar_Fx/trancado.mp3",
     "volumeRef": null
   },
   {
@@ -916,7 +916,7 @@
       "source": "Um zumbi chegou.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/mobChegou_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/mobChegou_debo.mp3",
     "volumeRef": null
   },
   {
@@ -926,7 +926,7 @@
       "source": "Uma carro.*a de madeira chegou .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/carroca-chegou.mp3",
+    "soundPath": "Sounds/uar_Fx/carroca-chegou.mp3",
     "volumeRef": null
   },
   {
@@ -936,7 +936,7 @@
       "source": "Uma carro.*a de madeira vai .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/carroca-saiu.mp3",
+    "soundPath": "Sounds/uar_Fx/carroca-saiu.mp3",
     "volumeRef": null
   },
   {
@@ -946,7 +946,7 @@
       "source": "Voc.* acorda e se senta\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/bocejo.mp3",
+    "soundPath": "Sounds/uar_Fx/bocejo.mp3",
     "volumeRef": null
   },
   {
@@ -956,7 +956,7 @@
       "source": "Voc.* atravessa a porta\\.\\.\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/atravessar.mp3",
+    "soundPath": "Sounds/uar_Fx/atravessar.mp3",
     "volumeRef": null
   },
   {
@@ -966,7 +966,7 @@
       "source": "Voc.* come.*a a seguir .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/seguir-on.mp3",
+    "soundPath": "Sounds/uar_Fx/seguir-on.mp3",
     "volumeRef": null
   },
   {
@@ -976,7 +976,7 @@
       "source": "Voc.* consegue fugir para o .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/fuga-sucesso.mp3",
+    "soundPath": "Sounds/uar_Fx/fuga-sucesso.mp3",
     "volumeRef": null
   },
   {
@@ -986,7 +986,7 @@
       "source": "Voc.* descansa seus ossos cansados\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/descansar_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/descansar_uar.mp3",
     "volumeRef": null
   },
   {
@@ -996,7 +996,7 @@
       "source": "Voc.* se atrapalha e engole um pouco de .*gua\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/splash.mp3",
+    "soundPath": "Sounds/uar_Fx/splash.mp3",
     "volumeRef": null
   },
   {
@@ -1006,7 +1006,7 @@
       "source": "Voc.* se deita e dorme\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/roncando.mp3",
+    "soundPath": "Sounds/uar_Fx/roncando.mp3",
     "volumeRef": null
   },
   {
@@ -1016,7 +1016,7 @@
       "source": "Voc.* se levanta\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/levantar.mp3",
+    "soundPath": "Sounds/uar_Fx/levantar.mp3",
     "volumeRef": null
   },
   {
@@ -1026,7 +1026,7 @@
       "source": "Voc.* se senta\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/sentar.mp3",
+    "soundPath": "Sounds/uar_Fx/sentar.mp3",
     "volumeRef": null
   },
   {
@@ -1036,7 +1036,7 @@
       "source": ".* come.*a a se desfazer\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/item-deteriorou.mp3",
+    "soundPath": "Sounds/uar_Fx/item-deteriorou.mp3",
     "volumeRef": null
   },
   {
@@ -1046,7 +1046,7 @@
       "source": ".* come.*a a se deteriorar\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/item-deteriorou.mp3",
+    "soundPath": "Sounds/uar_Fx/item-deteriorou.mp3",
     "volumeRef": null
   },
   {
@@ -1056,7 +1056,7 @@
       "source": ".* se deteriorou\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/item-deteriorou.mp3",
+    "soundPath": "Sounds/uar_Fx/item-deteriorou.mp3",
     "volumeRef": null
   },
   {
@@ -1066,7 +1066,7 @@
       "source": ".*, que estava no ch.*o, se deteriorou\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/item-deteriorou-chao.mp3",
+    "soundPath": "Sounds/uar_Fx/item-deteriorou-chao.mp3",
     "volumeRef": null
   },
   {
@@ -1076,7 +1076,7 @@
       "source": ".*te entrega.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/teEntrega_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/teEntrega_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1086,7 +1086,7 @@
       "source": "Identificar o qu.*.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro2_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/erro2_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1096,7 +1096,7 @@
       "source": ".* est.* com sa.*de perfeita\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/condicao-perfeita.mp3",
+    "soundPath": "Sounds/uar_Fx/condicao-perfeita.mp3",
     "volumeRef": null
   },
   {
@@ -1106,7 +1106,7 @@
       "source": ".* est.* em p.*ssimas condi.*es e sangra muito\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/condicao-pessima-sangue.mp3",
+    "soundPath": "Sounds/uar_Fx/condicao-pessima-sangue.mp3",
     "volumeRef": null
   },
   {
@@ -1116,7 +1116,7 @@
       "source": ".* est.* em p.*ssimas condi.*es\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/efeito1_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/efeito1_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1126,7 +1126,7 @@
       "source": ".* est.* mort.*!",
       "flags": "i"
     },
-    "soundPath": "Sounds/queda-cadaver.mp3",
+    "soundPath": "Sounds/uar_Fx/queda-cadaver.mp3",
     "volumeRef": null
   },
   {
@@ -1136,7 +1136,7 @@
       "source": ".* est.* muito machucad.* e morrer.* se n.*o for ajudad.*!",
       "flags": "i"
     },
-    "soundPath": "Sounds/condicao-machucado-morrer.mp3",
+    "soundPath": "Sounds/uar_Fx/condicao-machucado-morrer.mp3",
     "volumeRef": null
   },
   {
@@ -1146,7 +1146,7 @@
       "source": ".* est.* muito machucad.* e sangra muito\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/condicao-machucado-sangue.mp3",
+    "soundPath": "Sounds/uar_Fx/condicao-machucado-sangue.mp3",
     "volumeRef": null
   },
   {
@@ -1156,7 +1156,7 @@
       "source": ".* est.* sangrando muito sem parar\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/derramar-sangue.mp3",
+    "soundPath": "Sounds/uar_Fx/derramar-sangue.mp3",
     "volumeRef": null
   },
   {
@@ -1166,7 +1166,7 @@
       "source": ".* parece muito machucad.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/efeito1_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/efeito1_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1176,7 +1176,7 @@
       "source": ".* tem algumas marcas\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/efeito6_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/efeito6_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1186,7 +1186,7 @@
       "source": ".* tem alguns arranh.*es\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/condicao-arranhoes.mp3",
+    "soundPath": "Sounds/uar_Fx/condicao-arranhoes.mp3",
     "volumeRef": null
   },
   {
@@ -1196,7 +1196,7 @@
       "source": ".* tem alguns machucados\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/condicaco-alguns-machucados.mp3",
+    "soundPath": "Sounds/uar_Fx/condicaco-alguns-machucados.mp3",
     "volumeRef": null
   },
   {
@@ -1206,7 +1206,7 @@
       "source": ".* tem alguns pequenos machucados\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/condicao-pequenos-machucados.mp3",
+    "soundPath": "Sounds/uar_Fx/condicao-pequenos-machucados.mp3",
     "volumeRef": null
   },
   {
@@ -1216,7 +1216,7 @@
       "source": ".* tem enormes machucados e enormes arranh.*es\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/efeito1_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/efeito1_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1226,7 +1226,7 @@
       "source": ".* tem gigantescos machucados e enormes arranh.*es\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/condicao-gicantescos-machucados.mp3",
+    "soundPath": "Sounds/uar_Fx/condicao-gicantescos-machucados.mp3",
     "volumeRef": null
   },
   {
@@ -1236,7 +1236,7 @@
       "source": ".* tem machucados pequenos e hematomas\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/efeito5_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/efeito5_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1246,7 +1246,7 @@
       "source": ".* tem muitos arranh.*es\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/efeito6_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/efeito6_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1256,7 +1256,7 @@
       "source": ".* tem v.*rios machucados\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/condicao-varios-machucados.mp3",
+    "soundPath": "Sounds/uar_Fx/condicao-varios-machucados.mp3",
     "volumeRef": null
   },
   {
@@ -1266,7 +1266,7 @@
       "source": "Isso fez um grave ferimento!",
       "flags": "i"
     },
-    "soundPath": "Sounds/fez-ferimento.mp3",
+    "soundPath": "Sounds/uar_Fx/fez-ferimento.mp3",
     "volumeRef": null
   },
   {
@@ -1276,7 +1276,7 @@
       "source": ".* Voc.* foi recompensad.* com .* moedas pela sua vit.*ria!",
       "flags": "i"
     },
-    "soundPath": "Sounds/ganhou-arena.mp3",
+    "soundPath": "Sounds/uar_Fx/ganhou-arena.mp3",
     "volumeRef": null
   },
   {
@@ -1286,7 +1286,7 @@
       "source": ".*ARENA.* As batalhas come.*aram!",
       "flags": "i"
     },
-    "soundPath": "Sounds/comecou-arena.mp3",
+    "soundPath": "Sounds/uar_Fx/comecou-arena.mp3",
     "volumeRef": null
   },
   {
@@ -1296,7 +1296,7 @@
       "source": ".*ARENA.* foi derrotad.* por .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/eliminacao-arena.mp3",
+    "soundPath": "Sounds/uar_Fx/eliminacao-arena.mp3",
     "volumeRef": null
   },
   {
@@ -1306,7 +1306,7 @@
       "source": ".*ARENA.* Os Campos de Batalha est.*o abertos, .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/anuncio-arena.mp3",
+    "soundPath": "Sounds/uar_Fx/anuncio-arena.mp3",
     "volumeRef": null
   },
   {
@@ -1316,7 +1316,7 @@
       "source": "Voc.* foi levad.* para a sala de prepara.*o\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/entrou-arena.mp3",
+    "soundPath": "Sounds/uar_Fx/entrou-arena.mp3",
     "volumeRef": null
   },
   {
@@ -1326,7 +1326,7 @@
       "source": "Hagen Akz.*, o hierofante amarelo, est.* aqui, envolto em uma aura de mist.*rio\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/hierofanteAmarelo_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/hierofanteAmarelo_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1336,7 +1336,7 @@
       "source": "Parece um arbusto, mas na verdade .* um hierofante que voc.* v.* aqui!",
       "flags": "i"
     },
-    "soundPath": "Sounds/hierofanteVerde_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/hierofanteVerde_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1346,7 +1346,7 @@
       "source": "Sassil Kisam, a druidesa lend.*ria, estuda compenetrada novas formas de magia\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/hierofanteBranco_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/hierofanteBranco_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1356,7 +1356,7 @@
       "source": "Um estranho homem vestido de azul encara voc.* com um olhar penetrante\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/hierofanteAzul_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/hierofanteAzul_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1366,7 +1366,7 @@
       "source": "Havia .*moedas\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/saquear-container.mp3",
+    "soundPath": "Sounds/uar_Fx/saquear-container.mp3",
     "volumeRef": null
   },
   {
@@ -1376,7 +1376,7 @@
       "source": "Voc.* deposita .* moed.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/deposito.mp3",
+    "soundPath": "Sounds/uar_Fx/deposito.mp3",
     "volumeRef": null
   },
   {
@@ -1386,7 +1386,7 @@
       "source": "Voc.* pega .* moeda.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/saquear-moedas.mp3",
+    "soundPath": "Sounds/uar_Fx/saquear-moedas.mp3",
     "volumeRef": null
   },
   {
@@ -1396,7 +1396,7 @@
       "source": "Voc.* sacou .* moeda.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/saque-banco.mp3",
+    "soundPath": "Sounds/uar_Fx/saque-banco.mp3",
     "volumeRef": null
   },
   {
@@ -1406,7 +1406,7 @@
       "source": "O c.*u est.* com muitos raios\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/trovao.mp3",
+    "soundPath": "Sounds/uar_Fx/trovao.mp3",
     "volumeRef": null
   },
   {
@@ -1416,7 +1416,7 @@
       "source": "O dia come.*ou\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/dia.mp3",
+    "soundPath": "Sounds/uar_Fx/dia.mp3",
     "volumeRef": null
   },
   {
@@ -1426,7 +1426,7 @@
       "source": "O Sol nasce no leste\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/galo-cantando.mp3",
+    "soundPath": "Sounds/uar_Fx/galo-cantando.mp3",
     "volumeRef": null
   },
   {
@@ -1436,7 +1436,7 @@
       "source": "O Sol, vagarosamente, se p.*e no oeste\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/coruja.mp3",
+    "soundPath": "Sounds/uar_Fx/coruja.mp3",
     "volumeRef": null
   },
   {
@@ -1446,7 +1446,7 @@
       "source": "Os raios param\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/raios2.mp3",
+    "soundPath": "Sounds/uar_Fx/raios2.mp3",
     "volumeRef": null
   },
   {
@@ -1456,7 +1456,7 @@
       "source": "Raios come.*am a iluminar o c.*u\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/trovao.mp3",
+    "soundPath": "Sounds/uar_Fx/trovao.mp3",
     "volumeRef": null
   },
   {
@@ -1466,7 +1466,7 @@
       "source": "O ferreiro te devolve.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/reparando_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/reparando_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1476,7 +1476,7 @@
       "source": "O lojista agora possui .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/compra.mp3",
+    "soundPath": "Sounds/uar_Fx/compra.mp3",
     "volumeRef": null
   },
   {
@@ -1486,7 +1486,7 @@
       "source": "O mago recarregador de itens imp.*e as m.*os sobre a sua varinha e recita algumas palavras m.*gicas\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/magoRecarrega_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/magoRecarrega_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1496,7 +1496,7 @@
       "source": "Vender o qu.*.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro3_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/erro3_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1506,7 +1506,7 @@
       "source": "Voc.* comprou .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/compra.mp3",
+    "soundPath": "Sounds/uar_Fx/compra.mp3",
     "volumeRef": null
   },
   {
@@ -1516,7 +1516,7 @@
       "source": ".*oc.* toma .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/tomaPocao_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/tomaPocao_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1526,7 +1526,7 @@
       "source": "Voc.* est.* chei.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/arroto-comer.mp3",
+    "soundPath": "Sounds/uar_Fx/arroto-comer.mp3",
     "volumeRef": null
   },
   {
@@ -1536,7 +1536,7 @@
       "source": "Voc.* est.* com muita fome\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/comFome_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/comFome_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1546,7 +1546,7 @@
       "source": "Voc.* est.* com muita sede\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/sede.mp3",
+    "soundPath": "Sounds/uar_Fx/sede.mp3",
     "volumeRef": null
   },
   {
@@ -1556,7 +1556,7 @@
       "source": "Voc.* est.* ficando com fome\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/barriga-roncando.mp3",
+    "soundPath": "Sounds/uar_Fx/barriga-roncando.mp3",
     "volumeRef": null
   },
   {
@@ -1566,7 +1566,7 @@
       "source": "Voc.* esvazia .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/esvaziar-liquido.mp3",
+    "soundPath": "Sounds/uar_Fx/esvaziar-liquido.mp3",
     "volumeRef": null
   },
   {
@@ -1576,7 +1576,7 @@
       "source": "Voc.* envolvid.* em chamas por uma bola de fogo enviada .* -- OUCH!!.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/fireball.mp3",
+    "soundPath": "Sounds/uar_Fx/fireball.mp3",
     "volumeRef": null
   },
   {
@@ -1586,7 +1586,7 @@
       "source": "Voc.* se sente muito doente!",
       "flags": "i"
     },
-    "soundPath": "Sounds/tosse.mp3",
+    "soundPath": "Sounds/uar_Fx/tosse.mp3",
     "volumeRef": null
   },
   {
@@ -1596,7 +1596,7 @@
       "source": "Voc.* sente um veneno queimar em suas veias, e sofre\\. .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/tosse.mp3",
+    "soundPath": "Sounds/uar_Fx/tosse.mp3",
     "volumeRef": null
   },
   {
@@ -1606,7 +1606,7 @@
       "source": ".* agora pode atacar e ser atacado por outros jogadores! \\(PvP\\)",
       "flags": "i"
     },
-    "soundPath": "Sounds/pvp-ativado.mp3",
+    "soundPath": "Sounds/uar_Fx/pvp-ativado.mp3",
     "volumeRef": null
   },
   {
@@ -1616,7 +1616,7 @@
       "source": ".* come.*a a escrever uma mensagem no quadro\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/escrevendoQuadro_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/escrevendoQuadro_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1626,7 +1626,7 @@
       "source": ".* consumido por vermes\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/vermes-consumir-corpo.mp3",
+    "soundPath": "Sounds/uar_Fx/vermes-consumir-corpo.mp3",
     "volumeRef": null
   },
   {
@@ -1636,7 +1636,7 @@
       "source": ".* desfez o grupo\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/desagrupar.mp3",
+    "soundPath": "Sounds/uar_Fx/desagrupar.mp3",
     "volumeRef": null
   },
   {
@@ -1646,7 +1646,7 @@
       "source": ".* est.* aqui, lutando contra .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/lutando.mp3",
+    "soundPath": "Sounds/uar_Fx/lutando.mp3",
     "volumeRef": null
   },
   {
@@ -1656,7 +1656,7 @@
       "source": ".* gritou: 'Era voc.* que eu estava procurando!'",
       "flags": "i"
     },
-    "soundPath": "Sounds/hey.mp3",
+    "soundPath": "Sounds/uar_Fx/hey.mp3",
     "volumeRef": null
   },
   {
@@ -1666,7 +1666,7 @@
       "source": ".* imp.*e as m.*os sobre .* e recita algumas palavras m.*gicas\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/recarregar.mp3",
+    "soundPath": "Sounds/uar_Fx/recarregar.mp3",
     "volumeRef": null
   },
   {
@@ -1676,7 +1676,7 @@
       "source": ".* melhor voc.* abrir isso antes!",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro4_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/erro4_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1686,7 +1686,7 @@
       "source": ".* pega .* e come.*a a empacotar\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/empacotar.mp3",
+    "soundPath": "Sounds/uar_Fx/empacotar.mp3",
     "volumeRef": null
   },
   {
@@ -1696,7 +1696,7 @@
       "source": ".* pula para ajudar .*!",
       "flags": "i"
     },
-    "soundPath": "Sounds/pulaAjudar_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/pulaAjudar_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1706,7 +1706,7 @@
       "source": ".* saiu do grupo\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/desagrupar.mp3",
+    "soundPath": "Sounds/uar_Fx/desagrupar.mp3",
     "volumeRef": null
   },
   {
@@ -1716,7 +1716,7 @@
       "source": ".* se abaixa com muita dor.*cercad.* por uma aura branca\\.\\.\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/reconectou_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/reconectou_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1726,7 +1726,7 @@
       "source": ".* te transferiu!",
       "flags": "i"
     },
-    "soundPath": "Sounds/transferir.mp3",
+    "soundPath": "Sounds/uar_Fx/transferir.mp3",
     "volumeRef": null
   },
   {
@@ -1736,7 +1736,7 @@
       "source": ".* toma um choque ao tentar vestir .* que pula fora de seu corpo\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/choque-item.mp3",
+    "soundPath": "Sounds/uar_Fx/choque-item.mp3",
     "volumeRef": null
   },
   {
@@ -1746,7 +1746,7 @@
       "source": ".*agora pode atacar e ser atacado por outros jogadores! \\(PvP\\)",
       "flags": "i"
     },
-    "soundPath": "Sounds/pulaAjudar_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/pulaAjudar_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1756,7 +1756,7 @@
       "source": ".*empunha uma .*spada.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/empunharEspada_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/empunharEspada_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1766,7 +1766,7 @@
       "source": ".*entrou no jogo\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/entrouJogo_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/entrouJogo_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1776,7 +1776,7 @@
       "source": ".*perdeu a conex.*o\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/perdeuConexao_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/perdeuConexao_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1786,7 +1786,7 @@
       "source": ".*saiu do jogo\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/saiuJogo_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/saiuJogo_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1796,7 +1796,7 @@
       "source": ".*se reconectou\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/reconectou_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/reconectou_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1806,7 +1806,7 @@
       "source": "A noite come.*ou\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/noite-comecou.mp3",
+    "soundPath": "Sounds/uar_Fx/noite-comecou.mp3",
     "volumeRef": null
   },
   {
@@ -1816,7 +1816,7 @@
       "source": "A Taverna do Chimpanz.* Morto",
       "flags": "i"
     },
-    "soundPath": "Sounds/taverna.mp3",
+    "soundPath": "Sounds/uar_Fx/taverna.mp3",
     "volumeRef": null
   },
   {
@@ -1826,7 +1826,7 @@
       "source": "Agora voc.* um membro do grupo de .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/entrou-no-grupo.mp3",
+    "soundPath": "Sounds/uar_Fx/entrou-no-grupo.mp3",
     "volumeRef": null
   },
   {
@@ -1836,7 +1836,7 @@
       "source": "Algo misteriosamente protege .*, dispersando sua magia\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/magia-falhou.mp3",
+    "soundPath": "Sounds/uar_Fx/magia-falhou.mp3",
     "volumeRef": null
   },
   {
@@ -1846,7 +1846,7 @@
       "source": "Alguma coisa dispersa sua magia, evitando atingir .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/magia-falhou.mp3",
+    "soundPath": "Sounds/uar_Fx/magia-falhou.mp3",
     "volumeRef": null
   },
   {
@@ -1856,7 +1856,7 @@
       "source": "Atacar quem.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro5_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/erro5_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1866,7 +1866,7 @@
       "source": "Bar Salazar",
       "flags": "i"
     },
-    "soundPath": "Sounds/taverna.mp3",
+    "soundPath": "Sounds/uar_Fx/taverna.mp3",
     "volumeRef": null
   },
   {
@@ -1876,7 +1876,7 @@
       "source": "Come.*ou a chover\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/chuva.mp3",
+    "soundPath": "Sounds/uar_Fx/chuva.mp3",
     "volumeRef": null
   },
   {
@@ -1886,7 +1886,7 @@
       "source": "Como.!.",
       "flags": "i"
     },
-    "soundPath": "Sounds/comando-desconhecido.mp3",
+    "soundPath": "Sounds/uar_Fx/comando-desconhecido.mp3",
     "volumeRef": null
   },
   {
@@ -1896,7 +1896,7 @@
       "source": "Comparar sua for.*a com a de quem.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro6_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/erro6_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1906,7 +1906,7 @@
       "source": "El.*n.*o pode te escutar\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/naoPodeEscutar_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/naoPodeEscutar_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1916,7 +1916,7 @@
       "source": "Ele n.*o pode carregar tanto peso\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/muitoPeso_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/muitoPeso_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1926,7 +1926,7 @@
       "source": "Em que voc.* deseja lan.*ar a magia.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro7_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/erro7_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1936,7 +1936,7 @@
       "source": "Energias obscuras podem ser sentidas vindas de .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/sussurros.mp3",
+    "soundPath": "Sounds/uar_Fx/sussurros.mp3",
     "volumeRef": null
   },
   {
@@ -1946,7 +1946,7 @@
       "source": "Escolha uma das op.*es do menu!",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro-menu.mp3",
+    "soundPath": "Sounds/uar_Fx/erro-menu.mp3",
     "volumeRef": null
   },
   {
@@ -1956,7 +1956,7 @@
       "source": "Essa pessoa n.*o est.* aqui\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/voceDeseja_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/voceDeseja_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1966,7 +1966,7 @@
       "source": "Examinar o qu.*.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro-acao.mp3",
+    "soundPath": "Sounds/uar_Fx/erro-acao.mp3",
     "volumeRef": null
   },
   {
@@ -1976,7 +1976,7 @@
       "source": "Isso estava com um gosto estranho!",
       "flags": "i"
     },
-    "soundPath": "Sounds/tosse.mp3",
+    "soundPath": "Sounds/uar_Fx/tosse.mp3",
     "volumeRef": null
   },
   {
@@ -1986,7 +1986,7 @@
       "source": "Isso parece estar descarregado\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/sem-carga.mp3",
+    "soundPath": "Sounds/uar_Fx/sem-carga.mp3",
     "volumeRef": null
   },
   {
@@ -1996,7 +1996,7 @@
       "source": "Isso parece estar sem carga\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/sem-carga.mp3",
+    "soundPath": "Sounds/uar_Fx/sem-carga.mp3",
     "volumeRef": null
   },
   {
@@ -2006,7 +2006,7 @@
       "source": "Lan.*ar o qu.* aonde.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro-menu.mp3",
+    "soundPath": "Sounds/uar_Fx/erro-menu.mp3",
     "volumeRef": null
   },
   {
@@ -2016,7 +2016,7 @@
       "source": "Ler o qu.*.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro.mp3",
+    "soundPath": "Sounds/uar_Fx/erro.mp3",
     "volumeRef": null
   },
   {
@@ -2026,7 +2026,7 @@
       "source": "Mas voc.* n.*o .* membro de um grupo!",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro1_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/erro1_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2036,7 +2036,7 @@
       "source": "Miss.*o completa! Voc.* completou a miss.*o .*!",
       "flags": "i"
     },
-    "soundPath": "Sounds/missao-diaria-concluida.mp3",
+    "soundPath": "Sounds/uar_Fx/missao-diaria-concluida.mp3",
     "volumeRef": null
   },
   {
@@ -2046,7 +2046,7 @@
       "source": "Muito adornada, uma .*rvore de natal repousa aqui, enfeitando o ambiente\\. .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/nataldeboista.mp3",
+    "soundPath": "Sounds/uar_Fx/nataldeboista.mp3",
     "volumeRef": null
   },
   {
@@ -2056,7 +2056,7 @@
       "source": "N.*o h.* em .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro2_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/erro2_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2066,7 +2066,7 @@
       "source": "N.*o parece haver .* ali\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro3_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/erro3_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2076,7 +2076,7 @@
       "source": "O Bar da Estalagem Javali Roncador",
       "flags": "i"
     },
-    "soundPath": "Sounds/taverna.mp3",
+    "soundPath": "Sounds/uar_Fx/taverna.mp3",
     "volumeRef": null
   },
   {
@@ -2086,7 +2086,7 @@
       "source": "O carteiro entrega uma carta para voc.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/receber-carta.mp3",
+    "soundPath": "Sounds/uar_Fx/receber-carta.mp3",
     "volumeRef": null
   },
   {
@@ -2096,7 +2096,7 @@
       "source": "O v.*nculo do Andarilho Misterioso com este mundo .* desfeito\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/sussurros.mp3",
+    "soundPath": "Sounds/uar_Fx/sussurros.mp3",
     "volumeRef": null
   },
   {
@@ -2106,7 +2106,7 @@
       "source": "Olhar o qu.*.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro4_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/erro4_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2116,7 +2116,7 @@
       "source": "Olhar para onde.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro5_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/erro5_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2126,7 +2126,7 @@
       "source": "P.*NICO! Voc.* n.*o pode escapar!",
       "flags": "i"
     },
-    "soundPath": "Sounds/panico.mp3",
+    "soundPath": "Sounds/uar_Fx/panico.mp3",
     "volumeRef": null
   },
   {
@@ -2136,7 +2136,7 @@
       "source": "Parab.*ns pela conquista, voc.* chegou l.*!",
       "flags": "i"
     },
-    "soundPath": "Sounds/nivel-cem.mp3",
+    "soundPath": "Sounds/uar_Fx/nivel-cem.mp3",
     "volumeRef": null
   },
   {
@@ -2146,7 +2146,7 @@
       "source": "Parab.*ns! Voc.* ir.* agora ser encaminhad.* para seu novo corpo\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/horn.mp3",
+    "soundPath": "Sounds/uar_Fx/horn.mp3",
     "volumeRef": null
   },
   {
@@ -2156,7 +2156,7 @@
       "source": "Parab.*ns, voc.* completou a aventura!",
       "flags": "i"
     },
-    "soundPath": "Sounds/missao-fim.mp3",
+    "soundPath": "Sounds/uar_Fx/missao-fim.mp3",
     "volumeRef": null
   },
   {
@@ -2166,7 +2166,7 @@
       "source": "Por um instante, algo parece chamar sua aten.*o para .*\\. Deve ter sido apenas um d.*j.* vu\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/sussurros.mp3",
+    "soundPath": "Sounds/uar_Fx/sussurros.mp3",
     "volumeRef": null
   },
   {
@@ -2176,7 +2176,7 @@
       "source": "Quem voc.* deseja atacar.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro6_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/erro6_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2186,7 +2186,7 @@
       "source": "Reconectando\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/reconectou_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/reconectou_debo.mp3",
     "volumeRef": null
   },
   {
@@ -2196,7 +2196,7 @@
       "source": "Retornando para sua cidade natal\\.\\.\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/retornar.mp3",
+    "soundPath": "Sounds/uar_Fx/retornar.mp3",
     "volumeRef": null
   },
   {
@@ -2206,7 +2206,7 @@
       "source": "S.*o.*horas.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/horas_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/horas_debo.mp3",
     "volumeRef": null
   },
   {
@@ -2216,7 +2216,7 @@
       "source": ".* 1 hora da .*, no Dia .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/horas_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/horas_debo.mp3",
     "volumeRef": null
   },
   {
@@ -2226,7 +2226,7 @@
       "source": "Seu sangue congela ao ouvir o grito de morte de um fido bestial\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/morte-cachorro.mp3",
+    "soundPath": "Sounds/uar_Fx/morte-cachorro.mp3",
     "volumeRef": null
   },
   {
@@ -2236,7 +2236,7 @@
       "source": "Seu sangue congela assim que voc.* ouve o grito de morte de algu.*m\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/grito-de-morte.mp3",
+    "soundPath": "Sounds/uar_Fx/grito-de-morte.mp3",
     "volumeRef": null
   },
   {
@@ -2246,7 +2246,7 @@
       "source": "Sua carta foi enviada!",
       "flags": "i"
     },
-    "soundPath": "Sounds/enviar-carta.mp3",
+    "soundPath": "Sounds/uar_Fx/enviar-carta.mp3",
     "volumeRef": null
   },
   {
@@ -2256,7 +2256,7 @@
       "source": "Sua magia .* desviada pelo escudo .* e volta para voc.*!",
       "flags": "i"
     },
-    "soundPath": "Sounds/deflection.mp3",
+    "soundPath": "Sounds/uar_Fx/deflection.mp3",
     "volumeRef": null
   },
   {
@@ -2266,7 +2266,7 @@
       "source": "Sua magia falha e desaparece\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/magia-falhou.mp3",
+    "soundPath": "Sounds/uar_Fx/magia-falhou.mp3",
     "volumeRef": null
   },
   {
@@ -2276,7 +2276,7 @@
       "source": "Uma aventura foi iniciada! Digite 'AVENTURA PARTICIPAR' para entrar nela!",
       "flags": "i"
     },
-    "soundPath": "Sounds/aventura_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/aventura_debo.mp3",
     "volumeRef": null
   },
   {
@@ -2286,7 +2286,7 @@
       "source": "Uma caixa .* desaparece de suas m.*os, dando lugar a uma recompensa especial!",
       "flags": "i"
     },
-    "soundPath": "Sounds/receber-caixa-misteriosa.mp3",
+    "soundPath": "Sounds/uar_Fx/receber-caixa-misteriosa.mp3",
     "volumeRef": null
   },
   {
@@ -2296,7 +2296,7 @@
       "source": "Uma poderosa luz branca aparece na sala, dissipando sua magia violenta!",
       "flags": "i"
     },
-    "soundPath": "Sounds/magia-falhou.mp3",
+    "soundPath": "Sounds/uar_Fx/magia-falhou.mp3",
     "volumeRef": null
   },
   {
@@ -2306,7 +2306,7 @@
       "source": "Vermes consomem .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/vermes-consumir-corpo.mp3",
+    "soundPath": "Sounds/uar_Fx/vermes-consumir-corpo.mp3",
     "volumeRef": null
   },
   {
@@ -2316,7 +2316,7 @@
       "source": "Voc.* abre um ba.* de recompensas surpresa!",
       "flags": "i"
     },
-    "soundPath": "Sounds/receber-caixa-misteriosa.mp3",
+    "soundPath": "Sounds/uar_Fx/receber-caixa-misteriosa.mp3",
     "volumeRef": null
   },
   {
@@ -2326,7 +2326,7 @@
       "source": "Voc.* ainda n.*o tem experi.*ncia para soltar essa magia!",
       "flags": "i"
     },
-    "soundPath": "Sounds/voceDeseja_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/voceDeseja_debo.mp3",
     "volumeRef": null
   },
   {
@@ -2336,7 +2336,7 @@
       "source": "Voc.* aprendeu .*!",
       "flags": "i"
     },
-    "soundPath": "Sounds/yay.mp3",
+    "soundPath": "Sounds/uar_Fx/yay.mp3",
     "volumeRef": null
   },
   {
@@ -2346,7 +2346,7 @@
       "source": "Voc.* atingiu seu objetivo\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/objetivo-concluido.mp3",
+    "soundPath": "Sounds/uar_Fx/objetivo-concluido.mp3",
     "volumeRef": null
   },
   {
@@ -2356,7 +2356,7 @@
       "source": "Voc.* avan.*ou .* n.*ve.*!",
       "flags": "i"
     },
-    "soundPath": "Sounds/level-up.mp3",
+    "soundPath": "Sounds/uar_Fx/level-up.mp3",
     "volumeRef": null
   },
   {
@@ -2366,7 +2366,7 @@
       "source": ".*oc.* come.*a a meditar\\.\\.\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/gongo-meditar.mp3",
+    "soundPath": "Sounds/uar_Fx/gongo-meditar.mp3",
     "volumeRef": null
   },
   {
@@ -2376,7 +2376,7 @@
       "source": "Voc.* come.*a a participar da aventura\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/missao-inicio.mp3",
+    "soundPath": "Sounds/uar_Fx/missao-inicio.mp3",
     "volumeRef": null
   },
   {
@@ -2386,7 +2386,7 @@
       "source": "Voc.* est.* carregando:",
       "flags": "i"
     },
-    "soundPath": "Sounds/abrir-mochila.mp3",
+    "soundPath": "Sounds/uar_Fx/abrir-mochila.mp3",
     "volumeRef": null
   },
   {
@@ -2396,7 +2396,7 @@
       "source": "Voc.* est.* mort.*!",
       "flags": "i"
     },
-    "soundPath": "Sounds/morte.mp3",
+    "soundPath": "Sounds/uar_Fx/morte.mp3",
     "volumeRef": null
   },
   {
@@ -2406,7 +2406,7 @@
       "source": "Voc.* est.* mortalmente ferid.* e morrer.* logo, se n.*o for ajudad.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/batimentos-rapidos.mp3",
+    "soundPath": "Sounds/uar_Fx/batimentos-rapidos.mp3",
     "volumeRef": null
   },
   {
@@ -2416,7 +2416,7 @@
       "source": "Voc.* est.* muito cansad.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/cansada.mp3",
+    "soundPath": "Sounds/uar_Fx/cansada.mp3",
     "volumeRef": null
   },
   {
@@ -2426,7 +2426,7 @@
       "source": "Voc.* est.* muito nervos.* para conseguir fugir!",
       "flags": "i"
     },
-    "soundPath": "Sounds/fuga-falha.mp3",
+    "soundPath": "Sounds/uar_Fx/fuga-falha.mp3",
     "volumeRef": null
   },
   {
@@ -2436,7 +2436,7 @@
       "source": "Voc.* est.* sem for.*as para lan.*ar essa magia!",
       "flags": "i"
     },
-    "soundPath": "Sounds/magia-falhou.mp3",
+    "soundPath": "Sounds/uar_Fx/magia-falhou.mp3",
     "volumeRef": null
   },
   {
@@ -2446,7 +2446,7 @@
       "source": "Voc.* esteve inativ.*, e cai dentro de um vazio\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/entrar-vazio.mp3",
+    "soundPath": "Sounds/uar_Fx/entrar-vazio.mp3",
     "volumeRef": null
   },
   {
@@ -2456,7 +2456,7 @@
       "source": "Voc.* j.* est.* carregando muito peso e n.*o pode pegar .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/aviso-inventario.mp3",
+    "soundPath": "Sounds/uar_Fx/aviso-inventario.mp3",
     "volumeRef": null
   },
   {
@@ -2466,7 +2466,7 @@
       "source": "Voc.* milagrosamente revive\\.\\.\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/harpa.mp3",
+    "soundPath": "Sounds/uar_Fx/harpa.mp3",
     "volumeRef": null
   },
   {
@@ -2476,7 +2476,7 @@
       "source": "Voc.* n.*o consegue colocar uma coisa dentro dela mesma\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro7_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/erro7_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2486,7 +2486,7 @@
       "source": "Voc.* n.*o consegue concentrar mana suficiente para completar a invoca.*o\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro-acao.mp3",
+    "soundPath": "Sounds/uar_Fx/erro-acao.mp3",
     "volumeRef": null
   },
   {
@@ -2496,7 +2496,7 @@
       "source": "Voc.* n.*o consegue mais respirar embaixo d'.*gua!",
       "flags": "i"
     },
-    "soundPath": "Sounds/blub.mp3",
+    "soundPath": "Sounds/uar_Fx/blub.mp3",
     "volumeRef": null
   },
   {
@@ -2506,7 +2506,7 @@
       "source": "Voc.* n.*o consegue pronunciar as palavras m.*gicas!",
       "flags": "i"
     },
-    "soundPath": "Sounds/magia-falhou.mp3",
+    "soundPath": "Sounds/uar_Fx/magia-falhou.mp3",
     "volumeRef": null
   },
   {
@@ -2516,7 +2516,7 @@
       "source": "Voc.* n.*o consegue soltar magias sentad.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro.mp3",
+    "soundPath": "Sounds/uar_Fx/erro.mp3",
     "volumeRef": null
   },
   {
@@ -2526,7 +2526,7 @@
       "source": "Voc.* n.*o conseguiu se concentrar!",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro1_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/erro1_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2536,7 +2536,7 @@
       "source": "Voc.* n.*o deve lan.*ar isso em si mesm.*!",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro2_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/erro2_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2546,7 +2546,7 @@
       "source": "Voc.* n.*o deve lan.*ar isso em si mesm.*\\.\\.\\. dizem que n.*o faz muito bem\\.\\.\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro2_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/erro2_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2556,7 +2556,7 @@
       "source": "Voc.* n.*o est.* vendo nada parecido com isso\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro3_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/erro3_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2566,7 +2566,7 @@
       "source": "Voc.* n.*o parece ter a chave correta\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/tectec.mp3",
+    "soundPath": "Sounds/uar_Fx/tectec.mp3",
     "volumeRef": null
   },
   {
@@ -2576,7 +2576,7 @@
       "source": "Voc.* n.*o pode encontrar isto!",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro4_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/erro4_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2586,7 +2586,7 @@
       "source": "Voc.* n.*o pode fazer isso dormindo\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro5_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/erro5_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2596,7 +2596,7 @@
       "source": "Voc.* n.*o pode fazer isso!",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro6_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/erro6_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2606,7 +2606,7 @@
       "source": "Voc.* n.*o pode fechar isso!",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro7_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/erro7_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2616,7 +2616,7 @@
       "source": "Voc.* n.*o pode ir por a.*\\.\\.\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/naoPodeIr_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/naoPodeIr_debo.mp3",
     "volumeRef": null
   },
   {
@@ -2626,7 +2626,7 @@
       "source": "Voc.* n.*o pode lan.*ar essa magia em outro jogador\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro-acao.mp3",
+    "soundPath": "Sounds/uar_Fx/erro-acao.mp3",
     "volumeRef": null
   },
   {
@@ -2636,7 +2636,7 @@
       "source": "Voc.* n.*o pode lan.*ar essa magia em uma criatura mais poderosa que voc.*!",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro-menu.mp3",
+    "soundPath": "Sounds/uar_Fx/erro-menu.mp3",
     "volumeRef": null
   },
   {
@@ -2646,7 +2646,7 @@
       "source": "Voc.* n.*o pode lan.*ar essa magia em uma criatura t.*o fraca!",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro.mp3",
+    "soundPath": "Sounds/uar_Fx/erro.mp3",
     "volumeRef": null
   },
   {
@@ -2656,7 +2656,7 @@
       "source": "Voc.* n.*o pode se comparar a si mesm.*!",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro1_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/erro1_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2666,7 +2666,7 @@
       "source": "Voc.* n.*o tem nenhum .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro3_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/erro3_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2676,7 +2676,7 @@
       "source": "Voc.* n.*o tem tempo de se concentrar!",
       "flags": "i"
     },
-    "soundPath": "Sounds/naoConcetra_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/naoConcetra_debo.mp3",
     "volumeRef": null
   },
   {
@@ -2686,7 +2686,7 @@
       "source": "Voc.* n.*o tem tempo de se concentrar!",
       "flags": "i"
     },
-    "soundPath": "Sounds/naoConcetra_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/naoConcetra_debo.mp3",
     "volumeRef": null
   },
   {
@@ -2696,7 +2696,7 @@
       "source": "Voc.* p.*ra de seguir .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/p_seguir.mp3",
+    "soundPath": "Sounds/uar_Fx/p_seguir.mp3",
     "volumeRef": null
   },
   {
@@ -2706,7 +2706,7 @@
       "source": "Voc.* para de flutuar e vai dormir\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/roncando.mp3",
+    "soundPath": "Sounds/uar_Fx/roncando.mp3",
     "volumeRef": null
   },
   {
@@ -2716,7 +2716,7 @@
       "source": "Voc.* passa mal devido a falta de ar! .* melhor sair da.* ou morrer.* logo! .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/afogando.mp3",
+    "soundPath": "Sounds/uar_Fx/afogando.mp3",
     "volumeRef": null
   },
   {
@@ -2726,7 +2726,7 @@
       "source": "Voc.* pega .* chave .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/pegar-chave.mp3",
+    "soundPath": "Sounds/uar_Fx/pegar-chave.mp3",
     "volumeRef": null
   },
   {
@@ -2736,7 +2736,7 @@
       "source": "Voc.* percebe que h.* algo perigoso por perto!",
       "flags": "i"
     },
-    "soundPath": "Sounds/deathTrap_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/deathTrap_debo.mp3",
     "volumeRef": null
   },
   {
@@ -2746,7 +2746,7 @@
       "source": "Voc.* perdeu .* pontos de experi.*ncia pela sua morte\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/morte.mp3",
+    "soundPath": "Sounds/uar_Fx/morte.mp3",
     "volumeRef": null
   },
   {
@@ -2756,7 +2756,7 @@
       "source": "Voc.* pisca os olhos e a estranha imagem de um homem coberto por vestes negras invade sua mente, logo em seguida sumindo de seu pensamento\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/sussurros.mp3",
+    "soundPath": "Sounds/uar_Fx/sussurros.mp3",
     "volumeRef": null
   },
   {
@@ -2766,7 +2766,7 @@
       "source": "Voc.* precisa estudar mais\\.\\.\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro4_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/erro4_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2776,7 +2776,7 @@
       "source": "Voc.* recita .*, que dissolve\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/dissolver-pergaminho.mp3",
+    "soundPath": "Sounds/uar_Fx/dissolver-pergaminho.mp3",
     "volumeRef": null
   },
   {
@@ -2786,7 +2786,7 @@
       "source": "Voc.* s.* pode lan.*ar esta magia quando estiver em um grupo\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro5_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/erro5_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2796,7 +2796,7 @@
       "source": "Voc.* s.* pode lan.*ar isso em si mesm.*!",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro6_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/erro6_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2806,7 +2806,7 @@
       "source": "Voc.* se sente curad.*\\.\\.\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/cajado-de-loraine.mp3",
+    "soundPath": "Sounds/uar_Fx/cajado-de-loraine.mp3",
     "volumeRef": null
   },
   {
@@ -2816,7 +2816,7 @@
       "source": "Voc.* se sente informad.*:",
       "flags": "i"
     },
-    "soundPath": "Sounds/identificar.mp3",
+    "soundPath": "Sounds/uar_Fx/identificar.mp3",
     "volumeRef": null
   },
   {
@@ -2826,7 +2826,7 @@
       "source": ".*oc.* sente .* melhorar\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/melhorar-magia-hab.mp3",
+    "soundPath": "Sounds/uar_Fx/melhorar-magia-hab.mp3",
     "volumeRef": null
   },
   {
@@ -2836,7 +2836,7 @@
       "source": "Voc.* sente a experi.*ncia fluir em suas veias!",
       "flags": "i"
     },
-    "soundPath": "Sounds/oferenda.mp3",
+    "soundPath": "Sounds/uar_Fx/oferenda.mp3",
     "volumeRef": null
   },
   {
@@ -2846,7 +2846,7 @@
       "source": "Voc.* sente que est.* muito frac.* e tenta fugir!",
       "flags": "i"
     },
-    "soundPath": "Sounds/fuga-falha.mp3",
+    "soundPath": "Sounds/uar_Fx/fuga-falha.mp3",
     "volumeRef": null
   },
   {
@@ -2856,7 +2856,7 @@
       "source": "Voc.* sente que pode se mover livremente\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/moverLivremente_debo.mp3",
+    "soundPath": "Sounds/uar_Fx/moverLivremente_debo.mp3",
     "volumeRef": null
   },
   {
@@ -2866,7 +2866,7 @@
       "source": "Voc.* sente uma m.*o invis.*vel tocar seu ombro\\. Ao olhar para tr.*s, n.*o parece haver ningu.*m\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/sussurros.mp3",
+    "soundPath": "Sounds/uar_Fx/sussurros.mp3",
     "volumeRef": null
   },
   {
@@ -2876,7 +2876,7 @@
       "source": "Voc.* tem cartas no correio\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/cartas.mp3",
+    "soundPath": "Sounds/uar_Fx/cartas.mp3",
     "volumeRef": null
   },
   {
@@ -2886,7 +2886,7 @@
       "source": "Voc.* tem nova carta no correio!",
       "flags": "i"
     },
-    "soundPath": "Sounds/cartas.mp3",
+    "soundPath": "Sounds/uar_Fx/cartas.mp3",
     "volumeRef": null
   },
   {
@@ -2896,7 +2896,7 @@
       "source": "Voc.* toma um choque ao tentar vestir .*, que pula fora de seu corpo\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/choque_item.mp3",
+    "soundPath": "Sounds/uar_Fx/choque_item.mp3",
     "volumeRef": null
   },
   {
@@ -2906,7 +2906,7 @@
       "source": "Voc.* v.* um vulto .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/vulto.mp3",
+    "soundPath": "Sounds/uar_Fx/vulto.mp3",
     "volumeRef": null
   },
   {
@@ -2916,7 +2916,7 @@
       "source": ".*oc.* tenta andar, mas cai por estar muito b.*bado\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/escorregouBolinha.mp3",
+    "soundPath": "Sounds/uar_Fx/escorregouBolinha.mp3",
     "volumeRef": null
   },
   {
@@ -2926,7 +2926,7 @@
       "source": ".*oc.* solta uma por.*o de bolinhas de gude\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/jogaBolinha_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/jogaBolinha_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2936,7 +2936,7 @@
       "source": ".*oc.* solta um cajado retorcido\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/jogaCajado_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/jogaCajado_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2946,7 +2946,7 @@
       "source": ".*oc.* pega uma por.*o de bolinhas de gude\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/jogaBolinha_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/jogaBolinha_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2956,7 +2956,7 @@
       "source": ".*oc.* pega um cajado retorcido\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/jogaCajado_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/jogaCajado_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2966,7 +2966,7 @@
       "source": ".* escorrega em .*, mas consegue ficar em p.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/escorregaBolinha_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/escorregaBolinha_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2976,7 +2976,7 @@
       "source": ".*escorrega em .* e cai\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/escorregouBolinha.mp3",
+    "soundPath": "Sounds/uar_Fx/escorregouBolinha.mp3",
     "volumeRef": null
   },
   {
@@ -2986,7 +2986,7 @@
       "source": "Voc.* falhou!",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro-acao.mp3",
+    "soundPath": "Sounds/uar_Fx/erro-acao.mp3",
     "volumeRef": null
   },
   {
@@ -2996,7 +2996,7 @@
       "source": ".*oc.* pr.*tica por um tempo\\.\\.\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/practicing_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/practicing_uar.mp3",
     "volumeRef": null
   },
   {
@@ -3006,7 +3006,7 @@
       "source": ".*oc.* agora est.* instru.* nessa .*rea\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/practiced_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/practiced_uar.mp3",
     "volumeRef": null
   },
   {
@@ -3016,7 +3016,7 @@
       "source": ".*oc.* j.* est.* instru.* nessa .*rea\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/practiced_uar.mp3",
+    "soundPath": "Sounds/uar_Fx/practiced_uar.mp3",
     "volumeRef": null
   }
 ]

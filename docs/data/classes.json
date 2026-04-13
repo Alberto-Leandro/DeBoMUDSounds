@@ -6,7 +6,7 @@
       "source": ".*oc.* tenta dar um giro seguido de um forte chute, mas escorrega por pouco!",
       "flags": "i"
     },
-    "soundPath": "Sounds/nearMiss_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/nearMiss_uar.mp3",
     "volumeRef": null
   },
   {
@@ -16,7 +16,7 @@
       "source": ".*ua poderosa joelhada acerta a barriga .*, deixando .* sem ar!.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/kick_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/kick_uar.mp3",
     "volumeRef": null
   },
   {
@@ -26,7 +26,7 @@
       "source": ".*oc.* d.* um poderoso chute na cara .* muito sangue come.*a a escorrer\\.\\.\\..*",
       "flags": "i"
     },
-    "soundPath": "Sounds/kick_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/kick_uar.mp3",
     "volumeRef": null
   },
   {
@@ -36,7 +36,7 @@
       "source": ".*oc.* d.* um salto mortal e acerta .* com um fort.*ssimo chute! .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/kick_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/kick_uar.mp3",
     "volumeRef": null
   },
   {
@@ -46,7 +46,7 @@
       "source": ".*oc.* erra seu chute .*, ufa, quase l.*\\.\\.\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/nearMiss_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/nearMiss_uar.mp3",
     "volumeRef": null
   },
   {
@@ -56,7 +56,7 @@
       "source": ".*eu lindo chute girat.*rio passa a uma milha.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/nearMiss_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/nearMiss_uar.mp3",
     "volumeRef": null
   },
   {
@@ -66,7 +66,7 @@
       "source": ".*hutar quem.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro-acao.mp3",
+    "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
     "volumeRef": null
   },
   {
@@ -76,7 +76,7 @@
       "source": ".*o resgate\\.\\.\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/rescue_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/rescue_uar.mp3",
     "volumeRef": null
   },
   {
@@ -86,7 +86,7 @@
       "source": ".* salva .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/rescue_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/rescue_uar.mp3",
     "volumeRef": null
   },
   {
@@ -96,7 +96,7 @@
       "source": ".*as ningu.*m est.* lutando contra el.*!",
       "flags": "i"
     },
-    "soundPath": "Sounds/rescue_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/rescue_uar.mp3",
     "volumeRef": null
   },
   {
@@ -106,7 +106,7 @@
       "source": ".*oc.* falha no resgate!",
       "flags": "i"
     },
-    "soundPath": "Sounds/rescue_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/rescue_uar.mp3",
     "volumeRef": null
   },
   {
@@ -116,7 +116,7 @@
       "source": "Voc.* n.*o acha nada que possa te indicar o caminho\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/trackNao_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/trackNao_uar.mp3",
     "volumeRef": null
   },
   {
@@ -126,7 +126,7 @@
       "source": "Voc.* n.*o consegue encontrar o rastro dele daqui\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/trackNao_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/trackNao_uar.mp3",
     "volumeRef": null
   },
   {
@@ -136,7 +136,7 @@
       "source": "Voc.* percebe um rastro, que aparentemente te leva para .* daqui!",
       "flags": "i"
     },
-    "soundPath": "Sounds/track_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/track_uar.mp3",
     "volumeRef": null
   },
   {
@@ -146,7 +146,7 @@
       "source": "Voc.* percebe um rastro .* daqui!",
       "flags": "i"
     },
-    "soundPath": "Sounds/track_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/track_uar.mp3",
     "volumeRef": null
   },
   {
@@ -156,7 +156,7 @@
       "source": "Seu alvo j.* est.* nessa sala!",
       "flags": "i"
     },
-    "soundPath": "Sounds/trackAqui_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/trackAqui_uar.mp3",
     "volumeRef": null
   },
   {
@@ -166,7 +166,7 @@
       "source": ".* soco que voc.* d.* faz el.* cair! .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/bash.mp3",
+    "soundPath": "Sounds/uar_Classes/bash.mp3",
     "volumeRef": null
   },
   {
@@ -176,7 +176,7 @@
       "source": ".*derruba.*com um poderoso soco!",
       "flags": "i"
     },
-    "soundPath": "Sounds/bash_debo.mp3",
+    "soundPath": "Sounds/uar_Classes/bash_debo.mp3",
     "volumeRef": null
   },
   {
@@ -186,7 +186,7 @@
       "source": ".*omo .* desvia de seu soco, voc.* trope.*a e cai no ch.*o!",
       "flags": "i"
     },
-    "soundPath": "Sounds/bash2.mp3",
+    "soundPath": "Sounds/uar_Classes/bash2.mp3",
     "volumeRef": null
   },
   {
@@ -196,7 +196,7 @@
       "source": ".*errubar quem.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro-acao.mp3",
+    "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
     "volumeRef": null
   },
   {
@@ -206,7 +206,7 @@
       "source": ".*oc.* come.*a a atacar .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/turn_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/turn_uar.mp3",
     "volumeRef": null
   },
   {
@@ -216,7 +216,7 @@
       "source": ".*oc.* n.*o consegue trocar de oponente\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/turn_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/turn_uar.mp3",
     "volumeRef": null
   },
   {
@@ -226,7 +226,7 @@
       "source": ".* se acovarda, com medo de te atacar\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/intimidado_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/intimidado_uar.mp3",
     "volumeRef": null
   },
   {
@@ -236,7 +236,7 @@
       "source": ".* se despeda.*a com seu ataque!",
       "flags": "i"
     },
-    "soundPath": "Sounds/doorbash_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/doorbash_uar.mp3",
     "volumeRef": null
   },
   {
@@ -246,7 +246,7 @@
       "source": ".*oc.* tenta derrubar a porta, mas o impacto causado retorna para voc.*\\. Isso doeu!",
       "flags": "i"
     },
-    "soundPath": "Sounds/doorbashErro_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/doorbashErro_uar.mp3",
     "volumeRef": null
   },
   {
@@ -256,7 +256,7 @@
       "source": ".*rrombar uma porta aberta. Muito bem!",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro3_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/erro3_uar.mp3",
     "volumeRef": null
   },
   {
@@ -266,7 +266,7 @@
       "source": ".*oc.* n.*o consegue derrubar isso!",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro6_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/erro6_uar.mp3",
     "volumeRef": null
   },
   {
@@ -276,7 +276,7 @@
       "source": ".*e fato n.*o vejo como voc.* pode derrubar alguma coisa ali\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro3_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/erro3_uar.mp3",
     "volumeRef": null
   },
   {
@@ -286,7 +286,7 @@
       "source": ".*oc.* bate, mas n.*o consegue derrubar .*!",
       "flags": "i"
     },
-    "soundPath": "Sounds/doorBashNotBashed_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/doorBashNotBashed_uar.mp3",
     "volumeRef": null
   },
   {
@@ -296,7 +296,7 @@
       "source": ".*oc.* come.*a a sentir uma forte dor\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/doorBashPain_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/doorBashPain_uar.mp3",
     "volumeRef": null
   },
   {
@@ -306,7 +306,7 @@
       "source": "Voc.* esmaga .* com seu abra.*o de urso.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/abraco-de-urso.mp3",
+    "soundPath": "Sounds/uar_Classes/abraco-de-urso.mp3",
     "volumeRef": null
   },
   {
@@ -316,7 +316,7 @@
       "source": ".*eu abra.*o de urso n.*o faz nada em .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/abraco-de-urso.mp3",
+    "soundPath": "Sounds/uar_Classes/abraco-de-urso.mp3",
     "volumeRef": null
   },
   {
@@ -326,7 +326,7 @@
       "source": ".*oc.* se enfaixa\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/bandage_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/bandage_uar.mp3",
     "volumeRef": null
   },
   {
@@ -336,7 +336,7 @@
       "source": ".*oc.* j.* est.* com muita sa.*de!",
       "flags": "i"
     },
-    "soundPath": "Sounds/condicao-perfeita.mp3",
+    "soundPath": "Sounds/uar_Classes/condicao-perfeita.mp3",
     "volumeRef": "volumefx"
   },
   {
@@ -346,7 +346,7 @@
       "source": ".*oc.* come.*a a girar muito r.*pido, parecendo um redemoinho de vento\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/whirlwindAcerto_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/whirlwindAcerto_uar.mp3",
     "volumeRef": null
   },
   {
@@ -356,7 +356,7 @@
       "source": ".*oc.* come.*a a girar muito r.*pido\\.\\.\\. mas acaba ficando tonto!",
       "flags": "i"
     },
-    "soundPath": "Sounds/whirlwindErro_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/whirlwindErro_uar.mp3",
     "volumeRef": null
   },
   {
@@ -366,7 +366,7 @@
       "source": ".*oc.* se defende do ataque.*, atingind.* com um contragolpe!.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/backslash_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/backslash_uar.mp3",
     "volumeRef": null
   },
   {
@@ -386,7 +386,7 @@
       "source": ".*eu martelo foi destru.*do durante o processo de repara.*o",
       "flags": "i"
     },
-    "soundPath": "Sounds/repairFail_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/repairFail_uar.mp3",
     "volumeRef": null
   },
   {
@@ -396,7 +396,7 @@
       "source": ".*oc.* danificou .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/repairDamaged_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/repairDamaged_uar.mp3",
     "volumeRef": null
   },
   {
@@ -406,7 +406,7 @@
       "source": ".*oc.* conserta .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/repairSucess_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/repairSucess_uar.mp3",
     "volumeRef": null
   },
   {
@@ -416,7 +416,7 @@
       "source": ".*ua arma fica mais fr.*gil!",
       "flags": "i"
     },
-    "soundPath": "Sounds/danificado_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/danificado_uar.mp3",
     "volumeRef": null
   },
   {
@@ -426,7 +426,7 @@
       "source": ".* foi danificad.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/danificado_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/danificado_uar.mp3",
     "volumeRef": null
   },
   {
@@ -436,7 +436,7 @@
       "source": ".*oc.* gira rapidamente e acerta .*, que n.*o esperava o ataque!.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/spin_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/spin_uar.mp3",
     "volumeRef": null
   },
   {
@@ -446,7 +446,7 @@
       "source": ".*oc.* tenta girar e atacar .*, mas voc.* n.*o consegue ser r.*pido o bastante\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/whirlwindErro_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/whirlwindErro_uar.mp3",
     "volumeRef": null
   },
   {
@@ -456,7 +456,7 @@
       "source": ".*oc.* pula, caindo em p.*\\. Voc.* est.* pronto para lutar!",
       "flags": "i"
     },
-    "soundPath": "Sounds/quickDraw_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/quickDraw_uar.mp3",
     "volumeRef": null
   },
   {
@@ -466,7 +466,7 @@
       "source": ".*oc.* est.* em p.*, e pront.* para a batalha!",
       "flags": "i"
     },
-    "soundPath": "Sounds/quickDraw_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/quickDraw_uar.mp3",
     "volumeRef": null
   },
   {
@@ -476,7 +476,7 @@
       "source": ".*oc.* voa na dire.*o d.*, que esquiva por pouco!",
       "flags": "i"
     },
-    "soundPath": "Sounds/swoop_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/swoop_uar.mp3",
     "volumeRef": null
   },
   {
@@ -486,7 +486,7 @@
       "source": "El.* percebe que voc.* est.* caindo em cima del.*!",
       "flags": "i"
     },
-    "soundPath": "Sounds/swoop_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/swoop_uar.mp3",
     "volumeRef": null
   },
   {
@@ -496,7 +496,7 @@
       "source": ".*oc.* desarma .*, fazendo .* cair no ch.*o!",
       "flags": "i"
     },
-    "soundPath": "Sounds/disarm_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/disarm_uar.mp3",
     "volumeRef": null
   },
   {
@@ -506,7 +506,7 @@
       "source": ".*oc.* falha ao tentar desarmar .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/disarm_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/disarm_uar.mp3",
     "volumeRef": null
   },
   {
@@ -516,7 +516,7 @@
       "source": ".*oc.* consegue dobrar o dano de seu ataque!",
       "flags": "i"
     },
-    "soundPath": "Sounds/criticalHit_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/criticalHit_uar.mp3",
     "volumeRef": null
   },
   {
@@ -526,7 +526,7 @@
       "source": "Voc.* contorce o corpo .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/boneTwist_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/boneTwist_uar.mp3",
     "volumeRef": null
   },
   {
@@ -536,7 +536,7 @@
       "source": "O corpo .* explode violentamente\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/corpseExplosion_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/corpseExplosion_uar.mp3",
     "volumeRef": null
   },
   {
@@ -546,7 +546,7 @@
       "source": ".* come.*a a ficar com uma cor esquisita!",
       "flags": "i"
     },
-    "soundPath": "Sounds/curse_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/curse_uar.mp3",
     "volumeRef": null
   },
   {
@@ -556,7 +556,7 @@
       "source": "Voc.* resfria .*!.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/chillTouch_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/chillTouch_uar.mp3",
     "volumeRef": null
   },
   {
@@ -566,7 +566,7 @@
       "source": "A atmosfera se torna g.*lida assim que voc.* erra.*!",
       "flags": "i"
     },
-    "soundPath": "Sounds/chillTouch_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/chillTouch_uar.mp3",
     "volumeRef": null
   },
   {
@@ -576,7 +576,7 @@
       "source": "Um poderoso bracelete de ossos se forma em volta do seu bra.*o\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/boneArms_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/boneArms_uar.mp3",
     "volumeRef": null
   },
   {
@@ -586,7 +586,7 @@
       "source": "Seu poderoso bra.*o de ossos desaparece\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/boneArms_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/boneArms_uar.mp3",
     "volumeRef": null
   },
   {
@@ -596,7 +596,7 @@
       "source": ".* parece estar ceg.*!",
       "flags": "i"
     },
-    "soundPath": "Sounds/blindness_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/blindness_uar.mp3",
     "volumeRef": null
   },
   {
@@ -606,7 +606,7 @@
       "source": ".*oc.* falha ao tentar cegar sua v.*tima\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/blindness_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/blindness_uar.mp3",
     "volumeRef": null
   },
   {
@@ -616,7 +616,7 @@
       "source": "Voc.* drena parte da energia .*! .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/energyDrain.mp3",
+    "soundPath": "Sounds/uar_Classes/energyDrain.mp3",
     "volumeRef": null
   },
   {
@@ -626,7 +626,7 @@
       "source": ".* fica muito doente!",
       "flags": "i"
     },
-    "soundPath": "Sounds/poison_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/poison_uar.mp3",
     "volumeRef": null
   },
   {
@@ -636,7 +636,7 @@
       "source": "Um fraco zumbi come.*a a seguir voc.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/animateDead_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/animateDead_uar.mp3",
     "volumeRef": null
   },
   {
@@ -646,7 +646,7 @@
       "source": "Uma estranha n.*voa se forma na sala\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/fog_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/fog_uar.mp3",
     "volumeRef": null
   },
   {
@@ -656,7 +656,7 @@
       "source": "Voc.* se sente mais forte com a presen.*a da noite\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/nightPower_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/nightPower_uar.mp3",
     "volumeRef": null
   },
   {
@@ -666,7 +666,7 @@
       "source": ".*oc.* perdeu seu poder noturn.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/nightPower_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/nightPower_uar.mp3",
     "volumeRef": null
   },
   {
@@ -676,7 +676,7 @@
       "source": "Uma armadura de ossos come.*a a te proteger\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/boneArmor_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/boneArmor_uar.mp3",
     "volumeRef": null
   },
   {
@@ -686,7 +686,7 @@
       "source": "Sua armadura de ossos desaparece\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/boneArmor_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/boneArmor_uar.mp3",
     "volumeRef": null
   },
   {
@@ -696,7 +696,7 @@
       "source": ".* come.*a a se sentir extremamente doente\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/plague_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/plague_uar.mp3",
     "volumeRef": null
   },
   {
@@ -706,7 +706,7 @@
       "source": "Voc.* se desmaterializa\\.\\.\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/spirit_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/spirit_uar.mp3",
     "volumeRef": null
   },
   {
@@ -716,7 +716,7 @@
       "source": "Voc.* se materializa novamente\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/spirit_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/spirit_uar.mp3",
     "volumeRef": null
   },
   {
@@ -726,7 +726,7 @@
       "source": ".*treme e sofre com a bondade .*!.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/dispelGood_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/dispelGood_uar.mp3",
     "volumeRef": null
   },
   {
@@ -736,7 +736,7 @@
       "source": "Os Deuses protegem .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro7_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/erro7_uar.mp3",
     "volumeRef": null
   },
   {
@@ -746,7 +746,7 @@
       "source": ".*n.*o .* afetado por sua maldade!",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro6_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/erro6_uar.mp3",
     "volumeRef": null
   },
   {
@@ -756,7 +756,7 @@
       "source": "A carne do corpo .* come.*a a ficar mole\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/wekenedFlesh_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/wekenedFlesh_uar.mp3",
     "volumeRef": null
   },
   {
@@ -766,7 +766,7 @@
       "source": "Voc.* sente a presen.*a de criaturas boas\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/detectGood_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/detectGood_uar.mp3",
     "volumeRef": null
   },
   {
@@ -776,7 +776,7 @@
       "source": "Voc.* sente fantasmas invis.*veis te protegendo\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/callGhostsOn_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/callGhostsOn_uar.mp3",
     "volumeRef": null
   },
   {
@@ -786,7 +786,7 @@
       "source": "Seus fantasmas voam e seguram .* te protegendo\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/callGhosts_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/callGhosts_uar.mp3",
     "volumeRef": null
   },
   {
@@ -796,7 +796,7 @@
       "source": "Os fantasmas que.*protegiam desaparecem\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/callGhostsOn_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/callGhostsOn_uar.mp3",
     "volumeRef": null
   },
   {
@@ -806,7 +806,7 @@
       "source": "Voc.* causa danos mentais .*!.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/mentalPain_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/mentalPain_uar.mp3",
     "volumeRef": null
   },
   {
@@ -816,7 +816,7 @@
       "source": "-oc.* n.*o foca corretamente em .* e erra\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro.mp3",
+    "soundPath": "Sounds/uar_Classes/erro.mp3",
     "volumeRef": null
   },
   {
@@ -826,7 +826,7 @@
       "source": "Uma estranha sombra se forma em volta de voc.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/convokeShadows_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/convokeShadows_uar.mp3",
     "volumeRef": null
   },
   {
@@ -836,7 +836,7 @@
       "source": "As sombras n.*o mais.*ajudam.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/convokeShadows_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/convokeShadows_uar.mp3",
     "volumeRef": null
   },
   {
@@ -846,7 +846,7 @@
       "source": "Misturando .*, voc.* criou.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/mix_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/mix_uar.mp3",
     "volumeRef": null
   },
   {
@@ -856,7 +856,7 @@
       "source": "Voc.* faz com que uma chuva de ossos comece!",
       "flags": "i"
     },
-    "soundPath": "Sounds/boneRain_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/boneRain_uar.mp3",
     "volumeRef": null
   },
   {
@@ -866,7 +866,7 @@
       "source": "Voc.* invoca espinhos negros do c.*u, que come.*am a voar na dire.*o .*!.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/darkSpykes_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/darkSpykes_uar.mp3",
     "volumeRef": null
   },
   {
@@ -876,7 +876,7 @@
       "source": "Voc.* tenta enviar espinhos negros na dire.*o .*, mas quase espeta o pr.*prio p.*!",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro4_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/erro4_uar.mp3",
     "volumeRef": null
   },
   {
@@ -886,7 +886,7 @@
       "source": ".*m Escudo de Ossos come.*a a proteger voc.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/boneShield_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/boneShield_uar.mp3",
     "volumeRef": null
   },
   {
@@ -896,7 +896,7 @@
       "source": ".* escudo de ossos que .* protegia desaparece\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/boneShield_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/boneShield_uar.mp3",
     "volumeRef": null
   },
   {
@@ -906,7 +906,7 @@
       "source": "Voc.* corajosamente martiriza seu pr.*prio corpo at.* exaust.*o, num esfor.*o de retorno .* sua .*ndole original\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/excruciate_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/excruciate_uar.mp3",
     "volumeRef": null
   },
   {
@@ -916,7 +916,7 @@
       "source": ".*oc.* deve sacrificar toda a sua vitalidade e resist.*ncia para conseguir fazer isso\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/excruciate_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/excruciate_uar.mp3",
     "volumeRef": null
   },
   {
@@ -926,7 +926,7 @@
       "source": "Voc.* criou uma Foice de Sangue!",
       "flags": "i"
     },
-    "soundPath": "Sounds/bloodScythe_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/bloodScythe_uar.mp3",
     "volumeRef": null
   },
   {
@@ -936,7 +936,7 @@
       "source": ".*ma barreira de energia envolve seu corpo\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/manaShield_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/manaShield_uar.mp3",
     "volumeRef": null
   },
   {
@@ -946,7 +946,7 @@
       "source": ".*ua barreira de energia come.*a a falhar, at.* desaparecer completamente\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/manaShield_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/manaShield_uar.mp3",
     "volumeRef": null
   },
   {
@@ -956,7 +956,7 @@
       "source": ".*oc.* consegue eliminar o escudo de mana .*!",
       "flags": "i"
     },
-    "soundPath": "Sounds/manaShieldPop_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/manaShieldPop_uar.mp3",
     "volumeRef": null
   },
   {
@@ -966,7 +966,7 @@
       "source": ".*come.*a a ficar agressiv.*!",
       "flags": "i"
     },
-    "soundPath": "Sounds/makeAggresive_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/makeAggresive_uar.mp3",
     "volumeRef": null
   },
   {
@@ -976,7 +976,7 @@
       "source": "Voc.* explode .*, o desnorteando por alguns instantes\\..*",
       "flags": "i"
     },
-    "soundPath": "Sounds/soulExplosion_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/soulExplosion_uar.mp3",
     "volumeRef": null
   },
   {
@@ -986,7 +986,7 @@
       "source": "Voc.* solta muitos ossos .*, que fica com o peito esburacado!.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/boneAttack_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/boneAttack_uar.mp3",
     "volumeRef": null
   },
   {
@@ -996,7 +996,7 @@
       "source": "Voc.* consegue trazer a Morte\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/callDeath_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/callDeath_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1006,7 +1006,7 @@
       "source": "Voc.* faz furiosos movimentos e nota o mundo despencar ao seu redor!",
       "flags": "i"
     },
-    "soundPath": "Sounds/apocalypse_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/apocalypse_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1016,7 +1016,7 @@
       "source": ".* te olha com pena, sem te dar nada\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/beg_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/beg_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1026,7 +1026,7 @@
       "source": ".* te olha com pena, te dando .* moeda.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/beg_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/beg_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1036,7 +1036,7 @@
       "source": ".* te olha com desprezo e ataca!",
       "flags": "i"
     },
-    "soundPath": "Sounds/begFalha_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/begFalha_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1046,7 +1046,7 @@
       "source": "Voc.* tenta se esconder\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/hide_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/hide_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1056,7 +1056,7 @@
       "source": "A fechadura rapidamente se rende .*s suas habilidades\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/pickLock_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/pickLock_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1066,7 +1066,7 @@
       "source": "Voc.* olha rapidamente em volta e v.*:",
       "flags": "i"
     },
-    "soundPath": "Sounds/scan_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/scan_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1076,7 +1076,7 @@
       "source": "Ningu.*m est.* perto de voc.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/scan_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/scan_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1086,7 +1086,7 @@
       "source": "El.* percebe que voc.* tentou apunhal.*-lo!",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro1_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/erro1_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1096,7 +1096,7 @@
       "source": ".* d.* um estranho grito enquanto voc.* crava .* nas costas .*! .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/backstab.mp3",
+    "soundPath": "Sounds/uar_Classes/backstab.mp3",
     "volumeRef": null
   },
   {
@@ -1106,7 +1106,7 @@
       "source": ".* faz um som estranho enquanto voc.* fura as costas .*! .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/backstab.mp3",
+    "soundPath": "Sounds/uar_Classes/backstab.mp3",
     "volumeRef": null
   },
   {
@@ -1116,7 +1116,7 @@
       "source": "Voc.* tentar.* andar sem ser percebido\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/sneak_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/sneak_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1126,7 +1126,7 @@
       "source": "Voc.* joga sujeira nos olhos .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/dirtThrow_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/dirtThrow_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1136,7 +1136,7 @@
       "source": ".* percebe seu movimento sorrateiro ao tentar jogar sujeira nel.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/dirtThrow_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/dirtThrow_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1146,7 +1146,7 @@
       "source": "Nos olhos de quem voc.* deseja jogar sujeira.",
       "flags": "i"
     },
-    "soundPath": "Sounds/dirtThrow_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/dirtThrow_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1156,7 +1156,7 @@
       "source": "Voc.* fortemente acerta .* com seu escudo! .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/escudo.mp3",
+    "soundPath": "Sounds/uar_Classes/escudo.mp3",
     "volumeRef": null
   },
   {
@@ -1166,7 +1166,7 @@
       "source": "Voc.* espia a sala e v.*:",
       "flags": "i"
     },
-    "soundPath": "Sounds/spy_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/spy_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1176,7 +1176,7 @@
       "source": "Espiar onde.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro-acao.mp3",
+    "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
     "volumeRef": null
   },
   {
@@ -1186,7 +1186,7 @@
       "source": "Voc.* sentir.* os movimentos em volta de voc.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/radar_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/radar_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1196,7 +1196,7 @@
       "source": "Voc.* n.*o sentir.* mais os movimentos em volta de voc.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/radar_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/radar_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1206,7 +1206,7 @@
       "source": "Roubar o que.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro-acao.mp3",
+    "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
     "volumeRef": null
   },
   {
@@ -1216,7 +1216,7 @@
       "source": "El.* n.*o tem esse item\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro-acao.mp3",
+    "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
     "volumeRef": null
   },
   {
@@ -1226,7 +1226,7 @@
       "source": "Bingo! Voc.* pegou .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/steal_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/steal_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1236,7 +1236,7 @@
       "source": "Voc.* consegue furtar uma .*nica moeda de ouro\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/steal_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/steal_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1246,7 +1246,7 @@
       "source": "Voc.* n.*o conseguiu pegar nenhum ouro\\.\\.\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/steal_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/steal_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1256,7 +1256,7 @@
       "source": "Voc.* d.* um salto e fica atr.*s .*!",
       "flags": "i"
     },
-    "soundPath": "Sounds/pulo.mp3",
+    "soundPath": "Sounds/uar_Classes/pulo.mp3",
     "volumeRef": null
   },
   {
@@ -1266,7 +1266,7 @@
       "source": "Uma luz de paz consome seu proj.*til antes de atingir o alvo\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro7_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/erro7_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1276,7 +1276,7 @@
       "source": "Voc.* atira e acerta .*! .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/shoot_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/shoot_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1286,7 +1286,7 @@
       "source": "Voc.* atira em .*, mas erra!",
       "flags": "i"
     },
-    "soundPath": "Sounds/shoot_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/shoot_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1296,7 +1296,7 @@
       "source": ".* habilmente recua do combate\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/retreat_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/retreat_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1306,7 +1306,7 @@
       "source": ".*oc.* falha ao tentar recuar!",
       "flags": "i"
     },
-    "soundPath": "Sounds/retreat_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/retreat_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1316,7 +1316,7 @@
       "source": ".*oc.* cria uma goodberry\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/goodBerry_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/goodBerry_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1326,7 +1326,7 @@
       "source": "O esp.*rito .* .* transforma seu grupo em uma poderosa matilha!",
       "flags": "i"
     },
-    "soundPath": "Sounds/uivo.mp3",
+    "soundPath": "Sounds/uar_Classes/uivo.mp3",
     "volumeRef": null
   },
   {
@@ -1336,7 +1336,7 @@
       "source": ".*oc.* se sente protegid.* pelo ambiente ao redor\\. Seu conhecimento do terreno d.* for.*a .* magia\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/enviriomentProtection_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/enviriomentProtection_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1346,7 +1346,7 @@
       "source": ".*oc.* se sente protegid.* pelo ambiente ao redor\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/enviriomentProtection_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/enviriomentProtection_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1356,7 +1356,7 @@
       "source": ".*esaparece a sensa.*o de prote.*o que vinha do ambiente ao redor\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/enviriomentProtection_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/enviriomentProtection_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1366,7 +1366,7 @@
       "source": ".*e voc.* quiser controlar o tempo, voc.* deve ir para um lugar que voc.* consiga, pelo menos, ver o c.*u!\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro-acao.mp3",
+    "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
     "volumeRef": null
   },
   {
@@ -1376,7 +1376,7 @@
       "source": ".*oc.* levanta suas m.*os para o c.*u, esperando melhorar o tempo\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/controlWeather_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/controlWeather_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1386,7 +1386,7 @@
       "source": ".*oc.* levanta suas m.*os para o c.*u, esperando piorar o tempo\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/controlWeather_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/controlWeather_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1396,7 +1396,7 @@
       "source": ".*oc.* clama pelo esp.*rito dos antigos druidas, que lhe concedem o conhecimento de suas experi.*ncias passadas!",
       "flags": "i"
     },
-    "soundPath": "Sounds/ancientKnowledge_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/ancientKnowledge_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1406,7 +1406,7 @@
       "source": ".*oc.* sente o conhecimento dos druidas antigos aos poucos escapar de sua mente\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/ancientKnowledge_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/ancientKnowledge_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1416,7 +1416,7 @@
       "source": ".*oc.* envolvid.* por uma nuvem de p.* das fadas, o que faz seus olhos co.*arem!",
       "flags": "i"
     },
-    "soundPath": "Sounds/faeriePowder_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/faeriePowder_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1426,7 +1426,7 @@
       "source": ".* pouco de p.* das fadas que restava em seus olhos se dissipa pelo ar!",
       "flags": "i"
     },
-    "soundPath": "Sounds/faeriePowder_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/faeriePowder_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1436,7 +1436,7 @@
       "source": ".* ambiente a sua volta parece n.*o conter muita energia\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/callWeak_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/callWeak_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1446,7 +1446,7 @@
       "source": ".* tempestade .* muito forte e voc.* convoca raios que causam grande destrui.*o!\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/callStrong_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/callStrong_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1466,7 +1466,7 @@
       "source": ".*eu raio mata .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/callLightningHit_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/callLightningHit_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1476,7 +1476,7 @@
       "source": ".* brilha\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/purify_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/purify_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1486,7 +1486,7 @@
       "source": ".*rmadura: .*, Acerto: .*, Dano: .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/creatureKnowledge_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/creatureKnowledge_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1496,7 +1496,7 @@
       "source": ".*fiados espinhos brotam de sua pele\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/thornSkin_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/thornSkin_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1506,7 +1506,7 @@
       "source": "Desaparecem os espinhos que protegiam sua pele\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/thornSkin_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/thornSkin_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1516,7 +1516,7 @@
       "source": ".* corpo d.* parece ficar estranhamente entorpecido!",
       "flags": "i"
     },
-    "soundPath": "Sounds/autunmLeaves_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/autunmLeaves_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1526,7 +1526,7 @@
       "source": ".* arrefece, como que tomad.* por uma s.*bida friagem\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/winterFall_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/winterFall_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1536,7 +1536,7 @@
       "source": ".* aparece lentamente\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/reveal_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/reveal_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1546,7 +1546,7 @@
       "source": ".*as .* n.*o est.* invis.*vel!",
       "flags": "i"
     },
-    "soundPath": "Sounds/reveal_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/reveal_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1556,7 +1556,7 @@
       "source": ".*oc.* consegue concentrar suas energias, aumentando a efici.*ncia energ.*tica do seu corpo!",
       "flags": "i"
     },
-    "soundPath": "Sounds/endurance_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/endurance_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1566,7 +1566,7 @@
       "source": ".*eu corpo toma um choque ao ingerir alimento novamente!",
       "flags": "i"
     },
-    "soundPath": "Sounds/endurance_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/endurance_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1576,7 +1576,7 @@
       "source": ".*eu corpo ainda est.* se recuperando do ultimo per.*odo de resist.*ncia\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/endurance_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/endurance_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1586,7 +1586,7 @@
       "source": ".*ua rajada de vento quase arranca a pele .*! .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/hurricaneHit_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/hurricaneHit_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1596,7 +1596,7 @@
       "source": ".*ua poderosa rajada de vento arremessa .* pelos ares!",
       "flags": "i"
     },
-    "soundPath": "Sounds/hurricane_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/hurricane_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1606,7 +1606,7 @@
       "source": ".*ma nuvem de gafanhotos escurece toda a sala!",
       "flags": "i"
     },
-    "soundPath": "Sounds/locustSwarm_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/locustSwarm_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1616,7 +1616,7 @@
       "source": ".*eu poderoso jato de .*gua destr.*i o escudo de fogo .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/waterBlast_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/waterBlast_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1626,7 +1626,7 @@
       "source": ".*oc.* acerta .* com seu jato de .*gua! .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/waterBlastHit_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/waterBlastHit_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1636,7 +1636,7 @@
       "source": ".* acerta .* com um forte jato de .*gua!",
       "flags": "i"
     },
-    "soundPath": "Sounds/waterBlastHit_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/waterBlastHit_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1646,7 +1646,7 @@
       "source": ".* Esp.*rito do Urso se recusa a te acompanhar enquanto sua pele estiver modificada\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro-acao.mp3",
+    "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
     "volumeRef": null
   },
   {
@@ -1656,7 +1656,7 @@
       "source": "O Esp.*rito d.* poderos.* Urs.* passa a te influenciar\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/urso.mp3",
+    "soundPath": "Sounds/uar_Classes/urso.mp3",
     "volumeRef": null
   },
   {
@@ -1666,7 +1666,7 @@
       "source": "O esp.*rito d.* Urs.* .* muito poderoso e voc.* apenas rosna e baba!",
       "flags": "i"
     },
-    "soundPath": "Sounds/urso-rosnar.mp3",
+    "soundPath": "Sounds/uar_Classes/urso-rosnar.mp3",
     "volumeRef": null
   },
   {
@@ -1676,7 +1676,7 @@
       "source": ".*oc.* consegue acelerar seu metabolismo, aumentando a velocidade de cicatriza.*o de ferimentos\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/regeneration_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/regeneration_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1686,7 +1686,7 @@
       "source": ".*oc.* percebe que seu metabolismo gradualmente volta ao normal\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/regeneration_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/regeneration_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1696,7 +1696,7 @@
       "source": ".*oc.* precisa estar completamente saciado antes de tentar se concentrar\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/markTerritorie_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/markTerritorie_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1706,7 +1706,7 @@
       "source": ".*oc.* se concentra e estabelece uma liga.*o especial com este local\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/markTerritorie_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/markTerritorie_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1716,7 +1716,7 @@
       "source": ".*eu corpo enfraquece depois de todo o esfor.*o para marcar este local\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/endurance_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/endurance_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1726,7 +1726,7 @@
       "source": ".*oc.* falha ao tentar se transportar para l.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro-acao.mp3",
+    "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
     "volumeRef": null
   },
   {
@@ -1736,7 +1736,7 @@
       "source": ".*ua pele perde a camada de casca de .*rvore\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/barkSkin_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/barkSkin_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1746,7 +1746,7 @@
       "source": ".*ma grossa camada de cascas de .*rvore recobre sua pele\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/barkSkin_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/barkSkin_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1756,7 +1756,7 @@
       "source": ".*m ent anci.*o come.*a a seguir voc.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/animatePlantAnciao.mp3",
+    "soundPath": "Sounds/uar_Classes/animatePlantAnciao.mp3",
     "volumeRef": null
   },
   {
@@ -1766,7 +1766,7 @@
       "source": ".*m ent anci.*o detesta voc.*!",
       "flags": "i"
     },
-    "soundPath": "Sounds/animatePlantAnciao.mp3",
+    "soundPath": "Sounds/uar_Classes/animatePlantAnciao.mp3",
     "volumeRef": null
   },
   {
@@ -1776,7 +1776,7 @@
       "source": ".*m broto de ent come.*a a seguir voc.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/animatePlantBroto.mp3",
+    "soundPath": "Sounds/uar_Classes/animatePlantBroto.mp3",
     "volumeRef": null
   },
   {
@@ -1786,7 +1786,7 @@
       "source": ".*m broto de ent detesta voc.*!",
       "flags": "i"
     },
-    "soundPath": "Sounds/animatePlantBroto.mp3",
+    "soundPath": "Sounds/uar_Classes/animatePlantBroto.mp3",
     "volumeRef": null
   },
   {
@@ -1796,7 +1796,7 @@
       "source": ".* ch.*o sob seus p.*s se transforma num grande lama.*al!",
       "flags": "i"
     },
-    "soundPath": "Sounds/rockToMud_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/rockToMud_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1806,7 +1806,7 @@
       "source": ".*o h.* rochas suficientes no ch.*o deste local para isso\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/rockToMud_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/rockToMud_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1816,7 +1816,7 @@
       "source": "Voc.* invoca o esp.*rito da V.*bora, que agu.*a seus sentidos!",
       "flags": "i"
     },
-    "soundPath": "Sounds/vibora.mp3",
+    "soundPath": "Sounds/uar_Classes/vibora.mp3",
     "volumeRef": null
   },
   {
@@ -1826,7 +1826,7 @@
       "source": ".* esp.*rito da V.*bora abandona seu corpo\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/vibora.mp3",
+    "soundPath": "Sounds/uar_Classes/vibora.mp3",
     "volumeRef": null
   },
   {
@@ -1836,7 +1836,7 @@
       "source": ".*ua pinha voa e acerta .* em cheio!.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/explosivePine_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/explosivePine_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1846,7 +1846,7 @@
       "source": ".*m banho de seiva refresca seu corpo\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/sapHealing_uar2.mp3",
+    "soundPath": "Sounds/uar_Classes/sapHealing_uar2.mp3",
     "volumeRef": null
   },
   {
@@ -1856,7 +1856,7 @@
       "source": "O esp.*rito da .*guia agu.*a seus sentidos\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/aguia.mp3",
+    "soundPath": "Sounds/uar_Classes/aguia.mp3",
     "volumeRef": null
   },
   {
@@ -1866,7 +1866,7 @@
       "source": "Voc.* n.*o consegue controlar o Esp.*rito.*perdendo a concentra.*o\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/concentracao_debo.mp3",
+    "soundPath": "Sounds/uar_Classes/concentracao_debo.mp3",
     "volumeRef": null
   },
   {
@@ -1876,7 +1876,7 @@
       "source": "Voc.* observa com orgulho seu m.*ssil m.*gico atingir .*! .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/magicMissile.mp3",
+    "soundPath": "Sounds/uar_Classes/magicMissile.mp3",
     "volumeRef": null
   },
   {
@@ -1886,7 +1886,7 @@
       "source": ".*eus olhos brilham\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/detectGeneral_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/detectGeneral_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1896,7 +1896,7 @@
       "source": ".*eus olhos param de brilhar\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/detectGeneral_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/detectGeneral_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1906,7 +1906,7 @@
       "source": ".*eus olhos ficam vermelhos\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/infraVision_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/infraVision_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1916,7 +1916,7 @@
       "source": ".*ua vis.*o noturna parece desaparecer\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/infraVision_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/infraVision_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1926,7 +1926,7 @@
       "source": ".*oc.* desaparece\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/invisibility_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/invisibility_uar.mp3",
     "volumeRef": "volumefx"
   },
   {
@@ -1936,7 +1936,7 @@
       "source": ".*oc.* se sente expost.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/invisibility_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/invisibility_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1946,7 +1946,7 @@
       "source": ".*oc.* sente algu.*m te protegendo\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/armor_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/armor_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1956,7 +1956,7 @@
       "source": ".*oc.* se sente menos protegid.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/armor_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/armor_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1966,7 +1966,7 @@
       "source": ".*oc.* queima .* com suas pequenas m.*os quentes! .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/burningHands_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/burningHands_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1976,7 +1976,7 @@
       "source": ".*ua descarga el.*trica acerta .* fazendo el.* tremer! .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/shockingGrasp_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/shockingGrasp_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1986,7 +1986,7 @@
       "source": ".* habilmente esquiva de sua tentativa de dar-lhe uma descarga el.*trica!",
       "flags": "i"
     },
-    "soundPath": "Sounds/shockingGrasp_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/shockingGrasp_uar.mp3",
     "volumeRef": null
   },
   {
@@ -1996,7 +1996,7 @@
       "source": ".*oc.* sente que est.* saud.*vel\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/detectPoison_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/detectPoison_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2006,7 +2006,7 @@
       "source": ".* raio acerta .* com impacto total! .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/ligthningBolt_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/ligthningBolt_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2016,7 +2016,7 @@
       "source": ".*oc.* se sente informad.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/identify_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/identify_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2026,7 +2026,7 @@
       "source": ".*oc.* se sente com a for.*a de um campe.*o!",
       "flags": "i"
     },
-    "soundPath": "Sounds/championStrength_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/championStrength_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2036,7 +2036,7 @@
       "source": ".*ua for.*a volta ao normal\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/championStrength_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/championStrength_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2046,7 +2046,7 @@
       "source": ".* brilha, com uma luz amarela\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/enchantWeapon_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/enchantWeapon_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2056,7 +2056,7 @@
       "source": ".* vai dormir\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/sleep_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/sleep_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2066,7 +2066,7 @@
       "source": ".*ma luz forte .* emitida de um espelho localizador, que se dissolve\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/locateObject_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/locateObject_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2076,7 +2076,7 @@
       "source": ".*oc.* n.*o percebe nada\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/locateObject_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/locateObject_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2086,7 +2086,7 @@
       "source": ".*oc.* precisa de um espelho localizador para usar essa magia\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/locateObject_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/locateObject_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2096,7 +2096,7 @@
       "source": ".*ma poderosa luz come.*a a iluminar toda a sala\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/flashLigth_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/flashLigth_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2106,7 +2106,7 @@
       "source": ".*eu arco-.*ris particular acerta bem no rosto .* -- UAU!! .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/colorSpray_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/colorSpray_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2116,7 +2116,7 @@
       "source": ".*oc.* irradia uma aura de terror pela sala!",
       "flags": "i"
     },
-    "soundPath": "Sounds/fear_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/fear_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2126,7 +2126,7 @@
       "source": ".*oc.* se sente mais forte!",
       "flags": "i"
     },
-    "soundPath": "Sounds/strenght_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/strenght_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2136,7 +2136,7 @@
       "source": ".*oc.* se sente mais frac.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/strenght_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/strenght_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2146,7 +2146,7 @@
       "source": ".*eus p.*s saem do ch.*o\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/fly_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/fly_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2156,7 +2156,7 @@
       "source": ".*eus p.*s encostam no ch.*o\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/fly_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/fly_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2166,7 +2166,7 @@
       "source": ".*lgo estranho se forma em volta .*, que .* prende a este lugar\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/seal_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/seal_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2176,7 +2176,7 @@
       "source": "Voc.* joga uma bola de fogo .* e tem a satisfa.*.*o de ver seu alvo envolvido em chamas! .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/FIREBALL_UAR.mp3",
+    "soundPath": "Sounds/uar_Classes/FIREBALL_UAR.mp3",
     "volumeRef": null
   },
   {
@@ -2186,7 +2186,7 @@
       "source": "Alvo paralisado\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/paralyze_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/paralyze_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2196,7 +2196,7 @@
       "source": ".*oc.* sente a sua magia entrando no corpo de .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/lendMana_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/lendMana_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2206,7 +2206,7 @@
       "source": ".*ssa pessoa j.* tem muitos pontos de magia\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/lendMana_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/lendMana_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2216,7 +2216,7 @@
       "source": ".*oc.* gesticula e blocos de gelo come.*am a cair do c.*u!",
       "flags": "i"
     },
-    "soundPath": "Sounds/iceStorm_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/iceStorm_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2226,7 +2226,7 @@
       "source": ".*oc.* sente seu corpo ficando maior e mais forte\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/growth_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/growth_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2236,7 +2236,7 @@
       "source": ".*oc.* volta ao seu tamanho normal\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/growth_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/growth_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2246,7 +2246,7 @@
       "source": ".* mago ancestral come.*a a seguir voc.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/ancestralWizard_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/ancestralWizard_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2256,7 +2256,7 @@
       "source": "Voce nao pode lancar essa magia em uma criatura tao fraca!",
       "flags": "i"
     },
-    "soundPath": "Sounds/ancestralWizard_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/ancestralWizard_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2266,7 +2266,7 @@
       "source": ".*uitas imagens espelhadas te rodeiam\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/mirrorImage_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/mirrorImage_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2276,7 +2276,7 @@
       "source": ".*uas imagens espelhadas desaparecem\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/mirrorImage_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/mirrorImage_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2286,7 +2286,7 @@
       "source": ".*oc.* erra.*acertando uma de suas falsas imagens\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/mirrorImageHit_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/mirrorImageHit_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2296,7 +2296,7 @@
       "source": ".* come.*a a ficar muito lento\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/slow_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/slow_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2306,7 +2306,7 @@
       "source": ".* abre Um Brilhante Portal!",
       "flags": "i"
     },
-    "soundPath": "Sounds/abrir-portal.mp3",
+    "soundPath": "Sounds/uar_Classes/abrir-portal.mp3",
     "volumeRef": null
   },
   {
@@ -2316,7 +2316,7 @@
       "source": "Um portal se abre, e .* sai de dentro dele\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/sair-do-portal.mp3",
+    "soundPath": "Sounds/uar_Classes/sair-do-portal.mp3",
     "volumeRef": null
   },
   {
@@ -2326,7 +2326,7 @@
       "source": "Voc.* entra no portal!",
       "flags": "i"
     },
-    "soundPath": "Sounds/entrar-no-portal.mp3",
+    "soundPath": "Sounds/uar_Classes/entrar-no-portal.mp3",
     "volumeRef": null
   },
   {
@@ -2336,7 +2336,7 @@
       "source": ".*oc.* consegue focar sua magia em um flash de vis.*o moment.*nea.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/scry_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/scry_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2346,7 +2346,7 @@
       "source": ".*ma barreira de fogo come.*a a te proteger\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/fireShield_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/fireShield_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2356,7 +2356,7 @@
       "source": ".* barreira de fogo que .* protegia desaparece\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/fireShield_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/fireShield_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2366,7 +2366,7 @@
       "source": "O Escudo de Fogo .* te queima!",
       "flags": "i"
     },
-    "soundPath": "Sounds/fireshieldHit_debo.mp3",
+    "soundPath": "Sounds/uar_Classes/fireshieldHit_debo.mp3",
     "volumeRef": null
   },
   {
@@ -2376,7 +2376,7 @@
       "source": "Uma barreira de gelo come.*a a te proteger\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/iceShield_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/iceShield_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2386,7 +2386,7 @@
       "source": "A barreira de gelo que .* protegia se derrete\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/iceShield_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/iceShield_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2396,7 +2396,7 @@
       "source": ".*oc.* levanta seus bra.*os, chamando uma chuva de fogo!",
       "flags": "i"
     },
-    "soundPath": "Sounds/rainOfFire_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/rainOfFire_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2406,7 +2406,7 @@
       "source": ".*oc.* se sente melhor\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/cureLigth_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/cureLigth_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2416,7 +2416,7 @@
       "source": ".*oc.* sente que isso n.*o deve ser consumido\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/detectPoison_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/detectPoison_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2426,7 +2426,7 @@
       "source": ".*oc.* sente que .* est.* puro\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/detectPoison_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/detectPoison_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2436,7 +2436,7 @@
       "source": ".*oc.* sente a sua vida entrando no corpo .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/lendHealth_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/lendHealth_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2446,7 +2446,7 @@
       "source": ".*ssa pessoa j.* est.* com muita sa.*de\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/lendHealth_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/lendHealth_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2456,7 +2456,7 @@
       "source": ".*oc.* se sente mais saud.*vel!",
       "flags": "i"
     },
-    "soundPath": "Sounds/minorHealing_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/minorHealing_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2466,7 +2466,7 @@
       "source": ".*oc.* se sente virtuoso\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/bless_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/bless_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2476,7 +2476,7 @@
       "source": ".*oc.* se sente menos virtuoso\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/bless_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/bless_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2486,7 +2486,7 @@
       "source": ".*ua energia .* concentrad.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/findCenter_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/findCenter_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2496,7 +2496,7 @@
       "source": ".*oc.* sente sua concentra.*o diminui.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/findCenter_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/findCenter_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2506,7 +2506,7 @@
       "source": ".*oc.* n.*o pode domar isso\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro-acao.mp3",
+    "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
     "volumeRef": null
   },
   {
@@ -2516,7 +2516,7 @@
       "source": ".*oc.* domou .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/tame_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/tame_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2526,7 +2526,7 @@
       "source": ".*oc.* n.*o pode domar algo que j.* foi domado\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro-acao.mp3",
+    "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
     "volumeRef": null
   },
   {
@@ -2536,7 +2536,7 @@
       "source": ".*oc.* falhou ao tentar domar isso\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/tame_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/tame_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2546,7 +2546,7 @@
       "source": ".*oc.* monta em .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/montar.mp3",
+    "soundPath": "Sounds/uar_Classes/montar.mp3",
     "volumeRef": null
   },
   {
@@ -2556,7 +2556,7 @@
       "source": ".*oc.* tenta montar em .*, mas escorrega e cai\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/montar.mp3",
+    "soundPath": "Sounds/uar_Classes/montar.mp3",
     "volumeRef": null
   },
   {
@@ -2566,7 +2566,7 @@
       "source": ".*ontar em quem.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro-acao.mp3",
+    "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
     "volumeRef": null
   },
   {
@@ -2576,7 +2576,7 @@
       "source": ".*oc.* sai de cima de .* .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/desmontar.mp3",
+    "soundPath": "Sounds/uar_Classes/desmontar.mp3",
     "volumeRef": null
   },
   {
@@ -2586,7 +2586,7 @@
       "source": ".*oc.* nem est.* cavalgando\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro-acao.mp3",
+    "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
     "volumeRef": null
   },
   {
@@ -2596,7 +2596,7 @@
       "source": ".*oc.* chama sua montaria\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/invocarMontaria_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/invocarMontaria_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2606,7 +2606,7 @@
       "source": ".*ua montaria fica aqui para descansar e voc.* recebe .* para cham.*-la\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/desinvocarMontaria_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/desinvocarMontaria_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2616,7 +2616,7 @@
       "source": ".* pula, te jogando no ch.*o\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/riding_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/riding_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2626,7 +2626,7 @@
       "source": ".*ua montaria est.* muito cansada\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/montariaCansada_ua.mp3",
+    "soundPath": "Sounds/uar_Classes/montariaCansada_ua.mp3",
     "volumeRef": null
   },
   {
@@ -2636,7 +2636,7 @@
       "source": ".*oc.* j.* est.* montado em algo\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro2_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/erro2_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2646,7 +2646,7 @@
       "source": ".*ua montaria precisa de um barco para ir at.* l.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro4_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/erro4_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2656,7 +2656,7 @@
       "source": ".*ua montaria n.*o .* permitida l.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro-acao.mp3",
+    "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
     "volumeRef": null
   },
   {
@@ -2666,7 +2666,7 @@
       "source": ".*oc.* sente sua consci.*ncia aumentar\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/senseLife_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/senseLife_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2676,7 +2676,7 @@
       "source": ".*oc.* se sente menos atent.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/senseLife_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/senseLife_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2686,7 +2686,7 @@
       "source": ".*ssa pessoa n.*o merece ser presa\\.\\.\\. ou merece.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro-menu.mp3",
+    "soundPath": "Sounds/uar_Classes/erro-menu.mp3",
     "volumeRef": null
   },
   {
@@ -2696,7 +2696,7 @@
       "source": ".*oc.* prende .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/arrest_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/arrest_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2706,7 +2706,7 @@
       "source": ".* se sente muito corajos.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/courage_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/courage_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2716,7 +2716,7 @@
       "source": ".*oc.* sente a presen.*a de criaturas mal.*gna.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/detectEvil_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/detectEvil_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2726,7 +2726,7 @@
       "source": ".*oc.* n.*o sente mais a presen.*a de criaturas mal.*gna.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/detectEvil_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/detectEvil_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2736,7 +2736,7 @@
       "source": ".*oc.* se sente invulner.*ve.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/protectionFromEvil_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/protectionFromEvil_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2746,7 +2746,7 @@
       "source": ".*oc.* n.*o se sente mais protegid.* da maldad.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/protectionFromEvil_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/protectionFromEvil_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2756,7 +2756,7 @@
       "source": ".*ma aura branca .* rodeia\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/sanctuary_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/sanctuary_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2766,7 +2766,7 @@
       "source": "A aura branca em volta do seu corpo desaparece\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/sanctuary_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/sanctuary_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2776,7 +2776,7 @@
       "source": ".*ma sensa.*.*o de calor flui por suas veias\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/heal_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/heal_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2786,7 +2786,7 @@
       "source": ".*oc.* sente que nada pode influenciar voc.*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/balance_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/balance_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2796,7 +2796,7 @@
       "source": ".*oc.* se sente influenci.*vel\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/balance_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/balance_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2806,7 +2806,7 @@
       "source": ".*oc.* transformou .* em uma Espada Sagrada!",
       "flags": "i"
     },
-    "soundPath": "Sounds/swordOfJustice_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/swordOfJustice_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2816,7 +2816,7 @@
       "source": ".*oc.* falha em criar uma espada sagrada, o que desintegra sua arma!",
       "flags": "i"
     },
-    "soundPath": "Sounds/swordOfJustice_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/swordOfJustice_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2826,7 +2826,7 @@
       "source": ".*penas armas que cortam podem ser transformadas\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro.mp3",
+    "soundPath": "Sounds/uar_Classes/erro.mp3",
     "volumeRef": null
   },
   {
@@ -2836,7 +2836,7 @@
       "source": ".*oc.* n.*o consegue sentir a energia do grupo e falha ao realizar a magia\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/heal_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/heal_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2846,7 +2846,7 @@
       "source": ".*oc.* se sente mais jovem\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/rejuvenation_Uar.mp3",
+    "soundPath": "Sounds/uar_Classes/rejuvenation_Uar.mp3",
     "volumeRef": null
   },
   {
@@ -2856,7 +2856,7 @@
       "source": ".*oc.* conjura um c.*rculo de fogo que envolve .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/sacredFire_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/sacredFire_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2866,7 +2866,7 @@
       "source": ".*oc.* conjura um c.*rculo de fogo que queima .* at.* a morte!",
       "flags": "i"
     },
-    "soundPath": "Sounds/sacredFire_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/sacredFire_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2876,7 +2876,7 @@
       "source": ".*o tentar fugir, .* se queima no c.*rculo de FOGO que envolve seu corpo\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/sacredFireHit_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/sacredFireHit_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2886,7 +2886,7 @@
       "source": ".*oc.* tenta conjurar um c.*rculo de fogo .*, mas falha!",
       "flags": "i"
     },
-    "soundPath": "Sounds/sacredFire_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/sacredFire_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2896,7 +2896,7 @@
       "source": ".*oc.* entoa sua voz para conjurar a magia, mas se engasga e falha\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/bladesOfLight_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/bladesOfLight_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2906,7 +2906,7 @@
       "source": ".*uas l.*mina g.*meas, feitas de pura luz, dividem .* ao meio\\. Era uma vez\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/bladesOfLight_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/bladesOfLight_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2916,7 +2916,7 @@
       "source": ".*uas brilhantes l.*minas, feitas de pura luz, descem dos c.*us, atingindo .* em cheio.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/bladesOfLight_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/bladesOfLight_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2926,7 +2926,7 @@
       "source": ".*ma luz sagrada te d.* f.*as para viver\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/vitality_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/vitality_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2936,7 +2936,7 @@
       "source": ".*s Deuses atendem ao seu pedido e te ajudam\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/divineCall_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/divineCall_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2946,7 +2946,7 @@
       "source": ".*oc.* ainda est.* com energia e ainda n.*o precisa da ajuda divina\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/divineCall_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/divineCall_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2956,7 +2956,7 @@
       "source": ".*oc.* usa sua magia, e enche .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/createWater_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/createWater_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2966,7 +2966,7 @@
       "source": ".*oc.* cria um p.*o de viagem\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/createFood_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/createFood_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2976,7 +2976,7 @@
       "source": "Uma sensa.*.*o de calor se espalha pelo seu corpo!",
       "flags": "i"
     },
-    "soundPath": "Sounds/removePoison.mp3",
+    "soundPath": "Sounds/uar_Classes/removePoison.mp3",
     "volumeRef": null
   },
   {
@@ -2986,7 +2986,7 @@
       "source": ".*oc.* est.* ceg.*!",
       "flags": "i"
     },
-    "soundPath": "Sounds/blindnessVoce_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/blindnessVoce_uar.mp3",
     "volumeRef": null
   },
   {
@@ -2996,7 +2996,7 @@
       "source": ".*ua vis.*o retorna!",
       "flags": "i"
     },
-    "soundPath": "Sounds/cureBlindness_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/cureBlindness_uar.mp3",
     "volumeRef": null
   },
   {
@@ -3006,7 +3006,7 @@
       "source": ".*ida:.*\\[.*\\]",
       "flags": "i"
     },
-    "soundPath": "Sounds/feelEnergy_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/feelEnergy_uar.mp3",
     "volumeRef": null
   },
   {
@@ -3016,7 +3016,7 @@
       "source": ".* treme e sofre com sua pr.*pria maldade.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/dispelEvil_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/dispelEvil_uar.mp3",
     "volumeRef": null
   },
   {
@@ -3026,7 +3026,7 @@
       "source": ".* dissolvido por sua bondade.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/dispelEvil_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/dispelEvil_uar.mp3",
     "volumeRef": null
   },
   {
@@ -3036,7 +3036,7 @@
       "source": "Os Deuses protegem .*\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro1_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/erro1_uar.mp3",
     "volumeRef": null
   },
   {
@@ -3046,7 +3046,7 @@
       "source": ".* brilha em azul\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/removeCurse_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/removeCurse_uar.mp3",
     "volumeRef": null
   },
   {
@@ -3056,7 +3056,7 @@
       "source": "Nada parece acontecer\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro7_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/erro7_uar.mp3",
     "volumeRef": null
   },
   {
@@ -3066,7 +3066,7 @@
       "source": ".*oc.* se sente muito melhor!",
       "flags": "i"
     },
-    "soundPath": "Sounds/cureCritic_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/cureCritic_uar.mp3",
     "volumeRef": null
   },
   {
@@ -3076,7 +3076,7 @@
       "source": ".* emite uma leve fuma.*a\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/leveFumaca_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/leveFumaca_uar.mp3",
     "volumeRef": null
   },
   {
@@ -3086,7 +3086,7 @@
       "source": ".*ssim que .* esquiva, voc.* erra sua magia, que segue a dire.*o\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/harm_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/harm_uar.mp3",
     "volumeRef": null
   },
   {
@@ -3096,7 +3096,7 @@
       "source": ".*oc.* observa a express.*o de dor no rosto .* assim que voc.* acerta com sua magia\\. .*",
       "flags": "i"
     },
-    "soundPath": "Sounds/harm_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/harm_uar.mp3",
     "volumeRef": null
   },
   {
@@ -3106,7 +3106,7 @@
       "source": ".* se contorce de dor .* medida que voc.* exorciza para expulsar toda a maldade dentro del.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/exorcism_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/exorcism_uar.mp3",
     "volumeRef": null
   },
   {
@@ -3116,7 +3116,7 @@
       "source": ".*oc.* tenta exorcizar .*, mas perde a concentra.*o e falha\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/exorcism_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/exorcism_uar.mp3",
     "volumeRef": null
   },
   {
@@ -3126,7 +3126,7 @@
       "source": ".* uma pessoa muito boa para isso\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro-acao.mp3",
+    "soundPath": "Sounds/uar_Classes/erro-acao.mp3",
     "volumeRef": null
   },
   {
@@ -3136,7 +3136,7 @@
       "source": ".*oc.* se sente muito mais saud.*vel!",
       "flags": "i"
     },
-    "soundPath": "Sounds/majorHealing_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/majorHealing_uar.mp3",
     "volumeRef": null
   },
   {
@@ -3146,7 +3146,7 @@
       "source": ".* aparece repentinamente\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/summon_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/summon_uar.mp3",
     "volumeRef": null
   },
   {
@@ -3156,7 +3156,7 @@
       "source": ".*oc.* n.*o conseguiu\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro-menu.mp3",
+    "soundPath": "Sounds/uar_Classes/erro-menu.mp3",
     "volumeRef": null
   },
   {
@@ -3166,7 +3166,7 @@
       "source": ".*nquanto as palavras escapam de seus l.*bios e.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/erro.mp3",
+    "soundPath": "Sounds/uar_Classes/erro.mp3",
     "volumeRef": null
   },
   {
@@ -3176,7 +3176,7 @@
       "source": ".*oc.* gesticula e o ch.*o a sua volta come.*a a tremer!",
       "flags": "i"
     },
-    "soundPath": "Sounds/earthquake_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/earthquake_uar.mp3",
     "volumeRef": null
   },
   {
@@ -3186,7 +3186,7 @@
       "source": ".* ca.* e se machuca.*",
       "flags": "i"
     },
-    "soundPath": "Sounds/earthquakeHit_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/earthquakeHit_uar.mp3",
     "volumeRef": null
   },
   {
@@ -3196,7 +3196,7 @@
       "source": ".* terra se abre sob os p.*s .* e sacode tudo em volta!",
       "flags": "i"
     },
-    "soundPath": "Sounds/earthquakeHit_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/earthquakeHit_uar.mp3",
     "volumeRef": null
   },
   {
@@ -3206,7 +3206,7 @@
       "source": "Voc.* n.*o sente mais a f.*ria divina\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/divineFury_debo.mp3",
+    "soundPath": "Sounds/uar_Classes/divineFury_debo.mp3",
     "volumeRef": null
   },
   {
@@ -3216,7 +3216,7 @@
       "source": "Sua pele adquire a dureza e o brilho dos diamantes\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/diamondSkin_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/diamondSkin_uar.mp3",
     "volumeRef": null
   },
   {
@@ -3226,7 +3226,7 @@
       "source": "Sua pele perde a dureza e o brilho dos diamantes\\.",
       "flags": "i"
     },
-    "soundPath": "Sounds/diamondSkin_uar.mp3",
+    "soundPath": "Sounds/uar_Classes/diamondSkin_uar.mp3",
     "volumeRef": null
   }
 ]
